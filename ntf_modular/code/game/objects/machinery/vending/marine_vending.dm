@@ -24,7 +24,7 @@
 			/obj/item/ammo_magazine/rifle/ap = 10,
 		),
 		"Energy Weapons" = list(
-			/obj/item/cell/lasgun/lasrifle = -1
+			/obj/item/cell/lasgun/lasrifle = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine/backpack = -1,
 			/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_rifle = -1,
@@ -731,7 +731,7 @@
 			/obj/item/ammo_magazine/rifle/valerian/ext = 10,
 		),
 		"Energy Weapons" = list(
-			/obj/item/cell/lasgun/lasrifle = -1
+			/obj/item/cell/lasgun/lasrifle = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine/backpack = -1,
 			/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_rifle = -1,
@@ -1479,7 +1479,7 @@
 			/obj/item/ammo_magazine/rifle/m16 = 15,
 		),
 		"Energy Weapons" = list(
-			/obj/item/cell/lasgun/lasrifle = -1
+			/obj/item/cell/lasgun/lasrifle = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine/backpack = -1,
 			/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_rifle = -1,
@@ -2688,7 +2688,7 @@
 			/obj/item/ammo_magazine/rifle/m16 = 15,
 		),
 		"Energy Weapons" = list(
-			/obj/item/cell/lasgun/lasrifle = -1
+			/obj/item/cell/lasgun/lasrifle = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine/backpack = -1,
 			/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_rifle = -1,

@@ -37,7 +37,7 @@
 			/obj/item/ammo_magazine/rifle/nt_halter/rubber/extended = 15,
 		),
 		"Energy Weapons" = list(
-			/obj/item/cell/lasgun/lasrifle = -1
+			/obj/item/cell/lasgun/lasrifle = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine/backpack = -1,
 			/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_rifle = -1,
@@ -362,7 +362,7 @@
 			/obj/item/ammo_magazine/rifle/nt_halter/foxfire = 5,
 		),
 		"Energy Weapons" = list(
-			/obj/item/cell/lasgun/lasrifle = -1
+			/obj/item/cell/lasgun/lasrifle = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine = -1,
 			/obj/item/cell/lasgun/volkite/powerpack/marine/backpack = -1,
 			/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_rifle = -1,
