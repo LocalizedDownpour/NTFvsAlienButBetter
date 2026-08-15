@@ -29,7 +29,7 @@ export const JobPreferences = (props) => {
   const commandRoles = [
     'Commander',
     'Field Commander',
-    'Staff Officer',
+    'Platoon Commander',
     'Pilot Officer',
     'Transport Officer',
     'Synthetic',
@@ -67,7 +67,7 @@ export const JobPreferences = (props) => {
     'SOM Technician',
     'SOM Medical Doctor',
     'SOM Mech Pilot',
-    'SOM Staff Officer',
+    'SOM Platoon Commander',
     'SOM Pilot Officer',
     'SOM Assault Crewman',
     'Sons of Mars Representative',

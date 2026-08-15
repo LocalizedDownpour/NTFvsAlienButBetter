@@ -1101,11 +1101,8 @@
 /turf/closed/wall/mainship,
 /area/mainship/living/commandbunks)
 "acZ" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/blood/oil/streak{
-	dir = 2
+/obj/machinery/landinglight/alamo{
+	id = "normandy"
 	},
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
@@ -1234,6 +1231,7 @@
 	dir = 8;
 	id = "supply_elevator_railing"
 	},
+/obj/item/storage/box/crate/loot/autosniper_pack,
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/req)
 "adr" = (
@@ -1403,10 +1401,10 @@
 /turf/open/floor/plating,
 /area/mainship/hull/lower/lower_starboard_hull)
 "adR" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 5
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
+	dir = 1
 	},
-/obj/effect/turf_decal/warning_stripes/thick,
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "adS" = (
@@ -6602,10 +6600,15 @@
 	},
 /area/mainship/medical/medical_science)
 "asz" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/machinery/floodlight/landing,
+/obj/machinery/landinglight/alamo{
+	dir = 8;
+	id = "normandy"
+	},
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
 	dir = 1
 	},
-/obj/effect/turf_decal/warning_stripes/thick,
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "asA" = (
@@ -6993,8 +6996,7 @@
 /turf/open/floor/plating/mainship,
 /area/mainship/shipboard/starboard_missiles)
 "atD" = (
-/obj/docking_port/stationary/marine_dropship/hangar/one,
-/obj/docking_port/stationary/marine_dropship/crash_target,
+/obj/docking_port/stationary/marine_dropship/hangar/two,
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "atE" = (
@@ -7694,12 +7696,14 @@
 	},
 /area/mainship/hallways/upper_hallway)
 "avn" = (
-/obj/machinery/door/airlock/mainship/security/glass/free_access{
-	dir = 4
+/obj/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "supply_elevator_railing"
 	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/mainship/mono,
-/area/mainship/shipboard/brig)
+/obj/item/storage/box/crate/loot/b18classic_pack,
+/obj/item/storage/box/crate/loot/b18classic_pack,
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/req)
 "avo" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
@@ -9098,9 +9102,12 @@
 /area/mainship/squads/general)
 "ayT" = (
 /obj/effect/turf_decal/warning_stripes/thick{
-	dir = 9
+	dir = 8
 	},
-/obj/effect/turf_decal/warning_stripes/thick,
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "ayU" = (
@@ -12573,10 +12580,13 @@
 /turf/open/floor/mainship/black/full,
 /area/mainship/command/self_destruct)
 "aIt" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 9
+/obj/effect/turf_decal/warning_stripes/thick/corner{
+	dir = 1
 	},
-/obj/effect/decal/cleanable/blood/oil/streak,
+/obj/machinery/landinglight/alamo{
+	dir = 8;
+	id = "normandy"
+	},
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "aIu" = (
@@ -12665,10 +12675,14 @@
 /turf/closed/wall/mainship/white,
 /area/mainship/medical/operating_room_one)
 "aII" = (
-/obj/machinery/floodlight/landing,
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 4
+/obj/machinery/landinglight/alamo{
+	dir = 8;
+	id = "normandy"
 	},
+/obj/machinery/landinglight/alamo{
+	id = "normandy"
+	},
+/obj/machinery/floodlight/landing,
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "aIJ" = (
@@ -13143,8 +13157,12 @@
 /area/mainship/living/basketball)
 "aKa" = (
 /obj/machinery/floodlight/landing,
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 8
+/obj/machinery/landinglight/alamo{
+	id = "normandy"
+	},
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
@@ -14677,10 +14695,8 @@
 	},
 /area/mainship/hallways/hangar_lower)
 "aOl" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 1
-	},
-/obj/effect/turf_decal/warning_stripes/thick/corner{
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -17582,11 +17598,9 @@
 /turf/open/floor/mainship/orange,
 /area/mainship/engineering/upper_engineering)
 "aVX" = (
-/obj/effect/turf_decal/warning_stripes/thick/corner{
-	dir = 8
-	},
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 1
+/obj/machinery/landinglight/alamo{
+	dir = 8;
+	id = "normandy"
 	},
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
@@ -19902,6 +19916,13 @@
 /obj/effect/turf_decal/warning_stripes/box/empty,
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/general)
+"cxd" = (
+/obj/effect/turf_decal/warning_stripes/thick,
+/obj/effect/turf_decal/warning_stripes/thick/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/mainship/hallways/hangar)
 "cxW" = (
 /obj/machinery/light/mainship{
 	dir = 1
@@ -21431,6 +21452,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/item/storage/box/crate/loot/thermobaric_pack_spec,
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/req)
 "fmr" = (
@@ -22866,6 +22888,14 @@
 	},
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/hallways/lower_hallway)
+"hMP" = (
+/obj/effect/turf_decal/warning_stripes/thick/corner,
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/mainship/hallways/hangar)
 "hNq" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -23372,6 +23402,16 @@
 	},
 /turf/open/floor/mainship/blue,
 /area/mainship/hallways/upper_hallway)
+"iDm" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 4
+	},
+/obj/machinery/landinglight/alamo{
+	dir = 8;
+	id = "normandy"
+	},
+/turf/open/floor/plating,
+/area/mainship/hallways/hangar)
 "iDL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -27611,6 +27651,14 @@
 /area/mainship/hallways/upper_hallway)
 "qTc" = (
 /obj/machinery/floodlight/landing,
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
+	dir = 4
+	},
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "qVk" = (
@@ -28278,7 +28326,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/window/framed/mainship,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -28286,7 +28333,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/turf/open/floor/tile/damaged/panel,
+/turf/closed/wall/mainship,
 /area/mainship/shipboard/brig)
 "siT" = (
 /obj/effect/turf_decal/trimline/blue/line{
@@ -29136,6 +29183,15 @@
 	},
 /turf/open/floor/wood,
 /area/mainship/living/starboard_garden)
+"tzR" = (
+/obj/effect/turf_decal/warning_stripes/thick/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/mainship/hallways/hangar)
 "tAJ" = (
 /obj/machinery/door/airlock/mainship/generic/glass{
 	dir = 8
@@ -29201,6 +29257,17 @@
 /obj/machinery/door/firedoor/mainship,
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/hallways/repair_bay)
+"tFC" = (
+/obj/machinery/floodlight/landing/hq,
+/obj/effect/turf_decal/warning_stripes/thick/corner{
+	dir = 4
+	},
+/obj/machinery/landinglight/alamo{
+	id = "normandy";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/mainship/hallways/hangar)
 "tFF" = (
 /obj/structure/window/framed/mainship/hull,
 /turf/open/floor/plating,
@@ -30092,10 +30159,14 @@
 /turf/closed/wall/mainship/outer,
 /area/mainship/hallways/hangar)
 "vhN" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 5
+/obj/machinery/floodlight/landing/hq,
+/obj/effect/turf_decal/warning_stripes/thick/corner{
+	dir = 8
 	},
-/obj/effect/decal/cleanable/blood/oil/streak,
+/obj/machinery/landinglight/alamo{
+	dir = 8;
+	id = "normandy"
+	},
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "viN" = (
@@ -30883,6 +30954,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/mainship/hull/lower/lower_starboard_hull)
+"wAx" = (
+/obj/effect/turf_decal/warning_stripes/thick,
+/obj/effect/turf_decal/warning_stripes/thick/corner,
+/turf/open/floor/plating,
+/area/mainship/hallways/hangar)
 "wAS" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -49104,9 +49180,9 @@ aBm
 hrV
 abO
 aBm
-avn
+aqN
 siO
-aQD
+aqN
 aqK
 amV
 aXm
@@ -53153,25 +53229,25 @@ aNQ
 agd
 aNQ
 aNz
-qTc
-aif
-aqA
-afu
-aOr
+asz
 aif
 aif
+aVX
+aVX
+aVX
+aVX
+aVX
+aVX
+aVX
+aVX
+vhN
+iDm
+iDm
+iDm
+iDm
+aIt
 aif
-ajV
-afu
-afu
-afu
-afu
-aOr
-aif
-aif
-aif
-aif
-aif
+aVX
 aVX
 aII
 raS
@@ -53290,27 +53366,27 @@ aNQ
 agd
 aNQ
 wMV
-aif
-aif
-azm
-aif
+adR
 aif
 aif
 aif
 aif
 aif
+aqA
+afu
+afu
+afu
+afu
+cxd
 aif
 aif
 aif
 aif
+aSk
 aif
 aif
 aif
-aif
-aif
-aif
-aAd
-aif
+acZ
 mKX
 aOv
 iSd
@@ -53427,27 +53503,27 @@ aNQ
 agd
 aNQ
 aNz
-afu
-afu
-aOr
-aif
-aif
-aif
-aif
-aif
-aif
-aif
-bOb
-aif
-aif
-aif
-aif
-aif
-aif
-aif
-aif
 adR
 aif
+aif
+aif
+aif
+aif
+azm
+aif
+aif
+aif
+aif
+aAd
+aif
+aif
+aif
+aif
+ajV
+aif
+aif
+aif
+acZ
 raS
 aOv
 iSd
@@ -53564,6 +53640,13 @@ aNQ
 agd
 aNQ
 aNz
+adR
+aif
+aif
+aqA
+afu
+afu
+aOr
 aif
 aif
 aif
@@ -53577,14 +53660,7 @@ aif
 aif
 aif
 aif
-aif
-aif
-aif
-aif
-aif
-aif
-aif
-aif
+acZ
 xjw
 umT
 iSd
@@ -53701,6 +53777,10 @@ aNQ
 agd
 aNQ
 aNz
+adR
+aif
+aif
+azm
 aif
 aif
 aif
@@ -53717,11 +53797,7 @@ aif
 aif
 aif
 aif
-aif
-aif
-aif
-aIt
-aWo
+acZ
 hkv
 obv
 rDa
@@ -53838,10 +53914,10 @@ aNQ
 agd
 aNQ
 aNz
+adR
 aif
 aif
-aif
-aif
+azm
 aif
 aif
 aif
@@ -53857,8 +53933,8 @@ aif
 aif
 aif
 aif
-aSk
 aif
+acZ
 atR
 aHo
 mUE
@@ -53975,6 +54051,16 @@ aNQ
 agd
 aNQ
 aNz
+adR
+aif
+aif
+azm
+aif
+aif
+aif
+aif
+aif
+bOb
 aif
 aif
 aif
@@ -53985,16 +54071,6 @@ aif
 aif
 aif
 aif
-aif
-aif
-aif
-aif
-aif
-aif
-aif
-aif
-aif
-vhN
 acZ
 gjG
 ays
@@ -54112,6 +54188,13 @@ aNQ
 agd
 aNQ
 aNz
+adR
+aif
+aif
+aEV
+aWo
+aWo
+aGD
 aif
 aif
 aif
@@ -54125,14 +54208,7 @@ aif
 aif
 aif
 aif
-aif
-aif
-aif
-aif
-aif
-aif
-aif
-aif
+acZ
 hKv
 aOv
 iSd
@@ -54142,7 +54218,7 @@ cxW
 anL
 anL
 aQd
-adq
+avn
 adq
 aZy
 fli
@@ -54249,27 +54325,27 @@ aNQ
 agd
 aNQ
 aNz
-aWo
-aWo
-aGD
+adR
 aif
 aif
 aif
 aif
 aif
+azm
 aif
 aif
 aif
 aif
+aAd
 aif
 aif
 aif
 aif
+aSJ
 aif
 aif
 aif
-ayT
-aif
+acZ
 raS
 umT
 iSd
@@ -54386,27 +54462,27 @@ aNQ
 agd
 aNQ
 wMV
-aif
-aif
-azm
-aif
+adR
 aif
 aif
 aif
 aif
 aif
+aEV
+tzR
+aWo
+aWo
+aWo
+wAx
 aif
 aif
 aif
 aif
+aSk
 aif
 aif
 aif
-aif
-aif
-aif
-asz
-aif
+acZ
 mKX
 aOv
 iSd
@@ -54525,23 +54601,23 @@ aNQ
 aNz
 qTc
 aif
-aEV
-aWo
-aGD
 aif
+aOl
+aOl
+aOl
+aOl
+aOl
+aOl
+aOl
+aOl
+tFC
+ayT
+ayT
+ayT
+ayT
+hMP
 aif
-aif
-aSJ
-aWo
-aWo
-aWo
-aWo
-aGD
-aif
-aif
-aif
-aif
-aif
+aOl
 aOl
 aKa
 raS

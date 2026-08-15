@@ -163,14 +163,6 @@
 /area/shuttle/dropship/normandy{
 	ceiling = 2
 	})
-"rG" = (
-/obj/machinery/vending/MarineMed,
-/turf/closed/shuttle/dropship2/edge{
-	dir = 1
-	},
-/area/shuttle/dropship/normandy{
-	ceiling = 2
-	})
 "rN" = (
 /turf/closed/shuttle/dropship2/enginetwo{
 	dir = 8
@@ -191,7 +183,6 @@
 	ceiling = 2
 	})
 "ud" = (
-/obj/item/weapon/gun/sentry/ads_system/premade,
 /turf/closed/shuttle/dropship2/engineone/alt,
 /area/shuttle/dropship/normandy{
 	ceiling = 2
@@ -342,7 +333,6 @@
 	ceiling = 2
 	})
 "Gg" = (
-/obj/item/weapon/gun/sentry/ads_system/premade,
 /turf/closed/shuttle/dropship2/engineone/alt{
 	dir = 8
 	},
@@ -513,7 +503,6 @@
 	ceiling = 2
 	})
 "YI" = (
-/obj/machinery/vending/weapon,
 /turf/closed/shuttle/dropship2/edge{
 	dir = 1
 	},
@@ -590,7 +579,7 @@ zF
 Tb
 Fn
 Js
-rG
+YI
 oB
 Dl
 eY

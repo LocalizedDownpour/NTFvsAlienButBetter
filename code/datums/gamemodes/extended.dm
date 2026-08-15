@@ -82,18 +82,18 @@
 	whitelist_ground_maps = list(MAP_WHISKEY_OUTPOST)
 	whitelist_ship_maps = list(MAP_LEGACY_OF_SPRING)
 	valid_job_types = list(
-		/datum/job/terragov/command/staffofficer = 1,
+		/datum/job/terragov/command/staffofficer = 1, //platoon commander
 		/datum/job/terragov/command/pilot = 1,
 		/datum/job/terragov/command/transportofficer = 1,
 		/datum/job/terragov/command/mech_pilot = 1,
 		/datum/job/terragov/command/transport_crewman = 1,
 		/datum/job/terragov/medical/medicalofficer = 1,
 		/datum/job/terragov/silicon/synthetic = 1,
-		/datum/job/terragov/squad/engineer = 2,
+		/datum/job/terragov/squad/engineer = 1,
 		/datum/job/terragov/squad/corpsman = 2,
 		/datum/job/terragov/squad/smartgunner = 2,
 		/datum/job/terragov/squad/leader = 1,
-		/datum/job/terragov/squad/standard = -1,
+		/datum/job/terragov/squad/standard = 4,
 		/datum/job/xenomorph = 0,
 		/datum/job/xenomorph/queen = 0 //im scared of bugs :(
 	)

@@ -152,7 +152,7 @@ Make the SFMC proud!"}
 /datum/job/terragov/command/staffofficer
 	title = STAFF_OFFICER
 	paygrade = "O1"
-	comm_title = "SO"
+	comm_title = "PLTCO"
 	total_positions = 4
 	access = ALL_MARINE_ACCESS
 	minimal_access = ALL_MARINE_ACCESS
