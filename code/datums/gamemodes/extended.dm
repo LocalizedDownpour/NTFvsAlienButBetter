@@ -73,8 +73,8 @@
 
 
 /datum/game_mode/extended/oscar
-	name = "Extended"
-	config_tag = "Extended"
+	name = "Extended Oscar"
+	config_tag = "Extended Oscar"
 	silo_scaling = 1.5
 	round_type_flags = MODE_INFESTATION|MODE_PSY_POINTS|MODE_XENO_RULER|MODE_PSY_POINTS|MODE_PSY_POINTS_ADVANCED|MODE_HIJACK_POSSIBLE|MODE_SILO_RESPAWN|MODE_SILOS_SPAWN_MINIONS|MODE_ALLOW_XENO_QUICKBUILD
 	shutters_drop_time = 3 MINUTES

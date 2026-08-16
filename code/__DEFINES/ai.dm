@@ -299,6 +299,15 @@ GLOBAL_LIST_INIT(ai_squad_presets, list(
 		/datum/job/som/ert/standard,
 		/datum/job/som/ert/specialist,
 	),
+	"SOM commandos" = list(
+		/datum/job/som/ert/veteran,
+		/datum/job/som/ert/veteran,
+		/datum/job/som/ert/veteran,
+		/datum/job/som/ert/medic,
+		/datum/job/som/ert/specialist,
+		/datum/job/som/ert/specialist,
+		/datum/job/som/command/fieldcommander,
+	),
 	"AC squad" = list(
 		/datum/job/pmc/standard,
 		/datum/job/pmc/standard,

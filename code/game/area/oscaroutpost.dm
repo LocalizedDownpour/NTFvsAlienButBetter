@@ -2,12 +2,18 @@
 	name = "Oscar Outpost"
 	icon_state = "green"
 	ceiling = CEILING_METAL
+	ambience = list(
+		"sound/ambience/tyrargo_city_ambience.ogg"
+	)
 
 /area/oscar_outpost/base
 	name = "Oscar Outpost Staging Area"
 	icon_state = "north"
 	ceiling = CEILING_DEEP_UNDERGROUND_METAL
 	outside = FALSE
+	ambience = list(
+		"sound/ambience/venir_hallway.ogg"
+	)
 
 /area/oscar_outpost/outside
 	name = "Unused"
