@@ -1,15 +1,15 @@
 /datum/supply_packs/clothing/night_visionntcr
-	name = "NT Stalker-R goggles"
+	name = "SFMC Stalker-R goggles"
 	contains = list(/obj/item/clothing/glasses/night/m42_night_goggles/ntc_r)
 	cost = 3300
 
 /datum/supply_packs/clothing/night_visionntcg
-	name = "NT Stalker-G goggles"
+	name = "SFMC Stalker-G goggles"
 	contains = list(/obj/item/clothing/glasses/night/m42_night_goggles/ntc_g)
 	cost = 3300
 
 /datum/supply_packs/clothing/night_visionntcb
-	name = "NT Stalker-B goggles"
+	name = "SFMC Stalker-B goggles"
 	contains = list(/obj/item/clothing/glasses/night/m42_night_goggles/ntc_b)
 	cost = 3300
 

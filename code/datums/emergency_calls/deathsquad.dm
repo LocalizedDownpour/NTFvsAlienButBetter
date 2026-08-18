@@ -1,5 +1,5 @@
 /datum/emergency_call/deathsquad
-	name = "NT Deathsquad"
+	name = "SFMC Deathsquad"
 	base_probability = 1
 	shuttle_id = SHUTTLE_DISTRESS_PMC
 

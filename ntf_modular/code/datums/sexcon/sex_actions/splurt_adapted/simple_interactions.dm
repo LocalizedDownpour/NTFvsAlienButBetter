@@ -152,13 +152,13 @@
 		var/mob/living/carbon/xenomorph/X = user
 		X.impregify(user, target_hole)
 
-/datum/sex_action/simple_interaction/can_heal(mob/living/carbon/user, mob/living/carbon/target, mob/living/action_target)
+/*/datum/sex_action/simple_interaction/can_heal(mob/living/carbon/user, mob/living/carbon/target, mob/living/action_target)
 	if(quick_heal_requires_target_pref \
 		&& user?.sexcon?.drain_style == SEX_DRAIN_STYLE_HEAL_TARGET \
 		&& action_target?.mind \
 		&& !(action_target.client?.prefs.sex_pref_flags & SEXPREF_QUICK_SEX_HEAL))
 		return FALSE
-	return ..()
+	return ..()*/
 
 /datum/sex_action/simple_interaction/cheer
 	name = "Cheer"

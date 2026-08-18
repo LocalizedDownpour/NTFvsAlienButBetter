@@ -894,7 +894,7 @@
 	description = "Fires a devestating laser pulse that significantly degrades the victims armor, at the cost of lower direct damage."
 
 /datum/lasrifle/energy_sniper_mode/ricochet
-	rounds_per_shot = 45
+	rounds_per_shot = 150 // This is pretty strong in HvH, should make it less so
 	fire_delay = 0.8 SECONDS
 	ammo_datum_type = /datum/ammo/energy/lasgun/marine/ricochet/four
 	fire_sound = 'sound/weapons/guns/fire/laser3.ogg'

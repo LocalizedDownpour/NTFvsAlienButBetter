@@ -160,17 +160,17 @@
 /proc/get_centcom_access_desc(A)
 	switch(A)
 		if(ACCESS_NT_PMC_GREEN)
-			return "NT PMC Green"
+			return "SFMC PMC Green"
 		if(ACCESS_NT_PMC_ORANGE)
-			return "NT PMC Orange"
+			return "SFMC PMC Orange"
 		if(ACCESS_NT_PMC_RED)
-			return "NT PMC Red"
+			return "SFMC PMC Red"
 		if(ACCESS_NT_PMC_BLACK)
-			return "NT PMC Black"
+			return "SFMC PMC Black"
 		if(ACCESS_NT_PMC_WHITE)
-			return "NT PMC White"
+			return "SFMC PMC White"
 		if(ACCESS_NT_CORPORATE)
-			return "NT Executive"
+			return "SFMC Executive"
 
 
 /proc/get_access_job_name(obj/item/card/id/ID)

@@ -115,6 +115,10 @@
 /obj/item/weapon/gun/rifle/standard_carbine/npc
 	starting_attachment_types = list(/obj/item/attachable/stock/t18stock, /obj/item/attachable/magnetic_harness, /obj/item/attachable/verticalgrip, /obj/item/attachable/bayonet)
 
+/obj/item/weapon/gun/rifle/standard_carbine/ap
+	starting_attachment_types = list(/obj/item/attachable/stock/t18stock, /obj/item/attachable/magnetic_harness, /obj/item/attachable/angledgrip, /obj/item/attachable/compensator)
+	default_ammo_type = /obj/item/ammo_magazine/rifle/standard_carbine/ap
+
 //-------------------------------------------------------
 //AR-12 Assault Rifle
 
@@ -1061,6 +1065,10 @@
 	starting_attachment_types = list(/obj/item/attachable/reddot, /obj/item/attachable/verticalgrip, /obj/item/attachable/suppressor)
 
 /obj/item/weapon/gun/rifle/khm4/sof
+	starting_attachment_types = list(/obj/item/attachable/reddot, /obj/item/attachable/angledgrip, /obj/item/attachable/compensator)
+
+/obj/item/weapon/gun/rifle/khm4/extended
+	default_ammo_type = /obj/item/ammo_magazine/rifle/m16_quadstack
 	starting_attachment_types = list(/obj/item/attachable/reddot, /obj/item/attachable/angledgrip, /obj/item/attachable/compensator)
 
 //-------------------------------------------------------

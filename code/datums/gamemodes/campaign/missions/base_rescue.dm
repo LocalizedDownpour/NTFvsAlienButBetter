@@ -1,9 +1,9 @@
 //protecting an NT installation
 /datum/campaign_mission/destroy_mission/base_rescue
-	name = "NT base rescue"
+	name = "SFMC base rescue"
 	mission_icon = "nt_rescue"
 	mission_flags = MISSION_DISALLOW_TELEPORT
-	map_name = "NT Site B-403"
+	map_name = "SFMC Site B-403"
 	map_file = '_maps/map_files/Campaign maps/nt_base/nt_base.dmm'
 	map_traits = list(ZTRAIT_AWAY = TRUE, ZTRAIT_BASETURF = "/turf/open/floor/plating", ZTRAIT_SNOWSTORM = TRUE)
 	map_light_colours = list(COLOR_MISSION_BLUE, COLOR_MISSION_BLUE, COLOR_MISSION_BLUE, COLOR_MISSION_BLUE)

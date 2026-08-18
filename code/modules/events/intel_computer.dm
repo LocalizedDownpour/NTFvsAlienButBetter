@@ -97,7 +97,7 @@
 			continue
 		break
 	*/
-	minor_announce("Our data sifting algorithm has detected valuable classified information on access points in: [english_list(areas_list)]. Should this data be recovered by ground forces, a reward will be given in the form of increased assets. Watch out for hostile forces, this is now a likely conflict zone.", title = "NIntel Division")
+	minor_announce("Our data sifting algorithm has detected valuable classified information on access points in: [english_list(areas_list)]. Should this data be recovered by ground forces, a reward will be given in the form of increased assets. Watch out for hostile forces, this is now a likely conflict zone.", title = "Intel Division")
 	xeno_message("We sense a looming threat from [english_list(areas_list)]. We must keep the hosts away from there.", size = 3)
 	qdel(src)
 

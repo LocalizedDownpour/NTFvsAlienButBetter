@@ -267,7 +267,7 @@ and at the same time Grunwald-Svarog Werke is pressured into playing along with 
 
 //ripperdoc, mix of tech and doc
 /datum/job/vsd_squad/medical/ripperdoc
-	title = "GSW Ripperdoc"
+	title = "GSW Surgeon"
 	comm_title = "KMD"
 	paygrade = "MS"
 	total_positions = 1
@@ -295,7 +295,7 @@ and at the same time Grunwald-Svarog Werke is pressured into playing along with 
 	minimap_icon = "medical"
 
 /datum/outfit/job/medical/ripperdoc
-	name = "GSW Ripperdoc"
+	name = "GSW Surgeon"
 	jobtype = /datum/job/vsd_squad/medical/ripperdoc
 
 	id = /obj/item/card/id
