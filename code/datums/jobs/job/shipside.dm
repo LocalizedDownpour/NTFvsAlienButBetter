@@ -151,7 +151,7 @@ Make the SFMC proud!"}
 //Staff Officer
 /datum/job/terragov/command/staffofficer
 	title = STAFF_OFFICER
-	paygrade = "O1"
+	paygrade = "O2"
 	comm_title = "PLTCO"
 	total_positions = 4
 	access = ALL_MARINE_ACCESS
@@ -200,15 +200,9 @@ You are in charge of logistics and the overwatch system. You are also in line to
 		return
 	switch(playtime_mins)
 		if(0 to 600) // starting
-			new_human.wear_id.paygrade = "O1"
-		if(601 to 1500) // 10hrs
 			new_human.wear_id.paygrade = "O2"
-		if(1501 to 6000) // 25 hrs
+		if(601 to 1500) // 10hrs
 			new_human.wear_id.paygrade = "O3"
-		if(6001 to 18000) // 100 hrs
-			new_human.wear_id.paygrade = "O4"
-		if(18001 to INFINITY) // 300 hrs
-			new_human.wear_id.paygrade = "O5"
 	new_human.wear_id.update_label()
 
 /datum/job/terragov/command/staffofficer/campaign
