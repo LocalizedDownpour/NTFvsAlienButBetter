@@ -294,6 +294,10 @@
 	},
 /turf/open/floor/urban/tile/lightbeige_bigtile,
 /area/gleichseitig16/indoors/southwest/milacademy)
+"gl" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/urban/tile/darkgrey_bigtile,
+/area/gleichseitig16/indoors/southwest/milacademy)
 "gu" = (
 /obj/effect/spawner/random/misc/plant,
 /turf/open/floor/urban/tile/beigetileshiny,
@@ -374,12 +378,17 @@
 /turf/open/floor/iron/smooth,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "js" = (
+/obj/structure/target_stake,
 /obj/item/target,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "ju" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/smooth,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"jx" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/iron/checker,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "jA" = (
 /obj/structure/bed/chair,
@@ -492,6 +501,11 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"lL" = (
+/obj/structure/bed/chair,
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/iron/checker,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "lM" = (
 /obj/effect/ai_node{
@@ -709,6 +723,21 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/gleichseitig16/indoors/southwest/milacademy)
+"qG" = (
+/obj/structure/bed/chair/office/light{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/iron/dark/textured,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"qS" = (
+/obj/structure/bed/chair,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/iron/dark/textured,
+/area/gleichseitig16/indoors/southwest/milacademy)
 "rf" = (
 /obj/machinery/light/small,
 /turf/open/floor/carpet/black,
@@ -834,6 +863,11 @@
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/iron/checker,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"uA" = (
+/obj/structure/window/reinforced/tinted,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/iron/dark/textured,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "uH" = (
 /obj/effect/ai_node{
@@ -1087,6 +1121,10 @@
 /obj/item/storage/bible,
 /turf/open/floor/carpet/black,
 /area/gleichseitig16/indoors/southwest/milacademy)
+"Aa" = (
+/obj/effect/landmark/xeno_tunnel_spawn,
+/turf/open/urban/street/cement2,
+/area/gleichseitig16/indoors/southwest/milacademy)
 "Ai" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -1140,6 +1178,11 @@
 	dir = 8
 	},
 /turf/open/floor/urban/carpet/carpetbeige,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"Bq" = (
+/obj/structure/bed/chair/office/light,
+/obj/effect/landmark/spawn_marker/euseparatists/advisorrifleman,
+/turf/open/floor/iron/dark/textured,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "Bv" = (
 /obj/machinery/light{
@@ -1215,6 +1258,13 @@
 /obj/item/clothing/shoes/marine/clf/full,
 /obj/item/clothing/gloves/combat,
 /turf/open/floor/urban/tile/supermartfloor2,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"Dl" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/iron/checker,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "Dt" = (
 /turf/open/urban/street/cement2,
@@ -1373,6 +1423,10 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"Ho" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/urban/street/cement2,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "Hr" = (
 /obj/structure/window/reinforced/tinted,
@@ -1538,6 +1592,10 @@
 	dir = 4
 	},
 /area/gleichseitig16/outdoors/south/streets)
+"MI" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/urban/tile/darkgrey_bigtile,
+/area/gleichseitig16/indoors/southwest/milacademy)
 "MJ" = (
 /obj/structure/cable,
 /obj/structure/prop/urban/misc/buildinggreeblies/greeble1/dense,
@@ -1631,6 +1689,11 @@
 "OI" = (
 /obj/structure/closet/secure_closet/personal,
 /turf/open/floor/urban/tile/lightbeige_bigtile,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"OL" = (
+/obj/structure/bed/chair,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/iron/checker,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "OQ" = (
 /obj/machinery/door/airlock/mainship/generic{
@@ -1872,6 +1935,13 @@
 /obj/item/storage/toolbox/electrical,
 /turf/open/urban/street/cement2,
 /area/gleichseitig16/indoors/southwest/milacademy)
+"Vf" = (
+/obj/structure/bed/chair/office/light{
+	dir = 8
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/iron/dark/textured,
+/area/gleichseitig16/indoors/southwest/milacademy)
 "Vm" = (
 /obj/structure/prop/urban/misc/buildinggreebliessmall{
 	pixel_x = -2;
@@ -2019,6 +2089,10 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured,
+/area/gleichseitig16/indoors/southwest/milacademy)
+"Zr" = (
+/obj/effect/landmark/spawn_marker/euseparatists/medicidle,
+/turf/open/floor/mainship/silver/full,
 /area/gleichseitig16/indoors/southwest/milacademy)
 "Zz" = (
 /obj/machinery/door/airlock/mainship/generic{
@@ -2322,7 +2396,7 @@ Ct
 Ct
 Qh
 fC
-Dt
+Aa
 Dt
 KY
 fw
@@ -2485,7 +2559,7 @@ Ct
 Ct
 Ct
 Ct
-Dt
+Ho
 Dt
 fC
 Dt
@@ -2808,7 +2882,7 @@ QX
 QX
 QX
 fu
-QX
+MI
 ny
 QX
 QX
@@ -2824,15 +2898,15 @@ QX
 fw
 rr
 rr
+uA
+Hc
+rr
+uA
 rr
 Hc
 rr
 rr
-rr
-Hc
-rr
-rr
-rr
+uA
 UV
 Bv
 NF
@@ -2973,7 +3047,7 @@ QX
 fw
 wy
 JK
-JK
+jx
 GI
 JK
 Uy
@@ -3021,7 +3095,7 @@ CG
 zG
 Uy
 vU
-lQ
+Dl
 fw
 QX
 QX
@@ -3031,7 +3105,7 @@ kR
 AT
 oc
 AT
-AT
+Bq
 AT
 ac
 fw
@@ -3099,7 +3173,7 @@ JK
 JK
 zo
 JK
-Uy
+lL
 vU
 lQ
 JK
@@ -3117,7 +3191,7 @@ AT
 AT
 ST
 fw
-QX
+MI
 ny
 QX
 UV
@@ -3261,7 +3335,7 @@ QX
 JK
 JK
 JK
-Uy
+OL
 br
 lQ
 fw
@@ -3514,7 +3588,7 @@ QX
 QX
 ny
 QX
-QX
+MI
 QX
 QX
 af
@@ -3808,7 +3882,7 @@ Qi
 fw
 QX
 QX
-QX
+MI
 kW
 fN
 wR
@@ -3918,7 +3992,7 @@ JK
 FD
 QX
 QX
-QX
+gl
 fw
 xk
 mq
@@ -4349,7 +4423,7 @@ AT
 AT
 yt
 SM
-Zg
+Vf
 UV
 NF
 NF
@@ -4426,7 +4500,7 @@ QX
 QX
 fw
 XT
-vQ
+qG
 AT
 EG
 AT
@@ -4531,7 +4605,7 @@ iu
 iu
 tm
 fw
-QX
+gl
 QX
 QX
 fw
@@ -4674,7 +4748,7 @@ OQ
 EG
 AT
 AT
-jA
+qS
 kS
 AT
 KA
@@ -4824,7 +4898,7 @@ QX
 th
 fw
 gz
-Qo
+Zr
 Dz
 EV
 lZ
@@ -5168,7 +5242,7 @@ jK
 QX
 QX
 QX
-QX
+MI
 QX
 UV
 NF
@@ -5364,7 +5438,7 @@ Fb
 cH
 Fb
 fw
-QX
+MI
 QX
 QX
 fw
@@ -5393,7 +5467,7 @@ tk
 Gx
 pv
 fw
-QX
+MI
 QX
 QX
 fw

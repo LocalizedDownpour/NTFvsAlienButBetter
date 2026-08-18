@@ -36,7 +36,6 @@
 #define COMSIG_XENOABILITY_TOGGLE_DESTROY_OWN_STRUCTURES "xenoability_toggle_destroy_own_structures"
 #define COMSIG_XENOABILITY_TOGGLE_DESTROY_WEEDS "xenoability_toggle_destroy_weeds"
 #define COMSIG_XENOABILITY_TOGGLE_ROUNY_ZOOM "xenoability_toggle_rouny_zoom"
-#define COMSIG_KB_UNIQUEACTION_UNDER "keybinding_uniqueactionunder"
 #define COMSIG_XENOABILITY_TEARING_TAIL "xenoability_tearing_tail"
 #define COMSIG_XENOABILITY_PANTHER_POUNCE "xenoability_panther_pounce"
 #define COMSIG_XENOABILITY_ADRENALINE_JUMP "xenoability_adrenaline_jump"

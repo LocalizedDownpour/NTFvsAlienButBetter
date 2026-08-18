@@ -1,6 +1,6 @@
 
 //quicksex
-/mob/living/MouseDrop_T(atom/dropping, mob/user)
+/*/mob/living/MouseDrop_T(atom/dropping, mob/user)
 	. = ..()
 	if(!user.client || !user.client.prefs)
 		return
@@ -79,4 +79,4 @@
 			else
 				AdjustImmobilized(1 SECONDS)
 			user.sexcon.try_start_action(action)
-	erptime(user, src)
+	erptime(user, src)*/

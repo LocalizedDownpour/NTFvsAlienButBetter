@@ -121,7 +121,7 @@ export const JobPreferences = (props) => {
     'GSW Combat Escort',
     'GSW Synthetic',
     'GSW Squad Leader',
-    'GSW Ripperdoc',
+    'GSW Surgeon',
     'Grunwald-Svarog Werke Liaison',
   ];
   const ColonistJobs = [

@@ -26,7 +26,7 @@
 	var/auto_release_chance = 75
 
 /obj/item/armor_module/module/eshield/absorbant/energy
-	name = "NT Voidwalker Anti-Energy Shield System"
+	name = "SFMC Voidwalker Anti-Energy Shield System"
 	desc = "NineTails Corporation's special modification of Svalinn energy shield system, allowing the shield to fully nullify energy attacks by absorbing them in an antienergy field\
 converting the absorbed energy into shield power, warning: overcharging too much will result in an explosion, accumulated energy dissipates over time using heatsinks. Does not prevent deflagrates or fires."
 	blocked_attack_types = list(LASER, ENERGY)

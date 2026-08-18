@@ -818,17 +818,17 @@
 //faction specific things below here.
 
 /datum/supply_packs/imports/vortexammo
-	name = "NT Vortex AP SMG magazine (9x19mm Parabellum) (SFMC Supply)"
+	name = "SFMC Vortex AP SMG magazine (9x19mm Parabellum) (SFMC Supply)"
 	contains = list(/obj/item/ammo_magazine/smg/vortex/ap)
 	faction_lock = list(FACTION_TERRAGOV)
 	cost = 60
 
 /datum/supply_packs/imports/vortexammo/incend
-	name = "NT Vortex incendiary SMG magazine (9x19mm Parabellum) (SFMC Supply)"
+	name = "SFMC Vortex incendiary SMG magazine (9x19mm Parabellum) (SFMC Supply)"
 	contains = list(/obj/item/ammo_magazine/smg/vortex/incendiary)
 
 /datum/supply_packs/imports/vortexammo/taser
-	name = "NT Vortex HC SMG magazine (9x19mm Parabellum) (SFMC Supply)"
+	name = "SFMC Vortex HC SMG magazine (9x19mm Parabellum) (SFMC Supply)"
 	contains = list(/obj/item/ammo_magazine/smg/vortex/taser)
 
 /datum/supply_packs/imports/antienergyshieldfs

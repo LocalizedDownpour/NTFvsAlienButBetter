@@ -349,14 +349,14 @@
 	else
 		dat += "<center>Having blood/life drained via sex : <a href='?_src_=usr;sex_prefs_toggle_on=[SEXPREF_BLOOD_DRAIN]'>Enable</a>|Disabled</center>"
 	dat += "<center>--------------------------</center>"
-	if(flags & SEXPREF_QUICK_SEX)
+/*	if(flags & SEXPREF_QUICK_SEX)
 		dat += "<center>Initiating quick-sex yourself : Enabled|<a href='?_src_=usr;quick_sex_toggle_off=[SEXPREF_QUICK_SEX]'>Disable</a></center>"
 	else
 		dat += "<center>Initiating quick-sex yourself  : <a href='?_src_=usr;quick_sex_toggle_on=[SEXPREF_QUICK_SEX]'>Enable</a>|Disabled</center>"
 	if(flags & SEXPREF_QUICK_SEX_HEAL)
 		dat += "<center>Being healed via quick-sex : Enabled|<a href='?_src_=usr;quick_sex_toggle_off=[SEXPREF_QUICK_SEX_HEAL]'>Disable</a></center>"
 	else
-		dat += "<center>Being healed via quick-sex : <a href='?_src_=usr;quick_sex_toggle_on=[SEXPREF_QUICK_SEX_HEAL]'>Enable</a>|Disabled</center>"
+		dat += "<center>Being healed via quick-sex : <a href='?_src_=usr;quick_sex_toggle_on=[SEXPREF_QUICK_SEX_HEAL]'>Enable</a>|Disabled</center>"*/
 
 	var/datum/browser/popup = new(usr, "sexharmprefs", "<center>Sex Preferences</center>", 400, 150)
 	popup.set_content(dat.Join())

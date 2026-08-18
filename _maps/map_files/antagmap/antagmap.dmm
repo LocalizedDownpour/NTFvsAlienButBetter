@@ -623,6 +623,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/closet/crate,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/requisition)
 "cj" = (
@@ -824,13 +825,6 @@
 /area/antag_ship/som/hangar)
 "cR" = (
 /turf/closed/wall/mainship/gray/outer,
-/area/antag_ship/som/engi)
-"cS" = (
-/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass{
-	name = "\improper Engineering";
-	req_one_access = null
-	},
-/turf/closed/wall/mainship/gray,
 /area/antag_ship/som/engi)
 "cT" = (
 /obj/machinery/door/airlock/mainship/security{
@@ -1403,10 +1397,6 @@
 "eI" = (
 /turf/closed/mineral/smooth/desertdamrockwall/indestructible,
 /area/antag_ship/icc/hangar/east)
-"eJ" = (
-/obj/machinery/fuelcell_recycler,
-/turf/open/floor/mainship/mono,
-/area/antag_ship/som/engi)
 "eK" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/minidropship,
 /turf/open/floor/mainship/black/full,
@@ -2087,7 +2077,6 @@
 /turf/open/floor/urban/carpet/carpetblack,
 /area/antag_ship/icc/living_area)
 "gS" = (
-/obj/machinery/fuelcell_recycler,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -4819,15 +4808,9 @@
 /turf/open/floor/urban/carpet/carpetblack,
 /area/antag_ship/icc/living_area)
 "py" = (
-/obj/structure/table/mainship,
-/obj/item/fuel_cell/full,
-/obj/item/fuel_cell/full,
-/obj/item/fuel_cell/full,
-/obj/item/fuel_cell/full,
-/obj/item/fuel_cell/full,
-/obj/item/fuel_cell/full,
+/obj/structure/closet/crate,
 /turf/open/floor/mainship/mono,
-/area/antag_ship/som/engi)
+/area/antag_ship/som/requisition)
 "pz" = (
 /obj/structure/table/reinforced/prison,
 /obj/structure/paper_bin,
@@ -7343,9 +7326,11 @@
 	},
 /area/antag_ship/clf_base/techroom)
 "xS" = (
-/obj/machinery/power/fusion_engine/preset,
-/obj/structure/cable,
-/turf/open/floor/plating/plating_catwalk,
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass{
+	name = "\improper Engineering";
+	req_one_access = null
+	},
+/turf/open/floor/mainship/mono,
 /area/antag_ship/som/engi)
 "xT" = (
 /turf/closed/shuttle/dropship_regular/top_corner/alt,
@@ -18375,10 +18360,10 @@ ad
 HA
 gE
 en
-en
-en
+py
+py
 ci
-en
+py
 en
 en
 uN
@@ -19818,7 +19803,7 @@ RB
 Zx
 RX
 vi
-xS
+RX
 jE
 cR
 CN
@@ -19912,9 +19897,9 @@ PO
 ji
 ji
 jE
-xS
+RX
 RS
-xS
+RX
 Ys
 cR
 CN
@@ -20008,9 +19993,9 @@ Zt
 ji
 ji
 jE
-xS
+RX
 vi
-xS
+RX
 jE
 cR
 CN
@@ -20098,8 +20083,8 @@ Li
 bD
 zm
 bD
-Li
-lC
+bD
+xS
 ji
 ji
 ji
@@ -20195,14 +20180,14 @@ bD
 Ni
 bD
 bD
-cS
+ji
 ji
 rm
 GZ
 Hu
 gS
-py
-eJ
+ji
+ji
 ji
 cR
 CN

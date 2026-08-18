@@ -1,4 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorcommando,
+/turf/open/floor/iron/small,
+/area/gleichseitig16/indoors/east/ehrmilmaso/facilities)
 "as" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible,
 /obj/structure/cable,
@@ -475,6 +479,11 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/indoors/east/ehrmilmaso/facilities)
+"tJ" = (
+/obj/structure/bed/urban/bunkbed2,
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/urban/tile/supermartfloor1,
+/area/gleichseitig16/indoors/east/ehrmilmaso/facilities)
 "tW" = (
 /obj/effect/urban/decal/road/road_edge/two,
 /obj/effect/urban/decal/road/lines4,
@@ -624,6 +633,10 @@
 	dir = 5
 	},
 /area/gleichseitig16/outdoors/east/ehrmilmaso/yard)
+"zU" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/indoors/east/ehrmilmaso/facilities)
 "Al" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -1038,6 +1051,10 @@
 /obj/item/tool/pen,
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/indoors/east/ehrmilmaso/facilities)
+"NT" = (
+/obj/effect/landmark/spawn_marker/euseparatists/medicidle,
+/turf/open/floor/iron/small,
+/area/gleichseitig16/indoors/east/ehrmilmaso/facilities)
 "Ou" = (
 /obj/structure/sink/bathroom{
 	pixel_y = 16
@@ -1079,6 +1096,13 @@
 	color = "#7db4ff"
 	},
 /area/gleichseitig16/outdoors/east/ehrmilmaso/landpad)
+"PR" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/iron/smooth,
+/area/gleichseitig16/indoors/east/ehrmilmaso/facilities)
 "Qv" = (
 /obj/machinery/light{
 	dir = 8
@@ -1653,7 +1677,7 @@ Zp
 VI
 QX
 XM
-si
+tJ
 Lt
 Lt
 Lt
@@ -1702,20 +1726,20 @@ ij
 Lt
 Fa
 do
-bB
+PR
 Lt
 ot
 as
 np
 Lt
-bB
+PR
 do
 Fa
 Lt
 EV
 vr
 vr
-vr
+NT
 ga
 Lt
 jU
@@ -1757,7 +1781,7 @@ vr
 vr
 xi
 Lt
-si
+tJ
 XM
 YB
 VI
@@ -1782,7 +1806,7 @@ do
 do
 Fa
 Lt
-vr
+ab
 Nr
 fj
 Lt
@@ -1811,7 +1835,7 @@ lc
 XM
 si
 Lt
-vr
+NT
 WC
 vr
 vr
@@ -2797,7 +2821,7 @@ Gw
 jM
 Gw
 Gw
-Gw
+zU
 Gw
 jM
 Gw
@@ -2987,7 +3011,7 @@ RA
 VZ
 ky
 AI
-Gw
+zU
 Lt
 Kl
 Um
@@ -2997,7 +3021,7 @@ Ej
 Um
 Kl
 Lt
-Gw
+zU
 xD
 ky
 RA

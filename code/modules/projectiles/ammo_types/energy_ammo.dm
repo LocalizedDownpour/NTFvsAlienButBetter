@@ -534,8 +534,8 @@
 	name = "sniper laser bolt"
 	icon_state = "microwavelaser"
 	hud_state = "laser_disabler"
-	damage = 40
-	penetration = 10
+	damage = 100
+	penetration = 5 // Severely reduced penetration for increased damage
 	ammo_behavior_flags = AMMO_ENERGY|AMMO_HITSCAN|AMMO_BETTER_COVER_RNG|AMMO_SNIPER
 	sundering = 1
 	hitscan_effect_icon = "u_laser_beam"
@@ -543,22 +543,22 @@
 	bullet_color = COLOR_DISABLER_BLUE
 
 /datum/ammo/energy/lasgun/marine/ricochet/one
-	damage = 35
+	damage = 80
 	ammo_behavior_flags = AMMO_ENERGY|AMMO_HITSCAN
 	bonus_projectiles_type = /datum/ammo/energy/lasgun/marine/ricochet
 
 /datum/ammo/energy/lasgun/marine/ricochet/two
-	damage = 30
+	damage = 65
 	ammo_behavior_flags = AMMO_ENERGY|AMMO_HITSCAN
 	bonus_projectiles_type = /datum/ammo/energy/lasgun/marine/ricochet/one
 
 /datum/ammo/energy/lasgun/marine/ricochet/three
-	damage = 25
+	damage = 50
 	ammo_behavior_flags = AMMO_ENERGY|AMMO_HITSCAN
 	bonus_projectiles_type = /datum/ammo/energy/lasgun/marine/ricochet/two
 
 /datum/ammo/energy/lasgun/marine/ricochet/four
-	damage = 20
+	damage = 40
 	ammo_behavior_flags = AMMO_ENERGY|AMMO_HITSCAN
 	bonus_projectiles_type = /datum/ammo/energy/lasgun/marine/ricochet/three
 

@@ -498,6 +498,12 @@
 	},
 /turf/open/floor/prison/sterilewhite,
 /area/gleichseitig16/indoors/east/sinitsynhospital)
+"tn" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/prison/whitegreen{
+	dir = 10
+	},
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "to" = (
 /obj/machinery/light{
 	dir = 8
@@ -792,6 +798,10 @@
 /obj/structure/cable,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/east/streets)
+"Bx" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison/whitegreen,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "BA" = (
 /obj/effect/urban/decal/road/lines2,
 /obj/effect/urban/decal/road/road_edge/four,
@@ -981,6 +991,11 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/east/streets)
+"Gy" = (
+/obj/structure/cable,
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "GE" = (
 /obj/machinery/light,
 /obj/machinery/bodyscanner,
@@ -1043,6 +1058,10 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/east/streets)
+"Ig" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/prison/whitegreen,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "Io" = (
 /obj/structure/cable,
 /turf/open/urban/street/sidewalk,
@@ -1057,6 +1076,10 @@
 /obj/effect/ai_node{
 	pixel_x = 1
 	},
+/turf/open/floor/prison/sterilewhite,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
+"JK" = (
+/obj/effect/landmark/spawn_marker/euseparatists/medic,
 /turf/open/floor/prison/sterilewhite,
 /area/gleichseitig16/indoors/east/sinitsynhospital)
 "JR" = (
@@ -1526,11 +1549,19 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+"YD" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison/sterilewhite,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "YV" = (
 /obj/machinery/door/airlock/mainship/medical/glass/free_access{
 	dir = 1;
 	name = "\improper Sinitsyn Hospitality"
 	},
+/turf/open/floor/prison/sterilewhite,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
+"YW" = (
+/obj/effect/landmark/spawn_marker/euseparatists/medicidle,
 /turf/open/floor/prison/sterilewhite,
 /area/gleichseitig16/indoors/east/sinitsynhospital)
 "Zc" = (
@@ -1880,7 +1911,7 @@ xD
 OT
 OT
 OT
-eq
+tn
 ai
 fp
 ZI
@@ -1944,7 +1975,7 @@ gC
 ai
 oM
 Pv
-cH
+YD
 Bd
 ai
 Tl
@@ -2148,7 +2179,7 @@ cH
 fg
 cH
 Jc
-fx
+Ig
 Wa
 Tl
 ud
@@ -2181,7 +2212,7 @@ ai
 ai
 vH
 cH
-cH
+JK
 Jc
 GE
 ai
@@ -2372,7 +2403,7 @@ sQ
 gC
 ai
 Xu
-cH
+YW
 cH
 fx
 ai
@@ -2615,7 +2646,7 @@ Bd
 ai
 yP
 DR
-LF
+Gy
 LF
 TB
 mc
@@ -2842,10 +2873,10 @@ ai
 Xu
 cH
 cH
-fx
+Bx
 ai
 Qv
-fx
+Ig
 ai
 Fq
 AR

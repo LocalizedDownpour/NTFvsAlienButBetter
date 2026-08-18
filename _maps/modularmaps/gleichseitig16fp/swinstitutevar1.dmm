@@ -90,6 +90,10 @@
 	},
 /turf/open/floor/urban/carpet/carpetgreen,
 /area/gleichseitig16/indoors/southwest/ehruni/comms)
+"bQ" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/snow/layer2,
+/area/gleichseitig16/indoors/southwest/ehruni/comms)
 "bR" = (
 /turf/open/floor/tile/blue/taupeblue{
 	dir = 4
@@ -168,6 +172,10 @@
 	},
 /turf/open/floor/prison/bright_clean/two,
 /area/gleichseitig16/indoors/caves/rock)
+"da" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/ground/jungle/clear,
+/area/gleichseitig16/indoors/southwest/ehruni/scitech)
 "db" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -176,6 +184,7 @@
 /area/gleichseitig16/indoors/southwest/ehruni/restrooms)
 "dc" = (
 /obj/structure/bed/chair/office/dark,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/floor/urban/carpet/carpetgreendeco,
 /area/gleichseitig16/indoors/southwest/ehruni/comms)
 "di" = (
@@ -467,6 +476,11 @@
 	},
 /turf/open/floor/prison,
 /area/gleichseitig16/indoors/southwest/ehruni/comms)
+"iy" = (
+/obj/effect/landmark/spawn_marker/euseparatists/medicidle,
+/obj/structure/bed/chair/office/dark,
+/turf/open/floor/prison/sterilewhite,
+/area/gleichseitig16/indoors/southwest/ehruni/lab)
 "iD" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -555,6 +569,13 @@
 	dir = 4
 	},
 /area/gleichseitig16/indoors/southwest/ehruni/medchem)
+"kE" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 8
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/urban/tile/tilegrey,
+/area/gleichseitig16/indoors/southwest/ehruni/sec)
 "kH" = (
 /obj/structure/closet,
 /obj/machinery/light/mainship{
@@ -726,6 +747,12 @@
 	dir = 1
 	},
 /area/gleichseitig16/indoors/southwest/ehruni/restrooms)
+"nq" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/bluethree{
+	dir = 1
+	},
+/area/gleichseitig16/indoors/southwest/ehruni/admin)
 "nx" = (
 /turf/open/floor/prison/darkpurple/corner{
 	dir = 4
@@ -1416,6 +1443,7 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 4
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
 /turf/open/floor/urban/tile/tilegrey,
 /area/gleichseitig16/indoors/southwest/ehruni/sec)
 "Bg" = (
@@ -1546,6 +1574,10 @@
 /obj/machinery/miner/damaged/platinum,
 /turf/open/floor/plating/ground/snow/layer2,
 /area/gleichseitig16/outdoors/southwest/ehruni/grounds)
+"CR" = (
+/obj/docking_port/stationary/crashmode,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/southwest/ehruni/fparking)
 "CY" = (
 /obj/machinery/door/airlock/mainship/medical/glass/free_access{
 	dir = 8;
@@ -1642,6 +1674,10 @@
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
 	},
+/turf/open/floor/prison/bright_clean/two,
+/area/gleichseitig16/indoors/southwest/ehruni/admin)
+"Ep" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/floor/prison/bright_clean/two,
 /area/gleichseitig16/indoors/southwest/ehruni/admin)
 "Eu" = (
@@ -1896,6 +1932,7 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 8
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/floor/urban/carpet/carpetbluedeco,
 /area/gleichseitig16/indoors/southwest/ehruni/medchem)
 "Ig" = (
@@ -1995,10 +2032,15 @@
 /obj/machinery/light/mainship,
 /turf/open/floor/prison/bright_clean/two,
 /area/gleichseitig16/indoors/southwest/ehruni/scitech)
+"Kd" = (
+/obj/effect/landmark/xeno_tunnel_spawn,
+/turf/open/ground/jungle/clear,
+/area/gleichseitig16/indoors/southwest/ehruni/scitech)
 "Ke" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/southwest/ehruni/lobby)
 "Ko" = (
@@ -2085,6 +2127,13 @@
 	dir = 1
 	},
 /area/gleichseitig16/outdoors/southwest/ehruni/fparking)
+"Mo" = (
+/obj/machinery/door/airlock/multi_tile/mainship/generic{
+	dir = 8;
+	name = "\improper University Campus Sec-Armory"
+	},
+/turf/open/floor/urban/tile/tilegrey,
+/area/gleichseitig16/indoors/southwest/ehruni/sec)
 "Mq" = (
 /obj/structure/window/framed/urban/reinforced{
 	dir = 4
@@ -2098,6 +2147,13 @@
 	},
 /turf/open/floor/urban/carpet/carpetblue,
 /area/gleichseitig16/indoors/southwest/ehruni/medchem)
+"ML" = (
+/obj/structure/prop/urban/misc/bench,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/prison/green{
+	dir = 1
+	},
+/area/gleichseitig16/indoors/southwest/ehruni/comms)
 "MT" = (
 /turf/open/urban/street/sidewalk{
 	dir = 9
@@ -2349,6 +2405,13 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/urban/tile/tilegrey,
 /area/gleichseitig16/indoors/southwest/ehruni/sec)
+"Rc" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/urban/carpet/carpetblue,
+/area/gleichseitig16/indoors/southwest/ehruni/medchem)
 "Re" = (
 /obj/structure/table/reinforced/prison,
 /obj/item/reagent_containers/glass/beaker{
@@ -2426,6 +2489,7 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 4
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/floor/prison/bright_clean/two,
 /area/gleichseitig16/indoors/southwest/ehruni/admin)
 "RX" = (
@@ -2530,6 +2594,14 @@
 	dir = 1
 	},
 /area/gleichseitig16/indoors/southwest/ehruni/medchem)
+"Tw" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/prison,
+/area/gleichseitig16/indoors/southwest/ehruni/lobby)
+"TA" = (
+/obj/docking_port/stationary/crashmode,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/southwest/ehruni/grounds)
 "TC" = (
 /turf/open/floor/bluethree{
 	dir = 6
@@ -2608,10 +2680,7 @@
 /turf/open/floor/urban/carpet/carpetbluedeco,
 /area/gleichseitig16/indoors/southwest/ehruni/medchem)
 "UE" = (
-/obj/machinery/door/airlock/multi_tile/mainship/generic{
-	dir = 1;
-	name = "\improper University Campus Sec-Armory"
-	},
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
 /turf/open/floor/urban/tile/tilegrey,
 /area/gleichseitig16/indoors/southwest/ehruni/sec)
 "UI" = (
@@ -2656,6 +2725,13 @@
 "Va" = (
 /turf/open/floor/urban/carpet/carpetgreendeco,
 /area/gleichseitig16/indoors/southwest/ehruni/comms)
+"Vb" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 8
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/urban/carpet/carpetblue,
+/area/gleichseitig16/indoors/southwest/ehruni/medchem)
 "Vc" = (
 /obj/machinery/light/mainship{
 	dir = 8
@@ -2725,6 +2801,10 @@
 /obj/item/reagent_containers/cup/glass/waterbottle,
 /turf/open/floor/urban/tile/tilegrey,
 /area/gleichseitig16/indoors/southwest/ehruni/sec)
+"Wp" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/snow/layer2,
+/area/gleichseitig16/outdoors/southwest/ehruni/grounds)
 "Wu" = (
 /obj/effect/ai_node,
 /turf/open/urban/street/sidewalk{
@@ -2830,6 +2910,12 @@
 	dir = 5
 	},
 /area/gleichseitig16/outdoors/southwest/ehruni/sparking)
+"Yb" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/prison/green{
+	dir = 4
+	},
+/area/gleichseitig16/indoors/southwest/ehruni/comms)
 "Yc" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -3206,7 +3292,7 @@ EY
 QG
 EY
 EY
-EY
+Kd
 Gs
 Ls
 PH
@@ -3245,7 +3331,7 @@ Fc
 EY
 ZV
 EY
-EY
+da
 EY
 EY
 Gs
@@ -3504,7 +3590,7 @@ OJ
 Xr
 Ns
 XU
-kl
+Ep
 kl
 kl
 kl
@@ -3591,7 +3677,7 @@ kl
 iD
 kl
 XU
-Ac
+nq
 Xv
 TC
 Ck
@@ -4182,7 +4268,7 @@ Ns
 WG
 rv
 xD
-NI
+Rc
 ed
 AY
 rv
@@ -4201,7 +4287,7 @@ OJ
 Xr
 Ns
 Ns
-Ns
+TA
 Ns
 Ns
 Ns
@@ -4518,7 +4604,7 @@ Ts
 ZU
 st
 rv
-kX
+Vb
 kX
 ed
 kX
@@ -4576,7 +4662,7 @@ Em
 Qb
 Qb
 RX
-fQ
+ML
 Qu
 Yw
 RX
@@ -4749,7 +4835,7 @@ Em
 ec
 gg
 RX
-qK
+bQ
 Ns
 Cg
 Ns
@@ -5196,7 +5282,7 @@ ha
 GX
 Yz
 Yz
-Yz
+Yb
 Yz
 Yz
 XJ
@@ -5288,7 +5374,7 @@ Cg
 Ns
 hY
 TJ
-oh
+iy
 oh
 oh
 UT
@@ -5681,7 +5767,7 @@ sl
 PF
 Jw
 aF
-Eg
+Tw
 Eg
 Eg
 Eg
@@ -5692,12 +5778,12 @@ Cg
 Ns
 ya
 xT
-PC
-PC
+UE
 PC
 PC
 PC
 Bg
+Mo
 PC
 ak
 xT
@@ -5740,7 +5826,7 @@ PC
 PC
 PC
 PC
-PC
+UE
 xT
 NY
 oW
@@ -5781,7 +5867,7 @@ yF
 VL
 xT
 PC
-UE
+PC
 xT
 Cc
 Hk
@@ -5991,7 +6077,7 @@ xT
 Cc
 PC
 PC
-Cc
+kE
 xT
 FG
 Av
@@ -6097,7 +6183,7 @@ lt
 lt
 dL
 Jw
-ya
+Wp
 Ns
 Ns
 ya
@@ -6416,7 +6502,7 @@ nW
 No
 No
 No
-No
+CR
 No
 No
 No

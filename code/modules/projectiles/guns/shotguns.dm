@@ -122,23 +122,20 @@
 
 /obj/item/weapon/gun/shotgun/combat/masterkey
 	name = "masterkey shotgun"
-	desc = "A weapon-mounted, three-plus-one shot shotgun. Reloadable with any normal 12 gauge shell. The short barrel reduces the ammo's effectiveness drastically in exchange for fitting as a attachment... Use the underrail unique action to cycle between shots while attached. (Shift+Space by default.)"
-	icon = 'ntf_modular/icons/obj/items/guns/attachments/gun.dmi'
+	desc = "A weapon-mounted, three-shot shotgun. Reloadable with any normal 12 gauge shell. The short barrel reduces the ammo's effectiveness drastically in exchange for fitting as a attachment.."
+	icon = 'icons/obj/items/guns/attachments/gun.dmi'
 	icon_state = "masterkey"
-	cocked_sound = 'sound/weapons/guns/interact/trenchgun_pump.ogg'
-	max_chamber_items = 3
+	max_chamber_items = 2
 	attachable_allowed = list()
 	starting_attachment_types = list()
 	slot = ATTACHMENT_SLOT_UNDER
 	attach_delay = 3 SECONDS
 	detach_delay = 3 SECONDS
-	reciever_flags = AMMO_RECIEVER_HANDFULS|AMMO_RECIEVER_REQUIRES_UNIQUE_ACTION|AMMO_RECIEVER_UNIQUE_ACTION_LOCKS
 	gun_features_flags = GUN_IS_ATTACHMENT|GUN_AMMO_COUNTER|GUN_ATTACHMENT_FIRE_ONLY|GUN_WIELDED_STABLE_FIRING_ONLY|GUN_CAN_POINTBLANK|GUN_WIELDED_FIRING_ONLY|GUN_SMOKE_PARTICLES
 	default_ammo_type = /datum/ammo/bullet/shotgun/buckshot
+	damage_mult = 0.6 // 40% less damage, but MUCH higher falloff.
 	scatter = 3
-	damage_mult = 1
-	cock_delay = 1.2 SECONDS
-	fire_delay = 1.5 SECONDS
+	fire_delay = 2 SECONDS
 	pixel_shift_x = 14
 	pixel_shift_y = 18
 

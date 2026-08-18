@@ -740,11 +740,11 @@
 
 
 /obj/item/book/manual/medical_diagnostics_manual
-	name = "NT Medical Diagnostics Manual"
+	name = "SFMC Medical Diagnostics Manual"
 	desc = "First, do no harm. A detailed medical practitioner's guide."
 	icon_state = "bookMedical"
 	author = "SFMC Medicine Department"
-	title = "NT Medical Diagnostics Manual"
+	title = "SFMC Medical Diagnostics Manual"
 
 	dat = {"<html>
 				<head>

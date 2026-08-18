@@ -494,7 +494,7 @@
 
 /obj/item/clothing/suit/modular/vsd_exoskeleton/nt
 	name = "\improper NT powered modular exoskeleton"
-	desc = "NT altered more airflow-allowing take of the CrashCore Industries modular hardsuit exoskeleton, made to lift up the 'Super-Heavy' armor systems and designed for full compatiability with jaeger modules. Comes with pre-installed light armour-plating and a shoulder lamp. Mount armor pieces to it by clicking on the frame with the components. Use Alt-Click to remove any attached items."
+	desc = "SFMC altered more airflow-allowing take of the CrashCore Industries modular hardsuit exoskeleton, made to lift up the 'Super-Heavy' armor systems and designed for full compatiability with jaeger modules. Comes with pre-installed light armour-plating and a shoulder lamp. Mount armor pieces to it by clicking on the frame with the components. Use Alt-Click to remove any attached items."
 	icon_state = "exoskeletonnt"
 	worn_icon_state = "exoskeletonnt"
 	greyscale_config = /datum/greyscale_config/vsd_hardsuit/exoskeleton/nt

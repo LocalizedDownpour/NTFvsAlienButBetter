@@ -65,6 +65,10 @@
 	dir = 4
 	},
 /area/gleichseitig16/indoors/southeast/charliescredit)
+"fJ" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/iron/dark/textured_large,
+/area/gleichseitig16/indoors/southeast/charliescredit)
 "hT" = (
 /obj/structure/prop/urban/misc/cabinet{
 	dir = 4;
@@ -158,6 +162,7 @@
 /area/gleichseitig16/indoors/southeast/charliescredit)
 "mZ" = (
 /obj/structure/bed/chair/sofa/right,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/floor/iron/dark/textured_large,
 /area/gleichseitig16/indoors/southeast/charliescredit)
 "nm" = (
@@ -222,7 +227,9 @@
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
 	},
-/obj/item/newspaper,
+/obj/item/newspaper{
+	desc = "An issue of The Ehrman-Eco, the newspaper circulating around multiple provinces that covers economy-related topics. There is a section in the paper that describes the increase of stocks for arms companies and an increase in oil company stock."
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/gleichseitig16/indoors/southeast/charliescredit)
 "uY" = (
@@ -328,6 +335,13 @@
 "Dy" = (
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/southeast/alleys)
+"DN" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/iron/dark/textured_large,
+/area/gleichseitig16/indoors/southeast/charliescredit)
 "DV" = (
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/alleys)
@@ -337,6 +351,10 @@
 	name = "\improper EHR-COMMERCE Automatic Teller Machine"
 	},
 /turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/indoors/southeast/charliescredit)
+"Fl" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/iron/dark/textured_large,
 /area/gleichseitig16/indoors/southeast/charliescredit)
 "Ie" = (
 /obj/structure/bed/chair/sofa/right{
@@ -479,6 +497,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/floor/iron/dark/textured_large,
 /area/gleichseitig16/indoors/southeast/charliescredit)
 "UU" = (
@@ -550,7 +569,9 @@
 /area/gleichseitig16/indoors/southeast/charliescredit)
 "ZT" = (
 /obj/structure/table/reinforced,
-/obj/item/newspaper,
+/obj/item/newspaper{
+	desc = "An issue of The Ehrman-Eco, the newspaper circulating around multiple provinces that covers economy-related topics. There is a section in the paper that describes the increase of stocks for arms companies and an increase in oil company stock."
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/gleichseitig16/indoors/southeast/charliescredit)
 
@@ -662,7 +683,7 @@ us
 SS
 ME
 SS
-SS
+Fl
 ow
 ow
 Ny
@@ -888,7 +909,7 @@ SS
 SS
 ds
 ow
-sr
+DN
 eN
 SS
 eN
@@ -996,7 +1017,7 @@ dD
 dD
 Lh
 ow
-SS
+fJ
 SS
 xL
 zq
