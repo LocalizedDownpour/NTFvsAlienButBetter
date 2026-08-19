@@ -612,6 +612,7 @@
 	corpsegloves = /obj/item/clothing/gloves/marine/som
 	corpseshoes = /obj/item/clothing/shoes/marine/som/knife
 	corpsepocket1 = /obj/item/tool/lighter/zippo
+	death_type = REGULAR_DEATH
 
 /obj/effect/landmark/corpsespawner/som/burst
 	death_type = CHESTBURST_DEATH
@@ -624,6 +625,7 @@
 	corpsegloves = /obj/item/clothing/gloves/marine/som
 	corpseshoes = /obj/item/clothing/shoes/marine/som/knife
 	corpsepocket1 = /obj/item/tool/lighter/zippo
+	death_type = REGULAR_DEATH
 
 
 //ICC

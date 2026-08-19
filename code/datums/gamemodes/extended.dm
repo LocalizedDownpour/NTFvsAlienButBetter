@@ -79,12 +79,11 @@
 	round_type_flags = MODE_INFESTATION|MODE_PSY_POINTS|MODE_XENO_RULER|MODE_PSY_POINTS|MODE_PSY_POINTS_ADVANCED|MODE_HIJACK_POSSIBLE|MODE_SILO_RESPAWN|MODE_SILOS_SPAWN_MINIONS|MODE_ALLOW_XENO_QUICKBUILD
 	shutters_drop_time = 3 MINUTES
 	xeno_abilities_flags = ABILITY_NUCLEARWAR|ABILITY_SOLMODE
-	whitelist_ground_maps = list(MAP_WHISKEY_OUTPOST)
+	whitelist_ground_maps = list(MAP_OSCAR_OUTPOST)
 	whitelist_ship_maps = list(MAP_LEGACY_OF_SPRING)
 	valid_job_types = list(
 		/datum/job/terragov/command/staffofficer = 1, //platoon commander
 		/datum/job/terragov/command/pilot = 1,
-		/datum/job/terragov/command/transportofficer = 1,
 		/datum/job/terragov/command/mech_pilot = 1,
 		/datum/job/terragov/command/transport_crewman = 1,
 		/datum/job/terragov/medical/medicalofficer = 1,
@@ -101,3 +100,7 @@
 	xenorespawn_time = 15 SECONDS
 	time_between_round_group = 0
 	time_between_round_group_name = "GROUP_Extended"
+
+/datum/game_mode/extended/oscar/post_setup()
+	for(var/obj/effect/landmark/corpsespawner/corpse AS in GLOB.corpse_landmarks_list)
+		corpse.create_mob()
