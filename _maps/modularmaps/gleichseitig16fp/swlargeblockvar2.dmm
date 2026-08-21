@@ -530,6 +530,10 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/west/streets)
+"sk" = (
+/obj/effect/landmark/nuke_spawn,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/southwest/ceruleanhotel)
 "sF" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -970,6 +974,11 @@
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southwest/ceruleanhotel)
+"JG" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/drained,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/southwest/powerstation)
 "JJ" = (
 /obj/effect/spawner/random/misc/structure/closet/electrical,
 /turf/open/floor/plating,
@@ -1889,7 +1898,7 @@ ep
 ep
 ep
 pL
-aj
+JG
 ji
 WH
 pL
@@ -2963,7 +2972,7 @@ cd
 cd
 cd
 cd
-cd
+sk
 cd
 cd
 cd

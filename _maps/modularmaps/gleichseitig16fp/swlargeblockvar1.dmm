@@ -697,6 +697,7 @@
 /obj/effect/urban/decal/road/lines6{
 	pixel_y = 16
 	},
+/obj/effect/landmark/nuke_spawn,
 /turf/open/floor/plating/ground/snow/layer1,
 /area/gleichseitig16/outdoors/southwest/stadium/field)
 "Cr" = (
