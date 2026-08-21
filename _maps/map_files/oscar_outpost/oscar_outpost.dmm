@@ -1080,12 +1080,6 @@
 "ee" = (
 /turf/closed/shuttle/cas/eleven,
 /area/oscar_outpost/outside/northeast)
-"ef" = (
-/obj/item/weapon/gun/energy/lasgun/lasrifle/volkite/cope/predeployed,
-/turf/open/floor/plating/ground/dirtgrassborder{
-	dir = 1
-	},
-/area/oscar_outpost/outside/east)
 "eg" = (
 /obj/structure/desertdam/decals/road/stop{
 	dir = 4
@@ -2126,6 +2120,12 @@
 /obj/structure/platform{
 	dir = 8
 	},
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
+"hL" = (
+/obj/effect/landmark/corpsespawner/marine/regular,
+/obj/effect/decal/cleanable/blood,
+/obj/item/weapon/gun/smg/m25,
 /turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/outside/north)
 "hN" = (
@@ -5258,10 +5258,6 @@
 /obj/effect/forcefield,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost)
-"ty" = (
-/obj/item/weapon/gun/energy/lasgun/lasrifle/volkite/cope/predeployed,
-/turf/open/floor/plating/ground/dirtgrassborder,
-/area/oscar_outpost/outside/east)
 "tz" = (
 /obj/structure/barricade/sandbags{
 	dir = 4;
@@ -5656,6 +5652,10 @@
 	},
 /turf/open/liquid/water/river,
 /area/oscar_outpost/outside/north)
+"vb" = (
+/obj/item/weapon/gun/energy/lasgun/lasrifle/volkite/cope/predeployed,
+/turf/open/floor/plating/ground/dirtgrassborder,
+/area/oscar_outpost/outside/east)
 "vc" = (
 /obj/structure/barricade/sandbags{
 	name = "trench lining";
@@ -7071,10 +7071,9 @@
 	},
 /area/oscar_outpost)
 "Az" = (
-/obj/machinery/cryopod/right,
-/obj/effect/landmark/start/latejoin_gateway,
-/turf/open/floor/tile/dark,
-/area/oscar_outpost/base)
+/obj/structure/droppod/nonmob,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/west)
 "AA" = (
 /obj/structure/platform{
 	dir = 1
@@ -11842,7 +11841,6 @@
 "Pu" = (
 /obj/machinery/light,
 /obj/machinery/cryopod/right,
-/obj/effect/landmark/start/latejoin_gateway,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "Pv" = (
@@ -13047,12 +13045,6 @@
 /obj/structure/table/wood/rustic,
 /turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/village/fairgrounds)
-"ST" = (
-/obj/effect/landmark/corpsespawner/marine/regular,
-/obj/effect/decal/cleanable/blood,
-/obj/item/weapon/gun/smg/m25,
-/turf/open/floor/plating/ground/dirt,
-/area/oscar_outpost/outside/north)
 "SU" = (
 /obj/machinery/door/airlock/dropship_hatch/left/two,
 /obj/item/weapon/gun/rifle/standard_assaultrifle/rifleman,
@@ -15157,10 +15149,11 @@
 /turf/open/floor,
 /area/oscar_outpost/village/central)
 "Zu" = (
-/obj/machinery/cryopod/right,
-/obj/effect/landmark/start/latejoin,
-/turf/open/floor/tile/dark,
-/area/oscar_outpost/base)
+/obj/item/weapon/gun/energy/lasgun/lasrifle/volkite/cope/predeployed,
+/turf/open/floor/plating/ground/dirtgrassborder{
+	dir = 1
+	},
+/area/oscar_outpost/outside/east)
 "Zv" = (
 /obj/item/storage/belt/lifesaver/full,
 /obj/structure/table/reinforced/prison,
@@ -23503,7 +23496,7 @@ ZL
 ZL
 ZL
 ZW
-ST
+hL
 Tj
 fY
 bo
@@ -27214,8 +27207,8 @@ Ck
 OP
 ff
 OP
-Zu
-Az
+QL
+QL
 QL
 Tp
 Tx
@@ -27720,7 +27713,7 @@ ff
 OP
 QL
 QL
-Zu
+QL
 Pu
 Tx
 WZ
@@ -27970,8 +27963,8 @@ Tx
 OP
 ff
 OP
-Az
-Zu
+QL
+QL
 QL
 QL
 Tx
@@ -28727,8 +28720,8 @@ OP
 ff
 lT
 QL
-Az
-Zu
+QL
+QL
 QL
 Tx
 WZ
@@ -28924,7 +28917,7 @@ FU
 BU
 DN
 hQ
-hQ
+Az
 hQ
 hQ
 Gy
@@ -29482,8 +29475,8 @@ Tp
 OP
 gt
 RY
-Az
-Zu
+QL
+QL
 QL
 Tx
 Tx
@@ -37968,11 +37961,11 @@ aO
 aO
 mc
 aO
-ty
+vb
 er
 er
 er
-ef
+Zu
 aO
 mc
 aO
