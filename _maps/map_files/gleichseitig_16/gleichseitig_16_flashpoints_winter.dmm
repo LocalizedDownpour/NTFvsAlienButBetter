@@ -17,6 +17,11 @@
 	},
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/railways)
+"aap" = (
+/obj/structure/table/reinforced/prison,
+/obj/machinery/computer/med_data/laptop,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/gens)
 "aaz" = (
 /turf/open/floor/prison{
 	color = "#e1f5ff"
@@ -181,11 +186,6 @@
 	},
 /turf/open/floor/freezer,
 /area/gleichseitig16/indoors/southwest/plazamall/steakgrill)
-"aep" = (
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "aeE" = (
 /obj/structure/bed,
 /obj/item/bedsheet/captain,
@@ -366,6 +366,11 @@
 /obj/machinery/light,
 /turf/open/floor/grayscale/white,
 /area/gleichseitig16/indoors/west/studycenter/lecturehall3)
+"amL" = (
+/obj/structure/cable,
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/prison/darkyellow,
+/area/gleichseitig16/indoors/northeast/powerplant)
 "amO" = (
 /obj/effect/landmark/static_comms/net_two,
 /turf/open/floor/engine,
@@ -394,12 +399,6 @@
 	dir = 1
 	},
 /area/gleichseitig16/indoors/northeast/storageunits)
-"anC" = (
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "anL" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained{
@@ -420,12 +419,6 @@
 	dir = 9
 	},
 /area/gleichseitig16/outdoors/northeast/parking)
-"apA" = (
-/obj/structure/bed/chair/comfy/beige{
-	dir = 8
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "apQ" = (
 /obj/effect/urban/decal/dirt,
 /obj/structure/cable,
@@ -490,14 +483,6 @@
 	},
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment4)
-"ash" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "ask" = (
 /obj/structure/table/reinforced,
 /obj/structure/paper_bin,
@@ -641,17 +626,6 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/east/rsr/breakroom)
-"awC" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "awI" = (
 /obj/machinery/door/airlock/mainship/medical/glass/free_access{
 	name = "\improper Pietre Eduleev Study Center"
@@ -1002,13 +976,6 @@
 /obj/structure/flora/tree/dead,
 /turf/open/floor/plating/ground/snow/layer2,
 /area/gleichseitig16/outdoors/southeast/alleys)
-"aLY" = (
-/obj/structure/cable,
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/sidewalk,
-/area/gleichseitig16/outdoors/southwest/streets)
 "aMd" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -1339,7 +1306,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/gleichseitig16/indoors/west/rsr/custodian)
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "bay" = (
 /obj/structure/sign/nosmoking_1{
 	dir = 8
@@ -1348,9 +1315,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/northeast/powerplant)
-"baC" = (
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "bbC" = (
 /obj/structure/toilet{
 	dir = 1
@@ -1391,14 +1355,6 @@
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/north/guardianmotorpost)
-"beo" = (
-/obj/machinery/door/airlock/mainship/generic{
-	dir = 1
-	},
-/turf/open/floor/prison{
-	color = "#e1f5ff"
-	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
 "beY" = (
 /turf/open/floor/orange_edge{
 	dir = 8
@@ -1447,6 +1403,14 @@
 /obj/machinery/light,
 /turf/open/floor/urban/tile/tilered,
 /area/gleichseitig16/indoors/south/pizzagalaxy)
+"bic" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northeast/factory/assembly)
+"bir" = (
+/obj/effect/urban/decal/trash/four,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/south/alleys)
 "bis" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/prison{
@@ -1481,6 +1445,10 @@
 /obj/structure/cable,
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/security/checkpoint)
+"bjt" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/snow/layer1,
+/area/gleichseitig16/outdoors/southeast/openspace)
 "bjD" = (
 /obj/structure/bed/chair/office/dark,
 /turf/open/floor/prison,
@@ -1628,9 +1596,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment1)
-"bqt" = (
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "bqx" = (
 /obj/machinery/light{
 	dir = 1
@@ -1722,12 +1687,6 @@
 	color = "#afebff"
 	},
 /area/gleichseitig16/indoors/southwest/plazamall/security)
-"btY" = (
-/obj/structure/mirror{
-	dir = 4
-	},
-/turf/closed/wall/r_wall/urban,
-/area/gleichseitig16/indoors/southwest/stadium)
 "bua" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/grayscale/darkgray,
@@ -1894,6 +1853,11 @@
 "bBb" = (
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/indoors/northeast/security/checkpoint)
+"bBq" = (
+/obj/structure/cable,
+/obj/effect/landmark/spawn_marker/euseparatists/advisorbreacher,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/consulting)
 "bCH" = (
 /turf/open/floor/plating/ground/snow{
 	color = "#ffe1af"
@@ -1953,6 +1917,7 @@
 /area/gleichseitig16/indoors/northwest/union/railways)
 "bFy" = (
 /obj/docking_port/stationary/marine_dropship/lz2,
+/obj/docking_port/stationary/crashmode,
 /turf/open/floor/plating/ground/snow/layer1,
 /area/gleichseitig16/outdoors/landing_zone_2)
 "bFP" = (
@@ -2188,6 +2153,10 @@
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/southeast/kh)
+"bQd" = (
+/obj/machinery/light/small,
+/turf/open/floor/tile/dark/purple2,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "bQg" = (
 /obj/machinery/vending/coffee,
 /turf/open/urban/street/cement3,
@@ -2237,12 +2206,6 @@
 	},
 /turf/open/floor/multi_tiles,
 /area/gleichseitig16/indoors/northeast/storageunits/five)
-"bSX" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/indoors/southwest/stadium)
 "bTm" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark/blue2{
@@ -2260,13 +2223,6 @@
 	dir = 5
 	},
 /area/gleichseitig16/indoors/east/rsr)
-"bTD" = (
-/obj/effect/urban/decal/road/lines5,
-/obj/effect/urban/decal/road/lines4{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "bTG" = (
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/southeast/kh/station)
@@ -2389,6 +2345,10 @@
 	},
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/cargorig/storage1)
+"bYT" = (
+/obj/structure/prop/urban/supermart/rack,
+/turf/open/floor/iron/checker,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "bZl" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
@@ -2664,6 +2624,12 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/northeast/exports)
+"clM" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "clW" = (
 /obj/machinery/light{
 	dir = 4
@@ -2673,6 +2639,10 @@
 	dir = 4
 	},
 /area/gleichseitig16/indoors/northeast/powerplant)
+"cmP" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/indoors/northeast/exports)
 "cmV" = (
 /obj/structure/mirror{
 	dir = 1
@@ -2743,15 +2713,6 @@
 	},
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/north/gasstation)
-"cpK" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 4
-	},
-/obj/structure/barricade/railing{
-	dir = 4
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "cpP" = (
 /obj/structure/bed/chair/sofa/corsat/verticalsouth,
 /turf/open/floor/grayscale/darkgray,
@@ -2794,15 +2755,6 @@
 	dir = 1
 	},
 /area/gleichseitig16/outdoors/south/streets)
-"crq" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 4
-	},
-/obj/structure/barricade/railing{
-	dir = 5
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "crt" = (
 /obj/structure/cable,
 /turf/open/urban/street/asphalt,
@@ -2983,7 +2935,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/gleichseitig16/indoors/west/rsr/custodian)
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "cBn" = (
 /obj/machinery/door/airlock/mainship/generic/corporate{
 	name = "Restroom";
@@ -3057,14 +3009,9 @@
 /turf/open/floor/urban/tile/tileblackcheckered,
 /area/gleichseitig16/indoors/southeast/felixfoods)
 "cDF" = (
-/obj/effect/urban/decal/road/lines5,
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/sidewalkcenter{
-	dir = 4
-	},
-/area/gleichseitig16/outdoors/southwest/parking)
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/ground/jungle/clear,
+/area/gleichseitig16/indoors/west/rsr/xbops)
 "cDL" = (
 /turf/open/floor/yellowthree{
 	dir = 4
@@ -3479,12 +3426,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/urban/metal/metalwhitefull,
 /area/gleichseitig16/indoors/south/motel/reception)
-"cYJ" = (
-/obj/effect/urban/decal/road/lines2,
-/turf/open/urban/street/sidewalkcenter{
-	dir = 1
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "cYS" = (
 /obj/effect/urban/decal/road/road_edge/three,
 /obj/effect/urban/decal/road/lines3,
@@ -3500,9 +3441,6 @@
 "cZa" = (
 /turf/open/floor/prison,
 /area/gleichseitig16/indoors/southeast/scrubemporium)
-"cZi" = (
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "cZk" = (
 /turf/closed/shuttle/dropship_white/top_corner,
 /area/gleichseitig16/indoors/northeast/spaceport/pmcship)
@@ -3531,9 +3469,6 @@
 /obj/machinery/door/airlock/mainship/generic{
 	name = "\improper Lockdown"
 	},
-/obj/machinery/door/poddoor/shutters/urban/white{
-	name = "\improper Lockdown"
-	},
 /obj/structure/cable,
 /turf/open/floor/marked,
 /area/gleichseitig16/indoors/northeast/spaceport/pmcship)
@@ -3543,6 +3478,11 @@
 	},
 /turf/open/floor/iron/textured,
 /area/gleichseitig16/indoors/southeast/ganongym)
+"cZS" = (
+/obj/machinery/power/apc/drained,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/gens)
 "dak" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -3596,7 +3536,8 @@
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/prop/computer{
-	dir = 4
+	dir = 4;
+	idle_power_usage = 50
 	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
@@ -3634,13 +3575,6 @@
 /obj/machinery/light,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/northwest/union/foremancorner)
-"dfi" = (
-/obj/structure/table/reinforced,
-/obj/machinery/microwave,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "dfw" = (
 /obj/structure/flora/ausbushes/sunnybush{
 	pixel_y = 10
@@ -3659,6 +3593,9 @@
 "dgk" = (
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 16
 	},
 /turf/open/floor/urban/tile/beige_bigtile,
 /area/gleichseitig16/indoors/southwest/plazamall)
@@ -3719,7 +3656,9 @@
 /area/gleichseitig16/indoors/northwest/union/nwstorage)
 "dhM" = (
 /obj/structure/table/reinforced,
-/obj/machinery/prop/computer/communications,
+/obj/machinery/prop/computer/communications{
+	idle_power_usage = 50
+	},
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -3731,6 +3670,12 @@
 	dir = 1
 	},
 /area/gleichseitig16/outdoors/west/streets)
+"dib" = (
+/obj/effect/ai_node{
+	pixel_x = 1
+	},
+/turf/open/floor/grayscale/darkgray,
+/area/gleichseitig16/indoors/west/rsr/xenobio)
 "diy" = (
 /obj/machinery/light{
 	dir = 8
@@ -3821,6 +3766,14 @@
 "dlJ" = (
 /turf/closed/wall/r_wall,
 /area/gleichseitig16/indoors/west/rsr/soffices)
+"dlU" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/tile/dark/blue2{
+	dir = 1
+	},
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "dmi" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
@@ -3986,6 +3939,13 @@
 	dir = 9
 	},
 /area/gleichseitig16/indoors/west/rsr/mrestroom)
+"dsE" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/consulting)
 "dtA" = (
 /obj/machinery/door/poddoor/shutters/urban/security_lockdown{
 	id = "northeastcheckpoint_inspection_s";
@@ -4014,11 +3974,6 @@
 	},
 /turf/open/floor/urban/wood/redwood,
 /area/gleichseitig16/indoors/landing_zone_2/apartment2)
-"dum" = (
-/turf/open/urban/street/sidewalk{
-	dir = 10
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "duP" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -4048,6 +4003,13 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/rsr/whalls)
+"dvm" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/prop/urban/misc/trash/green,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "dvp" = (
 /obj/structure/cable,
 /turf/open/urban/street/cement3,
@@ -4146,26 +4108,6 @@
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/north/guardianmotorpost)
-"dAs" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
-"dAD" = (
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = -16
-	},
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow{
-	color = "#ffe1af"
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "dAP" = (
 /obj/effect/urban/decal/dirt,
 /obj/effect/urban/decal/road/lines2,
@@ -4325,14 +4267,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/west/parking)
-"dIm" = (
-/obj/machinery/door/airlock/multi_tile/mainship/generic{
-	dir = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "dIE" = (
 /obj/machinery/streetlight/street{
 	level = 7;
@@ -4410,7 +4344,7 @@
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/area/gleichseitig16/indoors/southeast/kh)
 "dMA" = (
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment2)
@@ -4429,6 +4363,10 @@
 	},
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/outdoors/northwest/parking)
+"dNl" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorrecon,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/indoors/west/rsr/garage)
 "dNo" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	pixel_y = -1
@@ -4524,18 +4462,6 @@
 	},
 /turf/open/floor/urban/tile/beige_bigtile,
 /area/gleichseitig16/indoors/southwest/plazamall)
-"dQh" = (
-/obj/structure/cable,
-/turf/open/urban/street/sidewalk{
-	dir = 9
-	},
-/area/gleichseitig16/outdoors/northeast/streets)
-"dQm" = (
-/obj/machinery/light/mainship{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "dQw" = (
 /obj/effect/ai_node,
 /obj/machinery/light/small,
@@ -4629,19 +4555,16 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/east/rsr)
-"dTM" = (
-/obj/effect/urban/decal/road/lines4{
-	pixel_y = 16;
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "dTV" = (
 /obj/machinery/streetlight/traffic{
 	pixel_y = 10
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/northeast/streets)
+"dTY" = (
+/obj/effect/landmark/xeno_tunnel_spawn,
+/turf/open/ground/jungle/clear,
+/area/gleichseitig16/indoors/west/rsr/xbops)
 "dUl" = (
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/north/streets)
@@ -4716,14 +4639,6 @@
 /obj/effect/urban/decal/road/lines2,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"dXu" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "dXE" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/machinery/light{
@@ -4777,14 +4692,6 @@
 /obj/effect/spawner/modularmap/gleichseitig16fp/wunionstorage3,
 /turf/open/space/basic,
 /area/space)
-"dZT" = (
-/obj/machinery/vending/coffee{
-	density = 0
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "eac" = (
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/landing_zone_2/parking)
@@ -4800,6 +4707,10 @@
 /obj/effect/ai_node,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
+"eaD" = (
+/obj/effect/urban/decal/trash,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "eaI" = (
 /obj/structure/monorail{
 	dir = 4
@@ -4826,6 +4737,12 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/kutjevo/fake_wood,
 /area/gleichseitig16/indoors/northwest/phoronex)
+"ebs" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/ground/jungle/clear,
+/area/gleichseitig16/indoors/west/rsr/xbops)
 "eco" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light,
@@ -4851,12 +4768,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"edj" = (
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "edN" = (
 /obj/machinery/streetlight/street{
 	level = 7;
@@ -4904,23 +4815,14 @@
 "eeH" = (
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/landing_zone_2/parking)
-"efh" = (
-/obj/effect/urban/decal/road/lines5,
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16;
-	pixel_x = -2
-	},
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "efu" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/prop/computer,
+/obj/machinery/prop/computer{
+	idle_power_usage = 50
+	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
 "efL" = (
@@ -5099,14 +5001,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/parking)
-"ens" = (
-/obj/machinery/door/airlock/mainship/generic{
-	dir = 8
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "eoC" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -5165,17 +5059,6 @@
 "erk" = (
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/east/rsr/lobby)
-"erm" = (
-/obj/machinery/light,
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
-"ero" = (
-/obj/effect/urban/decal/road/lines5,
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 15
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "erv" = (
 /obj/effect/urban/decal/doubleroad/lines1{
 	pixel_x = 14
@@ -5295,13 +5178,6 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
-"evD" = (
-/obj/structure/urinal,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
 "evO" = (
 /obj/machinery/door/airlock/mainship/generic{
 	dir = 8
@@ -5358,16 +5234,6 @@
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northeast/powerplant)
-"ewp" = (
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16;
-	pixel_x = -2
-	},
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "ewv" = (
 /turf/open/floor/kutjevo/multi_tiles,
 /area/gleichseitig16/indoors/north/phoronex/pod2)
@@ -5475,6 +5341,10 @@
 "eBV" = (
 /turf/open/floor/urban/tile/beige_bigtile,
 /area/gleichseitig16/indoors/northeast/factory)
+"eCb" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/snow/layer1,
+/area/gleichseitig16/outdoors/northeast/phoronex/yard)
 "eCc" = (
 /turf/closed/wall/r_wall,
 /area/gleichseitig16/indoors/west/rsr/xenobio)
@@ -5492,12 +5362,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/southeast/kh)
-"eEG" = (
-/obj/machinery/vending/cigarette,
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "eES" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 4
@@ -5550,6 +5414,13 @@
 	dir = 9
 	},
 /area/gleichseitig16/indoors/west/studycenter/lecturehall3)
+"eHl" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/gens)
 "eHG" = (
 /obj/machinery/door/airlock/mainship/generic/corporate{
 	name = "Restroom";
@@ -5608,14 +5479,6 @@
 /obj/effect/urban/decal/road/lines3,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/northeast/factory/insideparking)
-"eJV" = (
-/obj/machinery/light/mainship{
-	dir = 1
-	},
-/turf/open/floor/prison{
-	color = "#e1f5ff"
-	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
 "eKf" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -5646,13 +5509,11 @@
 /turf/open/shuttle/escapepod/plain,
 /area/gleichseitig16/indoors/west/rsr/whalls)
 "eKL" = (
-/obj/structure/bed/chair/office/dark,
-/obj/structure/transmitter/colony_net/auto_id{
-	dir = 8;
-	pixel_x = 16
+/obj/structure/bed/chair/sofa/corsat/left,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
 	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/northwest/union/consulting)
+/area/gleichseitig16/indoors/southeast/kh/station)
 "eKP" = (
 /obj/effect/urban/decal/dirt,
 /obj/structure/cable,
@@ -5667,6 +5528,7 @@
 	light_range = 5;
 	pixel_y = 32
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/railways)
 "eMo" = (
@@ -5768,6 +5630,10 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/south/streets)
+"ePv" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorpyro,
+/turf/open/floor/prison/plate,
+/area/gleichseitig16/indoors/northeast/powerplant)
 "eQA" = (
 /obj/effect/urban/decal/dirt,
 /obj/effect/urban/decal/road/road_edge/three,
@@ -5782,9 +5648,7 @@
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/southeast/alleys)
 "eRv" = (
-/obj/structure/largecrate/random/case/double,
-/obj/structure/largecrate/random/case/double,
-/obj/structure/largecrate/random/case/small,
+/obj/effect/spawner/random/misc/structure/flavorvending/engitool,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/powerstation)
 "eRZ" = (
@@ -5808,6 +5672,10 @@
 	},
 /turf/closed/wall/urban/colony,
 /area/gleichseitig16/indoors/south/motel/room1)
+"eSZ" = (
+/obj/effect/spawner/modularmap/gleichseitig16fp/twojintersection,
+/turf/open/space/basic,
+/area/space)
 "eTy" = (
 /turf/open/floor/tile/dark/blue2{
 	dir = 9
@@ -5821,11 +5689,6 @@
 	dir = 4
 	},
 /area/gleichseitig16/outdoors/west/streets)
-"eUo" = (
-/obj/effect/urban/decal/road/lines2,
-/obj/structure/prop/urban/vehicles/large/suv/misc/whitevan,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "eUL" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -5878,6 +5741,10 @@
 	},
 /turf/open/urban/street/cement1,
 /area/gleichseitig16/indoors/northeast/warehouse)
+"eYn" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/grayscale,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "eYC" = (
 /obj/machinery/streetlight/street{
 	level = 7;
@@ -5901,7 +5768,7 @@
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "eZz" = (
 /obj/machinery/light{
 	dir = 1
@@ -5937,6 +5804,10 @@
 /obj/effect/spawner/random/misc/structure/supplycrate,
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/indoors/northeast/exports)
+"eZP" = (
+/obj/effect/urban/decal/trash/ten,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/northeast/parking)
 "far" = (
 /obj/structure/largecrate/random/barrel/brown,
 /obj/machinery/light{
@@ -5972,10 +5843,6 @@
 /obj/structure/prop/mainship/gelida/register,
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/southeast/gunthersconvenience)
-"fcb" = (
-/obj/effect/urban/decal/road/road_edge/five,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/north/streets)
 "fcu" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/multi_tiles,
@@ -6061,8 +5928,9 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 1
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "fgY" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -6111,14 +5979,6 @@
 	},
 /turf/open/floor/mech_bay_recharge_floor,
 /area/gleichseitig16/indoors/northeast/spaceport)
-"fjr" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 8
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "fjG" = (
 /obj/effect/urban/decal/road/road_edge,
 /obj/effect/urban/decal/road/lines1,
@@ -6310,7 +6170,7 @@
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/area/gleichseitig16/indoors/southeast/kh)
 "fsp" = (
 /obj/effect/urban/decal/trash/three{
 	pixel_x = -8;
@@ -6562,13 +6422,6 @@
 	},
 /turf/open/floor/urban/metal/metalwhitefull,
 /area/gleichseitig16/indoors/northeast/warehouse)
-"fDd" = (
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = 16
-	},
-/obj/effect/landmark/nuke_spawn,
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "fDt" = (
 /obj/effect/turf_decal/tile/corsatstraight/lightpurple{
 	dir = 1
@@ -6768,6 +6621,10 @@
 /obj/structure/prop/urban/vehicles/large/mega_hauler_truck/red_stripe,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/northeast/factory/insideparking)
+"fLX" = (
+/obj/effect/urban/decal/trash/nine,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "fMy" = (
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southwest/parking)
@@ -6860,14 +6717,6 @@
 	dir = 6
 	},
 /area/gleichseitig16/indoors/west/rsr/servers)
-"fQy" = (
-/obj/structure/nuke_disk_candidate{
-	set_associations = list("set6")
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "fQE" = (
 /obj/machinery/door/airlock/mainship/security/glass/free_access{
 	name = "\improper Security Checkpoint";
@@ -6988,12 +6837,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/kh)
-"fVF" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "fVK" = (
 /obj/structure/mirror{
 	dir = 4
@@ -7131,6 +6974,12 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/northwest/union/railways)
+"gbj" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/urban/street/sidewalk{
+	dir = 1
+	},
+/area/gleichseitig16/outdoors/southeast/kh)
 "gbD" = (
 /obj/structure/window/framed/urban/reinforced{
 	dir = 8
@@ -7166,6 +7015,9 @@
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/west/rsr/nmaints)
+"gch" = (
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "gcL" = (
 /obj/machinery/door/airlock/mainship/maint{
 	req_one_access = null;
@@ -7179,6 +7031,10 @@
 /obj/machinery/light/small,
 /turf/open/floor/kutjevo/fake_wood,
 /area/gleichseitig16/indoors/northeast/phoronex)
+"gdA" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison/bright_clean,
+/area/gleichseitig16/indoors/northeast/powerplant)
 "geb" = (
 /obj/machinery/light/small,
 /turf/open/floor/engine,
@@ -7244,6 +7100,11 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles,
 /area/gleichseitig16/indoors/north/phoronex/pod2)
+"ghm" = (
+/obj/structure/cable,
+/obj/effect/urban/decal/trash/eight,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/south/alleys)
 "ghn" = (
 /turf/closed/wall/r_wall,
 /area/gleichseitig16/indoors/west/rsr/servers)
@@ -7302,14 +7163,6 @@
 	dir = 4
 	},
 /area/gleichseitig16/indoors/southeast/phoronex)
-"gkJ" = (
-/obj/effect/urban/decal/road/lines5,
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = 16
-	},
-/obj/effect/landmark/sensor_tower,
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "glc" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -7324,15 +7177,6 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/south/streets)
-"glF" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = 2
-	},
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "glP" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/urban/tile/tilebeigecheckered,
@@ -7351,10 +7195,6 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/northwest/union/nwalleys)
-"gnz" = (
-/obj/structure/bed/chair/comfy/beige,
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "gnK" = (
 /obj/machinery/streetlight/traffic{
 	pixel_x = 5;
@@ -7364,18 +7204,14 @@
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/north/streets)
 "gnN" = (
-/turf/closed/mineral/smooth/frostwall/indestructible{
-	base_icon_state = "hybrisa_colony_walls";
-	icon_state = "wall-reinforced";
-	icon = 'icons/turf/walls/hybrisa_colony_walls.dmi';
-	name = "indestructible dense metal walls";
-	color = "#c8c8ff"
-	},
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/obj/machinery/power/monitor,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/gens)
 "goa" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/gleichseitig16/indoors/west/rsr/custodian)
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "gof" = (
 /turf/open/urban/street/sidewalk{
 	dir = 4
@@ -7477,6 +7313,13 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/grayscale/round,
 /area/gleichseitig16/indoors/southwest/plazamall/phones)
+"grz" = (
+/obj/structure/cable,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/gens)
 "grH" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/plating,
@@ -7500,14 +7343,6 @@
 	},
 /turf/open/floor/urban/tile/tileblackcheckered,
 /area/gleichseitig16/indoors/southeast/felixfoods)
-"gsn" = (
-/obj/effect/urban/decal/road/lines2,
-/obj/effect/spawner/random/misc/structure/large/car{
-	dir = 4;
-	spawn_loot_chance = 100
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "gsu" = (
 /obj/structure/prop/urban/supermart/rack/longrackempty,
 /obj/item/reagent_containers/food/snacks/flour{
@@ -8008,15 +7843,6 @@
 /obj/structure/table/reinforced/prison,
 /turf/open/floor/grayscale/round/lightgray,
 /area/gleichseitig16/indoors/southeast/ganongym)
-"gNj" = (
-/obj/structure/table/reinforced,
-/obj/machinery/prop/computer/communications{
-	dir = 8
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "gNs" = (
 /turf/closed/shuttle/ert/engines/right/three{
 	dir = 1
@@ -8028,25 +7854,11 @@
 /obj/structure/cable,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/south/streets)
-"gNH" = (
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = -16
-	},
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
-"gNS" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "gOa" = (
 /obj/structure/table/reinforced,
 /obj/machinery/prop/computer/communications{
-	dir = 1
+	dir = 1;
+	idle_power_usage = 50
 	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
@@ -8066,6 +7878,10 @@
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/floor/multi_tiles,
 /area/gleichseitig16/indoors/landing_zone_2/apartment2)
+"gPj" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorinfil,
+/turf/open/floor/grayscale/darkgray,
+/area/gleichseitig16/indoors/west/rsr/coffices)
 "gPn" = (
 /turf/open/floor/plating/ground/snow/layer2,
 /area/gleichseitig16/outdoors/landing_zone_2)
@@ -8294,6 +8110,7 @@
 /obj/structure/bed/chair/office/dark/north{
 	dir = 4
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/northeast/powerplant)
 "hax" = (
@@ -8356,31 +8173,11 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/studycenter/headmaster)
-"heb" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 4
-	},
-/obj/structure/prop/mainship/railing/corner,
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
-"hek" = (
-/obj/structure/prop/urban/supermart/rack/longrackempty,
-/obj/item/stack/cable_coil,
-/obj/item/stack/cable_coil,
-/obj/item/stack/cable_coil,
-/obj/item/stack/cable_coil,
-/obj/item/storage/toolbox/mechanical{
-	pixel_y = -4
-	},
-/obj/item/storage/toolbox/electrical{
-	pixel_y = 10
-	},
-/obj/item/clothing/head/welding,
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "heq" = (
 /obj/structure/table/reinforced,
-/obj/machinery/prop/computer,
+/obj/machinery/prop/computer{
+	idle_power_usage = 50
+	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
 "her" = (
@@ -8410,11 +8207,6 @@
 	dir = 4
 	},
 /area/gleichseitig16/outdoors/landing_zone_2/parking)
-"heX" = (
-/turf/open/urban/street/sidewalkcenter{
-	dir = 1
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "hfj" = (
 /obj/item/bedsheet/captain,
 /obj/structure/bed,
@@ -8439,16 +8231,19 @@
 /turf/open/floor/urban/tile/tileblackcheckered,
 /area/gleichseitig16/indoors/southeast/felixfoods)
 "hfO" = (
+/obj/structure/target_stake,
 /obj/item/target,
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/southeast/kh)
 "hfY" = (
-/turf/closed/wall/r_wall/urban{
-	color = "#c8c8ff"
+/obj/structure/cable,
+/obj/machinery/power/apc/drained{
+	dir = 4
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/turf/open/floor,
+/area/gleichseitig16/indoors/northeast/powerplant)
 "hgg" = (
 /obj/structure/flora/tree/dead,
 /turf/open/floor/plating/ground/snow/layer2,
@@ -8544,6 +8339,11 @@
 	},
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment2)
+"hjw" = (
+/obj/structure/bed/chair/office/dark,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/consulting)
 "hjK" = (
 /obj/machinery/streetlight/street{
 	level = 7;
@@ -8600,14 +8400,6 @@
 /obj/effect/spawner/random/misc/structure/supplycrate,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/east/rsr/smaints)
-"hlr" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "hlz" = (
 /obj/effect/ai_node,
 /obj/machinery/landinglight/lz2{
@@ -8754,26 +8546,6 @@
 /obj/structure/cable,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/east/parking)
-"hqu" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = 2
-	},
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
-"hqP" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = 3
-	},
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 15
-	},
-/turf/open/floor/plating/ground/snow{
-	color = "#ffe1af"
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "hre" = (
 /obj/machinery/conveyor{
 	id = "kh_productionline";
@@ -8789,6 +8561,12 @@
 	color = "#afebff"
 	},
 /area/gleichseitig16/indoors/east/rsr/secpost)
+"hrE" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/prison/darkyellow{
+	dir = 1
+	},
+/area/gleichseitig16/indoors/northeast/powerplant)
 "hse" = (
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/southeast/gunthersconvenience)
@@ -8818,14 +8596,6 @@
 /obj/structure/bookcase,
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/northeast/powerplant)
-"htG" = (
-/obj/effect/spawner/random/misc/structure/large/car{
-	dir = 8;
-	spawn_loot_chance = 100
-	},
-/obj/effect/urban/decal/road/lines2,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "hur" = (
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/northeast/streets)
@@ -8971,9 +8741,9 @@
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/northeast/powerplant)
 "hyF" = (
-/obj/effect/urban/decal/road/road_edge/six,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/south/streets)
+/obj/effect/spawner/modularmap/gleichseitig16fp/nineeintersection,
+/turf/open/space/basic,
+/area/space)
 "hyH" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -9086,6 +8856,12 @@
 /obj/structure/prop/urban/furniture/tables/tableblack/blacktablecomputer,
 /turf/open/floor/grayscale/white,
 /area/gleichseitig16/indoors/west/studycenter/lecturehall2)
+"hCB" = (
+/obj/structure/cable,
+/obj/structure/rack,
+/obj/item/storage/box/lights/mixed,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "hCC" = (
 /obj/effect/urban/decal/road/lines4,
 /obj/effect/urban/decal/road/road_edge/two,
@@ -9105,7 +8881,7 @@
 "hDn" = (
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "hDs" = (
 /obj/machinery/light,
 /turf/open/floor/multi_tiles,
@@ -9187,26 +8963,16 @@
 /obj/effect/ai_node,
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/northeast/streets)
-"hGs" = (
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16;
-	pixel_x = -2
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "hGA" = (
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment1)
 "hGU" = (
-/obj/structure/sink/bathroom{
-	dir = 1
-	},
-/obj/structure/mirror{
-	dir = 1
-	},
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
+/obj/effect/urban/decal/dirt,
+/obj/effect/urban/decal/road/lines3,
+/obj/effect/urban/decal/road/road_edge/three,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/west/streets)
 "hGV" = (
 /turf/open/urban/street/sidewalk{
 	dir = 10
@@ -9251,16 +9017,13 @@
 /turf/open/floor/urban/wood/redwood,
 /area/gleichseitig16/indoors/landing_zone_2/apartment1)
 "hIM" = (
-/obj/structure/table/reinforced,
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/light,
+/obj/structure/extinguisher_cabinet{
+	dir = 1;
+	pixel_y = -48
 	},
-/obj/item/tool/kitchen/knife,
-/obj/item/tool/kitchen/rollingpin,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
+/turf/open/floor/urban/tile/beige_bigtile,
+/area/gleichseitig16/indoors/southwest/plazamall)
 "hJk" = (
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/east/rsr/breakroom)
@@ -9287,15 +9050,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/south/streets)
-"hJN" = (
-/obj/machinery/light,
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "hJW" = (
 /obj/structure/largecrate/random/secure,
 /turf/open/floor/mainship,
@@ -9306,12 +9060,6 @@
 	},
 /turf/open/urban/street/cement1,
 /area/gleichseitig16/indoors/northwest/union/nwstorage)
-"hKf" = (
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 15
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "hKy" = (
 /obj/structure/cable,
 /obj/effect/ai_node,
@@ -9380,6 +9128,11 @@
 "hPa" = (
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/indoors/northwest/union/consulting)
+"hPe" = (
+/obj/structure/bed/chair,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/urban/tile/supermartfloor2,
+/area/gleichseitig16/indoors/northeast/factory/breakroom)
 "hPh" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8
@@ -9405,13 +9158,6 @@
 /obj/machinery/light/small,
 /turf/open/floor/urban/tile/tilebeigecheckered,
 /area/gleichseitig16/indoors/northwest/union/railways)
-"hQz" = (
-/obj/effect/urban/decal/road/lines2,
-/obj/effect/spawner/random/misc/structure/large/car{
-	spawn_loot_chance = 75
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "hQF" = (
 /obj/effect/spawner/random/misc/plant,
 /turf/open/floor/prison{
@@ -9513,12 +9259,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/northeast/spaceport)
-"hVw" = (
-/obj/structure/prop/urban/vehicles/large/suv/misc/whitevan{
-	dir = 8
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "hWi" = (
 /turf/open/urban/street/sidewalk{
 	dir = 4
@@ -9604,11 +9344,6 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/landing_zone_2/parking)
-"hZS" = (
-/turf/open/urban/street/sidewalk{
-	dir = 6
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "iaw" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -9621,7 +9356,7 @@
 "iaG" = (
 /obj/effect/spawner/random/misc/plant,
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "iaR" = (
 /obj/effect/spawner/random/misc/plant,
 /turf/open/floor/prison{
@@ -9664,12 +9399,6 @@
 	},
 /turf/open/floor/urban/carpet/carpetblack,
 /area/gleichseitig16/indoors/southeast/hardwarehenry)
-"ict" = (
-/obj/machinery/light,
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "icA" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 8
@@ -9760,6 +9489,10 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/northwest/union/nwstorage)
+"ifQ" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/nmaints)
 "ifR" = (
 /obj/structure/filingcabinet/nondense{
 	pixel_x = -8;
@@ -9892,7 +9625,7 @@
 "ilv" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "ilz" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -9983,6 +9716,11 @@
 	},
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment2)
+"ipR" = (
+/obj/structure/table/reinforced/prison,
+/obj/machinery/computer3/laptop,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "iqe" = (
 /obj/machinery/light{
 	dir = 1
@@ -10005,7 +9743,7 @@
 	dir = 8;
 	id = "treadmill2"
 	},
-/turf/open/floor/iron/textured,
+/turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/ganongym)
 "irM" = (
 /obj/machinery/fuelcell_recycler,
@@ -10033,6 +9771,14 @@
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/kh/gens)
+"isb" = (
+/obj/item/weapon/gun/sentry/ads_system/premade{
+	faction = "Hostile"
+	},
+/turf/open/urban/street/sidewalk{
+	dir = 1
+	},
+/area/gleichseitig16/outdoors/southeast/kh)
 "ise" = (
 /turf/open/floor/prison{
 	color = "#e1f5ff"
@@ -10058,12 +9804,6 @@
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/southeast/kh)
-"its" = (
-/obj/effect/urban/decal/road/lines3,
-/obj/effect/urban/decal/road/road_edge/three,
-/obj/structure/cable,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/northeast/streets)
 "itu" = (
 /obj/structure/window/framed/urban/reinforced{
 	dir = 4
@@ -10073,6 +9813,13 @@
 "itx" = (
 /turf/closed/wall/r_wall,
 /area/gleichseitig16/indoors/west/rsr/coffices)
+"itD" = (
+/obj/structure/cable,
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/prison/darkyellow{
+	dir = 1
+	},
+/area/gleichseitig16/indoors/northeast/powerplant)
 "ivd" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -10199,13 +9946,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/parking)
-"izp" = (
-/obj/structure/cable,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "izI" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -10414,6 +10154,10 @@
 /obj/structure/cable,
 /turf/open/floor/urban/metal/metalwhitefull,
 /area/gleichseitig16/indoors/south/motel/hallway)
+"iHc" = (
+/obj/effect/urban/decal/trash/eleven,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "iHd" = (
 /obj/machinery/door/poddoor/mainship/indestructible{
 	name = "indestructible border doors";
@@ -10463,15 +10207,6 @@
 /obj/effect/spawner/random/misc/structure/closet/electrical,
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/north/mechanic)
-"iJr" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/prop/urban/misc/trash/blue,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "iJX" = (
 /obj/machinery/light,
 /turf/open/floor/multi_tiles,
@@ -10519,10 +10254,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/northeast/exports)
-"iLH" = (
-/obj/effect/urban/decal/road/lines5,
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "iLI" = (
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/urban/street/cement2,
@@ -10532,6 +10263,10 @@
 /obj/machinery/prop/computer,
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/northeast/powerplant)
+"iMU" = (
+/obj/effect/urban/decal/trash/fourteen,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/northeast/parking)
 "iNA" = (
 /obj/structure/largecrate/random/case/small,
 /turf/open/floor/plating,
@@ -10616,6 +10351,10 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/rsr/breakroom)
+"iRX" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/snow/layer1,
+/area/gleichseitig16/outdoors/northwest/phoronex/yard)
 "iSw" = (
 /obj/structure/mirror,
 /turf/open/floor/urban/tile/tilelightbeige,
@@ -10878,10 +10617,6 @@
 	},
 /turf/open/floor/plating/ground/snow/layer2,
 /area/gleichseitig16/outdoors/north/clearings)
-"jbV" = (
-/obj/effect/urban/decal/road/lines2,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "jcg" = (
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/foremancorner)
@@ -10898,9 +10633,6 @@
 /area/gleichseitig16/outdoors/southeast/alleys)
 "jdd" = (
 /obj/machinery/door/airlock/mainship/generic{
-	name = "\improper Lockdown"
-	},
-/obj/machinery/door/poddoor/shutters/urban/white{
 	name = "\improper Lockdown"
 	},
 /turf/open/floor/marked,
@@ -10939,13 +10671,6 @@
 	dir = 5
 	},
 /area/gleichseitig16/indoors/west/rsr/lrestroom)
-"jed" = (
-/obj/effect/spawner/random/misc/structure/large/car{
-	dir = 8;
-	spawn_loot_chance = 100
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "jeh" = (
 /turf/open/floor,
 /area/gleichseitig16/indoors/northeast/powerplant)
@@ -11080,15 +10805,6 @@
 /obj/effect/turf_decal/tile/corsatsemi/white,
 /turf/open/floor/grayscale/black,
 /area/gleichseitig16/indoors/west/studycenter/lobby)
-"jiu" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 1
-	},
-/obj/structure/barricade/railing{
-	dir = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "jiK" = (
 /obj/structure/prop/mainship/sensor_computer3/black,
 /turf/open/floor/redthree{
@@ -11106,11 +10822,6 @@
 /obj/effect/landmark/dropship_start_location,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
-"jiV" = (
-/turf/open/floor/plating/ground/snow{
-	color = "#ffe1af"
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "jiZ" = (
 /turf/open/floor/plating/ground/snow/layer2,
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
@@ -11145,6 +10856,12 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/north/streets)
+"jkc" = (
+/obj/item/weapon/gun/sentry/ads_system/premade{
+	faction = "Hostile"
+	},
+/turf/open/urban/street/sidewalk,
+/area/gleichseitig16/outdoors/southeast/kh)
 "jke" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
@@ -11235,15 +10952,6 @@
 /obj/effect/urban/decal/road/road_edge,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/south/streets)
-"jnY" = (
-/obj/structure/bed/chair/office/dark,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "jnZ" = (
 /turf/open/floor/tile/dark/purple2{
 	dir = 8
@@ -11295,6 +11003,12 @@
 	},
 /turf/open/floor/bcircuit/off,
 /area/gleichseitig16/indoors/east/rsr/tcomms)
+"jqi" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisormg,
+/turf/open/floor/tile/red/whitered/full{
+	color = "#afebff"
+	},
+/area/gleichseitig16/indoors/east/rsr/secpost)
 "jqy" = (
 /turf/open/floor/prison/darkyellow{
 	dir = 8
@@ -11482,6 +11196,10 @@
 /obj/structure/cable,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/south/streets)
+"jzq" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/urban/street/cement2,
+/area/gleichseitig16/indoors/north/mechanic)
 "jzt" = (
 /obj/machinery/photocopier,
 /turf/open/floor/kutjevo/tiles,
@@ -11626,11 +11344,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment3)
-"jHc" = (
-/obj/structure/cable,
-/obj/machinery/power/geothermal,
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "jHA" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/urban/wood/redwood,
@@ -11752,20 +11465,20 @@
 /obj/effect/urban/decal/road/road_edge/five,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"jLd" = (
-/obj/effect/urban/decal/road/lines2,
-/obj/effect/spawner/random/misc/structure/large/car{
-	dir = 1;
-	spawn_loot_chance = 100
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "jLi" = (
 /obj/structure/prop/urban/misc/buildinggreeblies/greeble11/dense{
 	dir = 1
 	},
 /turf/open/floor/engine,
 /area/gleichseitig16/indoors/northeast/powerplant)
+"jLv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/tile/dark/purple2{
+	dir = 8
+	},
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "jLI" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -11820,6 +11533,10 @@
 /obj/structure/curtain/open/shower,
 /turf/open/floor/urban/tile/tilewhite,
 /area/gleichseitig16/indoors/south/motel/room3)
+"jNV" = (
+/obj/effect/spawner/modularmap/gleichseitig16fp/fourabroad,
+/turf/open/space/basic,
+/area/space)
 "jNZ" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -11884,16 +11601,6 @@
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/southeast/kh)
-"jQu" = (
-/obj/effect/urban/decal/dirt,
-/obj/effect/urban/decal/road/lines1,
-/obj/effect/urban/decal/road/road_edge,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/north/streets)
-"jQM" = (
-/obj/effect/urban/decal/road/road_edge,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "jRr" = (
 /obj/structure/toilet{
 	dir = 8
@@ -11913,9 +11620,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/northeast/spaceport)
-"jSq" = (
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "jSA" = (
 /obj/machinery/door/airlock/mainship/maint{
 	req_one_access = null;
@@ -11946,13 +11650,13 @@
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/indoors/north/phoronex/pod1)
 "jTn" = (
-/obj/machinery/vending/coffee{
-	density = 0
+/obj/effect/ai_node{
+	pixel_x = 1
 	},
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
+/obj/effect/urban/decal/road/lines2,
+/obj/effect/urban/decal/road/road_edge/four,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/southwest/streets)
 "jTo" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -12072,6 +11776,12 @@
 /obj/structure/transmitter/colony_net/desk/auto_id,
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/consulting)
+"jXt" = (
+/obj/docking_port/stationary/crashmode,
+/turf/open/floor/plating/ground/snow{
+	color = "#ffe1af"
+	},
+/area/gleichseitig16/outdoors/northeast/phoronex/yard)
 "jXV" = (
 /obj/structure/window/framed/urban/reinforced,
 /turf/open/floor/urban/tile/tileblue,
@@ -12089,11 +11799,6 @@
 	},
 /turf/open/floor/urban/tile/supermartfloor2,
 /area/gleichseitig16/indoors/northeast/factory/breakroom)
-"jYe" = (
-/turf/open/urban/street/sidewalkcenter{
-	dir = 4
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "jYr" = (
 /obj/effect/ai_node,
 /turf/open/urban/street/sidewalk{
@@ -12153,7 +11858,8 @@
 "kaM" = (
 /obj/structure/table/reinforced,
 /obj/machinery/prop/computer{
-	dir = 8
+	dir = 8;
+	idle_power_usage = 50
 	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
@@ -12277,6 +11983,9 @@
 /area/gleichseitig16/outdoors/east/streets)
 "kev" = (
 /obj/structure/toilet,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/tile/blue/taupeblue{
 	dir = 1
 	},
@@ -12293,7 +12002,8 @@
 "kfF" = (
 /obj/structure/table/reinforced,
 /obj/machinery/prop/computer/communications{
-	dir = 8
+	dir = 8;
+	idle_power_usage = 50
 	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
@@ -12325,12 +12035,6 @@
 "kho" = (
 /turf/closed/wall/urban/colony,
 /area/gleichseitig16/indoors/south/motel/hallway)
-"khu" = (
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "khC" = (
 /obj/structure/transmitter/colony_net/auto_id{
 	pixel_y = -32;
@@ -12356,12 +12060,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/parking)
-"kik" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 4
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "kit" = (
 /obj/machinery/door/airlock/mainship/maint{
 	req_one_access = null
@@ -12375,13 +12073,6 @@
 "kiY" = (
 /turf/open/floor/wood,
 /area/gleichseitig16/indoors/south/mindfulyoga)
-"kjb" = (
-/obj/effect/urban/decal/road/lines2,
-/obj/structure/prop/urban/vehicles/large/van{
-	pixel_y = -6
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "kjr" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -12482,14 +12173,6 @@
 /obj/effect/urban/decal/road/lines2,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/streets)
-"kpl" = (
-/obj/machinery/streetlight/street{
-	level = 7;
-	pixel_y = 12
-	},
-/obj/structure/cable,
-/turf/open/urban/street/sidewalk,
-/area/gleichseitig16/outdoors/southwest/streets)
 "kpV" = (
 /obj/structure/cable,
 /turf/open/urban/street/sidewalkfull,
@@ -12733,14 +12416,6 @@
 	},
 /turf/open/floor/grayscale/round,
 /area/gleichseitig16/indoors/southwest/plazamall/phones)
-"kze" = (
-/obj/effect/urban/decal/road/lines4{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow{
-	color = "#ffe1af"
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "kzk" = (
 /obj/machinery/light{
 	dir = 8
@@ -12785,6 +12460,10 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/east/rsr/breakroom)
+"kAO" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/urban/carpet/carpetdarkerblue,
+/area/gleichseitig16/indoors/southeast/kh)
 "kAP" = (
 /turf/closed/wall/urban/colony,
 /area/gleichseitig16/indoors/south/cuppajoe)
@@ -12798,11 +12477,6 @@
 	},
 /turf/open/floor/grayscale/white,
 /area/gleichseitig16/indoors/west/studycenter/lecturehall2)
-"kBn" = (
-/obj/structure/bed/urban/chairs/black,
-/obj/structure/barricade/railing,
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "kBu" = (
 /turf/closed/shuttle/dropship_white/logo_wall/four{
 	dir = 1
@@ -12839,14 +12513,6 @@
 	color = "#ffe1af"
 	},
 /area/gleichseitig16/outdoors/northwest/phoronex/yard)
-"kCs" = (
-/obj/structure/cable,
-/obj/machinery/door/airlock/mainship/maint{
-	dir = 2;
-	req_one_access = null
-	},
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "kCQ" = (
 /turf/open/floor/mainship/black/full,
 /area/gleichseitig16/indoors/northeast/spaceport)
@@ -12869,6 +12535,10 @@
 	},
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/north/mechanic)
+"kEk" = (
+/obj/structure/prop/urban/supermart/rack/longrack3,
+/turf/open/floor/iron/checker,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "kEm" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 1
@@ -13005,6 +12675,13 @@
 	},
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/northeast/streets)
+"kIZ" = (
+/obj/machinery/light/mainship{
+	dir = 1
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/urban/street/sidewalkcenter,
+/area/gleichseitig16/indoors/northeast/exports)
 "kJa" = (
 /obj/structure/window/framed/urban/reinforced,
 /turf/open/floor/grayscale/darkgray,
@@ -13337,6 +13014,11 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/rsr/noffices)
+"kXp" = (
+/obj/structure/platform/nondense,
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison,
+/area/gleichseitig16/indoors/north/guardianmotorpost)
 "kXu" = (
 /obj/structure/largecrate/random/case/double,
 /obj/machinery/light{
@@ -13378,6 +13060,10 @@
 	color = "#afebff"
 	},
 /area/gleichseitig16/indoors/west/rsr/ofsec)
+"kYl" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorrecon,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/east/rsr/nmaints)
 "kYy" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -13445,6 +13131,12 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/streets)
+"lbQ" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorcommando,
+/turf/open/floor/tile/red/whitered/full{
+	color = "#afebff"
+	},
+/area/gleichseitig16/indoors/west/rsr/garagesec)
 "lcj" = (
 /obj/machinery/light/mainship{
 	dir = 1
@@ -13500,14 +13192,6 @@
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/scrubemporium)
-"lef" = (
-/obj/machinery/door/airlock/mainship/generic{
-	dir = 8
-	},
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "leu" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -13606,6 +13290,10 @@
 	},
 /turf/open/floor/urban/tile/tileblackcheckered,
 /area/gleichseitig16/indoors/southwest/plazamall/steakgrill)
+"lhP" = (
+/obj/effect/urban/decal/trash/thirteen,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/south/alleys)
 "lid" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/urban/tile/tileblackcheckered,
@@ -13747,6 +13435,10 @@
 	},
 /turf/open/floor/urban/tile/supermartfloor2,
 /area/gleichseitig16/indoors/northeast/factory/breakroom)
+"lmg" = (
+/obj/effect/urban/decal/trash/fifteen,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "lmq" = (
 /obj/structure/largecrate/random/case/small,
 /turf/open/urban/street/cement3,
@@ -13771,6 +13463,10 @@
 /obj/effect/urban/decal/road/road_edge/eight,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
+"lnq" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/prison/darkyellow,
+/area/gleichseitig16/indoors/northeast/powerplant)
 "lnF" = (
 /obj/structure/cable,
 /turf/open/urban/street/asphalt,
@@ -13895,12 +13591,9 @@
 /obj/structure/bed/chair/office/dark/north{
 	dir = 8
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
 /turf/open/urban/street/cement2,
 /area/gleichseitig16/indoors/northeast/exports)
-"lrl" = (
-/obj/structure/prop/manhole,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/south/streets)
 "lrn" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
@@ -14064,14 +13757,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/south/streets)
-"lzH" = (
-/obj/machinery/floodlight/outpost{
-	name = "Stadium Light"
-	},
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "lzP" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -14120,30 +13805,11 @@
 /obj/effect/urban/decal/road/road_stop/one,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"lBD" = (
-/obj/effect/urban/decal/road/lines5,
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
-"lBN" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/obj/structure/barricade/railing{
-	dir = 9
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "lCa" = (
 /turf/closed/shuttle/dropship_white/backhatch{
 	dir = 4
 	},
 /area/gleichseitig16/indoors/northeast/spaceport/pmcship)
-"lCr" = (
-/obj/machinery/vending/snack,
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "lCB" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/urban/tile/supermartfloor2,
@@ -14169,12 +13835,6 @@
 "lDe" = (
 /turf/closed/wall/r_wall,
 /area/gleichseitig16/indoors/east/rsr/rnd)
-"lEb" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "lEy" = (
 /obj/effect/urban/decal/doubleroad/lines2,
 /turf/open/urban/street/asphalt,
@@ -14200,6 +13860,10 @@
 	},
 /turf/open/floor/kutjevo/grey,
 /area/gleichseitig16/indoors/southeast/dealership)
+"lGa" = (
+/obj/effect/urban/decal/trash/sixteen,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/south/alleys)
 "lGg" = (
 /obj/effect/ai_node,
 /obj/effect/urban/decal/road/lines2,
@@ -14222,11 +13886,6 @@
 	color = "#ffe1af"
 	},
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
-"lHE" = (
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "lHP" = (
 /obj/machinery/streetlight/street{
 	level = 7;
@@ -14275,16 +13934,6 @@
 	dir = 1
 	},
 /area/gleichseitig16/outdoors/west/streets)
-"lJn" = (
-/obj/effect/urban/decal/road/lines4{
-	pixel_y = 16;
-	pixel_x = 1
-	},
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = -1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "lJI" = (
 /obj/machinery/door/window/secure/right,
 /obj/structure/prop/urban/supermart/rack/longrackempty,
@@ -14417,6 +14066,12 @@
 /obj/effect/urban/decal/road/road_edge/two,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/streets)
+"lNb" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "lNg" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
@@ -14625,15 +14280,6 @@
 	dir = 1
 	},
 /area/gleichseitig16/indoors/northeast/spaceport/pmcship)
-"lWh" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/obj/structure/barricade/railing{
-	dir = 10
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "lWi" = (
 /obj/machinery/light{
 	dir = 1
@@ -14651,15 +14297,6 @@
 /obj/structure/prop/mainship/telecomms/relay,
 /turf/open/floor/bcircuit/anim,
 /area/gleichseitig16/indoors/east/rsr/tcomms)
-"lXa" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 4
-	},
-/obj/structure/barricade/railing{
-	dir = 6
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "lXc" = (
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/cargorig/storage1)
@@ -14735,6 +14372,13 @@
 	},
 /turf/open/floor/urban/tile/tilelightbeige,
 /area/gleichseitig16/indoors/northwest/union/nwstorage)
+"maA" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/kutjevo/fake_wood,
+/area/gleichseitig16/indoors/northwest/phoronex)
 "maJ" = (
 /obj/machinery/light{
 	dir = 1
@@ -14757,16 +14401,6 @@
 	dir = 4
 	},
 /area/gleichseitig16/indoors/west/studycenter/lecturehall3)
-"mbX" = (
-/obj/effect/urban/decal/road/lines2,
-/obj/effect/spawner/random/misc/structure/large/car{
-	dir = 4;
-	spawn_loot_chance = 100
-	},
-/turf/open/urban/street/sidewalkcenter{
-	dir = 1
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "mcg" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/grayscale/darkgray,
@@ -14790,18 +14424,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/northwest/union/foremancorner)
-"mdu" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/obj/structure/prop/mainship/railing/corner{
-	dir = 1
-	},
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "mdC" = (
 /obj/effect/spawner/random/misc/structure/supplycrate,
 /turf/open/floor/plating/ground/snow{
@@ -14817,10 +14439,11 @@
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/southeast/kh)
 "mfO" = (
-/obj/machinery/power/geothermal,
 /obj/structure/cable,
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
+/obj/effect/urban/decal/road/lines2,
+/obj/effect/urban/decal/road/road_edge/four,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/southwest/streets)
 "mfR" = (
 /obj/machinery/door/airlock/mainship/maint{
 	req_one_access = null
@@ -14840,12 +14463,6 @@
 	dir = 4
 	},
 /area/gleichseitig16/indoors/east/rsr/rnd)
-"mgn" = (
-/obj/structure/prop/urban/supermart/rack/longrackempty,
-/obj/item/stack/sheet/metal/medium_stack,
-/obj/item/stack/sheet/plasteel/small_stack,
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "mgt" = (
 /obj/structure/prop/urban/containersextended/bluewywingsright{
 	color = "#c89664"
@@ -14916,10 +14533,8 @@
 /area/gleichseitig16/outdoors/northwest/parking)
 "miC" = (
 /obj/structure/cable,
-/turf/open/urban/street/sidewalk{
-	dir = 8
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/southwest/parking)
 "miT" = (
 /obj/effect/turf_decal/tile/corsatsemi/lightpurple{
 	dir = 1
@@ -14999,6 +14614,10 @@
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/southeast/realestateoffice)
+"mmH" = (
+/obj/effect/spawner/modularmap/gleichseitig16fp/threefintersection,
+/turf/open/space/basic,
+/area/space)
 "mnJ" = (
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/floor/grayscale,
@@ -15014,14 +14633,6 @@
 	dir = 1
 	},
 /area/gleichseitig16/indoors/west/studycenter/lecturehall3)
-"mnR" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "mnV" = (
 /turf/open/urban/street/sidewalk{
 	dir = 8
@@ -15086,12 +14697,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/northeast/powerplant)
-"mrN" = (
-/obj/machinery/door/airlock/mainship/generic/bathroom/toilet{
-	dir = 2
-	},
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
 "mrX" = (
 /obj/machinery/door/poddoor/mainship/indestructible{
 	name = "indestructible border doors";
@@ -15122,12 +14727,6 @@
 	},
 /turf/open/urban/street/cement2,
 /area/gleichseitig16/indoors/northwest/union/nwstorage)
-"muB" = (
-/obj/machinery/power/smes/buildable/empty{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "muH" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -15170,9 +14769,6 @@
 	},
 /turf/open/urban/street/cement1,
 /area/gleichseitig16/indoors/northeast/warehouse)
-"mvJ" = (
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "mvL" = (
 /obj/effect/urban/decal/trash/four,
 /turf/open/urban/street/sidewalk{
@@ -15215,6 +14811,10 @@
 /obj/structure/cable,
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/northeast/powerplant)
+"mxI" = (
+/obj/effect/landmark/spawn_marker/euseparatists/medicidle,
+/turf/open/floor/prison/sterilewhite,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "mxO" = (
 /obj/effect/urban/decal/road/lines2,
 /obj/effect/urban/decal/road/lines4,
@@ -15296,7 +14896,7 @@
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/area/gleichseitig16/indoors/southeast/kh)
 "mCv" = (
 /obj/structure/cable,
 /turf/open/floor/urban/carpet/carpetblack,
@@ -15313,11 +14913,6 @@
 	},
 /turf/open/floor/plating/ground/snow/layer1,
 /area/gleichseitig16/outdoors/north/phoronex/yard)
-"mEs" = (
-/turf/open/urban/street/sidewalk{
-	dir = 4
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "mEv" = (
 /obj/structure/barricade/railing{
 	dir = 8
@@ -15352,12 +14947,6 @@
 /obj/machinery/light,
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/consulting)
-"mHG" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "mHM" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -15515,6 +15104,12 @@
 	},
 /turf/open/floor/urban/tile/supermartfloor2,
 /area/gleichseitig16/indoors/northwest/union/press)
+"mLa" = (
+/obj/structure/bed/chair/sofa/corsat/right,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
+	},
+/area/gleichseitig16/indoors/southeast/kh/station)
 "mLh" = (
 /obj/machinery/portable_atmospherics/scrubber,
 /obj/machinery/light{
@@ -15579,12 +15174,6 @@
 /obj/machinery/microwave,
 /turf/open/floor/urban/wood/redwood,
 /area/gleichseitig16/indoors/landing_zone_2/apartment3)
-"mNT" = (
-/obj/effect/urban/decal/road/lines6{
-	pixel_y = -16
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "mOK" = (
 /obj/machinery/light/mainship{
 	dir = 4
@@ -15747,22 +15336,14 @@
 /turf/open/floor/grayscale/black,
 /area/gleichseitig16/indoors/west/studycenter/lobby)
 "mWA" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
+/obj/effect/spawner/modularmap/gleichseitig16fp/southwestlargeblock,
+/turf/open/space/basic,
+/area/space)
 "mWC" = (
-/turf/closed/mineral/smooth/frostwall/indestructible{
-	base_icon_state = "hybrisa_colony_walls";
-	icon_state = "wall-reinforced";
-	icon = 'icons/turf/walls/hybrisa_colony_walls.dmi';
-	name = "indestructible dense metal walls";
-	color = "#c8c8ff"
-	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/obj/structure/bed/chair,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/gens)
 "mWY" = (
 /obj/machinery/light{
 	dir = 8
@@ -15875,6 +15456,10 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/southeast/streets)
+"nco" = (
+/obj/docking_port/stationary/crashmode,
+/turf/open/floor/engine,
+/area/gleichseitig16/indoors/northwest/radiostation)
 "ncq" = (
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/indoors/southeast/kh)
@@ -16076,15 +15661,6 @@
 	color = "#919191"
 	},
 /area/gleichseitig16/indoors/south/mindfulyoga)
-"nne" = (
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16
-	},
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "nnI" = (
 /obj/effect/spawner/random/misc/structure/supplycrate/secure_supplies,
 /obj/machinery/light{
@@ -16175,14 +15751,14 @@
 "nqs" = (
 /turf/closed/wall/urban/colony,
 /area/gleichseitig16/indoors/west/studycenter/lecturehall2)
-"nqR" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
+"nqA" = (
+/obj/effect/urban/decal/trash/twelve,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
+"nqB" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militant,
+/turf/open/floor/urban/tile/tileblackcheckered,
+/area/gleichseitig16/indoors/southeast/felixfoods)
 "nqT" = (
 /obj/machinery/door/airlock/mainship/generic{
 	dir = 1
@@ -16327,7 +15903,7 @@
 	dir = 8;
 	id = "treadmill1"
 	},
-/turf/open/floor/iron/textured,
+/turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/ganongym)
 "nwV" = (
 /obj/structure/closet/secure_closet/security{
@@ -16353,9 +15929,6 @@
 	dir = 4
 	},
 /area/gleichseitig16/indoors/east/rsr/biodevroom)
-"nxy" = (
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/indoors/southwest/stadium)
 "nxT" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -16422,11 +15995,9 @@
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/south/streets)
 "nzH" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/northwest/streets)
+/obj/effect/spawner/modularmap/gleichseitig16fp/ninegintersection,
+/turf/open/space/basic,
+/area/space)
 "nzJ" = (
 /obj/machinery/light{
 	dir = 4
@@ -16451,13 +16022,6 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/rsr/serveroperator)
-"nAz" = (
-/obj/structure/toilet,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
 "nAE" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -16478,6 +16042,10 @@
 "nBi" = (
 /turf/open/floor/urban/metal/zbrownfloor_corner,
 /area/gleichseitig16/indoors/southeast/dealership)
+"nBr" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/cement1,
+/area/gleichseitig16/indoors/northeast/warehouse)
 "nBH" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -16720,7 +16288,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/computer3/laptop,
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "nJW" = (
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/cargorig/storage2)
@@ -16785,7 +16353,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/prop/urban/supermart/rack/longrackempty,
+/obj/structure/prop/urban/supermart/rack/longrack5,
 /turf/open/floor/iron/checker,
 /area/gleichseitig16/indoors/southeast/supermarket)
 "nMU" = (
@@ -16884,15 +16452,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/west/rsr/garage)
-"nQz" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 4
-	},
-/obj/structure/prop/mainship/railing/corner{
-	dir = 4
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "nQC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/secure/right{
@@ -16922,6 +16481,16 @@
 /obj/effect/urban/decal/road/lines3,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southwest/streets)
+"nRe" = (
+/obj/effect/spawner/modularmap/gleichseitig16fp/threedetsection,
+/turf/open/space/basic,
+/area/space)
+"nRl" = (
+/obj/effect/ai_node{
+	pixel_x = 1
+	},
+/turf/open/floor/grayscale/darkgray,
+/area/gleichseitig16/indoors/west/rsr/serveroperator)
 "nRO" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -16944,16 +16513,11 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/southeast/kh)
-"nSm" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/sidewalkfull,
-/area/gleichseitig16/outdoors/northwest/streets)
 "nSA" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/railways)
 "nSC" = (
@@ -17026,6 +16590,12 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northeast/security/checkpoint)
+"nWv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/grayscale/darkgray,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "nXj" = (
 /obj/machinery/factory/heater{
 	anchored = 1
@@ -17226,6 +16796,7 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 8
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/consulting)
 "oda" = (
@@ -17268,7 +16839,7 @@
 	pixel_y = -32
 	},
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "oeO" = (
 /obj/structure/cable,
 /turf/open/floor/prison{
@@ -17335,6 +16906,10 @@
 /obj/effect/spawner/modularmap/gleichseitig16fp/centralconsulate,
 /turf/open/space/basic,
 /area/space)
+"oge" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northeast/warehouse)
 "ogD" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -17371,6 +16946,10 @@
 	},
 /turf/open/floor/plating/ground/snow/layer2,
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
+"ohQ" = (
+/obj/effect/urban/decal/trash/eight,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "oif" = (
 /obj/structure/window/framed/urban/reinforced{
 	dir = 4
@@ -17381,7 +16960,8 @@
 /obj/vehicle/sealed/armored/multitile/apc{
 	dir = 8;
 	color = "#e1f5ff";
-	name = "\improper Ehrman APC - Athena"
+	name = "\improper Ehrman APC - Athena";
+	faction = list("Hostile","Sol Federation Marine Corps")
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/north/guardianmotorpost)
@@ -17409,9 +16989,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"ojE" = (
-/turf/open/urban/street/sidewalkfull,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "okb" = (
 /obj/structure/prop/vehicle/truck/truckcargo{
 	dir = 1;
@@ -17431,12 +17008,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/southeast/phoronex)
-"okF" = (
-/obj/machinery/door/airlock/multi_tile/mainship/generic,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "okK" = (
 /turf/open/floor/prison/plate,
 /area/gleichseitig16/indoors/northeast/powerplant)
@@ -17532,6 +17103,10 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/rsr/lobby)
+"ooN" = (
+/obj/effect/urban/decal/trash/seven,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/south/alleys)
 "ooO" = (
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/studycenter/halls)
@@ -17637,10 +17212,6 @@
 "osx" = (
 /turf/closed/shuttle/dropship_white/cockpit_window,
 /area/gleichseitig16/indoors/northeast/spaceport/pmcship)
-"osD" = (
-/obj/effect/urban/decal/dirt,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/north/streets)
 "osI" = (
 /obj/effect/turf_decal/tile/corsatstraight/lightpurple{
 	dir = 1
@@ -17897,7 +17468,7 @@
 	pixel_x = 1
 	},
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "oHO" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -18006,15 +17577,6 @@
 	},
 /turf/open/floor/kutjevo/multi_tiles,
 /area/gleichseitig16/indoors/north/phoronex/pod1)
-"oNc" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/obj/structure/barricade/railing{
-	dir = 8
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "oNz" = (
 /obj/effect/spawner/random/misc/structure/supplycrate,
 /turf/open/floor/plating,
@@ -18056,12 +17618,6 @@
 	color = "#afebff"
 	},
 /area/gleichseitig16/indoors/east/rsr/secpost)
-"oPE" = (
-/obj/structure/bed/chair/comfy/beige{
-	dir = 1
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "oPN" = (
 /obj/effect/urban/decal/dirt,
 /obj/effect/urban/decal/dirt,
@@ -18091,12 +17647,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/checker,
 /area/gleichseitig16/indoors/southeast/supermarket)
-"oRX" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = -1
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "oSp" = (
 /turf/open/floor/multi_tiles,
 /area/gleichseitig16/indoors/northeast/storageunits/six)
@@ -18154,10 +17704,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
-"oTX" = (
-/obj/structure/bed/urban/chairs/black,
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "oUB" = (
 /obj/effect/turf_decal/tile/corsatsemi/lightpurple,
 /turf/open/floor/tile/dark/purple2{
@@ -18494,6 +18040,10 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/south/streets)
+"pht" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorpyro,
+/turf/open/floor/grayscale/darkgray,
+/area/gleichseitig16/indoors/east/rsr/lobby)
 "phy" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained{
@@ -18575,6 +18125,10 @@
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/east/rsr/wmaints)
+"plA" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "plI" = (
 /obj/structure/prop/urban/misc/trash/blue,
 /obj/structure/cable,
@@ -18708,10 +18262,6 @@
 "pqd" = (
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/indoors/northeast/exports)
-"pqv" = (
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "pqD" = (
 /obj/structure/cable,
 /turf/open/urban/street/sidewalk{
@@ -18747,6 +18297,25 @@
 	},
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/outdoors/northwest/parking)
+"prJ" = (
+/obj/structure/table/reinforced/prison,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 12;
+	pixel_x = -8
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_x = -8
+	},
+/obj/item/explosive/grenade/flare/civilian{
+	pixel_x = 8;
+	pixel_y = -8
+	},
+/obj/item/explosive/grenade/flare/civilian{
+	pixel_x = -7;
+	pixel_y = -8
+	},
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "prM" = (
 /obj/structure/sink/bathroom{
 	dir = 4;
@@ -18823,6 +18392,10 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southwest/parking)
+"pvu" = (
+/obj/structure/prop/urban/supermart/rack/longrack7,
+/turf/open/floor/iron/checker,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "pwB" = (
 /turf/open/floor/prison,
 /area/gleichseitig16/indoors/northeast/warehouse)
@@ -18838,14 +18411,14 @@
 /obj/structure/cable,
 /turf/open/floor/urban/tile/tilered,
 /area/gleichseitig16/indoors/south/pizzagalaxy)
-"pxU" = (
-/obj/machinery/door/airlock/multi_tile/mainship/generic{
-	dir = 8
+"pyw" = (
+/obj/effect/ai_node{
+	pixel_x = 1
 	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
+/obj/effect/urban/decal/road/road_edge/four,
+/obj/effect/urban/decal/road/lines2,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/west/streets)
 "pyS" = (
 /obj/structure/cable,
 /turf/open/floor/prison{
@@ -18871,12 +18444,6 @@
 	color = "#afebff"
 	},
 /area/gleichseitig16/indoors/southwest/plazamall/security)
-"pzW" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "pAl" = (
 /obj/structure/prop/mainship/telecomms/hub{
 	icon_state = "comm_server";
@@ -18946,28 +18513,6 @@
 	dir = 1
 	},
 /area/gleichseitig16/outdoors/southeast/streets)
-"pCq" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/obj/item/reagent_containers/food/snacks/burger/bun,
-/obj/item/reagent_containers/food/snacks/burger/bun,
-/obj/item/reagent_containers/food/snacks/burger/bun,
-/obj/item/reagent_containers/food/snacks/burger/bun,
-/obj/item/reagent_containers/food/snacks/burger/bun,
-/obj/item/reagent_containers/food/snacks/burger/bun,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/flour,
-/obj/item/reagent_containers/food/snacks/flour,
-/obj/item/reagent_containers/food/snacks/flour,
-/obj/item/reagent_containers/food/snacks/flour,
-/obj/item/reagent_containers/food/snacks/flour,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "pCr" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -19118,12 +18663,6 @@
 /obj/structure/platform/nondense,
 /turf/open/floor/prison,
 /area/gleichseitig16/indoors/north/guardianmotorpost)
-"pIh" = (
-/obj/structure/bed/chair/comfy/beige{
-	dir = 4
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "pIn" = (
 /turf/closed/wall/urban/colony,
 /area/gleichseitig16/indoors/southeast/gunthersconvenience)
@@ -19262,12 +18801,10 @@
 	},
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/landing_zone_1/flight_control_room)
-"pPt" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = 3
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
+"pPs" = (
+/obj/structure/prop/urban/supermart/rack/longrack1,
+/turf/open/floor/iron/checker,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "pPy" = (
 /obj/machinery/light{
 	dir = 1
@@ -19276,20 +18813,12 @@
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/foremancorner)
 "pPA" = (
-/obj/structure/table/reinforced,
-/obj/item/weapon/gun/rifle/sniper/pmc_railgun,
-/obj/item/ammo_magazine/railgun/pmc{
-	pixel_y = -8;
-	pixel_x = -6
+/obj/machinery/light{
+	dir = 1
 	},
-/obj/item/ammo_magazine/railgun/pmc{
-	pixel_y = -8;
-	pixel_x = 5
-	},
-/turf/open/floor/prison{
-	color = "#e1f5ff"
-	},
-/area/gleichseitig16/indoors/southeast/kh)
+/obj/docking_port/stationary/crashmode,
+/turf/open/floor/urban/carpet/carpetblack,
+/area/gleichseitig16/indoors/southeast/kicksklub)
 "pPI" = (
 /obj/machinery/light/mainship,
 /turf/open/urban/street/asphalt,
@@ -19424,6 +18953,10 @@
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northwest/union/nwstorage)
+"pVE" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/snow/layer2,
+/area/gleichseitig16/outdoors/north/clearings)
 "pVO" = (
 /obj/machinery/door/poddoor/shutters/urban/security_lockdown{
 	id = "kh_east_checkpoint_outer";
@@ -19569,6 +19102,10 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northeast/powerstation)
+"qcV" = (
+/obj/docking_port/stationary/crashmode,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/northeast/alleys)
 "qda" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door_control{
@@ -19607,6 +19144,10 @@
 	},
 /turf/open/floor/grayscale/round,
 /area/gleichseitig16/indoors/southwest/plazamall/phones)
+"qfl" = (
+/obj/effect/urban/decal/trash/four,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "qfx" = (
 /turf/open/urban/street/sidewalk{
 	dir = 1
@@ -19651,6 +19192,10 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/southeast/kh)
+"qiw" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapper,
+/turf/open/floor/urban/carpet/carpetblack,
+/area/gleichseitig16/indoors/southeast/hardwarehenry)
 "qiA" = (
 /obj/structure/hoop{
 	dir = 8;
@@ -19661,6 +19206,10 @@
 /obj/effect/urban/decal/road/lines3,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/basketball)
+"qiE" = (
+/obj/machinery/light,
+/turf/open/ground/jungle/clear,
+/area/gleichseitig16/indoors/west/rsr/xbops)
 "qiL" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -19969,25 +19518,11 @@
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/southeast/kh)
-"quS" = (
-/obj/effect/urban/decal/road/lines5,
-/turf/open/floor/plating/ground/snow{
-	color = "#ffe1af"
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "quV" = (
 /obj/effect/urban/decal/road/lines3,
 /obj/effect/urban/decal/road/lines4,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"qvk" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "qvA" = (
 /obj/machinery/light,
 /turf/open/urban/street/cement3,
@@ -20049,12 +19584,6 @@
 	},
 /turf/open/floor/urban/tile/tileblue,
 /area/gleichseitig16/indoors/north/gasstation)
-"qya" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "qyl" = (
 /obj/effect/urban/decal/dirt,
 /obj/effect/urban/decal/road/road_edge/two,
@@ -20070,9 +19599,9 @@
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/cargorig/storage2)
 "qyU" = (
-/obj/effect/urban/decal/road/road_edge/seven,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/south/streets)
+/obj/effect/spawner/modularmap/gleichseitig16fp/onecstreet,
+/turf/open/space/basic,
+/area/space)
 "qyW" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
@@ -20251,6 +19780,10 @@
 /obj/effect/ai_node,
 /turf/open/floor/prison,
 /area/gleichseitig16/indoors/northeast/warehouse)
+"qGC" = (
+/obj/effect/urban/decal/trash/two,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/northeast/streets)
 "qGJ" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/urban/wood/redwood,
@@ -20282,13 +19815,7 @@
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
-"qHJ" = (
-/obj/structure/bed/chair/comfy/beige{
-	dir = 4
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
+/area/gleichseitig16/indoors/southeast/kh)
 "qHM" = (
 /obj/effect/ai_node,
 /turf/open/urban/street/sidewalk{
@@ -20302,6 +19829,11 @@
 /obj/structure/largecrate/random/barrel/brown,
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northwest/union/foremancorner)
+"qHV" = (
+/obj/structure/bed/chair/sofa/corsat/right,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "qIg" = (
 /obj/machinery/streetlight/street{
 	level = 7;
@@ -20511,27 +20043,10 @@
 	dir = 4
 	},
 /area/gleichseitig16/outdoors/north/streets)
-"qSB" = (
-/obj/machinery/door/airlock/multi_tile/mainship/generic{
-	dir = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "qSP" = (
 /obj/machinery/light/small,
 /turf/open/floor/urban/tile/tilewhite,
 /area/gleichseitig16/indoors/southeast/gunthersconvenience)
-"qSV" = (
-/obj/effect/urban/decal/road/lines4{
-	pixel_y = 16
-	},
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "qSW" = (
 /obj/machinery/light/small,
 /turf/open/floor/urban/carpet/carpetbeige,
@@ -20554,10 +20069,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"qTk" = (
-/obj/effect/urban/decal/road/road_edge,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/north/streets)
 "qTz" = (
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/north/crawlergarages)
@@ -20581,12 +20092,6 @@
 	dir = 4
 	},
 /area/gleichseitig16/indoors/northeast/powerplant)
-"qVc" = (
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 15
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "qVl" = (
 /obj/machinery/floodlight/outpost{
 	name = "Union Conference Light"
@@ -20690,6 +20195,7 @@
 /obj/structure/toilet{
 	dir = 1
 	},
+/obj/machinery/light/small,
 /turf/open/floor/tile/purple/taupepurple,
 /area/gleichseitig16/indoors/west/rsr/lrestroom)
 "qZA" = (
@@ -20727,6 +20233,12 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/northeast/exports)
+"rbc" = (
+/obj/effect/landmark/xeno_tunnel_spawn,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
+	},
+/area/gleichseitig16/indoors/southeast/kh/station)
 "rby" = (
 /obj/effect/urban/decal/road/road_edge/four,
 /obj/effect/urban/decal/road/lines2,
@@ -20773,6 +20285,10 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northwest/parking)
+"rdI" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/north/mechanic)
 "rdP" = (
 /obj/machinery/photocopier,
 /turf/open/floor/urban/tile/beige_bigtile,
@@ -20793,10 +20309,6 @@
 	dir = 1
 	},
 /area/gleichseitig16/outdoors/southeast/kh)
-"reB" = (
-/obj/structure/prop/manhole,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/north/streets)
 "reF" = (
 /obj/structure/toilet{
 	dir = 4
@@ -20815,7 +20327,7 @@
 	},
 /obj/machinery/prop/computer/communications,
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "rgw" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -20875,18 +20387,6 @@
 /obj/item/storage/box/pizza,
 /turf/open/floor/urban/tile/tilered,
 /area/gleichseitig16/indoors/south/pizzagalaxy)
-"rjn" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
-"rjV" = (
-/obj/structure/bed/chair/comfy/beige,
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "rke" = (
 /turf/closed/wall/urban/colony,
 /area/gleichseitig16/indoors/west/studycenter/lobby)
@@ -20931,6 +20431,10 @@
 "rlV" = (
 /obj/effect/turf_decal/tile/corsatsemi/darkgreen{
 	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 1;
+	pixel_y = -48
 	},
 /turf/open/floor/grayscale/black,
 /area/gleichseitig16/indoors/west/studycenter/halls)
@@ -21020,15 +20524,10 @@
 /obj/effect/urban/decal/road/road_edge/five,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"rpM" = (
-/obj/structure/table/reinforced,
-/obj/item/radio/intercom/general/colony{
-	dir = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
+"rpX" = (
+/obj/structure/prop/urban/supermart/rack/longrack6,
+/turf/open/floor/iron/checker,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "rrd" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
@@ -21075,6 +20574,17 @@
 	},
 /turf/open/floor/urban/tile/tilebeigecheckered,
 /area/gleichseitig16/indoors/northwest/union/consulting)
+"rsq" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/bed/chair/sofa/corsat,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/consulting)
 "rsA" = (
 /obj/structure/bookcase,
 /turf/open/floor/grayscale/darkgray,
@@ -21104,6 +20614,7 @@
 /area/gleichseitig16/indoors/southeast/powerstation)
 "rvv" = (
 /obj/effect/landmark/xeno_silo_spawn,
+/obj/effect/landmark/excavation_site_spawner,
 /turf/open/ground/jungle/clear,
 /area/gleichseitig16/indoors/east/rsr/xenobio)
 "rwa" = (
@@ -21117,6 +20628,21 @@
 	dir = 1
 	},
 /area/gleichseitig16/outdoors/southeast/streets)
+"rwP" = (
+/obj/structure/window,
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
+	},
+/area/gleichseitig16/indoors/southeast/kh)
+"rxp" = (
+/obj/machinery/light/small,
+/obj/structure/cable,
+/obj/effect/ai_node{
+	pixel_x = 1
+	},
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/nmaints)
 "rxt" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -21278,15 +20804,6 @@
 /obj/effect/urban/decal/road/lines2,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
-"rDi" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = -1
-	},
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 15
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "rDo" = (
 /obj/structure/platform/nondense,
 /turf/closed/wall/r_wall/urban,
@@ -21351,6 +20868,11 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/streets)
+"rFb" = (
+/obj/structure/bed/chair/sofa/corsat/left,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "rFm" = (
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/east/rsr/nmaints)
@@ -21514,16 +21036,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/southeast/kh/station)
-"rLq" = (
-/obj/effect/spawner/random/misc/structure/large/car{
-	dir = 8;
-	spawn_loot_chance = 100
-	},
-/obj/effect/urban/decal/road/lines2,
-/turf/open/urban/street/sidewalkcenter{
-	dir = 1
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "rLz" = (
 /obj/machinery/door/airlock/mainship/generic{
 	dir = 1
@@ -21660,6 +21172,10 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/north/streets)
+"rQv" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapper,
+/turf/open/floor/urban/carpet/carpetblack,
+/area/gleichseitig16/indoors/southeast/kicksklub)
 "rQB" = (
 /obj/effect/urban/decal/road/road_edge/three,
 /obj/effect/urban/decal/road/lines3,
@@ -21954,14 +21470,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/south/streets)
-"sgV" = (
-/obj/effect/urban/decal/road/lines2,
-/obj/effect/spawner/random/misc/structure/large/car{
-	dir = 8;
-	spawn_loot_chance = 100
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "sgZ" = (
 /obj/structure/largecrate/random/barrel/black,
 /obj/machinery/light/small{
@@ -22264,15 +21772,6 @@
 /obj/structure/prop/manhole,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/northeast/exports)
-"ssj" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 4
-	},
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "ssm" = (
 /obj/structure/table/mainship{
 	color = "#848484"
@@ -22280,7 +21779,7 @@
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/area/gleichseitig16/indoors/southeast/kh)
 "ssp" = (
 /turf/closed/mineral/smooth/frostwall/indestructible{
 	base_icon_state = "hybrisa_colony_walls";
@@ -22371,6 +21870,10 @@
 	},
 /turf/open/floor/iron/textured,
 /area/gleichseitig16/indoors/southeast/ganongym)
+"swg" = (
+/obj/effect/urban/decal/trash/five,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "swp" = (
 /turf/open/floor/tile/blue/taupeblue{
 	dir = 8
@@ -22441,12 +21944,6 @@
 /obj/structure/fence/dark,
 /turf/open/floor/plating/ground/snow/layer1,
 /area/gleichseitig16/outdoors/northwest/phoronex/yard)
-"szp" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "szK" = (
 /obj/structure/closet/cabinet,
 /obj/machinery/light{
@@ -22468,7 +21965,7 @@
 "sAm" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/supermarket)
@@ -22489,15 +21986,6 @@
 	},
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/northeast/parking)
-"sAU" = (
-/obj/structure/barricade/railing{
-	dir = 1
-	},
-/obj/structure/bed/urban/chairs/black{
-	dir = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "sAX" = (
 /turf/open/urban/street/sidewalk{
 	dir = 4
@@ -22558,14 +22046,6 @@
 	dir = 5
 	},
 /area/gleichseitig16/indoors/east/rsr/breakroom)
-"sCX" = (
-/obj/structure/window/framed/mainship/requisitions{
-	color = "#c8c8ff"
-	},
-/turf/open/floor/prison{
-	color = "#e1f5ff"
-	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
 "sDc" = (
 /turf/open/floor/urban/tile/tilebeigecheckered,
 /area/gleichseitig16/indoors/north/phoronex/pod1)
@@ -22577,12 +22057,6 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/west/rsr/servers)
-"sDg" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/northwest/streets)
 "sDh" = (
 /obj/effect/turf_decal/tile/corsatstraight/lightpurple,
 /turf/open/floor/tile/dark/purple2{
@@ -22596,9 +22070,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northwest/parking)
-"sDG" = (
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/indoors/southwest/stadium)
 "sDS" = (
 /obj/effect/turf_decal/tile/corsatstraight/lightpurple{
 	dir = 8
@@ -22679,11 +22150,6 @@
 /obj/item/radio/loadout_tool/green,
 /turf/open/floor/grayscale/round,
 /area/gleichseitig16/indoors/southwest/plazamall/phones)
-"sGg" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "sGh" = (
 /obj/structure/platform/rockcliff/icycliff{
 	dir = 6;
@@ -22838,12 +22304,6 @@
 	},
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment6)
-"sLx" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = -1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "sLA" = (
 /obj/structure/cable,
 /obj/structure/table/reinforced/prison{
@@ -22886,10 +22346,6 @@
 	},
 /turf/open/floor/prison,
 /area/gleichseitig16/indoors/north/guardianmotorpost)
-"sMF" = (
-/obj/effect/urban/decal/road/road_edge/six,
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/north/streets)
 "sMQ" = (
 /obj/machinery/light{
 	dir = 8
@@ -22905,10 +22361,6 @@
 "sNe" = (
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/southeast/kh)
-"sNi" = (
-/obj/structure/urinal,
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
 "sNl" = (
 /obj/machinery/light/mainship{
 	dir = 1
@@ -22976,10 +22428,11 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 1
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/advisorrifleman,
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/area/gleichseitig16/indoors/southeast/kh)
 "sPI" = (
 /obj/effect/urban/decal/dirt,
 /obj/effect/urban/decal/road/road_edge/three,
@@ -23063,6 +22516,13 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
+"sQL" = (
+/obj/structure/bed/chair,
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
+	},
+/area/gleichseitig16/indoors/north/guardianmotorpost)
 "sQP" = (
 /obj/machinery/light{
 	dir = 4
@@ -23130,6 +22590,10 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/south/streets)
+"sTu" = (
+/obj/docking_port/stationary/crashmode,
+/turf/open/floor/iron/checker,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "sTH" = (
 /obj/machinery/light{
 	dir = 4
@@ -23266,7 +22730,8 @@
 /obj/machinery/light,
 /obj/structure/table/reinforced,
 /obj/machinery/prop/computer{
-	dir = 1
+	dir = 1;
+	idle_power_usage = 50
 	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
@@ -23277,6 +22742,10 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/studycenter/lecturehall2)
+"sYB" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/iron/checker,
+/area/gleichseitig16/indoors/southeast/supermarket)
 "sYC" = (
 /obj/machinery/light{
 	dir = 4
@@ -23338,12 +22807,6 @@
 /obj/effect/urban/decal/road/lines6,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/basketball)
-"taZ" = (
-/obj/machinery/vending/cola,
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "tbk" = (
 /obj/structure/cable,
 /turf/open/urban/street/sidewalkfull,
@@ -23377,13 +22840,9 @@
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/rsr/lobby)
 "tce" = (
-/obj/structure/reagent_dispensers/watertank{
-	icon = 'icons/obj/structures/crates.dmi';
-	icon_state = "barrel_blue";
-	desc = "A blue storage barrel containing water.";
-	name = "blue barrel"
-	},
 /obj/machinery/light/small,
+/obj/structure/cable,
+/obj/structure/largecrate/random/barrel/black,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/kh/gens)
 "tch" = (
@@ -23507,6 +22966,10 @@
 	},
 /turf/open/urban/street/sidewalkcenter,
 /area/gleichseitig16/indoors/northeast/exports)
+"thF" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northeast/factory/hallway)
 "thH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light/mainship{
@@ -23542,15 +23005,6 @@
 	},
 /turf/open/floor/grayscale/white,
 /area/gleichseitig16/indoors/west/studycenter/lecturehall1)
-"tjt" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/obj/structure/prop/mainship/railing/corner{
-	dir = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "tkj" = (
 /turf/open/urban/street/sidewalk{
 	dir = 9
@@ -23651,10 +23105,10 @@
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/kh/gens)
 "tpl" = (
-/obj/structure/table/reinforced,
 /obj/machinery/prop/computer{
 	icon_state = "terminal"
 	},
+/obj/structure/table/reinforced/prison,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northeast/powerstation)
 "tpo" = (
@@ -23688,6 +23142,10 @@
 	},
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/indoors/southwest/plazamall/barber)
+"tqc" = (
+/obj/effect/urban/decal/trash/two,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "tqd" = (
 /obj/structure/cable,
 /obj/effect/ai_node{
@@ -23729,12 +23187,6 @@
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/urban/wood/redwood,
 /area/gleichseitig16/indoors/landing_zone_2/apartment1)
-"tsA" = (
-/obj/effect/urban/decal/road/lines4{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "ttn" = (
 /obj/machinery/vending/cola,
 /turf/open/urban/street/cement3,
@@ -23782,6 +23234,10 @@
 /obj/effect/urban/decal/road/lines2,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
+"tuB" = (
+/obj/effect/urban/decal/trash/three,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "tuI" = (
 /obj/structure/monorail{
 	dir = 4
@@ -23838,12 +23294,9 @@
 /turf/open/floor/mech_bay_recharge_floor,
 /area/gleichseitig16/indoors/northeast/spaceport)
 "twL" = (
-/obj/effect/urban/decal/road/lines5,
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
+/obj/docking_port/stationary/crashmode,
+/turf/closed/wall/r_wall/urban,
+/area/gleichseitig16/indoors/northeast/factory/breakroom)
 "twW" = (
 /turf/open/urban/street/sidewalk{
 	dir = 8
@@ -23920,16 +23373,6 @@
 /obj/effect/urban/decal/road/road_edge,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northwest/parking)
-"tAF" = (
-/obj/machinery/streetlight/traffic{
-	pixel_x = 5;
-	pixel_y = 12;
-	dir = 1
-	},
-/turf/open/urban/street/sidewalk{
-	dir = 1
-	},
-/area/gleichseitig16/outdoors/north/streets)
 "tAV" = (
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/indoors/northwest/radiostation)
@@ -24239,14 +23682,6 @@
 /obj/structure/largecrate/random/barrel/green,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/alleys)
-"tMs" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/sidewalkcenter{
-	dir = 1
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "tMA" = (
 /obj/structure/cable,
 /turf/open/floor/urban/carpet/carpetbeige,
@@ -24310,15 +23745,6 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/south/streets)
-"tOM" = (
-/obj/effect/urban/decal/road/lines4{
-	pixel_y = 16
-	},
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = -1
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "tPb" = (
 /obj/effect/ai_node,
 /turf/open/urban/street/sidewalk,
@@ -24546,7 +23972,8 @@
 "tXW" = (
 /obj/structure/table/reinforced,
 /obj/machinery/prop/computer{
-	dir = 1
+	dir = 1;
+	idle_power_usage = 50
 	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
@@ -24570,7 +23997,7 @@
 /obj/machinery/light/mainship{
 	dir = 1
 	},
-/turf/open/floor/iron/textured,
+/turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/ganongym)
 "tYR" = (
 /obj/structure/table/reinforced/prison,
@@ -24743,6 +24170,10 @@
 	},
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/security/checkpoint)
+"uhn" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorinfil,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/east/rsr/smaints)
 "uhv" = (
 /obj/structure/table/reinforced,
 /turf/open/urban/street/cement1,
@@ -24818,16 +24249,14 @@
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/area/gleichseitig16/indoors/southeast/kh)
 "ukb" = (
 /obj/structure/cable,
 /obj/effect/ai_node{
 	pixel_x = 1
 	},
-/turf/open/urban/street/sidewalk{
-	dir = 8
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/southwest/streets)
 "ukA" = (
 /obj/structure/prop/urban/vehicles/large/suv/misc/whitevan{
 	dir = 8
@@ -24859,11 +24288,12 @@
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/parking)
 "umF" = (
-/obj/effect/spawner/random/misc/plant,
-/turf/open/floor/prison{
-	color = "#e1f5ff"
+/obj/structure/cable,
+/obj/machinery/power/apc/drained{
+	dir = 8
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/northeast/powerstation)
 "umX" = (
 /obj/structure/reagent_dispensers/fueltank/barrel{
 	color = "#ff0000";
@@ -24980,12 +24410,6 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northeast/powerstation)
-"utl" = (
-/obj/structure/prop/urban/misc/trash/blue,
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "utq" = (
 /obj/structure/rack,
 /turf/open/floor/mainship,
@@ -25134,6 +24558,7 @@
 /area/gleichseitig16/indoors/south/cuppajoe)
 "uAX" = (
 /obj/docking_port/stationary/marine_dropship/lz1,
+/obj/docking_port/stationary/crashmode,
 /turf/open/floor/plating/ground/desertdam/asphalt/cement,
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
 "uBf" = (
@@ -25192,9 +24617,11 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/southeast/parking)
-"uCC" = (
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
+"uCB" = (
+/obj/structure/cable,
+/obj/machinery/light,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/gens)
 "uCQ" = (
 /obj/effect/urban/decal/road/lines2,
 /obj/effect/urban/decal/road/lines1,
@@ -25225,14 +24652,6 @@
 "uDD" = (
 /turf/closed/wall/urban/colony,
 /area/gleichseitig16/indoors/west/studycenter/headmaster)
-"uDX" = (
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow{
-	color = "#ffe1af"
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "uEc" = (
 /obj/effect/urban/decal/dirt,
 /obj/structure/cable,
@@ -25319,9 +24738,6 @@
 "uIf" = (
 /turf/open/floor/multi_tiles,
 /area/gleichseitig16/indoors/northeast/storageunits/three)
-"uIi" = (
-/turf/closed/wall/r_wall/urban,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "uIo" = (
 /obj/structure/table/black,
 /turf/open/urban/street/cement3,
@@ -25448,6 +24864,10 @@
 /obj/structure/bed/chair/comfy/black,
 /turf/open/floor/grayscale/white,
 /area/gleichseitig16/indoors/west/studycenter/lecturehall3)
+"uOA" = (
+/obj/docking_port/stationary/crashmode,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/indoors/northeast/security/checkpoint)
 "uOH" = (
 /obj/structure/largecrate/random/case/small,
 /turf/open/floor/plating/ground/snow{
@@ -25529,6 +24949,10 @@
 "uSG" = (
 /turf/open/shuttle/escapepod/eight,
 /area/gleichseitig16/indoors/west/rsr/whalls)
+"uSX" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorrifleman,
+/turf/open/floor/grayscale/darkgray,
+/area/gleichseitig16/indoors/west/rsr/breakroom)
 "uTc" = (
 /obj/machinery/door/airlock/mainship/medical/glass/free_access{
 	name = "\improper Mindful Yoga";
@@ -25625,6 +25049,10 @@
 	},
 /turf/open/floor/urban/metal/metalwhitefull,
 /area/gleichseitig16/indoors/south/motel/room2)
+"uWn" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/northeast/exports)
 "uWu" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -25694,11 +25122,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/southeast/ganongymparking)
-"uZm" = (
-/turf/open/urban/street/sidewalk{
-	dir = 9
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "uZp" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/plating/ground/snow{
@@ -25726,13 +25149,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/freezer,
 /area/gleichseitig16/indoors/southwest/plazamall/steakgrill)
-"uZK" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/obj/structure/barricade/railing,
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "uZM" = (
 /obj/effect/urban/decal/road/road_edge,
 /obj/effect/urban/decal/road/lines1,
@@ -25767,10 +25183,16 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/powerstation)
+"vaT" = (
+/obj/structure/bed/chair/sofa/corsat,
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "vbs" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/effect/landmark/spawn_marker/euseparatists/medic,
 /turf/open/floor/grayscale/black,
 /area/gleichseitig16/indoors/southeast/gunthersconvenience)
 "vbE" = (
@@ -25813,9 +25235,6 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/rsr/coffices)
-"vej" = (
-/turf/closed/wall/r_wall/urban,
-/area/gleichseitig16/indoors/southwest/stadium)
 "veK" = (
 /obj/machinery/light{
 	dir = 8
@@ -25875,6 +25294,10 @@
 /obj/effect/landmark/start/job/xenomorph,
 /turf/open/ground/jungle/clear,
 /area/gleichseitig16/indoors/west/rsr/xbops)
+"vhI" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/consulting)
 "vhP" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic,
 /obj/structure/cable,
@@ -25898,14 +25321,6 @@
 	},
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northeast/powerstation)
-"viP" = (
-/obj/machinery/door/airlock/mainship/generic{
-	dir = 1
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "viW" = (
 /obj/machinery/computer3/server/rack,
 /turf/open/floor/grayscale/darkgray,
@@ -25958,6 +25373,12 @@
 /obj/machinery/light/mainship,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northeast/exports)
+"vkf" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorbreacher,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
+	},
+/area/gleichseitig16/indoors/north/guardianmotorpost)
 "vkt" = (
 /obj/machinery/door/poddoor/shutters/mainship/hangar{
 	dir = 8;
@@ -25966,6 +25387,10 @@
 	},
 /turf/open/floor/multi_tiles,
 /area/gleichseitig16/indoors/northeast/storageunits/three)
+"vkC" = (
+/obj/effect/urban/decal/trash/thirteen,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "vkV" = (
 /turf/open/floor/urban/wood/redwood,
 /area/gleichseitig16/indoors/landing_zone_2/apartment6)
@@ -26067,7 +25492,8 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/effect/spawner/random/misc/structure/flavorvending/engitool,
+/obj/structure/cable,
+/obj/machinery/power/apc,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/powerstation)
 "voz" = (
@@ -26102,7 +25528,10 @@
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/southeast/alleys)
 "vpu" = (
-/obj/structure/largecrate/random/case/double,
+/obj/machinery/power/apc{
+	dir = 1
+	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/kh/gens)
 "vpD" = (
@@ -26170,6 +25599,14 @@
 "vsO" = (
 /turf/closed/shuttle/dropship_white/interior_corner,
 /area/gleichseitig16/indoors/northeast/spaceport/pmcship)
+"vtb" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorrifleman,
+/turf/open/floor/grayscale/darkgray,
+/area/gleichseitig16/indoors/west/rsr/lobby)
+"vtt" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/indoors/northeast/exports)
 "vtD" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -26323,15 +25760,15 @@
 	dir = 10
 	},
 /area/gleichseitig16/indoors/southeast/phoronex)
-"vzW" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/sidewalkfull,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "vAd" = (
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/south/alleys)
+"vAk" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorbreacher,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
+	},
+/area/gleichseitig16/indoors/southeast/kh)
 "vAo" = (
 /turf/open/floor/plating/ground/snow{
 	color = "#ffe1af"
@@ -26382,13 +25819,6 @@
 	color = "#e1f5ff"
 	},
 /area/gleichseitig16/indoors/southeast/kh)
-"vBD" = (
-/obj/structure/prop/urban/vehicles/large/van{
-	pixel_y = -6;
-	dir = 8
-	},
-/turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/southwest/stadium/parking)
 "vCq" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
@@ -26556,7 +25986,7 @@
 /area/gleichseitig16/indoors/northeast/spaceport)
 "vHO" = (
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "vHY" = (
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/floor/grayscale/darkgray,
@@ -26571,14 +26001,6 @@
 	},
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/factory/assembly)
-"vIW" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/multi_tiles{
-	dir = 4
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "vJf" = (
 /obj/effect/ai_node{
 	pixel_x = 1
@@ -26587,16 +26009,6 @@
 	dir = 10
 	},
 /area/gleichseitig16/outdoors/west/parking)
-"vJm" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = -1
-	},
-/obj/effect/urban/decal/road/lines1{
-	pixel_y = 16;
-	pixel_x = -2
-	},
-/turf/open/floor/plating/ground/snow/layer1,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "vJo" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -26649,14 +26061,6 @@
 	dir = 1
 	},
 /area/gleichseitig16/outdoors/east/streets)
-"vKT" = (
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/floor/plating/ground/snow{
-	color = "#ffe1af"
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "vLr" = (
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/parking)
@@ -26667,14 +26071,6 @@
 "vMe" = (
 /turf/open/floor/tile/purple/taupepurple,
 /area/gleichseitig16/indoors/west/studycenter/restrooms)
-"vMK" = (
-/obj/structure/window/framed/urban/reinforced{
-	dir = 8
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "vML" = (
 /obj/effect/urban/decal/road/lines3,
 /obj/effect/urban/decal/road/road_edge/three,
@@ -26715,11 +26111,14 @@
 /turf/open/floor/urban/tile/tilewhite,
 /area/gleichseitig16/indoors/southeast/realestateoffice)
 "vOi" = (
-/obj/machinery/light/mainship,
+/obj/machinery/vending/weapon/crash{
+	products = list("Rifles" = list(/obj/item/weapon/gun/rifle/standard_assaultrifle = -1, /obj/item/ammo_magazine/rifle/standard_assaultrifle = -1, /obj/item/ammo_magazine/rifle/standard_assaultrifle/rubber = -1, /obj/item/weapon/gun/rifle/standard_carbine = -1, /obj/item/ammo_magazine/rifle/standard_carbine = -1, /obj/item/ammo_magazine/rifle/standard_carbine/rubber = -1, /obj/item/weapon/gun/rifle/standard_skirmishrifle = -1, /obj/item/ammo_magazine/rifle/standard_skirmishrifle = -1, /obj/item/ammo_magazine/rifle/standard_skirmishrifle/rubber = -1, /obj/item/weapon/gun/rifle/tx11 = 2, /obj/item/ammo_magazine/rifle/tx11 = 18, /obj/item/ammo_magazine/rifle/tx11/rubber = 18, /obj/item/weapon/gun/rifle/m41a = 2, /obj/item/ammo_magazine/rifle/m41a = -1, /obj/item/weapon/gun/rifle/m412 = -1, /obj/item/weapon/gun/rifle/alf_machinecarbine = -1, /obj/item/ammo_magazine/rifle/alf_machinecarbine = -1, /obj/item/ammo_magazine/rifle = -1, /obj/item/weapon/gun/rifle/m16 = -1, /obj/item/weapon/gun/rifle/khm4 = -1, /obj/item/ammo_magazine/rifle/m16 = -1, /obj/item/ammo_magazine/rifle/m16_quadstack = 20, /obj/item/ammo_magazine/rifle/m16_cmag = 10), "SMGs" = list(/obj/item/weapon/gun/smg/standard_smg = -1, /obj/item/ammo_magazine/smg/standard_smg = -1, /obj/item/weapon/gun/smg/standard_machinepistol = -1, /obj/item/ammo_magazine/smg/standard_machinepistol = -1, /obj/item/weapon/gun/smg/m25 = -1, /obj/item/ammo_magazine/smg/m25 = -1, /obj/item/weapon/gun/smg/standard_heavysmg = -1, /obj/item/ammo_magazine/smg/standard_heavysmg = -1, /obj/item/ammo_magazine/smg/standard_heavysmg/squashhead = -1, /obj/item/ammo_magazine/smg/standard_heavysmg/rubber = -1), "Marksman" = list(/obj/item/weapon/gun/rifle/standard_dmr = -1, /obj/item/ammo_magazine/rifle/standard_dmr = -1, /obj/item/weapon/gun/rifle/mpar/mil = 2, /obj/item/ammo_magazine/rifle/mpar = -1, /obj/item/ammo_magazine/rifle/mpar/ext = 12, /obj/item/ammo_magazine/rifle/mpar/smart = 12, /obj/item/ammo_magazine/rifle/mpar/bomb = -1, /obj/item/ammo_magazine/rifle/mpar/drain = 20, /obj/item/ammo_magazine/rifle/mpar/electromag = 6, /obj/item/weapon/gun/rifle/chambered = -1, /obj/item/ammo_magazine/rifle/chamberedrifle = -1, /obj/item/weapon/gun/shotgun/pump/bolt = -1, /obj/item/ammo_magazine/rifle/boltclip = -1, /obj/item/ammo_magazine/rifle/bolt = -1, /obj/item/weapon/gun/rifle/plasma_dmr = 1, /obj/item/ammo_magazine/rifle/plasma_dmr = -1), "Shotgun" = list(/obj/item/weapon/gun/shotgun/pump/t35 = -1, /obj/item/weapon/gun/shotgun/combat/standardmarine = -1, /obj/item/ammo_magazine/shotgun = -1, /obj/item/ammo_magazine/shotgun/buckshot = -1, /obj/item/ammo_magazine/shotgun/flechette = -1, /obj/item/ammo_magazine/shotgun/tracker = 1, /obj/item/ammo_magazine/shotgun/beanbag = -1, /obj/item/ammo_magazine/shotgun/rubber_pellet = -1, /obj/item/ammo_magazine/handful/slug = -1, /obj/item/ammo_magazine/handful/buckshot = -1, /obj/item/ammo_magazine/handful/flechette = -1, /obj/item/ammo_magazine/handful/tracker = 5, /obj/item/ammo_magazine/handful/beanbag = -1, /obj/item/ammo_magazine/handful/rubber_pellet = -1, /obj/item/weapon/gun/rifle/standard_autoshotgun = -1, /obj/item/ammo_magazine/rifle/tx15_flechette = -1, /obj/item/ammo_magazine/rifle/tx15_slug = -1, /obj/item/weapon/gun/rifle/light_autoshotgun = -1, /obj/item/ammo_magazine/rifle/sh410_sabot = -1, /obj/item/ammo_magazine/rifle/sh410_buckshot = -1, /obj/item/ammo_magazine/rifle/sh410_ricochet = -1, /obj/item/ammo_magazine/rifle/sh410_tracker = -1, /obj/item/ammo_magazine/rifle/sh410_gas = -1), "Machinegun" = list(/obj/item/weapon/gun/rifle/standard_lmg = -1, /obj/item/ammo_magazine/standard_lmg = -1, /obj/item/weapon/gun/rifle/standard_gpmg = -1, /obj/item/ammo_magazine/standard_gpmg = -1, /obj/item/weapon/gun/rifle/m412l1_hpr = 2, /obj/item/ammo_magazine/m412l1_hpr = -1, /obj/item/weapon/gun/standard_mmg = 5, /obj/item/ammo_magazine/standard_mmg = -1), "Melee" = list(/obj/item/weapon/combat_knife = -1, /obj/item/attachable/bayonet = -1, /obj/item/stack/throwing_knife = -1, /obj/item/storage/belt/knifepouch = -1, /obj/item/storage/holster/blade/machete/full = -1, /obj/item/weapon/shield/riot/marine = 6, /obj/item/weapon/shield/riot/marine/deployable = 6), "Sidearm" = list(/obj/item/weapon/gun/pistol/standard_pistol = -1, /obj/item/ammo_magazine/pistol/standard_pistol = -1, /obj/item/weapon/gun/pistol/standard_heavypistol = -1, /obj/item/ammo_magazine/pistol/standard_heavypistol = -1, /obj/item/weapon/gun/revolver/standard_revolver = -1, /obj/item/ammo_magazine/revolver/standard_revolver = -1, /obj/item/weapon/gun/pistol/standard_pocketpistol = -1, /obj/item/ammo_magazine/pistol/standard_pocketpistol = -1, /obj/item/weapon/gun/pistol/g22 = -1, /obj/item/ammo_magazine/pistol/g22 = -1, /obj/item/weapon/gun/pistol/plasma_pistol = -1, /obj/item/ammo_magazine/pistol/plasma_pistol = -1, /obj/item/weapon/gun/pistol/smart_fastpistol = 2, /obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol = -1), "Grenades" = list(/obj/item/weapon/gun/grenade_launcher/single_shot = -1, /obj/item/weapon/gun/grenade_launcher/multinade_launcher/unloaded = -1, /obj/item/weapon/gun/rifle/tx54 = 2, /obj/item/ammo_magazine/rifle/tx54 = 5, /obj/item/ammo_magazine/rifle/tx54/incendiary = 5, /obj/item/ammo_magazine/rifle/tx54/smoke = 15, /obj/item/ammo_magazine/rifle/tx54/smoke/tangle = 10, /obj/item/explosive/grenade = 200, /obj/item/explosive/grenade/m15 = 30, /obj/item/explosive/grenade/sticky = 125, /obj/item/explosive/grenade/sticky/trailblazer = 75, /obj/item/explosive/grenade/incendiary = 50, /obj/item/explosive/grenade/ionplasma = 25, /obj/item/explosive/grenade/smokebomb = 25, /obj/item/explosive/grenade/smokebomb/cloak = 25, /obj/item/explosive/grenade/smokebomb/antigas = 10, /obj/item/explosive/grenade/sticky/cloaker = 10, /obj/item/explosive/grenade/smokebomb/drain = 25, /obj/item/explosive/grenade/mirage = 100, /obj/item/explosive/grenade/training = -1, /obj/item/explosive/grenade/impact = 40, /obj/item/explosive/grenade/phosphorus = 5, /obj/item/explosive/grenade/chem_grenade/metalfoam = 10, /obj/item/explosive/grenade/smokebomb/neuro = 20, /obj/item/explosive/grenade/smokebomb/neuro/alt = 10, /obj/item/explosive/grenade/smokebomb/acid = 15, /obj/item/explosive/grenade/smokebomb/satrapine = 10, /obj/item/explosive/grenade/smokebomb/aphrotoxin = 15, /obj/item/explosive/grenade/flashbang/stun = 30, /obj/item/explosive/grenade/smokebomb/sleep = 15, /obj/item/explosive/grenade/chem_grenade/teargas = 15, /obj/item/explosive/grenade/bullet/laser = 30, /obj/item/explosive/grenade/bullet/hefa = 5, /obj/item/explosive/grenade/emp = 5, /obj/item/explosive/grenade/cagenade = 3, /obj/item/storage/box/m94 = 200, /obj/item/storage/box/m94/cas = 30), "Specialized" = list(/obj/item/weapon/gun/rifle/pepperball = 10, /obj/item/ammo_magazine/rifle/pepperball = -1, /obj/item/weapon/gun/flamer/big_flamer/marinestandard = 4, /obj/item/ammo_magazine/flamer_tank/large = 16, /obj/item/ammo_magazine/flamer_tank/backtank = 4, /obj/item/weapon/gun/flamer/hydro_cannon = -1, /obj/item/ammo_magazine/flamer_tank/water = -1, /obj/item/bodybag/tarp = 10, /obj/item/storage/holster/backholster/rpg = 4, /obj/item/weapon/gun/launcher/rocket/recoillessrifle = 4, /obj/item/ammo_magazine/rocket/recoilless = 10, /obj/item/ammo_magazine/rocket/recoilless/light = 10, /obj/item/ammo_magazine/rocket/recoilless/low_impact = 8, /obj/item/ammo_magazine/rocket/recoilless/smoke = 16, /obj/item/ammo_magazine/rocket/recoilless/cloak = 8, /obj/item/ammo_magazine/rocket/recoilless/plasmaloss = 8, /obj/item/ammo_magazine/rocket/recoilless/heat = 8, /obj/item/ammo_magazine/rocket/recoilless/heam = 8), "Heavy Weapons" = list(/obj/structure/closet/crate/mortar_ammo/mortar_kit = 1, /obj/structure/closet/crate/mortar_ammo/howitzer_kit = 1, /obj/item/storage/box/crate/sentry = 4, /obj/item/storage/box/crate/sentry/ads = 4, /obj/item/storage/box/hsg_102 = 1, /obj/item/weapon/gun/heavymachinegun = 1, /obj/item/ammo_magazine/heavymachinegun = 5, /obj/item/ammo_magazine/heavymachinegun/small = 10), "Attachments" = list(/obj/item/attachable/bayonet/converted = -1, /obj/item/attachable/compensator = -1, /obj/item/attachable/extended_barrel = -1, /obj/item/attachable/suppressor = -1, /obj/item/attachable/heavy_barrel = -1, /obj/item/attachable/lace = -1, /obj/item/attachable/flashlight = -1, /obj/item/attachable/flashlight/under = -1, /obj/item/attachable/magnetic_harness = -1, /obj/item/attachable/reddot = -1, /obj/item/attachable/motiondetector = -1, /obj/item/attachable/scope/marine = -1, /obj/item/attachable/scope/mini = -1, /obj/item/attachable/angledgrip = -1, /obj/item/attachable/verticalgrip = -1, /obj/item/attachable/foldable/bipod = -1, /obj/item/attachable/gyro = -1, /obj/item/attachable/lasersight = -1, /obj/item/attachable/burstfire_assembly = -1, /obj/item/attachable/quickfire = -1, /obj/item/weapon/gun/shotgun/combat/masterkey = -1, /obj/item/weapon/gun/grenade_launcher/underslung = -1, /obj/item/weapon/gun/flamer/mini_flamer = -1, /obj/item/ammo_magazine/flamer_tank/mini = -1, /obj/item/weapon/gun/rifle/pepperball/pepperball_mini = -1, /obj/item/ammo_magazine/rifle/pepperball/pepperball_mini = -1, /obj/item/attachable/stock/t76 = -1, /obj/item/attachable/flamer_nozzle = -1, /obj/item/attachable/flamer_nozzle/wide = -1, /obj/item/attachable/flamer_nozzle/long = -1), "Boxes" = list(/obj/item/ammo_magazine/packet/p9mm = -1, /obj/item/ammo_magazine/packet/p9mmap = -1, /obj/item/ammo_magazine/packet/acp = -1, /obj/item/ammo_magazine/packet/pthreeightyacp = -1, /obj/item/ammo_magazine/packet/magnum = -1, /obj/item/ammo_magazine/packet/p10x20mm = -1, /obj/item/ammo_magazine/packet/p10x24mm = -1, /obj/item/ammo_magazine/packet/p10x25mm = -1, /obj/item/ammo_magazine/packet/p10x26mm = -1, /obj/item/ammo_magazine/packet/p10x265mm = -1, /obj/item/ammo_magazine/packet/p10x27mm = -1, /obj/item/ammo_magazine/packet/p492x34mm = -1, /obj/item/ammo_magazine/packet/p86x70mm = -1, /obj/item/ammo_magazine/packet/standardautoshotgun = -1, /obj/item/ammo_magazine/packet/standardautoshotgun/flechette = -1, /obj/item/ammo_magazine/packet/p4570 = -1, /obj/item/ammo_magazine/packet/p41ae = -1, /obj/item/ammo_magazine/packet/p41ae_squashhead = -1, /obj/item/storage/box/visual/magazine = -1, /obj/item/storage/box/visual/grenade = -1, /obj/structure/closet/crate/mass_produced_crate = -1, /obj/structure/closet/crate/mass_produced_crate/alpha = -1, /obj/structure/closet/crate/mass_produced_crate/bravo = -1, /obj/structure/closet/crate/mass_produced_crate/charlie = -1, /obj/structure/closet/crate/mass_produced_crate/delta = -1, /obj/structure/closet/crate/mass_produced_crate/ammo = -1, /obj/structure/closet/crate/mass_produced_crate/construction = -1, /obj/structure/closet/crate/mass_produced_crate/explosives = -1, /obj/structure/closet/crate/mass_produced_crate/medical = -1, /obj/structure/closet/crate/mass_produced_crate/supply = -1, /obj/structure/closet/crate/mass_produced_crate/weapon = -1), "Utility" = list(/obj/item/roller/bedroll = -1, /obj/item/restraints/handcuffs/cable = -1, /obj/item/restraints/handcuffs/zip = -1, /obj/item/clothing/head/head_sack = -1, /obj/item/clothing/head/head_sack/light = -1, /obj/item/clothing/glasses/sunglasses/blindfold = -1, /obj/item/clothing/glasses/sunglasses/blindfold/light = -1, /obj/item/flashlight/combat = -1, /obj/item/weapon/gun/grenade_launcher/single_shot/flare/marine = -1, /obj/item/tool/shovel/etool = -1, /obj/item/tool/extinguisher = -1, /obj/item/tool/extinguisher/mini = -1, /obj/item/assembly/signaler = -1, /obj/item/binoculars = -1, /obj/item/compass = -1, /obj/item/paper_map = -1, /obj/item/tool/hand_labeler = -1, /obj/item/toy/deck/kotahi = -1, /obj/item/toy/deck = -1, /obj/item/toy/dice = -1, /obj/item/toy/dice/d20 = -1, /obj/item/deployable_floodlight = 5, /obj/item/plantable_flag/ntc = 10, /obj/item/quikdeploy/cade = 30, /obj/item/quikdeploy/cade/plasteel = 10));
+	name = "automated Ehrman Military weapons rack"
+	},
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/area/gleichseitig16/indoors/southeast/kh)
 "vOm" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/ground/snow/layer1,
@@ -26728,6 +26127,10 @@
 /obj/structure/closet/cabinet,
 /turf/open/floor/urban/wood/redwood,
 /area/gleichseitig16/indoors/landing_zone_2/apartment6)
+"vOP" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/urban/street/sidewalk,
+/area/gleichseitig16/outdoors/southeast/kh)
 "vPi" = (
 /turf/open/floor/grayscale/black,
 /area/gleichseitig16/indoors/southeast/ganongymparking)
@@ -26754,6 +26157,10 @@
 	},
 /turf/open/urban/street/sidewalkcenter,
 /area/gleichseitig16/indoors/north/gasstation/pumps)
+"vPY" = (
+/obj/effect/landmark/xeno_tunnel_spawn,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/foremancorner)
 "vQl" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic,
 /turf/open/floor,
@@ -26816,7 +26223,7 @@
 /obj/structure/paper_bin,
 /obj/item/tool/pen,
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "vTV" = (
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/south/streets)
@@ -27225,14 +26632,6 @@
 "woj" = (
 /turf/closed/wall/r_wall,
 /area/gleichseitig16/indoors/west/rsr/lobby)
-"wov" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 4
-	},
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "woL" = (
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/indoors/northeast/storageunits/two)
@@ -27308,12 +26707,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/west/streets)
-"wqY" = (
-/obj/machinery/vending/cola,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "wrb" = (
 /obj/structure/prop/urban/containersextended/lightgreywyright,
 /turf/open/floor/mainship,
@@ -27452,14 +26845,6 @@
 /obj/structure/cable,
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/indoors/northeast/exports)
-"wyb" = (
-/obj/effect/urban/decal/road/lines5{
-	pixel_x = -1
-	},
-/turf/open/floor/plating/ground/snow{
-	color = "#ffe1af"
-	},
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "wyd" = (
 /obj/effect/urban/decal/road/road_edge/four,
 /obj/effect/urban/decal/road/lines2,
@@ -27521,6 +26906,12 @@
 /obj/structure/cable,
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/northwest/parking)
+"wAb" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
+	},
+/area/gleichseitig16/indoors/north/guardianmotorpost)
 "wAU" = (
 /obj/effect/spawner/random/misc/structure/broken_reinforced_window/colonyspawn,
 /turf/open/floor/grayscale/darkgray,
@@ -27539,12 +26930,6 @@
 "wBB" = (
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/northwest/storageunitstreets)
-"wBY" = (
-/obj/structure/bed/chair/comfy/beige{
-	dir = 8
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "wCj" = (
 /obj/structure/prop/urban/vehicles/large/mega_hauler_truck/brown{
 	dir = 1
@@ -27727,12 +27112,6 @@
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor,
 /area/gleichseitig16/indoors/south/cuppajoe)
-"wKD" = (
-/obj/machinery/light,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
 "wKS" = (
 /obj/effect/spawner/random/misc/structure/supplycrate,
 /turf/open/floor/mainship,
@@ -27755,11 +27134,6 @@
 /obj/structure/prop/urban/vehicles/large/truck,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/west/parking)
-"wLG" = (
-/obj/structure/prop/urban/supermart/rack/longrackempty,
-/obj/item/storage/box/lights/mixed,
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "wLW" = (
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/floor/urban/wood/redwood,
@@ -27864,6 +27238,12 @@
 	},
 /turf/open/floor/grayscale/darkgray,
 /area/gleichseitig16/indoors/west/studycenter/restrooms)
+"wQU" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisorrifleman,
+/turf/open/floor/prison{
+	color = "#e1f5ff"
+	},
+/area/gleichseitig16/indoors/southeast/kh)
 "wRe" = (
 /obj/machinery/door/poddoor/mainship/indestructible{
 	name = "indestructible border doors";
@@ -27892,6 +27272,10 @@
 "wRX" = (
 /turf/open/floor/urban/tile/blacktileshiny,
 /area/gleichseitig16/indoors/landing_zone_2/apartment3)
+"wSi" = (
+/obj/effect/landmark/spawn_marker/euseparatists/advisormg,
+/turf/open/floor/prison/plate,
+/area/gleichseitig16/indoors/northeast/powerplant)
 "wSr" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained{
@@ -27900,10 +27284,12 @@
 /turf/open/floor/grayscale/black,
 /area/gleichseitig16/indoors/southeast/gunthersconvenience)
 "wSy" = (
-/turf/open/floor/prison{
-	color = "#e1f5ff"
+/obj/structure/cable,
+/obj/machinery/power/apc/drained{
+	dir = 1
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/southeast/kh)
 "wSW" = (
 /obj/effect/urban/decal/trash/thirteen,
 /turf/open/urban/street/sidewalkfull,
@@ -27911,7 +27297,8 @@
 "wSX" = (
 /obj/structure/table/reinforced,
 /obj/machinery/prop/computer/communications{
-	dir = 8
+	dir = 8;
+	idle_power_usage = 50
 	},
 /obj/machinery/light{
 	dir = 8
@@ -27935,15 +27322,6 @@
 	},
 /turf/open/floor/tile/blue,
 /area/gleichseitig16/indoors/east/rsr/breakroom)
-"wTE" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 8
-	},
-/obj/structure/prop/mainship/railing/corner{
-	dir = 8
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "wTI" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
@@ -27960,6 +27338,15 @@
 "wUw" = (
 /turf/open/floor/kutjevo/fake_wood,
 /area/gleichseitig16/indoors/northeast/phoronex)
+"wUW" = (
+/obj/structure/janitorialcart,
+/obj/item/tool/mop,
+/obj/item/tool/wet_sign{
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/west/rsr/whalls)
 "wUX" = (
 /obj/effect/urban/decal/dirt,
 /turf/open/urban/street/sidewalk,
@@ -27970,13 +27357,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/north/parking)
-"wVh" = (
-/obj/structure/toilet{
-	dir = 1
-	},
-/obj/machinery/light/small,
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
 "wVp" = (
 /turf/closed/shuttle/ert/engines/left/three{
 	dir = 1
@@ -28065,12 +27445,10 @@
 /turf/open/floor/kutjevo/grey,
 /area/gleichseitig16/indoors/southeast/dealership)
 "wYj" = (
+/obj/structure/largecrate/random/case/small,
 /obj/structure/cable,
-/obj/machinery/power/apc/drained{
-	dir = 4
-	},
 /turf/open/floor/plating,
-/area/gleichseitig16/indoors/southeast/kh)
+/area/gleichseitig16/indoors/southeast/kh/gens)
 "wYR" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
@@ -28134,6 +27512,10 @@
 	},
 /turf/open/urban/street/cement1,
 /area/gleichseitig16/indoors/northeast/warehouse)
+"xca" = (
+/obj/structure/prop/urban/misc/trash/green,
+/turf/open/urban/street/cement3,
+/area/gleichseitig16/indoors/northwest/union/railways)
 "xco" = (
 /obj/effect/urban/decal/trash/four,
 /turf/open/urban/street/sidewalkfull,
@@ -28243,7 +27625,9 @@
 /area/gleichseitig16/outdoors/south/streets)
 "xhj" = (
 /obj/structure/table/reinforced,
-/obj/machinery/prop/computer/communications,
+/obj/machinery/prop/computer/communications{
+	idle_power_usage = 50
+	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
 "xhs" = (
@@ -28252,10 +27636,6 @@
 	},
 /turf/closed/wall/r_wall/urban,
 /area/gleichseitig16/indoors/northeast/factory/breakroom)
-"xhW" = (
-/obj/machinery/light/mainship,
-/turf/open/floor/plating,
-/area/gleichseitig16/indoors/southwest/stadium/gens)
 "xic" = (
 /obj/effect/urban/decal/doubleroad/lines1{
 	pixel_x = 14
@@ -28362,12 +27742,12 @@
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/landing_zone_1/unionspaceport)
 "xns" = (
-/obj/machinery/door/airlock/mainship/generic/bathroom{
-	name = "\improper Mens Restroom";
-	dir = 8
+/obj/structure/extinguisher_cabinet{
+	dir = 1;
+	pixel_y = -48
 	},
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
+/turf/open/floor/urban/tile/beige_bigtile,
+/area/gleichseitig16/indoors/southwest/plazamall)
 "xnx" = (
 /obj/structure/table/reinforced/prison{
 	color = "#6b675e"
@@ -28456,7 +27836,7 @@
 	dir = 8
 	},
 /turf/open/floor/urban/carpet/carpetbluedeco,
-/area/gleichseitig16/indoors/southeast/kh/lobby)
+/area/gleichseitig16/indoors/southeast/kh)
 "xqf" = (
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northwest/parking)
@@ -28570,7 +27950,7 @@
 /turf/open/floor/prison{
 	color = "#e1f5ff"
 	},
-/area/gleichseitig16/indoors/southeast/kh/manager)
+/area/gleichseitig16/indoors/southeast/kh)
 "xuA" = (
 /obj/effect/turf_decal/tile/corsatstraight/lightpurple{
 	dir = 8
@@ -28671,18 +28051,6 @@
 	dir = 4
 	},
 /area/gleichseitig16/outdoors/southwest/parking)
-"xxm" = (
-/obj/structure/bed/urban/chairs/black{
-	dir = 1
-	},
-/obj/structure/barricade/railing{
-	dir = 1
-	},
-/obj/effect/ai_node{
-	pixel_x = 1
-	},
-/turf/open/urban/street/cement3,
-/area/gleichseitig16/indoors/southwest/stadium)
 "xxO" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/electrical,
@@ -28725,11 +28093,10 @@
 	},
 /area/gleichseitig16/outdoors/southeast/alleys)
 "xzW" = (
-/obj/structure/prop/urban/misc/trash/blue,
-/turf/open/floor/multi_tiles{
-	dir = 1
-	},
-/area/gleichseitig16/indoors/southwest/stadium)
+/obj/effect/urban/decal/road/lines3,
+/obj/effect/urban/decal/road/road_edge/three,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/west/streets)
 "xAc" = (
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/floor/multi_tiles,
@@ -28950,7 +28317,8 @@
 "xIW" = (
 /obj/structure/table/reinforced,
 /obj/machinery/prop/computer/communications{
-	dir = 4
+	dir = 4;
+	idle_power_usage = 50
 	},
 /turf/open/floor/urban/carpet/carpetbeige,
 /area/gleichseitig16/indoors/northwest/radiostation)
@@ -29018,6 +28386,10 @@
 	},
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/botanywarehouse)
+"xMg" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/prison,
+/area/gleichseitig16/indoors/northeast/warehouse)
 "xMo" = (
 /obj/effect/urban/decal/doubleroad/lines2{
 	pixel_y = -14
@@ -29049,6 +28421,7 @@
 /area/gleichseitig16/indoors/northwest/union/nwstorage)
 "xMY" = (
 /obj/structure/bed/chair/office/dark/north,
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
 /turf/open/floor/prison/bright_clean,
 /area/gleichseitig16/indoors/northeast/powerplant)
 "xNl" = (
@@ -29057,6 +28430,10 @@
 	},
 /turf/open/urban/street/cement3,
 /area/gleichseitig16/indoors/northeast/security/checkpoint)
+"xNm" = (
+/obj/effect/landmark/xeno_tunnel_spawn,
+/turf/open/ground/jungle/clear,
+/area/gleichseitig16/indoors/east/rsr/xenobio)
 "xNo" = (
 /turf/open/floor/multi_tiles,
 /area/gleichseitig16/indoors/northeast/storageunits/five)
@@ -29098,12 +28475,6 @@
 /obj/structure/cable,
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/south/streets)
-"xOZ" = (
-/obj/structure/sink/bathroom{
-	dir = 4
-	},
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
 "xPc" = (
 /obj/structure/prop/urban/vehicles/large/armored_trucks/nt_security/truck_1{
 	pixel_x = 8;
@@ -29132,7 +28503,7 @@
 /obj/machinery/light/mainship{
 	dir = 1
 	},
-/turf/open/floor/iron/textured,
+/turf/open/floor/plating,
 /area/gleichseitig16/indoors/southeast/ganongym)
 "xPy" = (
 /obj/effect/urban/decal/road/road_edge/two,
@@ -29247,6 +28618,10 @@
 /obj/effect/ai_node,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/phoronex/yard)
+"xUx" = (
+/obj/docking_port/stationary/crashmode,
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/northwest/union/nwalleys)
 "xUD" = (
 /obj/machinery/light/small,
 /turf/open/floor/multi_tiles,
@@ -29308,13 +28683,6 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/northeast/parking)
-"xXv" = (
-/obj/structure/sink/bathroom{
-	pixel_y = 16
-	},
-/obj/structure/mirror,
-/turf/open/floor/prison,
-/area/gleichseitig16/indoors/southwest/stadium)
 "xXD" = (
 /obj/machinery/power/terminal{
 	dir = 4
@@ -29334,12 +28702,6 @@
 "xYK" = (
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/northeast/spaceport)
-"xZi" = (
-/obj/effect/urban/decal/road/lines4{
-	pixel_y = 16
-	},
-/turf/open/floor/plating/ground/snow/layer2,
-/area/gleichseitig16/outdoors/southwest/stadium/field)
 "xZE" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -29546,6 +28908,14 @@
 	},
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/northwest/parking)
+"yiO" = (
+/obj/effect/ai_node{
+	pixel_x = 1
+	},
+/obj/effect/urban/decal/road/road_edge/four,
+/obj/effect/urban/decal/road/lines2,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/southwest/streets)
 "yiZ" = (
 /obj/structure/prop/urban/supermart/rack/longrackempty,
 /turf/open/floor/prison/whitegreen{
@@ -30080,7 +29450,7 @@ rkH
 ssp
 uzG
 uzG
-jcg
+vPY
 sxC
 jcg
 uzG
@@ -30182,10 +29552,10 @@ ghn
 ghn
 ghn
 ghn
-jxy
+dlU
 uSG
 uSG
-kLB
+bQd
 rZX
 rZX
 rZX
@@ -30208,45 +29578,45 @@ eyH
 wXd
 exv
 uSD
-wXd
-qDK
-wXd
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-ugg
-ugg
+vaA
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+mWA
+tiD
 ugg
 sCz
 ugg
@@ -30327,7 +29697,7 @@ sHZ
 lYg
 lYg
 bcN
-lYg
+swg
 lYg
 sHZ
 dRM
@@ -30360,7 +29730,7 @@ qqi
 qqi
 xHU
 qqi
-qqi
+jaX
 tQc
 tQc
 poR
@@ -30375,7 +29745,7 @@ wAV
 wcd
 wAV
 wcd
-wcd
+iRX
 gQk
 wcd
 pfd
@@ -30390,8 +29760,8 @@ rKb
 lwk
 aQH
 aQH
-aQH
-aQH
+mWC
+gnN
 ghn
 lsK
 ldt
@@ -30408,12 +29778,12 @@ kbe
 vht
 jFm
 kbe
-kbe
+dTY
 rZX
 kbe
 kbe
 kbe
-kbe
+jFm
 kbe
 kbe
 kbe
@@ -30425,45 +29795,45 @@ eyH
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-ugg
-ugg
+vaA
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+tiD
 ugg
 sCz
 ugg
@@ -30575,14 +29945,14 @@ bFi
 aft
 qqi
 qqi
-fxx
+xHU
 qqi
 qqi
 mBE
 tQc
 poR
 wcd
-wcd
+iRX
 wcd
 wcd
 wAV
@@ -30642,45 +30012,45 @@ eyH
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-ugg
-ugg
+vaA
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+tiD
 ugg
 sCz
 ugg
@@ -30748,12 +30118,12 @@ uKa
 sHZ
 sHZ
 aft
-lYg
+xca
 lYg
 lYg
 lYg
 tch
-lYg
+eaD
 lYg
 sHZ
 ptM
@@ -30795,7 +30165,7 @@ qqi
 xHU
 qqi
 qqi
-sDg
+mBE
 tQc
 szc
 gth
@@ -30822,10 +30192,10 @@ wXd
 wXd
 ggW
 lwk
-sHb
+grz
 aQH
 aQH
-sHb
+uCB
 ghn
 gxt
 iCo
@@ -30844,13 +30214,13 @@ kbe
 kbe
 qul
 rZX
-kbe
+ebs
 kbe
 kbe
 rHl
 kbe
 kbe
-kbe
+qiE
 rZX
 peU
 peU
@@ -30859,45 +30229,45 @@ wyd
 qDK
 exv
 qDK
-wXd
-uSD
-wXd
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-vBD
-vej
-vej
-vej
-vej
-vej
-vej
-vej
-vej
-mWA
-lHE
-vej
-vej
-vej
-vej
-vej
-vej
-vej
-vej
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-ugg
-ugg
+vaA
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+tiD
 gKK
 sCz
 ugg
@@ -30992,7 +30362,7 @@ sHZ
 ptM
 sHZ
 lYg
-lYg
+vkC
 uul
 lYg
 lYg
@@ -31056,7 +30426,7 @@ uSG
 kLB
 wAU
 vht
-kbe
+cDF
 kbe
 kbe
 kbe
@@ -31077,44 +30447,44 @@ qDK
 exv
 qDK
 vaA
-ggW
-peU
-jed
-hQz
-sgV
-jbV
-cZi
-cZi
-cZi
-cZi
-vej
-sNi
-uCC
-uCC
-uCC
-mrN
-wVh
-vej
-lHE
-lHE
-vej
-nAz
-mrN
-uCC
-uCC
-mrN
-wVh
-vej
-uIi
-uIi
-uIi
-uIi
-uIi
-uIi
-uIi
-uIi
-ugg
-ugg
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+tiD
 ugg
 sCz
 ugg
@@ -31225,7 +30595,7 @@ lYg
 nFs
 aft
 qqi
-qqi
+jaX
 xHU
 qqi
 qqi
@@ -31256,8 +30626,8 @@ wXd
 wXd
 ggW
 lwk
-aQH
-aQH
+aap
+eHl
 aQH
 sHb
 ghn
@@ -31294,44 +30664,44 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-cZi
-jbV
-jbV
-jbV
-lEb
-cZi
-cZi
-jQM
-vej
-evD
-uCC
-uCC
-erm
-vej
-vej
-vej
-lHE
-dIm
-vej
-vej
-vej
-xXv
-hGU
-vej
-vej
-vej
-uIi
-jHc
-pqv
-pqv
-pqv
-sGg
-muB
-uIi
-gLZ
-ugg
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+tiD
 ugg
 sCz
 ugg
@@ -31400,7 +30770,7 @@ sHZ
 chS
 aft
 lYg
-lYg
+lmg
 lYg
 lYg
 aft
@@ -31442,7 +30812,7 @@ lYg
 lYg
 aft
 qqi
-jaX
+qqi
 xHU
 qqi
 qqi
@@ -31454,7 +30824,7 @@ wcd
 uOH
 phX
 ebp
-ahg
+maA
 tIc
 ebp
 ebp
@@ -31473,8 +30843,8 @@ wXd
 wXd
 ggW
 lwk
-aQH
-aQH
+cZS
+sHb
 sHb
 sHb
 ghn
@@ -31511,44 +30881,44 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vzW
-ojE
-hZS
-cZi
-cZi
-cZi
-cZi
-vBD
-vej
-sNi
-xOZ
-xOZ
-uCC
-mrN
-wVh
-vej
-lHE
-lHE
-vej
-nAz
-mrN
-uCC
-uCC
-mrN
-wVh
-vej
-uIi
-dQm
-baC
-baC
-pqv
-baC
-xhW
-uIi
-gLZ
-ugg
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+tiD
 ugg
 sCz
 ugg
@@ -31636,7 +31006,7 @@ ptM
 sHZ
 lYg
 lYg
-qhO
+dvm
 lYg
 lYg
 sHZ
@@ -31711,7 +31081,7 @@ aSj
 jsL
 aSj
 aSj
-aSj
+jLv
 aSj
 aSj
 aSj
@@ -31728,44 +31098,44 @@ qDK
 exv
 qDK
 vaA
-ggW
-peU
-ojE
-hZS
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-btY
-btY
-xns
-vej
-vej
-vej
-lHE
-lHE
-vej
-vej
-vej
-xns
-vej
-vej
-vej
-vej
-uIi
-mfO
-pqv
-pqv
-pqv
-sGg
-muB
-uIi
-gLZ
-gKK
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+jTn
 ugg
 sCz
 ugg
@@ -31874,7 +31244,7 @@ lYg
 lYg
 lYg
 lYg
-fFR
+lYg
 qqi
 qqi
 xHU
@@ -31907,7 +31277,7 @@ wXd
 wXd
 ggW
 fAo
-dCV
+nWv
 dCV
 uUG
 dCV
@@ -31945,44 +31315,44 @@ qDK
 jDx
 qDK
 vaA
-ggW
-peU
-hZS
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-xzW
-mnR
-rjn
-aep
-aep
-aep
-aep
-aep
-aep
-rjn
-aep
-aep
-aep
-aep
-mnR
-aep
-xzW
-vej
-uIi
-hek
-baC
-pqv
-baC
-baC
-uIi
-gLZ
-ugg
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+tiD
 ugg
 sCz
 ugg
@@ -32070,7 +31440,7 @@ mIq
 sHZ
 lYg
 lYg
-tch
+vaT
 lYg
 lYg
 sHZ
@@ -32091,7 +31461,7 @@ lYg
 lYg
 lYg
 lYg
-lYg
+fFR
 qqi
 qqi
 xHU
@@ -32162,44 +31532,44 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-vej
-vej
-aep
-aep
-aep
-aep
-aep
-aep
-awC
-aep
-aep
-aep
-aep
-qvk
-aep
-aep
-rjn
-aep
-aep
-aep
-aep
-vej
-uIi
-mgn
-pqv
-pqv
-xhW
-uIi
-gLZ
-ugg
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+tiD
 ugg
 sCz
 ugg
@@ -32368,7 +31738,7 @@ vAK
 lXI
 lXI
 lXI
-lXI
+uNS
 qKC
 ibv
 peU
@@ -32379,44 +31749,44 @@ wXd
 exv
 wXd
 vaA
-lJd
-peU
-cZi
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-aep
-aep
-aep
-aep
-aep
-vej
-vej
-vej
-vej
-lHE
-dIm
-vej
-vej
-vej
-vej
-aep
-aep
-aep
-lHE
-lHE
-lHE
-vej
-uIi
-wLG
-pqv
-baC
-uIi
-bht
-crt
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+mfO
 crt
 orn
 crt
@@ -32503,7 +31873,7 @@ sHZ
 ptM
 sHZ
 lYg
-lYg
+tqc
 gEU
 lYg
 fFR
@@ -32523,8 +31893,8 @@ lYg
 gEU
 lYg
 lYg
+qfl
 lYg
-fFR
 lYg
 qqi
 qqi
@@ -32579,12 +31949,12 @@ dQV
 dQV
 dQV
 eCc
-uun
-uun
+ibv
+ibv
 goa
 bam
-uun
-uun
+ibv
+ibv
 ibv
 ibv
 ibv
@@ -32596,43 +31966,43 @@ wXd
 exv
 wXd
 vaA
-dhW
-wXd
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-lHE
-vej
-vej
-kik
-kik
-kik
-nxy
-bSX
-kik
-kik
-kik
-vej
-vej
-aep
-lHE
-lHE
-lHE
-mWA
-lHE
-vej
-uIi
-pqv
-pqv
-kCs
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -32796,12 +32166,12 @@ aKn
 eoC
 eoC
 lpl
-uun
-tLG
+ibv
+wUW
 goa
-tLG
-tLG
-uun
+gch
+prJ
+ibv
 roq
 rRW
 roq
@@ -32812,44 +32182,44 @@ eyH
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-lEb
-cZi
-cZi
-vej
-vej
-lHE
-lHE
-mWA
-dXu
-vej
-lef
-vej
-kik
-kik
-kik
-kik
-sDG
-nxy
-kik
-kik
-kik
-kik
-vej
-lef
-vej
-dXu
-lHE
-lHE
-lHE
-lHE
-vej
-baC
-pqv
-uIi
-bht
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -33000,25 +32370,25 @@ sYN
 hAM
 ibP
 kwW
-ibP
+nRl
 ibP
 pIC
 jxy
 uSG
 uSG
-tIK
+kLB
 eCc
 jUJ
 jUJ
+dib
 jUJ
 jUJ
-jUJ
-uun
+ibv
+hCB
 goa
-goa
-tLG
-tLG
-uun
+gch
+ipR
+ibv
 bqB
 bqB
 bqB
@@ -33029,44 +32399,44 @@ wyd
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-cZi
-cZi
-vej
-lHE
-lHE
-lHE
-lHE
-vej
-vej
-lHE
-kik
-ssj
-kik
-kik
-kik
-sDG
-sDG
-kik
-kik
-kik
-kik
-kik
-lHE
-vej
-vej
-lHE
-lHE
-lHE
-ict
-vej
-uIi
-pqv
-uIi
-bht
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -33138,7 +32508,7 @@ aft
 kkz
 lYg
 lYg
-lYg
+ohQ
 eNo
 lYg
 lYg
@@ -33163,7 +32533,7 @@ ptM
 sHZ
 lYg
 lYg
-eNo
+rFb
 lYg
 lYg
 sHZ
@@ -33230,12 +32600,12 @@ jUJ
 jUJ
 ghW
 jUJ
-uun
+ibv
 goa
-tLG
-tLG
-tLG
-uun
+gch
+lNb
+clM
+ibv
 cGX
 cGX
 cGX
@@ -33246,44 +32616,44 @@ eyH
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-cZi
-vej
-vej
-hlr
-lHE
-lHE
-vej
-vej
-lzH
-kik
-heb
-cpK
-cpK
-cpK
-cpK
-nxy
-nxy
-cpK
-cpK
-cpK
-cpK
-nQz
-kik
-lzH
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-kCs
-izp
-uIi
-bht
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -33447,12 +32817,12 @@ hbX
 mMK
 jUJ
 xTk
-uun
+ibv
 cBm
-uun
-uun
-uun
-uun
+ibv
+ibv
+ibv
+ibv
 bDT
 bDT
 bDT
@@ -33463,44 +32833,44 @@ eyH
 wXd
 exv
 wXd
-qDK
-qDK
-wXd
-cZi
-cZi
-vej
-mWA
-lHE
-lHE
-lHE
-viP
-aep
-kik
-heb
-lXa
-mvJ
-mvJ
-mvJ
-mvJ
-bqt
-bqt
-mvJ
-mvJ
-bqt
-mvJ
-crq
-nQz
-ssj
-aep
-viP
-lHE
-mWA
-lHE
-lHE
-vej
-uIi
-uIi
-bht
+hGU
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -33581,7 +32951,7 @@ ptM
 sHZ
 lYg
 lYg
-uul
+qHV
 lYg
 lYg
 sHZ
@@ -33680,44 +33050,44 @@ eyH
 wXd
 exv
 wXd
-wXd
-uSD
-wXd
-cZi
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-vej
-kik
-heb
-lXa
-mvJ
-mvJ
-pIh
-qHJ
-qHJ
-fVF
-mvJ
-pIh
-qHJ
-pIh
-qya
-mvJ
-crq
-nQz
-kik
-vej
-lHE
-lHE
-lHE
-lHE
-lHE
-vej
-vej
-bht
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -33826,23 +33196,23 @@ gMx
 fFR
 lYg
 lYg
-lYg
+xca
 aft
 qqi
 qqi
 fxx
 qqi
 qqi
-mBE
-tQc
-mBE
-tQc
-mBE
-mBE
-tQc
-tQc
-tQc
-tVI
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+jNV
 tVI
 peU
 peU
@@ -33897,44 +33267,44 @@ eyH
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-vej
-lHE
-lHE
-lHE
-lHE
-vej
-vej
-oTX
-kBn
-bqt
-bqt
-mvJ
-bqt
-bqt
-bqt
-mvJ
-bqt
-bqt
-mvJ
-bqt
-bqt
-mvJ
-mvJ
-jiu
-szp
-vej
-vej
-lHE
-lHE
-lHE
-mWA
-vej
-vej
-bht
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -34050,16 +33420,16 @@ qqi
 xHU
 qqi
 qqi
-tQc
-mBE
-nzH
-tQc
-tQc
-tQc
-mBE
-tQc
-mBE
-tVI
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tVI
 lll
 eTU
@@ -34114,44 +33484,44 @@ wXd
 xFr
 exv
 qDK
-wXd
-wXd
-wXd
-vej
-vej
-lHE
-lHE
-lHE
-mWA
-vej
-oTX
-oTX
-kBn
-mvJ
-bqt
-tsA
-tsA
-tsA
-tsA
-kze
-xZi
-tsA
-tsA
-tsA
-tsA
-tsA
-mvJ
-jiu
-szp
-szp
-vej
-hlr
-lHE
-lHE
-lHE
-utl
-vej
-bht
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -34267,16 +33637,16 @@ qqi
 xHU
 qqi
 qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-jaX
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 qqi
 wXd
 wXd
@@ -34331,44 +33701,44 @@ wXd
 qDK
 exv
 qDK
-qDK
-qDK
-peU
-vej
-lCr
-lHE
-lHE
-lHE
-ict
-vej
-oTX
-oTX
-kBn
-mvJ
-iLH
-vKT
-iLH
-bqt
-sLx
-bqt
-bqt
-oRX
-bqt
-iLH
-bqt
-iLH
-mvJ
-jSq
-jSq
-jSq
-vej
-lHE
-lHE
-lHE
-lHE
-lHE
-vej
-bht
+hGU
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 gKK
 sCz
@@ -34445,6 +33815,13 @@ aft
 fFR
 lYg
 lYg
+iHc
+lYg
+lYg
+fFR
+lYg
+lYg
+lYg
 lYg
 lYg
 lYg
@@ -34455,14 +33832,7 @@ lYg
 lYg
 lYg
 lYg
-fFR
-lYg
-lYg
-lYg
-lYg
-lYg
-lYg
-lYg
+tuB
 lYg
 lYg
 lYg
@@ -34484,16 +33854,16 @@ qqi
 xHU
 qqi
 qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 qqi
 wXd
 wXd
@@ -34506,10 +33876,10 @@ wXd
 wXd
 wXd
 wXd
-uSD
 wXd
 wXd
-rKb
+wXd
+ggW
 hfv
 vgI
 bIF
@@ -34549,43 +33919,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vej
-jTn
-lHE
-lHE
-lHE
-lHE
-vej
-jSq
-jSq
-jSq
-bqt
-iLH
-bqt
-iLH
-bqt
-sLx
-kze
-qSV
-tOM
-bqt
-iLH
-jiV
-iLH
-mvJ
-oPE
-jSq
-mHG
-okF
-aep
-aep
-aep
-aep
-wKD
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -34673,7 +34043,7 @@ lYg
 lYg
 lYg
 lYg
-lYg
+nqA
 lYg
 lYg
 lYg
@@ -34685,7 +34055,7 @@ lYg
 fFR
 lYg
 lYg
-lYg
+fLX
 lYg
 lYg
 lYg
@@ -34701,16 +34071,16 @@ qqi
 xHU
 qqi
 jaX
-rzw
-rzw
-rzw
-rzw
-rzw
-rzw
-rzw
-rzw
-rzw
-rzw
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 rzw
 wXd
 wXd
@@ -34722,14 +34092,14 @@ vjs
 vjs
 vjs
 vjs
-wXd
+uSD
 wXd
 wXd
 wXd
 ggW
 hfv
-eNi
-spR
+ghb
+rxp
 qag
 drX
 swp
@@ -34766,43 +34136,43 @@ wXd
 exv
 wXd
 vaA
-lJd
-peU
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-okF
-jSq
-mHG
-rjV
-mvJ
-quS
-bqt
-lBD
-jiV
-bqt
-bqt
-bqt
-bqt
-bqt
-iLH
-bqt
-quS
-mvJ
-oPE
-jSq
-jSq
-aep
-aep
-rjn
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -34918,17 +34288,17 @@ qqi
 xHU
 qqi
 qqi
-qqi
-qqi
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 jaX
-qqi
-qqi
-qqi
-qqi
-qqi
-jaX
 wXd
 wXd
 wXd
@@ -34938,7 +34308,7 @@ wXd
 wXd
 wXd
 wXd
-uSD
+wXd
 wXd
 wXd
 wXd
@@ -34983,43 +34353,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vej
-aep
-aep
-rjn
-aep
-aep
-aep
-jSq
-jSq
-gnz
-mvJ
-iLH
-bqt
-iLH
-xZi
-tsA
-tsA
-tsA
-kze
-tsA
-bTD
-fVF
-lBD
-bqt
-jSq
-jSq
-jSq
-vej
-wqY
-aep
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -35135,16 +34505,16 @@ qqi
 xHU
 qqi
 qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 qqi
 wXd
 wXd
@@ -35200,43 +34570,43 @@ wXd
 exv
 wXd
 vaA
-dhW
-peU
-vej
-ash
-aep
-aep
-aep
-aep
-vej
-jSq
-jSq
-jSq
-mvJ
-iLH
-fVF
-bqt
-mvJ
-oRX
-tsA
-kze
-tOM
-bqt
-bqt
-bqt
-lBD
-bqt
-jiu
-szp
-szp
-vej
-vej
-vej
-aep
-aep
-rjn
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -35352,16 +34722,16 @@ qqi
 qqi
 qqi
 qqi
-umh
-xRG
-xRG
-xRG
-xRG
-xRG
-xRG
-fHU
-xRG
-tVI
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tHt
 wXd
 wXd
@@ -35393,7 +34763,7 @@ tTh
 tAq
 tTh
 tTh
-tAq
+uSX
 tTh
 axB
 ncu
@@ -35417,43 +34787,43 @@ wXd
 jDx
 wXd
 vaA
-ggW
-peU
-vej
-aep
-aep
-aep
-vej
-vej
-vej
-oTX
-oTX
-kBn
-mvJ
-iLH
-bqt
-jiV
-bqt
-bqt
-mvJ
-bqt
-bqt
-bqt
-bqt
-mvJ
-iLH
-bqt
-jiu
-szp
-vej
-vej
-gNj
-pzW
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -35569,16 +34939,16 @@ qqi
 qqi
 qqi
 qqi
-teI
-tVI
-tVI
-tVI
-tVI
-edN
-tVI
-tVI
-tVI
-tVI
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tHt
 wXd
 wXd
@@ -35596,7 +34966,7 @@ wXd
 wXd
 ggW
 hfv
-ghb
+ifQ
 iFu
 ghb
 ghb
@@ -35634,43 +35004,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vej
-aep
-aep
-vej
-vej
-pzW
-vej
-vej
-oTX
-kBn
-bqt
-iLH
-bqt
-bqt
-bqt
-bqt
-bqt
-qya
-bqt
-bqt
-jiV
-bqt
-iLH
-bqt
-jiu
-szp
-vej
-aep
-aep
-pzW
-aep
-aep
-wKD
-vej
-aLY
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -35786,16 +35156,16 @@ qqi
 qqi
 qqi
 qqi
-teI
-tVI
-tVI
-nSm
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tHt
 wXd
 wXd
@@ -35851,43 +35221,43 @@ wXd
 exv
 wXd
 vaA
-dhW
-peU
-vej
-aep
-aep
-vej
-aep
-wov
-rpM
-vej
-oTX
-kBn
-bqt
-iLH
-bqt
-bqt
-bqt
-mvJ
-bqt
-bqt
-jiV
-bqt
-mvJ
-bqt
-quS
-mvJ
-xxm
-szp
-vej
-jnY
-aep
-pzW
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -36003,16 +35373,16 @@ qqi
 qqi
 qqi
 jaX
-teI
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 wqA
 wXd
 wXd
@@ -36068,43 +35438,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vej
-aep
-aep
-vej
-ash
-aep
-pzW
-vMK
-oTX
-kBn
-mvJ
-iLH
-bqt
-jiV
-bqt
-mvJ
-bqt
-bqt
-bqt
-mvJ
-mvJ
-bqt
-iLH
-mvJ
-jiu
-szp
-vej
-aep
-aep
-pzW
-rjn
-aep
-aep
-pxU
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -36220,16 +35590,16 @@ qqi
 qqi
 qqi
 qqi
-teI
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
-tVI
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tHt
 wXd
 wXd
@@ -36285,43 +35655,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-viP
-aep
-aep
-vej
-wov
-aep
-pzW
-vMK
-oTX
-kBn
-mvJ
-twL
-bqt
-bqt
-mvJ
-bqt
-pPt
-hqP
-bqt
-mvJ
-bqt
-bqt
-iLH
-mvJ
-jiu
-szp
-vej
-aep
-pzW
-pzW
-aep
-aep
-aep
-aep
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 gKK
 sCz
@@ -36460,7 +35830,7 @@ dLw
 dLw
 uJq
 dLw
-dLw
+dNl
 dLw
 dLw
 pUJ
@@ -36502,43 +35872,43 @@ qDK
 exv
 qDK
 vaA
-ggW
-peU
-vej
-rjn
-aep
-vej
-aep
-aep
-pzW
-vMK
-oTX
-kBn
-mvJ
-iLH
-bqt
-bqt
-mvJ
-hqu
-khu
-bqt
-glF
-bqt
-bqt
-bqt
-iLH
-mvJ
-jiu
-szp
-vej
-aep
-vej
-vej
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -36719,43 +36089,43 @@ qDK
 exv
 qDK
 vaA
-ggW
-peU
-vej
-ash
-aep
-viP
-aep
-aep
-wKD
-vej
-oTX
-kBn
-mvJ
-quS
-anC
-anC
-gkJ
-ewp
-fDd
-gNH
-bqt
-efh
-dAD
-mNT
-quS
-bqt
-sAU
-szp
-vej
-aep
-nqR
-aep
-aep
-aep
-hJN
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -36936,43 +36306,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vej
-aep
-aep
-vej
-fjr
-aep
-pzW
-vMK
-oTX
-kBn
-mvJ
-iLH
-bqt
-bqt
-bqt
-vJm
-dTM
-mvJ
-lJn
-hGs
-bqt
-mvJ
-quS
-qya
-jiu
-szp
-vej
-vej
-aep
-vej
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -37137,7 +36507,7 @@ gTX
 gTX
 pJU
 dVk
-aIH
+ayJ
 msF
 cCt
 qhf
@@ -37153,43 +36523,43 @@ wXd
 exv
 wXd
 qQw
-lJd
-peU
-viP
-aep
-aep
-vej
-aep
-aep
-pzW
-vMK
-oTX
-kBn
-mvJ
-iLH
-bqt
-jiV
-bqt
-bqt
-sLx
-tOM
-bqt
-bqt
-bqt
-bqt
-lBD
-mvJ
-jiu
-szp
-vej
-dfi
-aep
-vej
-aep
-aep
-aep
-pxU
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tiD
 ugg
 sCz
@@ -37279,7 +36649,7 @@ vZY
 kro
 kro
 hPa
-kro
+vhI
 kro
 hPa
 lsX
@@ -37354,7 +36724,7 @@ dVk
 dVk
 dVk
 dVk
-ayJ
+aIH
 wys
 cGX
 woi
@@ -37370,43 +36740,43 @@ wXd
 exv
 wXd
 vaA
-dhW
-peU
-vej
-aep
-aep
-vej
-jnY
-aep
-pzW
-vMK
-oTX
-kBn
-mvJ
-iLH
-mvJ
-bqt
-jiV
-bqt
-bqt
-bqt
-bqt
-bqt
-mvJ
-jiV
-lBD
-mvJ
-jiu
-szp
-vej
-pzW
-aep
-pzW
-aep
-aep
-aep
-aep
-aLY
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -37568,7 +36938,7 @@ aIH
 ayJ
 ayJ
 ayJ
-ayJ
+aIH
 ayJ
 ayJ
 ayJ
@@ -37587,43 +36957,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vej
-aep
-aep
-vej
-aep
-aep
-rpM
-vej
-oTX
-kBn
-bqt
-iLH
-bqt
-bqt
-bqt
-bqt
-bqt
-bqt
-jiV
-qya
-bqt
-mvJ
-quS
-mvJ
-jiu
-szp
-vej
-hIM
-aep
-pzW
-rjn
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -37785,7 +37155,7 @@ ayJ
 ayJ
 ayJ
 ayJ
-aIH
+ayJ
 brp
 ayJ
 ayJ
@@ -37804,43 +37174,43 @@ wXd
 exv
 wXd
 vaA
-dhW
-peU
-vej
-rjn
-aep
-vej
-vej
-fQy
-vej
-vej
-oTX
-kBn
-qya
-lBD
-bqt
-bqt
-bqt
-jiV
-qya
-bqt
-bqt
-bqt
-bqt
-bqt
-iLH
-mvJ
-jiu
-szp
-vej
-pCq
-aep
-pzW
-aep
-aep
-wKD
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -38021,43 +37391,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vej
-aep
-aep
-aep
-vej
-vej
-vej
-oTX
-oTX
-kBn
-mvJ
-iLH
-bqt
-bqt
-mvJ
-mvJ
-jiV
-bqt
-bqt
-jiV
-mvJ
-bqt
-iLH
-mvJ
-xxm
-szp
-vej
-vej
-aep
-pzW
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 gKK
 sCz
@@ -38238,43 +37608,43 @@ wXd
 exv
 wXd
 vaA
-dhW
-peU
-vej
-ash
-aep
-aep
-aep
-aep
-vej
-jSq
-jSq
-jSq
-mvJ
-quS
-bqt
-mvJ
-bqt
-sLx
-qVc
-hKf
-rDi
-bqt
-bqt
-jiV
-iLH
-mvJ
-jiu
-szp
-szp
-vej
-vej
-vej
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -38455,43 +37825,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-vej
-aep
-aep
-aep
-aep
-aep
-okF
-jSq
-jSq
-rjV
-mvJ
-iLH
-bqt
-quS
-hKf
-qVc
-qVc
-qVc
-qVc
-hKf
-ero
-bqt
-iLH
-mvJ
-jSq
-jSq
-jSq
-vej
-dZT
-aep
-aep
-aep
-rjn
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -38648,7 +38018,7 @@ itx
 wNb
 wNb
 wbe
-wNb
+gPj
 xas
 itx
 ayJ
@@ -38672,43 +38042,43 @@ wXd
 jDx
 wXd
 vaA
-ggW
-peU
-vej
-vej
-lHE
-mWA
-lHE
-lHE
-aep
-jSq
-mHG
-rjV
-mvJ
-iLH
-bqt
-iLH
-bqt
-mvJ
-mvJ
-bqt
-bqt
-bqt
-iLH
-bqt
-iLH
-bqt
-oPE
-mHG
-jSq
-okF
-aep
-aep
-aep
-aep
-aep
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -38789,7 +38159,7 @@ kro
 kro
 kro
 vZY
-sOw
+dsE
 kro
 fSL
 kro
@@ -38889,43 +38259,43 @@ qDK
 exv
 qDK
 vaA
-ggW
-peU
-vej
-eEG
-lHE
-lHE
-lHE
-lHE
-vej
-jSq
-jSq
-jSq
-mvJ
-quS
-mvJ
-iLH
-bqt
-wyb
-hKf
-hKf
-rDi
-bqt
-iLH
-fVF
-iLH
-mvJ
-oPE
-jSq
-jSq
-aep
-aep
-aep
-aep
-aep
-wKD
-vej
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -39012,7 +38382,7 @@ hPa
 qyW
 afT
 afT
-afT
+bBq
 afT
 afT
 afT
@@ -39106,43 +38476,43 @@ qDK
 exv
 qDK
 vaA
-ggW
-peU
-vej
-taZ
-lHE
-lHE
-lHE
-ict
-vej
-oTX
-oTX
-kBn
-mvJ
-quS
-mvJ
-quS
-mvJ
-oRX
-bqt
-jiV
-sLx
-jiV
-iLH
-bqt
-quS
-mvJ
-jSq
-jSq
-jSq
-vej
-lHE
-mWA
-lHE
-lHE
-lHE
-vej
-aLY
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -39322,44 +38692,44 @@ gHE
 uSD
 exv
 wXd
-wXd
-wXd
-peU
-vej
-lCr
-lHE
-lHE
-lHE
-lHE
-vej
-oTX
-oTX
-kBn
-mvJ
-mvJ
-uDX
-edj
-edj
-nne
-khu
-khu
-edj
-khu
-khu
-khu
-khu
-mvJ
-jiu
-szp
-szp
-vej
-hlr
-lHE
-lHE
-lHE
-utl
-vej
-bht
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -39539,44 +38909,44 @@ wXd
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-vej
-vej
-gNS
-uZK
-qya
-mvJ
-mvJ
-mvJ
-mvJ
-bqt
-mvJ
-bqt
-bqt
-mvJ
-bqt
-bqt
-bqt
-mvJ
-jiu
-szp
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-vej
-vej
-bht
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -39670,7 +39040,7 @@ hPa
 gqi
 kro
 hPa
-kro
+vhI
 kro
 kro
 kro
@@ -39756,45 +39126,45 @@ wXd
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-vej
-lHE
-lHE
-lHE
-lHE
-lHE
-vej
-gNS
-wTE
-lWh
-mvJ
-mvJ
-wBY
-wBY
-wBY
-mvJ
-mvJ
-wBY
-apA
-apA
-mvJ
-bqt
-lBN
-tjt
-gNS
-vej
-lHE
-lHE
-lHE
-lHE
-lHE
-vej
-jYe
-crt
-ugg
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+oWr
 ugg
 sCz
 ugg
@@ -39973,45 +39343,45 @@ wXd
 wXd
 exv
 wXd
-wXd
-uSD
-wXd
-cZi
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-viP
-aep
-gNS
-wTE
-lWh
-mvJ
-mvJ
-mvJ
-mvJ
-mvJ
-mvJ
-mvJ
-qya
-mvJ
-mvJ
-lBN
-tjt
-gNS
-aep
-viP
-lHE
-lHE
-lHE
-mWA
-vej
-vej
-cZi
-crt
-gKK
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+yiO
 ugg
 sCz
 ugg
@@ -40190,45 +39560,45 @@ gHE
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-cZi
-vej
-lHE
-lHE
-mWA
-lHE
-vej
-vej
-lzH
-gNS
-wTE
-oNc
-oNc
-oNc
-oNc
-nxy
-nxy
-oNc
-oNc
-oNc
-oNc
-mdu
-gNS
-lzH
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-vej
-cZi
-cZi
-crt
-ugg
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+oWr
 ugg
 sCz
 ugg
@@ -40407,45 +39777,45 @@ eyH
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-cZi
-vej
-vej
-hlr
-lHE
-lHE
-lHE
-vej
-vej
-lHE
-dAs
-gNS
-gNS
-gNS
-gNS
-nxy
-bSX
-gNS
-gNS
-gNS
-gNS
-gNS
-lHE
-vej
-vej
-lHE
-mWA
-lHE
-ict
-vej
-vej
-cZi
-cZi
-crt
-ugg
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+oWr
 ugg
 sCz
 ugg
@@ -40624,45 +39994,45 @@ eyH
 wXd
 exv
 wXd
-wXd
-wXd
-wXd
-cZi
-cZi
-cZi
-vej
-lHE
-lHE
-lHE
-lHE
-vIW
-vej
-lef
-vej
-gNS
-gNS
-gNS
-gNS
-nxy
-nxy
-gNS
-gNS
-gNS
-gNS
-vej
-ens
-vej
-lHE
-lHE
-lHE
-lHE
-lHE
-vej
-cZi
-cZi
-cZi
-crt
-ugg
+xzW
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+oWr
 ugg
 sCz
 gKK
@@ -40738,7 +40108,7 @@ xqf
 wkN
 kPo
 hPa
-eZz
+rsq
 kro
 kro
 rxv
@@ -40842,43 +40212,43 @@ uSD
 exv
 wXd
 vaA
-ggW
-wXd
-cZi
-cZi
-cZi
-vej
-vej
-lHE
-lHE
-lHE
-lHE
-aep
-aep
-vej
-vej
-gNS
-gNS
-gNS
-nxy
-nxy
-gNS
-gNS
-gNS
-vej
-vej
-aep
-aep
-lHE
-lHE
-lHE
-lHE
-vej
-vej
-cZi
-cZi
-heX
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -40941,11 +40311,11 @@ ydP
 qmK
 ydP
 qmK
-qqi
-qqi
-xHU
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+qyU
 xqf
 xqf
 xqf
@@ -40963,7 +40333,7 @@ kro
 gRD
 hPa
 uaW
-kro
+hjw
 bxJ
 kro
 mHB
@@ -41014,7 +40384,7 @@ ggW
 peU
 peU
 xxa
-iBi
+lbQ
 vjn
 iBi
 iBi
@@ -41059,43 +40429,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-cZi
-cZi
-lEb
-cZi
-vej
-vej
-lHE
-lHE
-aep
-aep
-aep
-aep
-vej
-vej
-vej
-vej
-lHE
-dIm
-vej
-vej
-vej
-vej
-aep
-aep
-aep
-aep
-lHE
-lHE
-vej
-vej
-cZi
-cZi
-cZi
-tMs
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -41158,11 +40528,11 @@ xqf
 qmK
 xqf
 qmK
-qqi
-qqi
-xHU
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
 xqf
 xqf
 xqf
@@ -41180,7 +40550,7 @@ eUP
 dgQ
 hPa
 lsX
-eKL
+ddX
 kro
 kro
 jOP
@@ -41276,43 +40646,43 @@ qDK
 exv
 qDK
 vaA
-ggW
-peU
-cZi
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-aep
-rjn
-aep
-aep
-aep
-aep
-mnR
-aep
-aep
-aep
-aep
-aep
-aep
-mnR
-aep
-aep
-aep
-aep
-rjn
-lHE
-vej
-vej
-cZi
-cZi
-cZi
-cZi
-heX
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -41375,11 +40745,11 @@ xqf
 qmK
 xqf
 qmK
-qqi
-qqi
-xHU
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
 jRS
 jRS
 mta
@@ -41493,43 +40863,43 @@ qDK
 exv
 qDK
 vaA
-ggW
-peU
-dum
-cZi
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-aep
-aep
-aep
-aep
-aep
-rjn
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-vej
-vej
-cZi
-lEb
-cZi
-cZi
-cZi
-uZm
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -41592,11 +40962,11 @@ xqf
 xqf
 xqf
 xqf
-qqi
-qqi
-xHU
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
 jRS
 jRS
 vSI
@@ -41710,45 +41080,45 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-ojE
-dum
-cZi
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-aep
-rjn
-aep
-aep
-aep
-vej
-vej
-cZi
-cZi
-cZi
-cZi
-cZi
-uZm
-ojE
-bht
-oWr
-gKK
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+aYT
+ugg
 sCz
 ugg
 uUL
@@ -41809,11 +41179,11 @@ xqf
 xqf
 xqf
 rcL
-qqi
-qqi
-xHU
-jaX
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
 pIS
 wOb
 wOb
@@ -41927,43 +41297,43 @@ wXd
 exv
 wXd
 vaA
-lJd
-peU
-ojE
-ojE
-dum
-cZi
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-iJr
-aep
-aep
-aep
-qvk
-aep
-rjn
-aep
-aep
-qvk
-aep
-aep
-aep
-iJr
-vej
-vej
-cZi
-cZi
-cZi
-cZi
-cZi
-uZm
-vzW
-ojE
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tiD
 ugg
 sCz
@@ -42026,11 +41396,11 @@ xqf
 xqf
 xqf
 xqf
-qqi
-qqi
-xHU
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
 pIS
 wOb
 wOb
@@ -42045,7 +41415,7 @@ pNH
 qpc
 wOb
 wOb
-wOb
+xUx
 qpc
 pNH
 qpc
@@ -42123,7 +41493,7 @@ doi
 eqd
 hpU
 jue
-jue
+vtb
 woj
 tLG
 sjV
@@ -42144,43 +41514,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-jed
-hQz
-hQz
-jbV
-cZi
-cZi
-cZi
-cZi
-cZi
-vej
-vej
-vej
-lHE
-dIm
-vej
-vej
-lHE
-dIm
-vej
-vej
-aep
-qSB
-vej
-vej
-vej
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-htG
-gsn
-rLq
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -42243,11 +41613,11 @@ xqf
 xqf
 xqf
 xqf
-qqi
-qqi
-xHU
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
 byi
 wOb
 wOb
@@ -42361,43 +41731,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-cZi
-jbV
-jbV
-jbV
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-mEs
-cZi
-lEb
-cZi
-cZi
-lEb
-cZi
-cZi
-jbV
-jbV
-cYJ
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -42460,11 +41830,11 @@ xqf
 xqf
 xqf
 xqf
-qqi
-jaX
-xHU
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
 uXp
 wOb
 wOb
@@ -42578,43 +41948,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-heX
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 wPy
@@ -42677,11 +42047,11 @@ obR
 kmz
 obR
 lFC
-qqi
-qqi
-xHU
-qqi
-qqi
+xkT
+xkT
+xkT
+xkT
+xkT
 qqi
 teI
 tVI
@@ -42795,43 +42165,43 @@ wXd
 exv
 wXd
 vaA
-dhW
-peU
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-heX
-kpl
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -43012,43 +42382,43 @@ wXd
 exv
 wXd
 qQw
-ggW
-peU
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-lEb
-cZi
-cZi
-cZi
-cZi
-cZi
-cZi
-heX
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -43229,43 +42599,43 @@ wXd
 exv
 wXd
 vaA
-dhW
-peU
-hVw
-hQz
-sgV
-sgV
-gsn
-sgV
-gsn
-sgV
-sgV
-gsn
-jLd
-sgV
-gsn
-gsn
-kjb
-gsn
-jLd
-eUo
-sgV
-jLd
-jLd
-jLd
-gsn
-sgV
-gsn
-sgV
-sgV
-gsn
-gsn
-gsn
-sgV
-sgV
-gsn
-mbX
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -43446,43 +42816,43 @@ wXd
 exv
 wXd
 vaA
-ggW
-peU
-cZi
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-jbV
-cYJ
-bht
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oWr
 ugg
 sCz
@@ -43658,7 +43028,7 @@ wXd
 wXd
 wXd
 wXd
-wXd
+eyH
 qDK
 exv
 qDK
@@ -43671,33 +43041,33 @@ miC
 miC
 miC
 miC
-miC
+tbk
 ukb
-miC
-miC
-miC
-miC
+tbk
+tbk
+tbk
+tbk
 ukb
-miC
-miC
-miC
-miC
+tbk
+tbk
+tbk
+tbk
+tbk
+tbk
 ukb
-miC
-miC
-miC
+tbk
+tbk
+tbk
+tbk
+tbk
 ukb
-miC
-miC
-miC
-miC
-miC
+tbk
+tbk
+tbk
+tbk
+tbk
 ukb
-miC
-miC
-miC
-ukb
-miC
+tbk
 tbk
 bht
 oWr
@@ -43875,7 +43245,7 @@ wXd
 uSD
 wXd
 wXd
-wXd
+eyH
 qDK
 exv
 qDK
@@ -43883,7 +43253,7 @@ vaA
 ggW
 spM
 eKx
-cDF
+gLh
 bcS
 gLh
 xxk
@@ -44092,7 +43462,7 @@ wXd
 wXd
 wXd
 wXd
-wXd
+eyH
 wXd
 exv
 wXd
@@ -44309,7 +43679,7 @@ wXd
 wXd
 wXd
 wXd
-uSD
+pyw
 wXd
 exv
 wXd
@@ -44526,16 +43896,16 @@ wXd
 wXd
 wXd
 wXd
-wXd
+eyH
 wXd
 exv
 wXd
-wXd
+vaA
 wXd
 lnF
 fMy
 fMy
-fMy
+obu
 fMy
 fMy
 fMy
@@ -44747,19 +44117,19 @@ eyH
 wXd
 exv
 wXd
-wXd
+vaA
 qDK
 lnF
 fMy
 fMy
 fMy
-obu
+fMy
 fMy
 fMy
 fMy
 vnK
-jWS
 ubH
+jWS
 jWS
 jWS
 dqP
@@ -44902,7 +44272,7 @@ glc
 xEH
 cws
 aaN
-cws
+nco
 mAx
 fls
 ggz
@@ -44964,7 +44334,7 @@ eyH
 wXd
 exv
 wXd
-wXd
+vaA
 wXd
 lnF
 fMy
@@ -44985,7 +44355,7 @@ vll
 vll
 vll
 vll
-vll
+xns
 cgZ
 pen
 pen
@@ -48023,7 +47393,7 @@ xPi
 vWr
 vll
 vll
-swE
+hIM
 bNY
 wYR
 oBc
@@ -48361,13 +47731,13 @@ gSv
 gSv
 dUl
 yeK
-ldo
-ldo
-mpz
-ldo
-rQB
-nFe
-dUl
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+nRe
 tXV
 gjU
 pLF
@@ -48578,13 +47948,13 @@ ldo
 ldo
 pKQ
 nCc
-ldo
-iYZ
-ldo
-ldo
-rQB
-tAF
-dUl
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tXV
 gjU
 jZU
@@ -48795,13 +48165,13 @@ ldo
 ldo
 pKQ
 nCc
-ldo
-ldo
-ldo
-ldo
-rQB
-nFe
-dUl
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tXV
 gjU
 bPH
@@ -49012,13 +48382,13 @@ acQ
 rPW
 pKQ
 nCc
-ldo
-ldo
-ldo
-ldo
-rQB
-nFe
-jjZ
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tXV
 gjU
 iXE
@@ -49229,13 +48599,13 @@ ldo
 ldo
 pKQ
 nCc
-ldo
-ldo
-ldo
-ldo
-rQB
-nFe
-dUl
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tXV
 gjU
 rXQ
@@ -49342,10 +48712,10 @@ jnU
 jnU
 mCi
 nvP
-qyU
-flu
-flu
-flu
+xkT
+xkT
+xkT
+xkT
 hyF
 mCi
 nvP
@@ -49446,13 +48816,13 @@ ldo
 ldo
 pKQ
 nCc
-ldo
-ldo
-ldo
-ldo
-rQB
-nFe
-dUl
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tXV
 gjU
 krG
@@ -49559,11 +48929,11 @@ flu
 flu
 nvP
 mCi
-flu
-flu
-flu
-flu
-flu
+xkT
+xkT
+xkT
+xkT
+xkT
 nvP
 mCi
 flu
@@ -49663,13 +49033,13 @@ ldo
 ldo
 pKQ
 nCc
-iYZ
-ldo
-ldo
-ldo
-rQB
-tAF
-dUl
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 tXV
 gjU
 qDO
@@ -49776,11 +49146,11 @@ fIe
 fIe
 mCi
 tTV
-flu
-flu
-lrl
-flu
-lFJ
+xkT
+xkT
+xkT
+xkT
+xkT
 mCi
 mCi
 fIe
@@ -49993,11 +49363,11 @@ flu
 flu
 nvP
 mCi
-flu
-flu
-flu
-flu
-flu
+xkT
+xkT
+xkT
+xkT
+xkT
 nvP
 mCi
 flu
@@ -50210,11 +49580,11 @@ lBu
 jPj
 mCi
 mCi
-uJf
-flu
-flu
-flu
-dtD
+xkT
+xkT
+xkT
+xkT
+xkT
 mCi
 mCi
 lBu
@@ -50742,7 +50112,7 @@ mgD
 sQc
 ise
 poc
-ise
+wAb
 ise
 ise
 sQc
@@ -51165,7 +50535,7 @@ igV
 igV
 mcv
 mgD
-pHR
+kXp
 qHQ
 qHQ
 qHQ
@@ -51277,7 +50647,7 @@ xkT
 xkT
 fsT
 uxo
-vAd
+lhP
 yjZ
 rja
 iFk
@@ -51607,7 +50977,7 @@ rrf
 fdd
 fdd
 mgD
-ise
+wAb
 tqd
 pyS
 pyS
@@ -52901,7 +52271,7 @@ jiZ
 igV
 mcv
 mgD
-ise
+vkf
 ise
 poc
 ise
@@ -53124,7 +52494,7 @@ ise
 ise
 mgD
 eNk
-seC
+sQL
 dAh
 pkc
 poc
@@ -53445,7 +52815,7 @@ xkT
 xkT
 xkT
 xkT
-vAd
+ooN
 rNb
 wvI
 ddi
@@ -53786,13 +53156,13 @@ eYC
 gSv
 dUl
 tBB
-pKQ
-pKQ
-pKQ
-pKQ
-pKQ
-pKQ
-dUl
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+mmH
 hHb
 gSv
 siO
@@ -54003,13 +53373,13 @@ ldo
 ldo
 pKQ
 tpY
-bXa
-ldo
-ldo
-ldo
-sMF
-qTk
-jQu
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 hMy
 hMy
 hMy
@@ -54220,13 +53590,13 @@ ldo
 ldo
 sUt
 nCc
-ldo
-ldo
-ldo
-ldo
-ldo
-osD
-ldo
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 ldo
 ldo
 ldo
@@ -54326,7 +53696,7 @@ vAd
 vAd
 vAd
 vAd
-vAd
+bir
 wIt
 vAd
 vAd
@@ -54437,13 +53807,13 @@ gFA
 gFA
 pKQ
 nCc
-ldo
-ldo
-reB
-ldo
-ldo
-ldo
-iYZ
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 gFA
 gFA
 gFA
@@ -54654,13 +54024,13 @@ ldo
 ldo
 sUt
 nCc
-ldo
-ldo
-ldo
-iYZ
-ldo
-ldo
-ldo
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 ldo
 ldo
 ldo
@@ -54753,7 +54123,7 @@ wvI
 vAd
 vAd
 vAd
-vAd
+lGa
 vAd
 fsT
 fsT
@@ -54871,13 +54241,13 @@ ldo
 ldo
 pKQ
 nCc
-ldo
-ldo
-ldo
-ldo
-fcb
-pel
-pel
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 pel
 pel
 pel
@@ -55088,13 +54458,13 @@ aAt
 aAt
 dUl
 gnK
-kYL
-ldo
-xRP
-ldo
-rQB
-jTh
-jTh
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 shG
 shG
 shG
@@ -55723,7 +55093,7 @@ igV
 mcv
 cOQ
 uMV
-cOQ
+pVE
 uWQ
 ldo
 ldo
@@ -55834,7 +55204,7 @@ xkT
 xkT
 vAd
 vAd
-wvI
+ghm
 cob
 jgm
 auz
@@ -56817,7 +56187,7 @@ nFe
 dUl
 dUl
 rRB
-naE
+jzq
 naE
 gtf
 naE
@@ -58755,7 +58125,7 @@ joj
 jyD
 uWQ
 uxl
-cOQ
+pVE
 uWQ
 uxl
 uxl
@@ -58890,11 +58260,11 @@ jnU
 jnU
 tTV
 nvP
-qyU
-flu
-flu
-flu
-hyF
+xkT
+xkT
+xkT
+xkT
+nzH
 mCi
 nvP
 jnU
@@ -59107,11 +58477,11 @@ flu
 flu
 nvP
 mCi
-flu
-flu
-flu
-lFJ
-flu
+xkT
+xkT
+xkT
+xkT
+xkT
 nvP
 mCi
 flu
@@ -59206,7 +58576,7 @@ tWE
 oFl
 sDT
 iJo
-hnK
+rdI
 hnK
 pub
 rRB
@@ -59324,11 +58694,11 @@ fIe
 fIe
 mCi
 mCi
-lFJ
-flu
-lrl
-flu
-flu
+xkT
+xkT
+xkT
+xkT
+xkT
 mCi
 mCi
 fIe
@@ -59380,7 +58750,7 @@ uXb
 uef
 uef
 uef
-uit
+eZP
 uit
 fnt
 tlY
@@ -59541,11 +58911,11 @@ flu
 flu
 nvP
 mCi
-flu
-flu
-flu
-flu
-flu
+xkT
+xkT
+xkT
+xkT
+xkT
 nvP
 mCi
 flu
@@ -59758,11 +59128,11 @@ lBu
 jPj
 mCi
 mCi
-uJf
-flu
-flu
-flu
-dtD
+xkT
+xkT
+xkT
+xkT
+xkT
 mCi
 mCi
 lBu
@@ -60683,7 +60053,7 @@ vLr
 vLr
 neJ
 jMt
-uit
+iMU
 vGJ
 tlY
 lgH
@@ -61287,7 +60657,7 @@ uGA
 eoU
 eoU
 hgg
-iAG
+bjt
 eoU
 fEm
 noh
@@ -61585,7 +60955,7 @@ nDZ
 nDZ
 nDZ
 ilz
-nDZ
+qcV
 nDZ
 nDZ
 nDZ
@@ -61708,7 +61078,7 @@ udR
 jaJ
 fsJ
 jaJ
-frx
+pPA
 ikG
 jaJ
 koq
@@ -62358,7 +61728,7 @@ fsJ
 niP
 onT
 fsJ
-fsJ
+rQv
 fsJ
 fsJ
 kWD
@@ -62554,7 +61924,7 @@ oTK
 lid
 tFo
 lid
-aWg
+nqB
 aWg
 aWg
 aWg
@@ -63672,7 +63042,7 @@ bOx
 rwv
 noh
 eoU
-iAG
+bjt
 eoU
 eoU
 iAG
@@ -63923,7 +63293,7 @@ oVC
 tKv
 ops
 irZ
-ydv
+wYj
 tKv
 rkH
 "}
@@ -64219,7 +63589,7 @@ eYd
 eYd
 eYd
 eYd
-sbp
+twL
 sbp
 azP
 iGp
@@ -64439,7 +63809,7 @@ sbp
 sbp
 qjj
 azP
-oDA
+thF
 oDA
 azP
 vLr
@@ -64517,7 +63887,7 @@ rYH
 rYH
 rYH
 prh
-prh
+qiw
 prh
 prh
 prh
@@ -65022,11 +64392,11 @@ cvB
 fXi
 srP
 qXc
-qBG
+qGC
 qBG
 qOk
 uhv
-eTR
+nBr
 dQw
 ltH
 ouo
@@ -65253,7 +64623,7 @@ gHe
 gHe
 gHe
 gHe
-pwB
+xMg
 pwB
 pwB
 ltH
@@ -65484,7 +64854,7 @@ xvB
 qXc
 qBG
 pqd
-cHq
+vtt
 gbZ
 hlM
 lyI
@@ -65514,7 +64884,7 @@ lgH
 sbp
 qFb
 gDN
-rLT
+hPe
 kaX
 rIg
 gDN
@@ -65932,7 +65302,7 @@ dPL
 dPL
 dPL
 dPL
-dPL
+cmP
 fnY
 cHq
 pqd
@@ -66093,7 +65463,7 @@ xof
 nBY
 xof
 kPl
-xof
+vAk
 jxC
 rkH
 "}
@@ -66330,7 +65700,7 @@ sSz
 jTq
 sIg
 sJW
-sSz
+oge
 ckx
 nmZ
 nom
@@ -66380,7 +65750,7 @@ xvB
 qXc
 qBG
 sPq
-bJe
+bic
 rRS
 vIB
 haF
@@ -67226,7 +66596,7 @@ dPL
 dPL
 nBc
 pqd
-tgU
+kIZ
 dPL
 srQ
 dPL
@@ -67821,7 +67191,7 @@ cDY
 cDY
 jxC
 jxC
-wYj
+iND
 iND
 iND
 uYj
@@ -68032,15 +67402,15 @@ bOx
 bOx
 pDt
 bOx
-mWC
-mWC
-mWC
-mWC
-mWC
-hfY
+jxC
+jxC
+jxC
+jxC
+jxC
+uYj
 ceI
-iND
-iND
+ceI
+wSy
 uYj
 bNk
 xof
@@ -68249,12 +67619,12 @@ bOx
 bOx
 pDt
 bOx
-mWC
+jxC
 xum
 ssm
 qHw
 frE
-hfY
+uYj
 ceI
 iND
 iND
@@ -68466,12 +67836,12 @@ bOx
 bOx
 pDt
 bOx
-mWC
-eJV
-wSy
+jxC
+oLv
+xof
 sPC
-vOi
-hfY
+iGl
+uYj
 ceI
 uoC
 iND
@@ -68530,7 +67900,7 @@ xLv
 pqd
 pqd
 pqd
-lyI
+uWn
 ylw
 lyI
 euS
@@ -68683,12 +68053,12 @@ bOx
 bOx
 pDt
 bOx
-mWC
-wSy
+jxC
+xof
 ssm
-wSy
-wSy
-hfY
+xof
+xof
+uYj
 uvN
 uYj
 uYj
@@ -68900,12 +68270,12 @@ bOx
 bOx
 pDt
 bOx
-sCX
-wSy
+vFB
+xof
 ssm
 dMx
 mCr
-hfY
+uYj
 kPl
 ite
 kwi
@@ -68937,7 +68307,7 @@ qoZ
 kbt
 kbt
 kbt
-kbt
+uOA
 kbt
 kbt
 kbt
@@ -69117,12 +68487,12 @@ uXj
 bOx
 pDt
 bOx
-mWC
-wSy
-wSy
-wSy
-wSy
-hfY
+jxC
+xof
+xof
+xof
+xof
+uYj
 xof
 xof
 xof
@@ -69334,15 +68704,15 @@ bOx
 bOx
 pDt
 bOx
-sCX
-wSy
-wSy
-wSy
-wSy
-hfY
+vFB
 xof
 xof
 xof
+xof
+uYj
+xof
+xof
+wQU
 xof
 xof
 xof
@@ -69551,12 +68921,12 @@ bOx
 bOx
 pDt
 uXj
-mWC
-eJV
-wSy
-wSy
-wSy
-beo
+jxC
+oLv
+xof
+xof
+xof
+nBY
 xof
 xof
 bvU
@@ -69645,7 +69015,7 @@ bnf
 bnf
 vKk
 kPe
-okK
+ePv
 kPe
 uzK
 bnf
@@ -69768,12 +69138,12 @@ bOx
 bOx
 pDt
 bOx
-mWC
+jxC
 uka
 uka
 uka
-umF
-hfY
+hQF
+uYj
 ykb
 qsU
 hRx
@@ -70052,7 +69422,7 @@ pgV
 pgV
 pgV
 fQY
-fQY
+eCb
 iYW
 iYW
 fpC
@@ -70210,7 +69580,7 @@ wXJ
 uYj
 wyV
 vBA
-wyV
+vOi
 uYj
 uYj
 flf
@@ -70335,7 +69705,7 @@ eej
 vKc
 vKc
 vKc
-vKc
+jqi
 hrt
 vKc
 vKc
@@ -70506,7 +69876,7 @@ adz
 dqJ
 bnf
 qBR
-uxT
+gdA
 uFh
 uxT
 uxT
@@ -70520,7 +69890,7 @@ pEa
 uxT
 uxT
 uFh
-uxT
+gdA
 uxT
 bnf
 dqJ
@@ -71507,7 +70877,7 @@ fFI
 vFB
 eIs
 eIs
-wXJ
+kAO
 eIs
 uYj
 xof
@@ -71601,7 +70971,7 @@ awL
 gez
 awL
 gez
-dNr
+amL
 mxD
 pEa
 obM
@@ -72146,7 +71516,7 @@ bOx
 bOx
 bOx
 jxC
-oiz
+jkc
 fFI
 fFI
 fFI
@@ -72216,7 +71586,7 @@ gCZ
 qXc
 luc
 fQY
-fQY
+eCb
 pgV
 pgV
 pgV
@@ -72288,7 +71658,7 @@ ldz
 ldz
 ufu
 aQN
-erk
+pht
 erk
 hmi
 erk
@@ -72333,8 +71703,8 @@ vjT
 vBz
 vBz
 nMI
-vBz
-vBz
+rpX
+pvu
 vxW
 vlE
 jSM
@@ -72380,7 +71750,7 @@ wXJ
 uYj
 wyV
 hBC
-pPA
+vOi
 uYj
 iJb
 xof
@@ -72463,7 +71833,7 @@ obM
 drQ
 pEa
 kwF
-vKk
+hrE
 gez
 kPe
 qEn
@@ -72755,7 +72125,7 @@ vGA
 dPj
 vxW
 wbH
-aFz
+mxI
 iOZ
 aRV
 vjT
@@ -72763,7 +72133,7 @@ vjT
 vjT
 vjT
 vjT
-vjT
+sYB
 vjT
 vjT
 cAX
@@ -72807,7 +72177,7 @@ fFI
 iOI
 fFI
 ieS
-gnN
+jxC
 iaG
 vHO
 vHO
@@ -72872,7 +72242,7 @@ iYW
 iYW
 iYW
 ixm
-iYW
+jXt
 iYW
 iYW
 iYW
@@ -72981,8 +72351,8 @@ oRV
 vjT
 skb
 vjT
-vBz
-vBz
+pPs
+bYT
 gsu
 vjT
 vjT
@@ -73111,8 +72481,8 @@ dqJ
 dqJ
 bnf
 hlF
-srF
-srF
+hfY
+jeh
 srF
 bnf
 way
@@ -73122,8 +72492,8 @@ vDC
 way
 bnf
 srF
-srF
-srF
+jeh
+jeh
 qvK
 bnf
 dqJ
@@ -73235,13 +72605,13 @@ sNe
 sNe
 sNe
 sWn
-oiz
+vOP
 fFI
 fFI
 iOI
 fFI
 ieS
-gnN
+jxC
 vHO
 vHO
 vHO
@@ -73328,7 +72698,7 @@ dqJ
 noI
 vQl
 jeh
-jeh
+eiP
 jeh
 jeh
 vQl
@@ -73416,7 +72786,7 @@ vjT
 vjT
 cAX
 vBz
-vBz
+kEk
 vBz
 vjT
 vjT
@@ -73675,7 +73045,7 @@ fFI
 iOI
 eFu
 ieS
-gnN
+jxC
 hDn
 vHO
 vHO
@@ -73762,8 +73132,8 @@ dqJ
 dqJ
 bnf
 hlF
-srF
-srF
+jeh
+jeh
 srF
 bnf
 way
@@ -73773,8 +73143,8 @@ kPe
 way
 bnf
 srF
-srF
-srF
+jeh
+jeh
 qvK
 bnf
 dqJ
@@ -73892,7 +73262,7 @@ fFI
 iOI
 fFI
 ieS
-gnN
+jxC
 hDn
 vHO
 oGJ
@@ -74066,14 +73436,14 @@ vjT
 cAX
 vjT
 vjT
-vjT
+sTu
 vjT
 vjT
 vjT
 vjT
 uTI
 vlE
-vlE
+plA
 vlE
 vxW
 mUI
@@ -74422,7 +73792,7 @@ kPe
 atL
 kPe
 gez
-uzK
+lnq
 kwF
 pEa
 obM
@@ -74533,7 +73903,7 @@ pFB
 bOx
 bOx
 jxC
-oiz
+jkc
 fFI
 fFI
 fFI
@@ -74671,7 +74041,7 @@ uIF
 uIF
 hJk
 fEZ
-dKc
+fEZ
 tdn
 lWx
 oDs
@@ -74762,7 +74132,7 @@ fFI
 ieS
 vFB
 qss
-qss
+rwP
 jPn
 uYj
 jPn
@@ -74811,13 +74181,13 @@ xHw
 suo
 wjl
 kpV
-hur
-tlY
-lgH
-hsK
-lgH
-kBZ
-lfY
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+eSZ
 bGW
 bGW
 bGW
@@ -74986,7 +74356,7 @@ xof
 wyV
 wyV
 uYj
-ofr
+eKL
 ofr
 ofr
 bTG
@@ -75028,13 +74398,13 @@ xHw
 suo
 wjl
 kpV
-hur
-tlY
-lgH
-hsK
-lgH
-gZN
-vCZ
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 uNq
 vCZ
 vCZ
@@ -75093,7 +74463,7 @@ voF
 ktE
 vYk
 pjL
-rFm
+kYl
 llJ
 llJ
 llJ
@@ -75118,7 +74488,7 @@ kFo
 kFo
 kFo
 dnY
-dnY
+uhn
 bZy
 vSz
 vSz
@@ -75143,7 +74513,7 @@ dPj
 vxW
 uZQ
 kib
-kib
+eYn
 aRV
 vjT
 vjT
@@ -75203,7 +74573,7 @@ xof
 xof
 xof
 uYj
-ofr
+mLa
 ofr
 ofr
 bTG
@@ -75245,13 +74615,13 @@ suo
 suo
 wjl
 kpV
-hur
-tlY
-rZN
-hsK
-lgH
-lgH
-lgH
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 lgH
 lgH
 lgH
@@ -75284,7 +74654,7 @@ rSy
 obM
 pEa
 mxD
-riq
+itD
 gez
 awL
 gez
@@ -75462,13 +74832,13 @@ wjl
 wjl
 wjl
 kpV
-jkR
-tlY
-lgH
-hsK
-lgH
-lgH
-oaP
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 oaP
 oaP
 oaP
@@ -75679,13 +75049,13 @@ rSp
 pAK
 wjl
 kpV
-hur
-tlY
-lgH
-hsK
-lgH
-lgH
-lgH
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 lgH
 lgH
 lgH
@@ -75896,13 +75266,13 @@ xHw
 xHw
 wjl
 kpV
-hur
-tlY
-lgH
-hsK
-lgH
-vwv
-wzb
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 qPC
 qPC
 wzb
@@ -76071,7 +75441,7 @@ xof
 xof
 xof
 uYj
-ofr
+eKL
 ofr
 ofr
 bTG
@@ -76113,13 +75483,13 @@ xHw
 xHw
 wjl
 kpV
-hin
-prq
-uRT
-wuq
-uRT
-its
-dQh
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
+xkT
 jAB
 jAB
 jAB
@@ -76288,7 +75658,7 @@ xof
 xof
 xof
 uYj
-ofr
+mLa
 ofr
 ofr
 bTG
@@ -76495,7 +75865,7 @@ fFI
 fFI
 sHf
 fFI
-ieS
+gbj
 jxC
 xof
 hfO
@@ -76624,7 +75994,7 @@ rIn
 rIn
 nDC
 nZK
-nZK
+cJA
 gic
 aFG
 kMl
@@ -77146,7 +76516,7 @@ fFI
 fFI
 fFI
 fFI
-ieS
+isb
 jxC
 xof
 xof
@@ -77156,7 +76526,7 @@ xof
 xof
 xof
 uYj
-ofr
+eKL
 soK
 ofr
 bTG
@@ -77240,7 +76610,7 @@ bnf
 bnf
 vKk
 kPe
-okK
+wSi
 kPe
 uzK
 bnf
@@ -77373,7 +76743,7 @@ xof
 xof
 xof
 uYj
-ofr
+mLa
 ofr
 fUW
 bTG
@@ -77491,7 +76861,7 @@ oFv
 nDC
 kuk
 kuk
-cJA
+nZK
 nZK
 lzR
 lzR
@@ -77699,7 +77069,7 @@ awN
 ktE
 ktE
 gBy
-pyV
+xNm
 pyV
 oYr
 fHo
@@ -77708,7 +77078,7 @@ oFv
 bTw
 gIU
 gIU
-nZK
+cJA
 nZK
 gic
 bMV
@@ -77866,7 +77236,7 @@ pnN
 vnJ
 xWJ
 pnN
-cdd
+umF
 cdd
 cdd
 mii
@@ -78025,7 +77395,7 @@ kmM
 xof
 uYj
 ofr
-ofr
+rbc
 ofr
 bTG
 rLi
