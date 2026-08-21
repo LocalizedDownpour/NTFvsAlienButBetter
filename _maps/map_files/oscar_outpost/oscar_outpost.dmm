@@ -22,8 +22,19 @@
 /turf/open/floor/mainship/sterile,
 /area/oscar_outpost)
 "ag" = (
-/turf/open/floor/plating/ground/dirtgrassborder/corner,
-/area/oscar_outpost/outside/northwest)
+/obj/structure/barricade/solid{
+	dir = 1;
+	faction = "Sons of Mars"
+	},
+/obj/structure/barricade/solid{
+	dir = 4;
+	faction = "Sons of Mars"
+	},
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/engine/cult{
+	dir = 2
+	},
+/area/oscar_outpost)
 "ah" = (
 /obj/machinery/camera/autoname/mainship,
 /turf/open/ground/grass,
@@ -219,6 +230,7 @@
 	dir = 8;
 	mouse_opacity = 0
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/engine/cult{
 	dir = 2
 	},
@@ -228,11 +240,9 @@
 /turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/outside/north)
 "aT" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder{
-	dir = 1
-	},
-/area/oscar_outpost/outside/east)
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/liquid/water/river,
+/area/oscar_outpost/outside/north)
 "aU" = (
 /obj/machinery/iv_drip,
 /obj/effect/spawner/random/medical/bloodpack,
@@ -421,18 +431,13 @@
 /turf/open/floor/tile/dark,
 /area/oscar_outpost)
 "bF" = (
-/obj/structure/barricade/solid{
+/obj/structure/cable,
+/obj/structure/barricade/folding{
 	dir = 1;
 	faction = "Sons of Mars"
 	},
-/obj/structure/barricade/solid{
-	dir = 4;
-	faction = "Sons of Mars"
-	},
-/turf/open/floor/engine/cult{
-	dir = 2
-	},
-/area/oscar_outpost)
+/turf/open/floor/plating,
+/area/oscar_outpost/outside/underground)
 "bG" = (
 /turf/open/floor/plating/asteroidwarning{
 	dir = 8
@@ -708,6 +713,7 @@
 /obj/machinery/camera/autoname/mainship{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "cE" = (
@@ -888,20 +894,17 @@
 /turf/open/floor/mainship/sterile,
 /area/oscar_outpost/base)
 "ds" = (
-/obj/structure/barricade/sandbags{
-	dir = 8;
-	name = "trench lining";
-	pixel_y = 6;
+/obj/effect/mapping_helpers/barricade/wired,
+/obj/structure/barricade/solid{
+	alpha = 0;
+	dir = 1;
+	mouse_opacity = 0;
 	faction = "Sons of Mars"
 	},
-/obj/structure/barricade/sandbags{
-	name = "trench lining";
-	pixel_y = -7;
-	faction = "Sons of Mars"
+/turf/open/floor/engine/cult{
+	dir = 2
 	},
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirt2,
-/area/oscar_outpost/outside/underground)
+/area/oscar_outpost)
 "dt" = (
 /obj/structure/barricade/sandbags{
 	dir = 1;
@@ -1077,6 +1080,12 @@
 "ee" = (
 /turf/closed/shuttle/cas/eleven,
 /area/oscar_outpost/outside/northeast)
+"ef" = (
+/obj/item/weapon/gun/energy/lasgun/lasrifle/volkite/cope/predeployed,
+/turf/open/floor/plating/ground/dirtgrassborder{
+	dir = 1
+	},
+/area/oscar_outpost/outside/east)
 "eg" = (
 /obj/structure/desertdam/decals/road/stop{
 	dir = 4
@@ -1428,6 +1437,9 @@
 /obj/structure/caspart/fourteen{
 	dir = 8
 	},
+/obj/structure/prop/urban/airport/dropshipenginedamage{
+	pixel_y = -15
+	},
 /turf/open/ground/grass,
 /area/oscar_outpost/outside/northeast)
 "fA" = (
@@ -1455,6 +1467,7 @@
 	faction = "Sons of Mars"
 	},
 /obj/item/weapon/gun/energy/lasgun/lasrifle/volkite/cope/predeployed,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost)
 "fE" = (
@@ -1516,11 +1529,20 @@
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "fP" = (
-/obj/structure/platform{
-	dir = 1
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = 10;
+	pixel_y = 7
 	},
-/turf/open/floor/plating/ground/dirtgrassborder/corner,
-/area/oscar_outpost/outside/northwest)
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "fQ" = (
 /obj/structure/platform{
 	dir = 10
@@ -1535,6 +1557,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "fS" = (
@@ -1590,6 +1613,13 @@
 /obj/structure/bedsheetbin,
 /turf/open/floor,
 /area/oscar_outpost/village/central)
+"gf" = (
+/obj/effect/landmark/corpsespawner/marine/regular,
+/obj/item/weapon/gun/rifle/standard_gpmg,
+/turf/open/ground/coast{
+	dir = 1
+	},
+/area/oscar_outpost/outside/north)
 "gg" = (
 /obj/structure/largecrate/supply/supplies/mre,
 /turf/open/floor/wood,
@@ -1845,7 +1875,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/blood/humanimprint/one,
+/obj/structure/prop/urban/airport/deadpilot1{
+	pixel_x = -8
+	},
 /turf/open/shuttle/dropship/floor,
 /area/oscar_outpost/outside/north)
 "gT" = (
@@ -2039,6 +2071,7 @@
 /obj/structure/barricade/solid{
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning,
 /area/oscar_outpost)
 "hB" = (
@@ -2163,6 +2196,10 @@
 /turf/open/floor/plating/ground/dirtgrassborder/corner2,
 /area/oscar_outpost/village/fairgrounds)
 "hW" = (
+/obj/structure/prop/urban/airport/dropshipenginedamagenofire{
+	pixel_y = -15;
+	pixel_x = 3
+	},
 /turf/closed/shuttle/cas/ten{
 	dir = 1
 	},
@@ -2290,11 +2327,6 @@
 /obj/structure/bed/chair/dropship/pilot{
 	dir = 1
 	},
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/effect/landmark/corpsespawner/marine/regular,
-/obj/item/weapon/gun/smg/m25,
 /turf/open/shuttle/dropship/floor,
 /area/oscar_outpost)
 "ir" = (
@@ -2311,11 +2343,9 @@
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "it" = (
-/obj/effect/ai_node,
-/turf/open/floor/plating/ground/dirtgrassborder/corner2{
-	dir = 1
-	},
-/area/oscar_outpost/outside/northwest)
+/obj/structure/prop/urban/airport/dropshipenginedamagenofire,
+/turf/closed/shuttle/dropship2/enginetwo,
+/area/oscar_outpost/outside/north)
 "iu" = (
 /obj/structure/barricade/sandbags{
 	dir = 8;
@@ -2494,13 +2524,16 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/road)
 "jc" = (
-/obj/structure/bed/chair/dropship/pilot{
-	dir = 1
+/obj/structure/barricade/solid{
+	alpha = 0;
+	dir = 4;
+	mouse_opacity = 0;
+	faction = "Sons of Mars"
 	},
-/obj/machinery/light{
-	dir = 8
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/engine/cult{
+	dir = 2
 	},
-/turf/open/shuttle/dropship/floor,
 /area/oscar_outpost)
 "je" = (
 /obj/structure/barricade/solid{
@@ -2508,6 +2541,7 @@
 	faction = "Sons of Mars"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "jf" = (
@@ -2696,6 +2730,24 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/drop1/lz1)
+"jQ" = (
+/obj/structure/prop/vehicle/tank/north/base{
+	name = "Destroyed M490 - "T-Rex" ";
+	desc = "A broken dowen M490 medium tank. No way to fix that.."
+	},
+/obj/structure/prop/vehicle/tank/north/decoration/damagedhardpointthree,
+/obj/structure/prop/vehicle/tank/north/decoration/damagedhardpointframe,
+/obj/structure/prop/vehicle/tank/north/decoration/damagedtreads,
+/obj/structure/prop/vehicle/tank/north/decoration/driveenhancerone,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
+"jR" = (
+/obj/structure/razorwire{
+	pixel_x = -15;
+	pixel_y = 20
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "jS" = (
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/road)
@@ -3019,9 +3071,9 @@
 /turf/open/ground/grass,
 /area/oscar_outpost/outside/northwest)
 "lc" = (
-/obj/machinery/floodlight/outpost/oscar,
+/obj/item/stack/barbed_wire,
 /turf/open/floor/plating/ground/dirt,
-/area/oscar_outpost/outside/northwest)
+/area/oscar_outpost/outside/north)
 "le" = (
 /obj/structure/barricade/sandbags{
 	name = "trench lining";
@@ -3037,14 +3089,16 @@
 	dir = 8;
 	mouse_opacity = 0
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/engine/cult{
 	dir = 2
 	},
 /area/oscar_outpost)
 "lg" = (
-/obj/machinery/floodlight/outpost/oscar,
+/obj/docking_port/stationary/crashmode,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/dirt,
-/area/oscar_outpost/village/fairgrounds)
+/area/oscar_outpost/outside/north)
 "lh" = (
 /turf/open/shuttle/dropship/floor/alt,
 /area/oscar_outpost)
@@ -3435,11 +3489,11 @@
 /turf/open/floor,
 /area/oscar_outpost/village/south)
 "mM" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder{
-	dir = 4
-	},
-/area/oscar_outpost/outside/west)
+/obj/structure/razorwire,
+/obj/item/ammo_casing/bullet,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "mN" = (
 /obj/structure/prop/brokenvendor/brokenweaponsrack,
 /turf/open/floor/tile/dark,
@@ -3675,11 +3729,14 @@
 /turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/outside/road)
 "nO" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder/corner2{
-	dir = 1
-	},
-/area/oscar_outpost/outside/road)
+/obj/structure/prop/vehicle/apc/wheelsone,
+/obj/effect/decal/cleanable/blood/oil,
+/obj/structure/prop/vehicle/apc/med,
+/obj/structure/prop/vehicle/apc/decoration/commsrelayone,
+/obj/structure/prop/vehicle/apc/dualcannonone,
+/obj/structure/prop/vehicle/apc/damagedframe,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "nP" = (
 /obj/structure/bed/chair/dropship/passenger{
 	dir = 4
@@ -3943,7 +4000,6 @@
 /turf/open/floor,
 /area/oscar_outpost/village/south)
 "oJ" = (
-/obj/machinery/floodlight/outpost/oscar,
 /obj/structure/cable,
 /turf/open/floor/plating/ground/dirtgrassborder/corner2{
 	dir = 8
@@ -3953,9 +4009,9 @@
 /turf/open/floor/wood,
 /area/oscar_outpost/village/fairgrounds)
 "oN" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirt,
-/area/oscar_outpost/outside/northeast)
+/obj/structure/prop/urban/misc/fire/fire1,
+/turf/open/floor/plating/ground/dirt2,
+/area/oscar_outpost/outside/west)
 "oO" = (
 /obj/structure/table/mainship,
 /obj/item/tool/handheld_charger,
@@ -4105,10 +4161,13 @@
 /turf/open/floor,
 /area/oscar_outpost/village/south)
 "ps" = (
-/turf/open/floor/plating/ground/dirtgrassborder/corner{
-	dir = 1
+/obj/structure/barricade/solid{
+	dir = 4;
+	faction = "Sons of Mars"
 	},
-/area/oscar_outpost/outside/northeast)
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/tile/dark,
+/area/oscar_outpost/base)
 "pu" = (
 /obj/effect/landmark/corpsespawner/marine/corpsman,
 /obj/item/weapon/gun/smg/m25,
@@ -4213,6 +4272,7 @@
 /area/oscar_outpost/base)
 "pP" = (
 /obj/structure/barricade/solid,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning,
 /area/oscar_outpost)
 "pQ" = (
@@ -4246,21 +4306,13 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/underground)
 "pY" = (
-/obj/structure/barricade/sandbags{
-	dir = 1;
-	name = "trench lining";
-	pixel_y = 10;
+/obj/structure/barricade/folding{
+	dir = 4;
 	faction = "Sons of Mars"
 	},
-/obj/structure/barricade/sandbags{
-	dir = 8;
-	name = "trench lining";
-	pixel_y = 1;
-	faction = "Sons of Mars"
-	},
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirt2,
-/area/oscar_outpost/outside/underground)
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/tile/dark,
+/area/oscar_outpost/base)
 "qb" = (
 /obj/structure/caspart/seven{
 	dir = 8
@@ -4348,11 +4400,13 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/northeast)
 "qs" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder/corner2{
-	dir = 4
+/obj/structure/barricade/solid{
+	dir = 1;
+	faction = "Sons of Mars"
 	},
-/area/oscar_outpost/outside/road)
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/tile/dark,
+/area/oscar_outpost)
 "qt" = (
 /turf/closed/shuttle/dropship2/engine_sidealt,
 /area/oscar_outpost)
@@ -4504,7 +4558,7 @@
 /obj/structure/platform{
 	dir = 1
 	},
-/turf/open/floor/plating/ground/dirtgrassborder,
+/turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/outside/northwest)
 "qU" = (
 /obj/machinery/camera/autoname/mainship{
@@ -4514,6 +4568,14 @@
 	dir = 4
 	},
 /area/oscar_outpost/outside/road)
+"qV" = (
+/obj/structure/barricade/folding{
+	dir = 1;
+	faction = "Sons of Mars"
+	},
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/tile/dark,
+/area/oscar_outpost)
 "qW" = (
 /obj/effect/landmark/start/job/crash,
 /obj/vehicle/ridden/wheelchair,
@@ -4537,11 +4599,10 @@
 /area/oscar_outpost/outside/east)
 "ra" = (
 /obj/structure/barricade/solid{
-	alpha = 0;
 	dir = 4;
-	mouse_opacity = 0;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/engine/cult{
 	dir = 2
 	},
@@ -4611,7 +4672,7 @@
 /obj/structure/platform{
 	dir = 1
 	},
-/turf/open/floor/plating/ground/dirtgrassborder,
+/turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/outside/northwest)
 "rn" = (
 /obj/structure/closet/crate,
@@ -4773,6 +4834,8 @@
 	dir = 1;
 	faction = "Sons of Mars"
 	},
+/obj/item/ammo_casing/bullet,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/engine/cult{
 	dir = 2
 	},
@@ -4781,10 +4844,10 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/northwest)
 "rR" = (
-/obj/machinery/light{
-	dir = 8
+/obj/structure/prop/urban/misc/fire/fire2,
+/obj/structure/prop/urban/airport/deadpilot1{
+	pixel_x = -8
 	},
-/obj/effect/landmark/corpsespawner/marine/regular,
 /turf/open/shuttle/dropship/floor,
 /area/oscar_outpost/outside/north)
 "rU" = (
@@ -4825,6 +4888,7 @@
 	dir = 4;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidfloor,
 /area/oscar_outpost)
 "sd" = (
@@ -4844,6 +4908,7 @@
 /turf/closed/wall,
 /area/oscar_outpost/base)
 "sh" = (
+/obj/structure/prop/urban/misc/fire/fire2,
 /turf/closed/shuttle/cas/fifteen,
 /area/oscar_outpost/outside/northeast)
 "si" = (
@@ -4874,9 +4939,12 @@
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "sp" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/ground/grass,
-/area/oscar_outpost/village/fairgrounds)
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = -4;
+	pixel_y = 20
+	},
+/turf/open/liquid/water/river,
+/area/oscar_outpost/outside/north)
 "ss" = (
 /obj/effect/landmark/patrol_point/som/som_21,
 /turf/open/floor/plating/ground/dirt,
@@ -4913,15 +4981,11 @@
 /turf/open/shuttle/dropship/three,
 /area/oscar_outpost/outside/north)
 "sD" = (
-/obj/structure/barricade/solid{
-	dir = 1;
-	faction = "Sons of Mars"
+/obj/effect/decal/cleanable/blood,
+/turf/open/ground/coast{
+	dir = 1
 	},
-/obj/item/weapon/gun/sentry/laser_sentry,
-/turf/open/floor/engine/cult{
-	dir = 2
-	},
-/area/oscar_outpost)
+/area/oscar_outpost/outside/north)
 "sE" = (
 /obj/structure/closet/crate,
 /obj/item/storage/box/lights,
@@ -4981,12 +5045,18 @@
 /obj/structure/caspart/twelve{
 	dir = 8
 	},
+/obj/structure/prop/urban/misc/fire/fire1,
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/northeast)
 "sU" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder,
-/area/oscar_outpost/outside/east)
+/obj/structure/razorwire{
+	pixel_x = -15;
+	pixel_y = 45
+	},
+/obj/effect/landmark/corpsespawner/marine/engineer/regular,
+/obj/item/weapon/gun/shotgun/pump/t35,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "sV" = (
 /turf/closed/wall,
 /area/oscar_outpost/village/south)
@@ -5005,9 +5075,13 @@
 /turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/outside/road)
 "ta" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder/corner2,
-/area/oscar_outpost/outside/road)
+/obj/effect/landmark/corpsespawner/som,
+/obj/item/weapon/gun/launcher/rocket/som,
+/obj/item/ammo_magazine/rocket/som/heat,
+/obj/item/ammo_magazine/rocket/som/heat,
+/obj/item/ammo_magazine/rocket/som/heat,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "tb" = (
 /obj/structure/dropship_piece/two/wing/left/bottom,
 /obj/effect/attach_point/weapon/dropship2,
@@ -5184,6 +5258,10 @@
 /obj/effect/forcefield,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost)
+"ty" = (
+/obj/item/weapon/gun/energy/lasgun/lasrifle/volkite/cope/predeployed,
+/turf/open/floor/plating/ground/dirtgrassborder,
+/area/oscar_outpost/outside/east)
 "tz" = (
 /obj/structure/barricade/sandbags{
 	dir = 4;
@@ -5235,6 +5313,7 @@
 	},
 /area/oscar_outpost)
 "tL" = (
+/obj/structure/prop/urban/airport/dropshipenginedamage,
 /turf/closed/shuttle/dropship2/enginetwo,
 /area/oscar_outpost/outside/west)
 "tM" = (
@@ -5530,6 +5609,8 @@
 	dir = 4;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 4
 	},
@@ -5611,11 +5692,15 @@
 /turf/open/shuttle/dropship/three,
 /area/oscar_outpost/outside/north)
 "vk" = (
-/obj/effect/ai_node,
-/turf/open/floor/plating/ground/dirtgrassborder{
-	dir = 8
+/obj/structure/barricade/solid{
+	dir = 4;
+	faction = "Sons of Mars"
 	},
-/area/oscar_outpost/outside/northeast)
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/plating/asteroidwarning{
+	dir = 4
+	},
+/area/oscar_outpost)
 "vl" = (
 /obj/machinery/light{
 	dir = 4
@@ -5639,6 +5724,7 @@
 	mouse_opacity = 0;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/engine/cult{
 	dir = 2
 	},
@@ -5655,6 +5741,8 @@
 	faction = "Sons of Mars"
 	},
 /obj/structure/barricade/solid,
+/obj/effect/mapping_helpers/barricade/wired,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 10
 	},
@@ -5741,9 +5829,13 @@
 /turf/open/floor,
 /area/oscar_outpost/village/central)
 "vE" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirt,
-/area/oscar_outpost/outside/underground)
+/obj/structure/barricade/solid{
+	dir = 1;
+	faction = "Sons of Mars"
+	},
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/tile/dark,
+/area/oscar_outpost/base)
 "vG" = (
 /obj/structure/window/reinforced/extratoughened{
 	dir = 1
@@ -5853,11 +5945,7 @@
 /turf/open/floor,
 /area/oscar_outpost/village/south)
 "wd" = (
-/obj/structure/barricade/solid{
-	dir = 1;
-	faction = "Sons of Mars"
-	},
-/obj/item/ammo_casing/bullet,
+/obj/item/stack/barbed_wire/full,
 /turf/open/floor/engine/cult{
 	dir = 2
 	},
@@ -5985,11 +6073,9 @@
 /obj/structure/bed/chair/dropship/pilot{
 	dir = 1
 	},
-/obj/machinery/light{
-	dir = 8
+/obj/structure/prop/urban/airport/deadpilot1{
+	pixel_x = -8
 	},
-/obj/effect/landmark/corpsespawner/marine/regular,
-/obj/effect/decal/cleanable/blood,
 /turf/open/shuttle/dropship/floor,
 /area/oscar_outpost)
 "wK" = (
@@ -6000,6 +6086,7 @@
 /obj/structure/barricade/folding{
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "wO" = (
@@ -6091,6 +6178,7 @@
 	dir = 1;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 1
 	},
@@ -6309,7 +6397,6 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/underground)
 "xV" = (
-/obj/machinery/floodlight/outpost/oscar,
 /obj/structure/cable,
 /turf/open/floor/plating/ground/dirtgrassborder/corner2,
 /area/oscar_outpost/outside/road)
@@ -6424,6 +6511,13 @@
 /obj/effect/ai_node,
 /turf/open/floor,
 /area/oscar_outpost/village)
+"yr" = (
+/obj/structure/dropship_piece/two/engine/leftbottom,
+/obj/structure/prop/urban/misc/fire/fire2,
+/turf/closed/shuttle/dropship2/engineone{
+	dir = 4
+	},
+/area/oscar_outpost/outside/north)
 "yu" = (
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/west)
@@ -6982,14 +7076,12 @@
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "AA" = (
-/obj/structure/barricade/solid{
-	dir = 4;
-	faction = "Sons of Mars"
+/obj/structure/platform{
+	dir = 1
 	},
-/turf/open/floor/engine/cult{
-	dir = 2
-	},
-/area/oscar_outpost)
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "AB" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
@@ -7026,6 +7118,10 @@
 /obj/machinery/camera/autoname/mainship,
 /turf/open/floor,
 /area/oscar_outpost/village)
+"AG" = (
+/obj/structure/prop/urban/misc/fire/fire2,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "AH" = (
 /obj/item/binoculars/tactical,
 /obj/item/binoculars/tactical,
@@ -7412,6 +7508,11 @@
 /obj/machinery/camera/autoname/mainship,
 /turf/open/floor/wood,
 /area/oscar_outpost/village/central)
+"BY" = (
+/obj/effect/ai_node,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "BZ" = (
 /obj/structure/bed,
 /obj/item/bedsheet/captain,
@@ -7429,9 +7530,10 @@
 /turf/open/floor,
 /area/oscar_outpost/village/south)
 "Cb" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder,
-/area/oscar_outpost/outside/road)
+/obj/item/ammo_casing/bullet,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "Cc" = (
 /obj/effect/attach_point/crew_weapon/dropship2,
 /turf/open/shuttle/dropship/floor,
@@ -7530,6 +7632,7 @@
 	faction = "Sons of Mars"
 	},
 /obj/effect/landmark/corpsespawner/som_officer,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/west)
 "Cr" = (
@@ -7545,6 +7648,8 @@
 	dir = 1;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 9
 	},
@@ -7676,6 +7781,7 @@
 /obj/machinery/camera/autoname/mainship{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "CO" = (
@@ -7687,6 +7793,7 @@
 /area/oscar_outpost)
 "CP" = (
 /obj/structure/barricade/solid,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "CQ" = (
@@ -7816,6 +7923,29 @@
 	},
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost)
+"Dm" = (
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = 1;
+	pixel_y = 17
+	},
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = 10;
+	pixel_y = 15
+	},
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = 25;
+	pixel_y = -50
+	},
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = -10;
+	pixel_y = 15
+	},
+/obj/structure/prop/urban/misc/fire/fire1{
+	pixel_x = -4;
+	pixel_y = 20
+	},
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "Dn" = (
 /obj/item/weapon/gun/energy/lasgun/lasrifle/volkite/cope/predeployed,
 /turf/open/ground/grass,
@@ -7869,15 +7999,24 @@
 /turf/open/floor/plating/ground/desertdam/asphalt/cement,
 /area/oscar_outpost/outside/west)
 "DC" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder{
-	dir = 1
+/obj/structure/prop/urban/misc/fire/fire1,
+/turf/closed/shuttle/dropship2/enginetwo{
+	dir = 4
 	},
-/area/oscar_outpost/outside/road)
+/area/oscar_outpost/outside/west)
 "DD" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirt,
-/area/oscar_outpost/outside/north)
+/obj/structure/barricade/solid{
+	dir = 1;
+	faction = "Sons of Mars"
+	},
+/obj/effect/mapping_helpers/barricade/wired,
+/obj/structure/barricade/solid{
+	dir = 4;
+	faction = "Sons of Mars"
+	},
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/tile/dark,
+/area/oscar_outpost)
 "DE" = (
 /obj/item/trash/chunk,
 /turf/open/floor/wood,
@@ -8203,12 +8342,9 @@
 /turf/open/ground/grass,
 /area/oscar_outpost/outside/west)
 "EC" = (
-/obj/structure/barricade/solid{
-	dir = 1;
-	faction = "Sons of Mars"
-	},
-/turf/closed/wall/mainship/outer,
-/area/oscar_outpost)
+/obj/structure/prop/urban/airport/dropshipenginedamage,
+/turf/closed/shuttle/dropship2/enginetwo,
+/area/oscar_outpost/outside/north)
 "EE" = (
 /obj/structure/barricade/sandbags{
 	name = "trench lining";
@@ -8397,6 +8533,7 @@
 	faction = "Sons of Mars"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "Fk" = (
@@ -8723,11 +8860,9 @@
 /turf/open/floor/wood,
 /area/oscar_outpost/village/east)
 "Go" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder{
-	dir = 4
-	},
-/area/oscar_outpost/outside/road)
+/obj/structure/prop/urban/misc/fire/fire2,
+/turf/closed/shuttle/dropship2/wallthree,
+/area/oscar_outpost/outside/north)
 "Gp" = (
 /obj/machinery/door/airlock/mainship/generic,
 /turf/open/floor/tile/dark,
@@ -9087,6 +9222,15 @@
 /obj/structure/prop/brokenvendor/surplusarmor,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
+"Hn" = (
+/obj/structure/barricade/solid{
+	dir = 1;
+	faction = "Sons of Mars"
+	},
+/obj/effect/ai_node,
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/tile/dark,
+/area/oscar_outpost)
 "Ho" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 8;
@@ -9877,6 +10021,14 @@
 /obj/item/stack/medical/splint,
 /turf/open/floor/wood,
 /area/oscar_outpost/village/south)
+"Jv" = (
+/obj/structure/razorwire{
+	pixel_x = -15;
+	pixel_y = 15
+	},
+/obj/item/tool/wirecutters,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "Jw" = (
 /obj/effect/ai_node,
 /turf/open/floor/wood,
@@ -10009,6 +10161,8 @@
 	dir = 1;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 5
 	},
@@ -10209,11 +10363,10 @@
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "KF" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder/corner2{
-	dir = 8
-	},
-/area/oscar_outpost/outside/road)
+/obj/structure/razorwire,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "KG" = (
 /obj/structure/bed,
 /obj/item/bedsheet/captain,
@@ -10639,6 +10792,7 @@
 	dir = 4;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "Me" = (
@@ -10876,11 +11030,15 @@
 /turf/open/floor/mainship/sterile/dark,
 /area/oscar_outpost/village/central)
 "MK" = (
-/obj/effect/ai_node,
-/turf/open/floor/plating/ground/dirtgrassborder/corner{
-	dir = 4
+/obj/structure/barricade/sandbags{
+	dir = 8;
+	name = "trench lining";
+	pixel_y = 1;
+	faction = "Sons of Mars"
 	},
-/area/oscar_outpost/outside/northeast)
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt2,
+/area/oscar_outpost/outside/north)
 "MM" = (
 /obj/structure/table/wood/rustic,
 /obj/structure/transmitter/colony_net/desk/auto_id,
@@ -11347,9 +11505,25 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/west)
 "Oz" = (
-/obj/machinery/floodlight/outpost/oscar,
+/obj/structure/barricade/sandbags{
+	dir = 1;
+	name = "trench lining";
+	pixel_y = 10;
+	faction = "Sons of Mars"
+	},
+/obj/structure/barricade/sandbags{
+	dir = 8;
+	name = "trench lining";
+	pixel_y = 6;
+	faction = "Sons of Mars"
+	},
+/obj/structure/barricade/sandbags{
+	name = "trench lining";
+	pixel_y = -7;
+	faction = "Sons of Mars"
+	},
 /turf/open/floor/plating/ground/dirtgrassborder{
-	dir = 8
+	dir = 1
 	},
 /area/oscar_outpost/outside/road)
 "OA" = (
@@ -12328,6 +12502,7 @@
 	dir = 1;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "Ru" = (
@@ -12351,11 +12526,16 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/west)
 "RA" = (
-/obj/structure/dropship_piece/two/corner/rearright{
+/obj/structure/barricade/sandbags{
+	dir = 1;
+	name = "trench lining";
+	pixel_y = 10;
+	faction = "Sons of Mars"
+	},
+/turf/open/floor/plating/ground/dirtgrassborder{
 	dir = 1
 	},
-/turf/open/ground/grass,
-/area/oscar_outpost)
+/area/oscar_outpost/outside/road)
 "RB" = (
 /obj/structure/rack,
 /obj/item/explosive/grenade/incendiary/molotov,
@@ -12849,6 +13029,7 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/northeast)
 "SO" = (
+/obj/structure/prop/urban/misc/fire/fire1,
 /turf/closed/shuttle/dropship2/engineone/alt{
 	dir = 8
 	},
@@ -12866,6 +13047,12 @@
 /obj/structure/table/wood/rustic,
 /turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/village/fairgrounds)
+"ST" = (
+/obj/effect/landmark/corpsespawner/marine/regular,
+/obj/effect/decal/cleanable/blood,
+/obj/item/weapon/gun/smg/m25,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "SU" = (
 /obj/machinery/door/airlock/dropship_hatch/left/two,
 /obj/item/weapon/gun/rifle/standard_assaultrifle/rifleman,
@@ -12892,6 +13079,12 @@
 /obj/item/attachable/heavy_barrel,
 /turf/open/floor,
 /area/oscar_outpost/village/south)
+"SZ" = (
+/obj/structure/prop/urban/misc/fire/fire1,
+/turf/closed/shuttle/dropship2/enginethree{
+	dir = 4
+	},
+/area/oscar_outpost/outside/north)
 "Ta" = (
 /turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/village/fairgrounds)
@@ -13181,6 +13374,12 @@
 	},
 /turf/open/floor/tile/dark,
 /area/oscar_outpost)
+"Ub" = (
+/obj/effect/landmark/corpsespawner/marine/regular,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "Uc" = (
 /obj/structure/rack,
 /obj/item/attachable/bayonet,
@@ -13501,6 +13700,16 @@
 /obj/effect/spawner/random/weaponry/gun/shotgun,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
+"Vg" = (
+/obj/structure/barricade/solid{
+	dir = 1;
+	faction = "Sons of Mars"
+	},
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/engine/cult{
+	dir = 2
+	},
+/area/oscar_outpost)
 "Vj" = (
 /turf/open/floor/plating/ground/dirtgrassborder{
 	dir = 4
@@ -13596,6 +13805,13 @@
 /obj/machinery/telecomms/relay/preset/tower/all,
 /turf/open/floor/plating/ground/dirt,
 /area/oscar_outpost/outside/east)
+"VA" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/dirt,
+/area/oscar_outpost/outside/north)
 "VB" = (
 /obj/effect/attach_point/crew_weapon/dropship2,
 /obj/effect/urban/decal/bloodtrail,
@@ -13627,6 +13843,7 @@
 /turf/open/shuttle/dropship/five,
 /area/oscar_outpost/outside/north)
 "VF" = (
+/obj/structure/prop/urban/misc/fire/fire1,
 /turf/closed/shuttle/cas/twentytwo{
 	dir = 4
 	},
@@ -13642,6 +13859,7 @@
 	dir = 8;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 8
 	},
@@ -13876,11 +14094,11 @@
 /turf/open/floor/plating/ground/dirt2,
 /area/oscar_outpost/outside/northwest)
 "Ww" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder/corner2{
-	dir = 8
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/ground/coast{
+	dir = 1
 	},
-/area/oscar_outpost/village/fairgrounds)
+/area/oscar_outpost/outside/north)
 "Wx" = (
 /obj/structure/somcas/one{
 	dir = 4
@@ -13913,6 +14131,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/tile/dark,
 /area/oscar_outpost/base)
 "WB" = (
@@ -14180,6 +14399,7 @@
 	dir = 4;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/plating/asteroidwarning{
 	dir = 6
 	},
@@ -14264,9 +14484,16 @@
 /turf/open/floor/mainship/sterile/dark,
 /area/oscar_outpost/village/central)
 "XB" = (
-/obj/machinery/floodlight/outpost/oscar,
-/turf/open/floor/plating/ground/dirtgrassborder/corner2,
-/area/oscar_outpost/village/fairgrounds)
+/obj/structure/barricade/solid{
+	dir = 1;
+	faction = "Sons of Mars"
+	},
+/obj/item/weapon/gun/sentry/laser_sentry,
+/obj/effect/mapping_helpers/barricade/wired,
+/turf/open/floor/engine/cult{
+	dir = 2
+	},
+/area/oscar_outpost)
 "XC" = (
 /obj/structure/table/mainship,
 /obj/structure/transmitter/colony_net/desk/auto_id,
@@ -15150,6 +15377,7 @@
 	mouse_opacity = 0;
 	faction = "Sons of Mars"
 	},
+/obj/effect/mapping_helpers/barricade/wired,
 /turf/open/floor/engine/cult{
 	dir = 2
 	},
@@ -15729,7 +15957,7 @@ bo
 bo
 bo
 bo
-DD
+bo
 Wj
 qB
 qB
@@ -15985,7 +16213,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 KH
@@ -16237,7 +16465,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 OF
@@ -16489,7 +16717,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 Hw
 EP
 Vs
@@ -16741,7 +16969,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -16993,7 +17221,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EW
 EP
 EP
@@ -17160,9 +17388,9 @@ qz
 oR
 Wo
 Tp
-QS
-PN
-PN
+pY
+ps
+ps
 Tx
 OP
 QM
@@ -17240,12 +17468,12 @@ MN
 bo
 bo
 bo
-bo
+lp
 bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 OF
 EP
@@ -17285,9 +17513,9 @@ JD
 JD
 JD
 JD
-ag
-yK
-Mr
+JD
+JD
+JD
 JD
 JD
 JD
@@ -17497,8 +17725,8 @@ iJ
 Wj
 qB
 qB
-rP
-EP
+Vg
+wd
 EP
 QA
 EP
@@ -17535,11 +17763,11 @@ JD
 JD
 pn
 JD
-ag
-yK
-Oj
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 pn
 JD
@@ -17719,8 +17947,8 @@ ZL
 ZL
 qL
 vA
-dJ
-OM
+it
+yr
 ZL
 ZL
 ZL
@@ -17749,7 +17977,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 Hw
 Vs
@@ -17787,11 +18015,11 @@ JD
 JD
 JD
 JD
-Uk
-Bt
-lc
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -17916,9 +18144,9 @@ KR
 Ei
 ff
 Tp
-QS
+pY
 Md
-PN
+ps
 Tx
 cc
 Tx
@@ -17995,13 +18223,13 @@ bo
 bo
 Wj
 bo
-mX
+lg
 bo
 PZ
 Vk
 qB
 qB
-rP
+Vg
 Hw
 EP
 Bp
@@ -18039,11 +18267,11 @@ bI
 bI
 xo
 JD
-Ab
-kO
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -18253,8 +18481,8 @@ cX
 Wj
 qB
 qB
-bF
-AA
+ag
+ra
 OE
 OE
 OE
@@ -18292,10 +18520,10 @@ rQ
 aG
 JD
 JD
-Ab
-QY
-QY
-ft
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -18420,9 +18648,9 @@ OP
 OP
 OP
 Tp
-QS
+pY
 je
-PN
+ps
 Tx
 Tx
 Tx
@@ -18657,7 +18885,7 @@ XG
 XG
 TS
 rr
-XY
+qs
 qn
 CM
 OP
@@ -18752,7 +18980,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 Gw
 Wj
 JP
@@ -18909,11 +19137,11 @@ Hc
 XG
 Eb
 bk
-XY
+qs
 OP
-is
+vE
 OP
-is
+vE
 OP
 Lx
 HQ
@@ -18924,9 +19152,9 @@ xa
 UR
 xa
 Tp
-QS
+pY
 je
-PN
+ps
 Tx
 Li
 Li
@@ -19163,9 +19391,9 @@ FG
 bk
 fD
 OP
-is
+vE
 OP
-is
+vE
 zj
 Tx
 Tx
@@ -19308,11 +19536,11 @@ JD
 JD
 JD
 JD
-ag
-yK
-yK
-yK
-Mr
+JD
+JD
+JD
+JD
+JD
 JD
 pW
 JD
@@ -19413,11 +19641,11 @@ Ij
 XG
 Ex
 bk
-KZ
+Hn
 OP
-is
+vE
 OP
-is
+vE
 TE
 Tp
 is
@@ -19507,12 +19735,12 @@ bo
 bo
 bo
 bo
-bo
+Wj
 bo
 bo
 Wj
 bo
-bo
+lp
 bo
 Wj
 kk
@@ -19543,11 +19771,11 @@ Wb
 oi
 XO
 JD
-ag
-yK
-yK
-yK
-Mr
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -19560,11 +19788,11 @@ JD
 JD
 IR
 JD
-Uk
-Bt
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 WZ
 WZ
@@ -19665,11 +19893,11 @@ Ij
 XG
 Ex
 bk
-XY
+qs
 OP
-is
+vE
 OP
-is
+vE
 OP
 Tp
 xm
@@ -19683,7 +19911,7 @@ PN
 lu
 IK
 PN
-is
+vE
 Wm
 bk
 bk
@@ -19734,7 +19962,7 @@ an
 ZL
 ZL
 yP
-TN
+SZ
 ZL
 ZL
 ZL
@@ -19794,12 +20022,12 @@ iN
 JD
 JD
 JD
-ag
-Oj
-Bt
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -19812,11 +20040,11 @@ JD
 JD
 JD
 JD
-Uk
-Bt
-lc
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 WZ
 WZ
@@ -19917,7 +20145,7 @@ TV
 XG
 FG
 bk
-Pm
+qV
 OP
 Rt
 OP
@@ -20017,7 +20245,7 @@ bo
 cX
 bo
 bo
-Pc
+BY
 IW
 bo
 jk
@@ -20046,12 +20274,12 @@ ZX
 JD
 JD
 JD
-Uk
-Bt
-Bt
-lc
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -20064,11 +20292,11 @@ bI
 xo
 JD
 JD
-Ab
-kO
-Bt
-Oq
-ft
+JD
+JD
+JD
+JD
+JD
 JD
 WZ
 WZ
@@ -20169,7 +20397,7 @@ Ij
 XG
 Ex
 AB
-Pm
+qV
 OP
 Rt
 OP
@@ -20298,12 +20526,12 @@ ZX
 JD
 JD
 JD
-Uk
-Bt
-Bt
-Bt
-Oq
-ft
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -20317,9 +20545,9 @@ aG
 JD
 JD
 JD
-Ab
-QY
-ft
+JD
+JD
+JD
 JD
 WZ
 WZ
@@ -20421,11 +20649,11 @@ Ij
 XG
 Ex
 bk
-XY
+qs
 OP
-is
+vE
 OP
-is
+vE
 OP
 TE
 iL
@@ -20533,11 +20761,11 @@ WB
 bI
 xo
 JD
-ag
-yK
-yK
-yK
-Mr
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -20550,11 +20778,11 @@ ZX
 JD
 JD
 JD
-Ab
-QY
-QY
-QY
-ft
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -20673,11 +20901,11 @@ TV
 XG
 FG
 bk
-XY
+qs
 OP
-is
+vE
 OP
-is
+vE
 OP
 OP
 iL
@@ -20785,11 +21013,11 @@ kz
 Bd
 aG
 JD
-Uk
-Bt
-lc
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -20927,9 +21155,9 @@ Ex
 bk
 fD
 OP
-is
+vE
 OP
-is
+vE
 OP
 Tp
 Tp
@@ -21017,11 +21245,11 @@ bo
 cX
 bo
 bo
+lp
 bo
 bo
 bo
-bo
-cX
+dZ
 fY
 bo
 bo
@@ -21037,11 +21265,11 @@ Wb
 oi
 XO
 JD
-Ab
-kO
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -21177,11 +21405,11 @@ wl
 JO
 cN
 kE
-XY
+qs
 OP
-is
+vE
 OP
-is
+vE
 zj
 Tp
 aP
@@ -21290,10 +21518,10 @@ JD
 JD
 JD
 JD
-Ab
-QY
-QY
-ft
+JD
+JD
+JD
+JD
 Jy
 rQ
 bI
@@ -21429,7 +21657,7 @@ bk
 Ng
 Ng
 bk
-XY
+DD
 RY
 cD
 OP
@@ -21535,7 +21763,7 @@ kk
 Xp
 fY
 bo
-fP
+NC
 yK
 yK
 yK
@@ -22041,7 +22269,7 @@ fY
 bo
 qT
 Bt
-lc
+Bt
 Bt
 ZX
 JD
@@ -22291,7 +22519,7 @@ bo
 Lo
 zS
 IW
-Ab
+QY
 yj
 Bt
 Oq
@@ -22786,7 +23014,7 @@ na
 yx
 bo
 bo
-bo
+lp
 YT
 kN
 bo
@@ -23275,7 +23503,7 @@ ZL
 ZL
 ZL
 ZW
-ng
+ST
 Tj
 fY
 bo
@@ -23722,29 +23950,29 @@ Cl
 YO
 bk
 JR
-uS
-uS
-uS
-uS
-uS
-uS
-uS
-uS
-uS
-uS
+vk
+vk
+vk
+vk
+vk
+vk
+vk
+vk
+vk
+vk
 uS
 Gg
 Gg
 Gg
-uS
-uS
-uS
-uS
-uS
+vk
+vk
+vk
+vk
+vk
 sb
 sb
 sb
-uS
+vk
 Xq
 Ie
 Li
@@ -24078,12 +24306,12 @@ ZX
 JD
 JD
 JD
-ag
-yK
-yK
-yK
-yK
-Mr
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -24297,7 +24525,7 @@ bo
 bo
 bo
 bo
-jk
+ke
 al
 fY
 bo
@@ -24329,13 +24557,13 @@ Bt
 ZX
 JD
 JD
-ag
-Oj
-Bt
-Bt
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -24581,13 +24809,13 @@ dk
 ZX
 JD
 JD
-Uk
-Bt
-Bt
-Bt
-lc
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -24833,13 +25061,13 @@ Bt
 ZX
 JD
 JD
-Ab
-kO
-Bt
-Bt
-Oq
-QY
-ft
+JD
+JD
+JD
+JD
+JD
+JD
+JD
 IR
 JD
 JD
@@ -24895,8 +25123,8 @@ yu
 yu
 yu
 yu
-yu
-yu
+xZ
+xZ
 yu
 Xt
 yu
@@ -25054,7 +25282,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 bo
 Wj
 bo
@@ -25086,10 +25314,10 @@ ZX
 JD
 Ya
 JD
-Ab
-QY
-QY
-ft
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -25152,9 +25380,9 @@ yu
 yu
 yu
 yu
+xZ
 yu
-yu
-yu
+xZ
 RQ
 yS
 yS
@@ -25304,10 +25532,10 @@ bo
 bo
 bo
 bo
+lp
 bo
 bo
-bo
-bo
+lp
 bo
 bo
 IW
@@ -25550,13 +25778,13 @@ bo
 bo
 bo
 bo
+lp
 bo
 bo
 bo
 bo
 bo
-bo
-bo
+lp
 iJ
 Wj
 bo
@@ -25643,7 +25871,7 @@ Rh
 AR
 mn
 ie
-dh
+lh
 yu
 yu
 yu
@@ -25811,7 +26039,7 @@ Wj
 cX
 bo
 bo
-bo
+lp
 bo
 bo
 bo
@@ -25826,11 +26054,11 @@ WB
 bI
 xo
 JD
-ag
-yK
-yK
-yK
-Mr
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 kz
@@ -25900,7 +26128,7 @@ Jg
 tt
 GX
 yu
-yu
+xZ
 yu
 yu
 Cy
@@ -26063,7 +26291,7 @@ bo
 bo
 bo
 ku
-Wj
+KF
 Wj
 Wj
 fX
@@ -26077,12 +26305,12 @@ JD
 kz
 Bd
 aG
-ag
-Oj
-lc
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
+JD
 IR
 JD
 kz
@@ -26147,7 +26375,7 @@ ev
 bN
 iQ
 Aa
-lh
+oN
 yu
 yu
 yu
@@ -26329,12 +26557,12 @@ JD
 Wb
 oi
 XO
-Uk
-Bt
-Bt
-Bt
-Oq
-ft
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 kz
@@ -26399,13 +26627,13 @@ oF
 Gu
 cb
 oF
-RA
 yu
 yu
 yu
 yu
 yu
 yu
+xZ
 yu
 yu
 yu
@@ -26581,11 +26809,11 @@ JD
 JD
 JD
 JD
-Ab
-QY
-QY
-QY
-ft
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -26649,7 +26877,7 @@ qO
 yu
 mE
 XT
-eI
+DC
 eJ
 yu
 yu
@@ -27069,11 +27297,11 @@ bo
 Gw
 bo
 bo
-bo
+lp
 Wj
 qB
 qB
-rP
+Vg
 EP
 za
 KH
@@ -27163,7 +27391,7 @@ yu
 yu
 yu
 yu
-yu
+xZ
 yu
 FU
 FU
@@ -27257,7 +27485,7 @@ sf
 sf
 Tx
 Li
-vE
+rz
 rz
 Br
 rz
@@ -27313,19 +27541,19 @@ bo
 bo
 mX
 bo
+lp
 bo
 bo
 bo
 bo
 bo
-bo
-bo
-bo
+lp
+lp
 bo
 Wj
 qB
 qB
-wd
+rP
 EP
 EP
 EP
@@ -27577,7 +27805,7 @@ Ym
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -27829,7 +28057,7 @@ iJ
 Wj
 qB
 qB
-wd
+rP
 EP
 EP
 EP
@@ -28081,7 +28309,7 @@ bo
 Wj
 qB
 qB
-sD
+XB
 EP
 kv
 Vs
@@ -28333,7 +28561,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 Vs
 EP
@@ -28373,10 +28601,10 @@ bI
 xo
 JD
 JD
-ag
-yK
-yK
-Mr
+JD
+JD
+JD
+JD
 JD
 kz
 aG
@@ -28585,8 +28813,8 @@ bo
 Wj
 qB
 qB
+rP
 wd
-EP
 fj
 EP
 EP
@@ -28625,10 +28853,10 @@ Bd
 aG
 JD
 JD
-Uk
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
 JD
 kz
 aG
@@ -28837,7 +29065,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 QA
 EP
@@ -28877,11 +29105,11 @@ oi
 XO
 JD
 JD
-Uk
-Bt
-lc
-Vm
-Mr
+JD
+JD
+JD
+JD
+JD
 kz
 aG
 JD
@@ -28901,6 +29129,7 @@ FU
 FU
 BU
 BU
+BU
 En
 En
 En
@@ -28908,34 +29137,33 @@ En
 BU
 BU
 BU
+En
+En
+En
+En
 BU
 BU
 BU
-BU
-BU
-BU
-BU
-BU
-BU
-BU
-BU
-BU
+En
+En
+En
+En
 BU
 hQ
 hQ
 hQ
 BU
+En
+En
+En
+En
 BU
 BU
 BU
-BU
-BU
-BU
-BU
-BU
-BU
-BU
-BU
+En
+En
+En
+En
 BU
 BU
 BU
@@ -29089,7 +29317,7 @@ bo
 iH
 qB
 qB
-wd
+rP
 EP
 EP
 vl
@@ -29129,11 +29357,11 @@ JD
 JD
 JD
 JD
-Uk
-Bt
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 kz
 aG
 JD
@@ -29160,7 +29388,7 @@ Vj
 Vj
 Vj
 Et
-mM
+Vj
 Vj
 Vj
 Vj
@@ -29185,7 +29413,7 @@ Vj
 Vj
 Et
 Vj
-mM
+Vj
 Vj
 Vj
 my
@@ -29195,7 +29423,7 @@ Vj
 Vj
 Vj
 Vj
-mM
+Vj
 Vj
 Vj
 xb
@@ -29342,7 +29570,7 @@ Wj
 qB
 qB
 ZU
-ra
+jc
 OE
 OE
 OE
@@ -29381,11 +29609,11 @@ JD
 JD
 JD
 JD
-Ab
-QY
-QY
-pQ
-ft
+JD
+JD
+JD
+pn
+JD
 OC
 aG
 JD
@@ -29751,7 +29979,7 @@ WZ
 WZ
 WZ
 WZ
-pY
+hI
 pX
 pX
 Rk
@@ -29760,7 +29988,7 @@ co
 hI
 Wc
 pX
-ds
+Rk
 WZ
 WZ
 WZ
@@ -29858,10 +30086,10 @@ JD
 JD
 JD
 JD
-ag
-yK
-yK
-Mr
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -30109,12 +30337,12 @@ JD
 JD
 JD
 JD
-ag
-Oj
-Bt
-Bt
-Vm
-Mr
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 kz
@@ -30361,12 +30589,12 @@ JD
 JD
 JD
 JD
-Uk
-Bt
-Bt
-lc
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 kz
@@ -30420,7 +30648,7 @@ QR
 QR
 QR
 QR
-Oz
+QR
 QR
 QR
 QR
@@ -30445,7 +30673,7 @@ QR
 QR
 QR
 QR
-Oz
+QR
 QR
 QR
 Xr
@@ -30455,7 +30683,7 @@ QR
 QR
 QR
 QR
-Oz
+QR
 In
 QR
 QR
@@ -30475,7 +30703,7 @@ yE
 DU
 DU
 DU
-nO
+VY
 QR
 QR
 QR
@@ -30486,7 +30714,7 @@ QR
 QR
 QR
 Nu
-qs
+yE
 DU
 nM
 DU
@@ -30613,12 +30841,12 @@ JD
 WB
 bI
 xo
-Ab
-kO
-Bt
-Bt
-Oq
-ft
+JD
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 kz
@@ -30785,11 +31013,11 @@ Tx
 Tx
 Tx
 WZ
-vE
 rz
 rz
 rz
-vE
+rz
+rz
 Li
 WZ
 WZ
@@ -30866,10 +31094,10 @@ kz
 Bd
 aG
 JD
-Ab
-QY
-QY
-ft
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -31383,10 +31611,10 @@ JD
 kz
 fI
 aG
-ag
-yK
-yK
-Mr
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -31635,10 +31863,10 @@ pn
 Wb
 oi
 XO
-Uk
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -31886,11 +32114,11 @@ aG
 JD
 JD
 JD
-ag
-Oj
-lc
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 JD
 JD
@@ -32138,11 +32366,11 @@ aG
 JD
 JD
 JD
-Uk
-Bt
-Bt
-Bt
-ZX
+JD
+JD
+JD
+JD
+JD
 JD
 WB
 bI
@@ -32171,11 +32399,11 @@ bB
 wF
 Wy
 Fi
-Cb
+AC
 DU
 jU
 DU
-DC
+GY
 fk
 aO
 aO
@@ -32254,7 +32482,7 @@ bZ
 DU
 DU
 DU
-bZ
+Oz
 sV
 ok
 xq
@@ -32356,14 +32584,14 @@ bo
 iJ
 bo
 bo
-cX
+dZ
+lp
 bo
 bo
 bo
 bo
-bo
-bo
-bo
+lp
+lp
 bo
 bo
 bo
@@ -32390,11 +32618,11 @@ aG
 JD
 JD
 JD
-Uk
-Bt
-it
-QY
-ft
+JD
+JD
+pn
+JD
+JD
 JD
 kz
 Bd
@@ -32506,7 +32734,7 @@ Qy
 DU
 DU
 DU
-Qy
+RA
 nU
 DP
 DP
@@ -32538,7 +32766,7 @@ WZ
 WZ
 Li
 WZ
-vE
+rz
 rz
 rz
 rz
@@ -32608,16 +32836,16 @@ bo
 bo
 bo
 bo
+lp
 bo
-bo
-bo
+jQ
 bo
 Gw
 bo
 bo
 iJ
 Wj
-bo
+lp
 bo
 kk
 jk
@@ -32642,9 +32870,9 @@ aG
 JD
 JD
 JD
-Ab
-QY
-ft
+JD
+JD
+JD
 JD
 JD
 JD
@@ -32860,12 +33088,12 @@ Wj
 bo
 bo
 Gw
+Dm
 bo
 bo
 bo
 bo
-bo
-bo
+ta
 lp
 bo
 bo
@@ -33021,7 +33249,7 @@ Ca
 Ca
 Ca
 PB
-vP
+bF
 vP
 vP
 co
@@ -33360,7 +33588,7 @@ bo
 bo
 bo
 bo
-iJ
+Cb
 bo
 bo
 Gw
@@ -33384,7 +33612,7 @@ UV
 UV
 UV
 UV
-Go
+UV
 UV
 UV
 UV
@@ -33402,7 +33630,7 @@ UV
 UV
 UV
 UV
-Go
+UV
 UV
 UV
 UV
@@ -33421,7 +33649,7 @@ TL
 dj
 dv
 UV
-Go
+UV
 UV
 UV
 UV
@@ -33625,7 +33853,7 @@ bo
 cX
 bo
 bo
-bo
+lp
 IW
 bo
 aI
@@ -33782,7 +34010,7 @@ WZ
 WZ
 WZ
 WZ
-vE
+rz
 rz
 rz
 rz
@@ -33790,7 +34018,7 @@ Br
 rz
 co
 rz
-vE
+rz
 WZ
 WZ
 WZ
@@ -33873,7 +34101,7 @@ bo
 bo
 Pc
 bo
-bo
+lp
 iJ
 bo
 bo
@@ -34132,7 +34360,7 @@ bo
 bo
 IW
 bo
-zP
+VA
 zP
 IW
 DU
@@ -34383,7 +34611,7 @@ bo
 bo
 bo
 bo
-kk
+AA
 jk
 fY
 bo
@@ -34392,7 +34620,7 @@ QR
 QR
 QR
 QR
-Oz
+QR
 QR
 QR
 QR
@@ -34410,7 +34638,7 @@ QR
 QR
 QR
 QR
-Oz
+QR
 QR
 QR
 QR
@@ -34429,7 +34657,7 @@ QR
 Af
 Qq
 QR
-Oz
+QR
 QR
 QR
 QR
@@ -34620,7 +34848,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 bo
 bo
 bo
@@ -34880,7 +35108,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 bo
 bo
 bo
@@ -35127,7 +35355,7 @@ bo
 bo
 bo
 cX
-bo
+AG
 bo
 bo
 bo
@@ -35220,11 +35448,11 @@ aO
 aO
 qZ
 aO
-sU
+hf
 er
 er
 er
-aT
+pT
 aO
 qZ
 aO
@@ -35379,7 +35607,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 bo
 bo
 Wj
@@ -35388,7 +35616,7 @@ cX
 bo
 bo
 pd
-MR
+MK
 hg
 bo
 kk
@@ -36271,7 +36499,7 @@ AC
 DU
 DU
 DU
-nO
+VY
 QR
 In
 QR
@@ -36282,7 +36510,7 @@ QR
 QR
 QR
 QR
-qs
+yE
 DU
 DU
 DU
@@ -36423,10 +36651,10 @@ iM
 iM
 iM
 iM
-Ip
-eE
-eE
-ql
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -36616,7 +36844,7 @@ ZL
 yF
 dS
 Oh
-jc
+iq
 sa
 xt
 fx
@@ -36645,13 +36873,13 @@ bo
 bo
 bo
 bo
-bo
-bo
-bo
-cX
+lp
 bo
 bo
 cX
+bo
+bo
+dZ
 yH
 fY
 IW
@@ -36659,11 +36887,11 @@ iM
 iM
 iM
 iM
-Ip
-eE
-eE
-eE
-ql
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -36675,11 +36903,11 @@ iM
 iM
 iM
 iM
-Zc
-De
-De
-QU
-ql
+iM
+iM
+iM
+iM
+iM
 Yq
 Nl
 UJ
@@ -36910,12 +37138,12 @@ bo
 vn
 iM
 iM
-Ip
-IC
-De
-De
-De
-Ag
+iM
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -36927,11 +37155,11 @@ iM
 iM
 iM
 iM
-Zc
-De
-oN
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 aj
 NU
 ar
@@ -37162,12 +37390,12 @@ bo
 vn
 iM
 iM
-Zc
-De
-De
-oN
-De
-Ag
+iM
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -37179,11 +37407,11 @@ iM
 iM
 iM
 iM
-ps
-UM
-De
-mP
-sk
+iM
+iM
+iM
+iM
+iM
 aj
 dz
 iM
@@ -37403,7 +37631,7 @@ bo
 aS
 bo
 bo
-Wj
+KF
 Wj
 Wj
 fX
@@ -37414,12 +37642,12 @@ bo
 vn
 iM
 IM
-ps
-UM
-De
-De
-mP
-sk
+iM
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -37432,9 +37660,9 @@ iM
 iM
 iM
 iM
-ps
-yn
-sk
+iM
+iM
+iM
 iM
 aj
 dz
@@ -37667,10 +37895,10 @@ vn
 iM
 iM
 iM
-ps
-yn
-yn
-sk
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -37740,11 +37968,11 @@ aO
 aO
 mc
 aO
-hf
+ty
 er
 er
 er
-pT
+ef
 aO
 mc
 aO
@@ -37814,7 +38042,7 @@ WZ
 WZ
 WZ
 rz
-vE
+rz
 rz
 rz
 rz
@@ -37822,7 +38050,7 @@ rz
 rz
 co
 rz
-vE
+rz
 rz
 rz
 WZ
@@ -37947,10 +38175,10 @@ iM
 iM
 iM
 iM
-Ip
-eE
-eE
-ql
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -38199,11 +38427,11 @@ iM
 iM
 iM
 iM
-Zc
-De
-De
-QU
-ql
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 aj
@@ -38413,7 +38641,7 @@ Wj
 Wj
 qB
 qB
-rP
+ds
 EP
 EP
 KH
@@ -38451,11 +38679,11 @@ Yq
 Nl
 XU
 iM
-Zc
-De
-oN
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 aj
@@ -38496,11 +38724,11 @@ aO
 aO
 mc
 aO
-sU
+hf
 er
 er
 er
-aT
+pT
 aO
 mc
 aO
@@ -38665,7 +38893,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 fa
 EP
@@ -38703,11 +38931,11 @@ aj
 VD
 NU
 iM
-ps
-UM
-De
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 aj
@@ -38791,7 +39019,7 @@ AC
 DU
 nM
 DU
-KF
+TL
 UV
 UV
 UV
@@ -38802,7 +39030,7 @@ UV
 UV
 qU
 UV
-ta
+Sl
 DU
 DU
 DU
@@ -38904,8 +39132,8 @@ bo
 bo
 bo
 bo
-bo
-Wj
+lp
+KF
 bo
 bo
 bo
@@ -38917,7 +39145,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -38956,10 +39184,10 @@ NU
 NU
 NU
 NU
-ps
-yn
-yn
-sk
+iM
+iM
+iM
+iM
 iM
 iM
 aj
@@ -39163,13 +39391,13 @@ Wz
 MR
 hg
 bo
+lp
 bo
 bo
-bo
-Wj
+KF
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -39406,9 +39634,9 @@ ZW
 bo
 bo
 bo
+lp
 bo
-bo
-bo
+lp
 bo
 bo
 bo
@@ -39417,11 +39645,11 @@ fY
 bo
 Wj
 bo
-bo
+lp
 Wj
 qB
 qB
-sD
+XB
 EP
 EP
 AH
@@ -39656,7 +39884,7 @@ ZL
 yc
 ZW
 bo
-bo
+lp
 bo
 bo
 bo
@@ -39673,7 +39901,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -39799,7 +40027,7 @@ AC
 DU
 DU
 DU
-nO
+VY
 QR
 In
 QR
@@ -39810,7 +40038,7 @@ QR
 QR
 QR
 QR
-qs
+yE
 DU
 DU
 DU
@@ -39925,7 +40153,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -40177,7 +40405,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -40429,7 +40657,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 Bp
@@ -40671,7 +40899,7 @@ bo
 bo
 bo
 Wj
-bo
+lp
 Gw
 bo
 bo
@@ -40682,7 +40910,7 @@ Wj
 qB
 qB
 ZU
-ra
+jc
 OE
 OE
 OE
@@ -40918,7 +41146,7 @@ ZW
 bo
 bo
 bo
-bo
+lp
 bo
 bo
 fH
@@ -40928,8 +41156,8 @@ AO
 Gw
 Wj
 bo
-ng
-bo
+Ub
+lp
 Wj
 qB
 JP
@@ -40947,11 +41175,11 @@ iM
 iM
 iM
 iM
-Ip
-eE
-eE
-eE
-ql
+iM
+iM
+iM
+iM
+iM
 iM
 aj
 dz
@@ -41166,11 +41394,11 @@ ZL
 ZL
 ZL
 ZL
-ZW
+sD
 bo
 bo
 bo
-bo
+lp
 Wj
 bo
 iJ
@@ -41199,11 +41427,11 @@ iM
 iM
 iM
 iM
-Zc
-De
-De
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 aj
 dz
@@ -41421,7 +41649,7 @@ ZL
 ZW
 bo
 bo
-bo
+lp
 bo
 bo
 bo
@@ -41451,11 +41679,11 @@ Yq
 Nl
 Po
 iM
-Zc
-De
-oN
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 aj
 dz
@@ -41674,7 +41902,7 @@ ZW
 bo
 bo
 bo
-bo
+lp
 bo
 bo
 bo
@@ -41703,11 +41931,11 @@ aj
 wI
 dz
 iM
-Zc
-De
-De
-mP
-sk
+iM
+iM
+iM
+iM
+iM
 iM
 aj
 dz
@@ -41955,10 +42183,10 @@ eV
 ar
 xj
 iM
-ps
-yn
-yn
-sk
+iM
+iM
+iM
+iM
 iM
 iM
 aj
@@ -42189,7 +42417,7 @@ bo
 bo
 bo
 bo
-Pc
+BY
 bo
 nX
 bo
@@ -42222,11 +42450,11 @@ dm
 iM
 iM
 iM
-Ip
-eE
-eE
-eE
-ql
+iM
+iM
+iM
+iM
+iM
 FI
 NU
 NU
@@ -42474,11 +42702,11 @@ Ag
 iM
 iM
 iM
-Zc
-De
-De
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -42726,11 +42954,11 @@ Ag
 iM
 iM
 iM
-Zc
-De
-oN
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -42947,9 +43175,9 @@ bo
 bo
 ZN
 bo
+lp
 bo
-bo
-bo
+lp
 Wj
 kk
 jk
@@ -42978,11 +43206,11 @@ Ag
 iM
 iM
 iM
-Zc
-De
-De
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -43188,7 +43416,7 @@ bo
 bo
 bo
 cX
-bo
+lp
 bo
 bo
 bo
@@ -43230,11 +43458,11 @@ Ag
 iM
 iM
 iM
-ps
-UM
-De
-mP
-sk
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -43483,9 +43711,9 @@ iM
 iM
 FI
 iM
-ps
-yn
-sk
+iM
+iM
+iM
 iM
 iM
 iM
@@ -44075,7 +44303,7 @@ gq
 gq
 IZ
 qN
-sp
+LH
 LH
 LH
 lx
@@ -44102,7 +44330,7 @@ Ta
 lG
 LH
 LH
-sp
+LH
 SF
 Ob
 Ob
@@ -44193,7 +44421,7 @@ ZL
 ZW
 bo
 bo
-og
+mM
 iJ
 bo
 bo
@@ -44217,11 +44445,11 @@ fY
 bo
 vn
 iM
-Ip
-eE
-eE
-eE
-ql
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -44335,7 +44563,7 @@ Sc
 Ta
 Ta
 Ta
-Ww
+MS
 px
 px
 px
@@ -44346,7 +44574,7 @@ eo
 px
 px
 px
-XB
+hV
 Ta
 Ta
 Ta
@@ -44367,7 +44595,7 @@ WZ
 WZ
 WZ
 WZ
-vE
+rz
 rz
 rz
 rz
@@ -44375,7 +44603,7 @@ rz
 co
 rz
 rz
-vE
+rz
 WZ
 WZ
 WZ
@@ -44469,11 +44697,11 @@ fY
 bo
 vn
 iM
-Zc
-De
-vL
-De
-Ag
+iM
+iM
+FI
+iM
+iM
 iM
 iM
 iM
@@ -44502,7 +44730,7 @@ iM
 iM
 Ip
 xi
-oN
+De
 QU
 ql
 iM
@@ -44605,7 +44833,7 @@ Ta
 VG
 VG
 VG
-lg
+Ta
 lG
 UL
 NA
@@ -44712,7 +44940,7 @@ cX
 bo
 bo
 Wj
-bo
+lp
 bo
 Wj
 kk
@@ -44721,11 +44949,11 @@ cd
 bo
 vn
 iM
-Zc
-De
-oN
-mP
-sk
+iM
+iM
+iM
+iM
+iM
 iM
 Yq
 Nl
@@ -44833,7 +45061,7 @@ Jr
 zh
 lx
 Ta
-lg
+Ta
 Ta
 Ta
 Ta
@@ -44973,10 +45201,10 @@ fY
 IW
 iM
 iM
-Zc
-De
-De
-Ag
+iM
+iM
+iM
+iM
 iM
 iM
 aj
@@ -45225,10 +45453,10 @@ fY
 IW
 iM
 iM
-ps
-yn
-yn
-sk
+iM
+iM
+iM
+iM
 iM
 iM
 aj
@@ -45712,7 +45940,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 bo
 bo
 bo
@@ -45958,7 +46186,7 @@ ZW
 jk
 al
 fY
-bo
+lp
 Wj
 bo
 bo
@@ -45966,7 +46194,7 @@ bo
 bo
 bo
 iJ
-bo
+lp
 bo
 bo
 bo
@@ -46102,13 +46330,13 @@ Ta
 Ta
 Ta
 Ta
-lg
 Ta
 Ta
 Ta
 Ta
 Ta
-lg
+Ta
+Ta
 Ta
 Ta
 Se
@@ -46718,7 +46946,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 bo
 bo
 bo
@@ -46952,7 +47180,7 @@ ZL
 ZL
 qL
 vA
-dJ
+EC
 OM
 ZL
 ZL
@@ -46978,7 +47206,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 bo
 bo
 bo
@@ -47007,9 +47235,9 @@ Zc
 xp
 De
 Ag
-Ip
-eE
-ql
+iM
+iM
+iM
 iM
 iM
 iM
@@ -47028,10 +47256,10 @@ aj
 NU
 ar
 xj
-Ip
-eE
-eE
-ql
+iM
+iM
+iM
+iM
 iM
 Vr
 aO
@@ -47259,10 +47487,10 @@ Zc
 De
 De
 Ag
-Zc
-De
-QU
-ql
+iM
+iM
+iM
+iM
 iM
 iM
 IM
@@ -47279,11 +47507,11 @@ iM
 aj
 dz
 iM
-Ip
-IC
-De
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 Vr
 aO
@@ -47387,7 +47615,7 @@ Zh
 Zh
 Zh
 WZ
-vE
+rz
 rz
 rz
 rz
@@ -47478,7 +47706,7 @@ bo
 bo
 bo
 bo
-bo
+lp
 Wj
 bo
 bo
@@ -47511,10 +47739,10 @@ IC
 De
 De
 Ag
-Zc
-oN
-De
-Ag
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -47531,12 +47759,12 @@ iM
 aj
 dz
 iM
-Zc
-De
-De
-De
-QU
-ql
+iM
+iM
+iM
+iM
+iM
+iM
 eC
 aO
 qZ
@@ -47614,13 +47842,13 @@ Ta
 Ta
 Ta
 Ta
-lg
+Ta
 Ta
 bJ
 Xj
 eo
 Ta
-lg
+Ta
 Ta
 Ta
 LU
@@ -47763,10 +47991,10 @@ HW
 De
 De
 Ag
-Zc
-De
-De
-Ag
+iM
+iM
+iM
+iM
 FI
 iM
 iM
@@ -47783,12 +48011,12 @@ Nl
 wh
 dz
 iM
-Zc
-De
-vL
-oN
-De
-Ag
+iM
+iM
+FI
+iM
+iM
+iM
 eC
 aO
 qZ
@@ -48015,10 +48243,10 @@ Mh
 De
 De
 Ag
-ps
-yn
-yn
-MK
+iM
+iM
+iM
+FI
 Yq
 Nl
 Po
@@ -48035,12 +48263,12 @@ ar
 ar
 xj
 iM
-ps
-yn
-UM
-vL
-De
-Ag
+iM
+iM
+iM
+FI
+iM
+iM
 eC
 aO
 qZ
@@ -48223,7 +48451,7 @@ ZL
 ZL
 ZL
 ZW
-kq
+pu
 bo
 bo
 bo
@@ -48289,10 +48517,10 @@ iM
 iM
 iM
 iM
-ps
-yn
-vk
-sk
+iM
+iM
+FI
+iM
 Vr
 aO
 qZ
@@ -48462,7 +48690,7 @@ ZL
 ZL
 ZL
 fl
-uI
+Go
 Wf
 Dr
 uI
@@ -48473,9 +48701,9 @@ ZL
 ZL
 ZL
 ZL
-ZL
-ZW
-bo
+aT
+gf
+nO
 bo
 bo
 bo
@@ -48507,10 +48735,10 @@ iM
 iM
 iM
 iM
-Ip
-eE
-eE
-ql
+iM
+iM
+iM
+iM
 iM
 iM
 aj
@@ -48727,8 +48955,8 @@ ZL
 ZL
 ZL
 ZW
-Wj
-bo
+fP
+Jv
 bo
 bo
 Th
@@ -48759,11 +48987,11 @@ Po
 iM
 iM
 iM
-Zc
-De
-De
-QU
-ql
+iM
+iM
+iM
+iM
+iM
 iM
 aj
 dz
@@ -48865,7 +49093,7 @@ qN
 qN
 lx
 Ta
-lg
+Ta
 Ta
 Ta
 Ta
@@ -48977,11 +49205,11 @@ yc
 ZL
 ZL
 ZL
-ZL
+sp
 ZW
 bo
-bo
-bo
+lc
+sU
 bo
 bo
 bo
@@ -49011,11 +49239,11 @@ dz
 iM
 iM
 iM
-Zc
-De
-oN
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 aj
 dz
@@ -49141,7 +49369,7 @@ Ta
 VN
 VN
 VN
-lg
+Ta
 kB
 LH
 vq
@@ -49232,7 +49460,7 @@ ZL
 ZL
 ZW
 bo
-bo
+jR
 DV
 bo
 bo
@@ -49263,11 +49491,11 @@ xj
 iM
 iM
 iM
-ps
-yn
-yn
-yn
-sk
+iM
+iM
+iM
+iM
+iM
 iM
 aj
 dz
@@ -49482,7 +49710,7 @@ ZL
 ZL
 ZL
 ZL
-ZW
+Ww
 bo
 bo
 bo
@@ -49619,7 +49847,7 @@ GC
 Ik
 Kl
 zh
-sp
+LH
 LH
 LH
 LH
@@ -49647,7 +49875,7 @@ vQ
 LH
 LH
 LH
-sp
+LH
 Zh
 eN
 wH
@@ -50005,7 +50233,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 KH
@@ -50042,11 +50270,11 @@ ar
 ar
 ar
 xj
-Ip
-eE
-eE
-eE
-ql
+iM
+iM
+iM
+iM
+iM
 iM
 eV
 ar
@@ -50257,7 +50485,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -50294,11 +50522,11 @@ iM
 iM
 iM
 iM
-Zc
-De
-oN
-xp
-Ag
+iM
+iM
+iM
+IM
+iM
 iM
 iM
 iM
@@ -50509,8 +50737,8 @@ cX
 Wj
 qB
 qB
-rP
-EP
+Vg
+wd
 Vs
 EP
 EP
@@ -50546,11 +50774,11 @@ iM
 iM
 iM
 iM
-ps
-UM
-De
-De
-Ag
+iM
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -50761,7 +50989,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -50799,10 +51027,10 @@ FI
 iM
 FI
 iM
-ps
-yn
-yn
-sk
+iM
+iM
+iM
+iM
 iM
 iM
 iM
@@ -51013,7 +51241,7 @@ bo
 Wj
 qB
 qB
-sD
+XB
 EP
 EP
 AH
@@ -51265,7 +51493,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -51517,7 +51745,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 EP
@@ -51769,7 +51997,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 Vs
 EP
@@ -52021,7 +52249,7 @@ bo
 Wj
 qB
 qB
-rP
+Vg
 EP
 EP
 Bp
@@ -52273,7 +52501,7 @@ bo
 Wj
 qB
 qB
-EC
+OE
 OE
 OE
 OE

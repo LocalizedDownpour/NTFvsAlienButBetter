@@ -569,6 +569,7 @@
 	corpseshoes = /obj/item/clothing/shoes/marine
 	corpsepocket1 = /obj/item/tweezers
 	corpsepocket2 = /obj/item/clothing/glasses/meson
+	death_type = REGULAR_DEATH
 
 /obj/effect/landmark/corpsespawner/marine/corpsman/burst
 	death_type = CHESTBURST_DEATH

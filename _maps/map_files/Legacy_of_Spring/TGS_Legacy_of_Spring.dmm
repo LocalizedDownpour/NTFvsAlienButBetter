@@ -1235,11 +1235,39 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/req)
 "adr" = (
-/obj/machinery/light/mainship{
-	dir = 8
-	},
-/turf/open/floor/mainship/silver/full,
-/area/mainship/command/corporateliaison)
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/obj/item/ammo_magazine/rifle/standard_carbine/ap,
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/req)
 "ads" = (
 /obj/machinery/loadout_vendor,
 /turf/open/floor/mainship/blue{
@@ -6065,23 +6093,6 @@
 "aqY" = (
 /turf/open/floor/tile/damaged/panel,
 /area/mainship/shipboard/brig)
-"aqZ" = (
-/obj/effect/turf_decal/trimline/dark_blue/filled/line,
-/obj/effect/turf_decal/trimline/dark_blue/filled/line,
-/obj/effect/turf_decal/trimline/dark_blue/filled/line,
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 6
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 6
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 6
-	},
-/turf/open/floor/mainship/silver{
-	dir = 1
-	},
-/area/mainship/hallways/upper_hallway)
 "ara" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 1;
@@ -8865,20 +8876,6 @@
 	dir = 8
 	},
 /area/mainship/hallways/hangar_lower)
-"aym" = (
-/obj/effect/turf_decal/trimline/dark_blue/filled/line,
-/obj/effect/turf_decal/trimline/dark_blue/filled/line,
-/obj/effect/turf_decal/trimline/dark_blue/filled/line,
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 10
-	},
-/turf/open/floor/mainship/silver{
-	dir = 1
-	},
-/area/mainship/hallways/upper_hallway)
 "ayn" = (
 /obj/effect/turf_decal/logo/logo_peripheral{
 	dir = 8
@@ -9120,13 +9117,17 @@
 /turf/open/floor/plating,
 /area/mainship/hallways/hangar)
 "ayW" = (
-/obj/machinery/door/airlock/mainship/maint{
-	no_panel = 1;
-	not_weldable = 1
+/obj/machinery/door/firedoor/mainship,
+/obj/item/ammo_magazine/shotgun/incendiary,
+/obj/item/ammo_magazine/shotgun/incendiary,
+/obj/item/ammo_magazine/shotgun/incendiary,
+/obj/item/ammo_magazine/shotgun/incendiary,
+/obj/item/ammo_magazine/shotgun/incendiary,
+/obj/item/ammo_magazine/shotgun/incendiary,
+/turf/open/floor/mainship/green{
+	dir = 4
 	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/mainship/mono,
-/area/mainship/command/corporateliaison)
+/area/mainship/squads/req)
 "ayX" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -11427,11 +11428,6 @@
 	},
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/morgue)
-"aFd" = (
-/obj/structure/droppod/leader,
-/obj/structure/drop_pod_launcher,
-/turf/open/floor/mainship/mono,
-/area/mainship/hallways/hangar/droppod)
 "aFe" = (
 /obj/structure/ship_rail_gun,
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -11540,9 +11536,55 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/hallways/hangar)
 "aFy" = (
-/obj/structure/curtain/temple,
-/turf/open/floor/mainship/mono,
-/area/mainship/living/chapel)
+/obj/machinery/door/firedoor/mainship,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/standard_smg/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/obj/item/ammo_magazine/smg/m25/ap,
+/turf/open/floor/mainship/green{
+	dir = 4
+	},
+/area/mainship/squads/req)
 "aFz" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 1
@@ -11588,18 +11630,13 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/req)
 "aFF" = (
-/obj/effect/turf_decal/warning_stripes/thin{
-	dir = 4;
-	pixel_x = 1
-	},
-/obj/item/clothing/head/modular/marine/helljumper,
-/obj/effect/turf_decal/warning_stripes/thin{
+/obj/structure/window/framed/mainship/white/toughened,
+/obj/machinery/door/firedoor/mainship{
 	dir = 8
 	},
-/turf/open/floor/mainship/red{
-	dir = 8
-	},
-/area/mainship/hallways/hangar/droppod)
+/obj/structure/droppod/nonmob,
+/turf/open/floor/mainship/sterile/dark,
+/area/mainship/medical/operating_room_one)
 "aFG" = (
 /obj/structure/closet/secure_closet/personal/morgue,
 /turf/open/floor/mainship/sterile/dark,
@@ -12233,9 +12270,14 @@
 /turf/open/floor/wood,
 /area/mainship/living/chapel)
 "aHv" = (
-/obj/structure/window/framed/mainship,
-/turf/open/floor/mainship/mono,
-/area/mainship/command/corporateliaison)
+/obj/machinery/door/firedoor/mainship,
+/obj/item/weapon/gun/smg/m25/elite,
+/obj/item/weapon/gun/smg/m25/elite,
+/obj/item/weapon/gun/smg/m25/elite,
+/turf/open/floor/mainship/green{
+	dir = 4
+	},
+/area/mainship/squads/req)
 "aHw" = (
 /obj/machinery/door/poddoor/shutters/mainship/selfdestruct,
 /turf/closed/wall/mainship,
@@ -12781,23 +12823,37 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar_lower)
 "aIY" = (
-/obj/machinery/door/airlock/mainship/generic/corporate{
-	dir = 8;
-	req_access = null
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/mainship/mono,
-/area/mainship/command/corporateliaison)
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/obj/item/ammo_magazine/rifle/standard_assaultrifle/ap,
+/turf/open/floor/mainship/floor,
+/area/mainship/squads/req)
 "aIZ" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 8
@@ -13021,9 +13077,12 @@
 	},
 /area/mainship/living/briefing)
 "aJE" = (
-/obj/structure/window/framed/mainship,
-/turf/open/floor/wood/fancy,
-/area/mainship/living/commandbunks)
+/obj/machinery/door/firedoor/mainship,
+/obj/item/storage/box/crate/loot/thermobaric_pack,
+/turf/open/floor/mainship/green{
+	dir = 4
+	},
+/area/mainship/squads/req)
 "aJF" = (
 /obj/machinery/light/mainship{
 	dir = 4
@@ -14353,17 +14412,11 @@
 /turf/open/floor/carpet/side,
 /area/mainship/living/commandbunks)
 "aNq" = (
-/obj/machinery/door/airlock/mainship/command/CPToffice{
-	dir = 2
-	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/door/firedoor{
-	dir = 2
-	},
-/turf/open/floor/wood/fancy,
+/turf/closed/wall/mainship,
 /area/mainship/living/commandbunks)
 "aNr" = (
 /obj/machinery/disposal,
@@ -16980,7 +17033,6 @@
 	},
 /area/mainship/shipboard/weapon_room)
 "aUf" = (
-/obj/structure/droppod,
 /obj/structure/drop_pod_launcher,
 /turf/open/floor/mainship/mono,
 /area/mainship/hallways/hangar/droppod)
@@ -21452,7 +21504,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/item/storage/box/crate/loot/thermobaric_pack_spec,
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/req)
 "fmr" = (
@@ -30863,8 +30914,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/obj/effect/urban/decal/warning,
-/turf/open/floor/mainship/silver/full,
+/turf/closed/wall/mainship,
 /area/mainship/command/corporateliaison)
 "wqT" = (
 /obj/machinery/door/airlock/mainship/maint{
@@ -38196,8 +38246,8 @@ aJk
 aUf
 aUf
 bwz
-aFd
-aFd
+aUf
+aUf
 amy
 aUf
 aUf
@@ -38483,7 +38533,7 @@ atK
 aCt
 afy
 aWW
-aFy
+agN
 aTw
 agN
 aXS
@@ -38620,7 +38670,7 @@ aWW
 aWW
 aWW
 aWW
-aFy
+agN
 vcV
 agN
 thT
@@ -38741,7 +38791,7 @@ jRf
 aWS
 vmE
 aDK
-aFF
+wso
 wso
 reV
 aoJ
@@ -39840,8 +39890,8 @@ cDr
 aUf
 aUf
 sBy
-aFd
-aFd
+aUf
+aUf
 cCd
 aUf
 aUf
@@ -49056,13 +49106,13 @@ aqK
 aqK
 aqK
 aqK
-aHv
-aHv
-aHv
+aqK
+aqK
+aqK
 asQ
 aqK
 aqK
-ayW
+aqK
 asQ
 kHK
 aVQ
@@ -50417,9 +50467,9 @@ alx
 azh
 aLi
 asQ
-aqK
-aIY
-aqK
+aJP
+aJP
+aJP
 aqK
 aZW
 aBK
@@ -50554,13 +50604,13 @@ alx
 azh
 aLi
 aqK
-adr
+aqK
 wnJ
-adr
+aqK
 asQ
-aHv
-aHv
-aHv
+aqK
+aqK
+aqK
 asQ
 aqK
 aqK
@@ -50674,7 +50724,7 @@ aGm
 aGm
 iqj
 lIp
-aPI
+aGl
 aPI
 aPI
 aKB
@@ -50686,12 +50736,12 @@ mQJ
 aNp
 aKG
 aJS
-aJE
+aGl
 alx
 azh
 aRz
 aJr
-aJr
+dyg
 pao
 aJr
 sCe
@@ -50811,7 +50861,7 @@ amc
 ajW
 azt
 aMJ
-azX
+aGl
 adD
 azX
 aIx
@@ -50823,8 +50873,8 @@ hJr
 afC
 aCk
 abG
-aJE
-aqZ
+aGl
+alx
 lTc
 aPD
 sgl
@@ -50948,7 +50998,7 @@ asM
 axk
 uWW
 aGU
-azX
+aGl
 anj
 azX
 aqv
@@ -51085,7 +51135,7 @@ aYJ
 axk
 gVm
 aGU
-azX
+aGl
 aMg
 azX
 avV
@@ -51097,8 +51147,8 @@ aiV
 afC
 aYK
 asO
-aJE
-aym
+aGl
+alx
 azh
 aOe
 aUW
@@ -51234,7 +51284,7 @@ afC
 aNp
 aJS
 aJS
-aJE
+aGl
 aCY
 azh
 ahq
@@ -51611,7 +51661,7 @@ ano
 iSd
 aVd
 jOF
-tuH
+aFF
 tuH
 tuH
 cCj
@@ -54215,8 +54265,8 @@ iSd
 aIQ
 aXC
 cxW
-anL
-anL
+aIY
+adr
 aQd
 avn
 adq
@@ -54352,11 +54402,11 @@ iSd
 liH
 dUH
 aXC
+aFy
+aHv
+ayW
 aJw
-aJw
-aJw
-aJw
-aJw
+aJE
 iiu
 aJw
 sll
