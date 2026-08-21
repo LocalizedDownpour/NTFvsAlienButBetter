@@ -32,7 +32,7 @@
 
 /obj/item/clothing/under/rank/prisoner
 	name = "prison jumpsuit"
-	desc = "It's standardised NTC prisoner-wear. Its suit sensors are stuck in the \"Fully On\" position."
+	desc = "It's standardised SFMC prisoner-wear. Its suit sensors are stuck in the \"Fully On\" position."
 	icon_state = "prisoner"
 	worn_icon_state = "prisoner"
 	has_sensor = LOCKED_SENSORS

@@ -157,7 +157,7 @@ FACTORY
 	cost = 280
 
 /datum/supply_packs/factory/pizzarefill
-	name = "Ninetails \"Eat healthy!\" margerita pizza kit refill"
+	name = "SFMC \"Eat healthy!\" margerita pizza kit refill"
 	contains = list(/obj/item/factory_refill/pizza_refill)
 	cost = 250 //allows a one point profit if all pizzas are processed and sold back to ASRS
 

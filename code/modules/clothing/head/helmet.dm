@@ -265,7 +265,7 @@
 /obj/item/clothing/head/helmet/marine/mech_pilot
 	name = "\improper M12C pattern neurolink helmet"
 	icon_state = "mech_pilot_helmet"
-	desc = "A lightweight helmet with a small port in the back. Offers lower response times for NTC mech pilots by integrating them directly into their mech suit's systems, though it certainly doesn't make them smarter."
+	desc = "A lightweight helmet with a small port in the back. Offers lower response times for SFMC mech pilots by integrating them directly into their mech suit's systems, though it certainly doesn't make them smarter."
 	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROTECTION_TEMPERATURE
 
 /obj/item/clothing/head/helmet/marine/assault_crewman
@@ -314,7 +314,7 @@
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/standard
 	name = "\improper M4 Legionary pattern PMC helmet"
-	desc = "Standard issue enclosed helmet, produced by Ninetails Armory Division for their mercenaries and security assets."
+	desc = "Standard issue enclosed helmet, produced by SFMC Armory Division for their mercenaries and security assets."
 	icon_state = "pmc_helmet_standard"
 	soft_armor = list(MELEE = 55, BULLET = 75, LASER = 75, ENERGY = 75, BOMB = 50, BIO = 50, FIRE = 50, ACID = 60)
 	inventory_flags = COVEREYES|COVERMOUTH|BLOCKSHARPOBJ
@@ -322,17 +322,17 @@
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/standard/stripes
 	name = "\improper M4 Legionary Stripes pattern PMC helmet"
-	desc = "Standard issue enclosed helmet, produced by Ninetails Armory Division for their mercenaries and security assets. You like stripes, don't you?"
+	desc = "Standard issue enclosed helmet, produced by SFMC Armory Division for their mercenaries and security assets. You like stripes, don't you?"
 	icon_state = "pmc_helmet_standard_stripes"
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/standard/twoface
 	name = "\improper M4 Legionary Twoface pattern PMC helmet"
-	desc = "Standard issue enclosed helmet, produced by Ninetails Armory Division for their mercenaries and security assets. You could say we're of two minds on the subject."
+	desc = "Standard issue enclosed helmet, produced by SFMC Armory Division for their mercenaries and security assets. You could say we're of two minds on the subject."
 	icon_state = "pmc_helmet_standard_twoface"
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/standard/mantis
 	name = "\improper M4 Legionary Mantis pattern PMC helmet"
-	desc = "Standard issue enclosed helmet, produced by Ninetails Armory Division for their mercenaries and security assets. You feel quite hungry."
+	desc = "Standard issue enclosed helmet, produced by SFMC Armory Division for their mercenaries and security assets. You feel quite hungry."
 	icon_state = "pmc_helmet_standard_mantis"
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/leader
@@ -353,7 +353,7 @@
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/gunner
 	name = "\improper M7-H Cathaphract pattern PMC helmet"
-	desc = "A newest generation of Ninetails Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat."
+	desc = "A newest generation of SFMC Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat."
 	icon_state = "pmc_heavyhelmet"
 	soft_armor = list(MELEE = 55, BULLET = 75, LASER = 75, ENERGY = 75, BOMB = 65, BIO = 65, FIRE = 65, ACID = 65) //Tyr2 but averaged out
 	inventory_flags = COVEREYES|COVERMOUTH|BLOCKSHARPOBJ
@@ -361,27 +361,27 @@
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/gunner/skull
 	name = "\improper M7-H Cathaphract Skull pattern PMC helmet"
-	desc = "A newest generation of Ninetails Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. It's rattling time."
+	desc = "A newest generation of SFMC Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. It's rattling time."
 	icon_state = "pmc_heavyhelmet_skull"
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/gunner/hunter
 	name = "\improper M7-H Cathaphract Hunter pattern PMC helmet"
-	desc = "A newest generation of Ninetails Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. I've got you in my sights."
+	desc = "A newest generation of SFMC Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. I've got you in my sights."
 	icon_state = "pmc_heavyhelmet_hunter"
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/gunner/joker
 	name = "\improper M7-H Cathaphract Joker pattern PMC helmet"
-	desc = "A newest generation of Ninetails Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. You love seeing people smile."
+	desc = "A newest generation of SFMC Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. You love seeing people smile."
 	icon_state = "pmc_heavyhelmet_joker"
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/gunner/stripes
 	name = "\improper M7-H Cathaphract Stripes pattern PMC helmet"
-	desc = "A newest generation of Ninetails Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. You like stripes, don't you?"
+	desc = "A newest generation of SFMC Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. You like stripes, don't you?"
 	icon_state = "pmc_heavyhelmet_stripes"
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/gunner/leader
 	name = "\improper M7-H Cathaphract pattern PMC officer helmet"
-	desc = "A newest generation of Ninetails Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. This particular helmet looks like it belongs to a high-ranking officer."
+	desc = "A newest generation of SFMC Armory. The heavy enclosed helmet with hardened cameras, a wise choice for mercenary who prefers close quarters combat. This particular helmet looks like it belongs to a high-ranking officer."
 	icon_state = "pmc_heavyhelmet_officer"
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/commando
@@ -429,7 +429,7 @@
 
 /obj/item/clothing/head/helmet/marine/freelancer/beret
 	name = "\improper Freelancer beret"
-	desc = "A white beret, with worn out Ninetails emblem. Not many people you can see wear such things, especially when they're not part of the Ninetails military. Additionally issued with armored platemask."
+	desc = "A white beret, with worn out SFMC emblem. Not many people you can see wear such things, especially when they're not part of the SFMC military. Additionally issued with armored platemask."
 	icon = 'icons/obj/clothing/headwear/ert_headwear.dmi'
 	icon_state = "freelancer_beret"
 	soft_armor = list(MELEE = 60, BULLET = 80, LASER = 80, ENERGY = 70, BOMB = 60, BIO = 55, FIRE = 60, ACID = 65)
@@ -747,7 +747,7 @@
 
 /obj/item/clothing/head/helmet/marine/vsd
 	name = "\improper Crasher MT/43 ballistic helmet"
-	desc = "Kaizoku Corporation's quality helmet, designed with modular slots and combat readiness."
+	desc = "Grunwald-Svarog Werke's quality helmet, designed with modular slots and combat readiness."
 	icon = 'icons/mob/clothing/headwear/ert_headwear.dmi'
 	icon_state = "vsd_main"
 	worn_icon_state = "vsd_main"
@@ -764,7 +764,7 @@
 
 /obj/item/clothing/head/helmet/marine/vsd/juggernaut
 	name = "\improper Crasher MT-H/43 'Ares' powered ballistic helmet"
-	desc = "Kaizoku Corporation's custom, modified helmet designed for the 'Ares' Juggernaut suit."
+	desc = "Grunwald-Svarog Werke's custom, modified helmet designed for the 'Ares' Juggernaut suit."
 	icon_state = "vsd_juggernaut_ballistic"
 	worn_icon_state = "vsd_juggernaut_ballistic"
 	inv_hide_flags = HIDEALLHAIR|HIDEEARS|HIDEMASK
@@ -772,7 +772,7 @@
 
 /obj/item/clothing/head/helmet/marine/vsd/eod
 	name = "\improper Crasher MT-H/43 'Zeus' powered explosive-defensive helmet"
-	desc = "Kaizoku Corporation's custom, modified helmet designed for the 'Zeus' Juggernaut suit."
+	desc = "Grunwald-Svarog Werke's custom, modified helmet designed for the 'Zeus' Juggernaut suit."
 	icon_state = "vsd_juggernaut_eod"
 	worn_icon_state = "vsd_juggernaut_eod"
 	inv_hide_flags = HIDEALLHAIR|HIDEEARS|HIDEMASK
@@ -780,7 +780,7 @@
 
 /obj/item/clothing/head/helmet/marine/vsd/flamer
 	name = "\improper Crasher MT-H/43 'Apollo' powered fire-protected helmet"
-	desc = "Kaizoku Corporation's custom, modified helmet designed for the 'Apollo' Juggernaut suit."
+	desc = "Grunwald-Svarog Werke's custom, modified helmet designed for the 'Apollo' Juggernaut suit."
 	icon_state = "vsd_juggernaut_pyro"
 	worn_icon_state = "vsd_juggernaut_pyro"
 	inv_hide_flags = HIDEALLHAIR|HIDEEARS|HIDEMASK
@@ -788,7 +788,7 @@
 
 /obj/item/clothing/head/helmet/marine/vsd_two
 	name = "Crasher multi-threat ballistic helmet"
-	desc = "Kaizoku's grunt helmet, doesn't protect your chrome-dome much though."
+	desc = "Grunwald-Svarog Werke's grunt helmet, doesn't protect your chrome-dome much though."
 	icon = 'icons/mob/clothing/headwear/marine_helmets.dmi'
 	icon_state = "vsd_helmet"
 	worn_icon_state = "vsd_helmet"

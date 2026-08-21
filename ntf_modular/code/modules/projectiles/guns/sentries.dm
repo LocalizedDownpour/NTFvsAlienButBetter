@@ -1,4 +1,4 @@
-//thrown NTC assist drone
+//thrown SFMC assist drone
 /obj/item/weapon/gun/rifle/drone
 	name = "theoritical drone"
 	desc = "what da heeell"
@@ -8,7 +8,7 @@
 
 /obj/item/weapon/gun/rifle/drone/nut
 	name = "\improper NUT drone"
-	desc = "The Ninetails Unmanned Turret drone is a portable, automated drone attack system utilised by the NTC. It is activated in hand then thrown into place before it deploys, where it begins to hover, making it a difficult target to accurately hit. Equipped with a compact rotating small caliber weapon system with limited ammo and basic AI, It can work up to 5 minutes on it's battery and self destructs if it's out of ammo or it's battery lifetime is up... Those are fabricated in a factorio."
+	desc = "The SFMC Unmanned Turret drone is a portable, automated drone attack system utilised by the SFMC. It is activated in hand then thrown into place before it deploys, where it begins to hover, making it a difficult target to accurately hit. Equipped with a compact rotating small caliber weapon system with limited ammo and basic AI, It can work up to 5 minutes on it's battery and self destructs if it's out of ammo or it's battery lifetime is up... Those are fabricated in a factorio."
 	icon_state = "nut"
 	icon = 'ntf_modular/icons/obj/machines/deployable/sentry/nut.dmi'
 	worn_icon_list = list(
@@ -39,7 +39,7 @@
 	scatter = 10
 	throw_range = 4
 	fire_delay = 0.15 SECONDS
-	accuracy_mult = 0.7
+	accuracy_mult = 0.6
 	ammo_datum_type = /datum/ammo/bullet/rifle/nut
 	default_ammo_type = /obj/item/ammo_magazine/rifle/nut_ammo
 	allowed_ammo_types = list(/obj/item/ammo_magazine/rifle/nut_ammo)
@@ -65,16 +65,6 @@
 	if(!user.dextrous)
 		to_chat(user, span_warning("You don't have the dexterity to do this!"))
 		return
-
-	if(ishuman(user) && faction)
-		var/mob/living/carbon/human/human_user = user
-		if(!human_user.faction || (human_user.faction != faction && !(human_user.get_iff_signal() & GLOB.faction_to_iff[faction])))
-			balloon_alert_to_viewers("Unauthorized user, self destruct engaged!", vision_distance = 4)
-			playsound(loc, arm_sound, 25, 1, 6)
-			sleep(4 SECONDS)
-			explosion(loc, light_impact_range = 3, explosion_cause=human_user)
-			qdel(src)
-			return
 
 	activate(user)
 
@@ -103,6 +93,7 @@
 	do_deploy(user)
 
 /obj/item/weapon/gun/rifle/drone/do_deploy(mob/user, turf/location)
+	faction = user?.faction || faction
 	. = ..()
 	spawn(1)
 		if(!(CHECK_BITFIELD(item_flags, IS_DEPLOYED)))
@@ -138,9 +129,7 @@
 	drag_delay = 0.5
 	knockdown_threshold = 25
 	allow_pass_flags = PASSABLE|HOVERING
-	/* add this if those shit are too hard to fight.
 	obj_flags = CAN_BE_HIT|PROJ_IGNORE_DENSITY
-	*/
 	density = FALSE //so it wont block people.
 	atom_flags = BUMP_ATTACKABLE
 	var/movement_delay = 0.7 SECONDS

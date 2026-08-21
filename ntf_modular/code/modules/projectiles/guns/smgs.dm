@@ -2,7 +2,7 @@
 
 /obj/item/weapon/gun/smg/minib
 	name = "\improper MINI-B machinepistol"
-	desc = "A niche classic refurbished and improved by Kaizoku Zaibatsu for bodyguards and field adjutants, the MINI-B is a take on the SMG-2 platform and uses specialized highpowered 9MM armor piercing munitions."
+	desc = "A niche classic refurbished and improved by Grunwald-Svarog Werke for bodyguards and field adjutants, the MINI-B is a take on the SMG-2 platform and uses specialized highpowered 9MM armor piercing munitions."
 	icon = 'ntf_modular/icons/obj/items/guns/submachineguns.dmi'
 	worn_icon_state = "minib"
 	worn_icon_list = list(
@@ -13,7 +13,7 @@
 	caliber = CALIBER_9X19 //codex
 	max_shells = 25 //codex
 	w_class = WEIGHT_CLASS_NORMAL
-	fire_sound = 'sound/weapons/guns/fire/uzi.ogg'
+	fire_sound = 'sound/weapons/guns/fire/minib1.ogg'
 	unload_sound = 'sound/weapons/guns/interact/uzi_unload.ogg'
 	reload_sound = 'sound/weapons/guns/interact/uzi_reload.ogg'
 	cocked_sound = 'sound/weapons/guns/interact/uzi_cocked.ogg'
@@ -80,8 +80,8 @@
 //NT-VORTEX
 
 /obj/item/weapon/gun/smg/vortex
-	name = "\improper NT Vortex rapid-fire EM SMG"
-	desc = "The Ninetails Vortex electromagnetic submachinegun is the specialized weapon made by commission for Novamed Trauma Teams, calibered in 9x19mm Parabellum but it uses special rounds without a primer or anything for it's electromagnetic operation. Made to be used by hospital security and combat medics. Though much like other new-world design weapons, this lacks fire-modes and it is always on full-auto. - With it's foldable design, it is easily carried around in satchels until need arises. It is designed in such a way it retains great accuracy in rapid fire but the accuracy quickly decays on sustained fire and must be rested a little while to let heatsinks do it's work, and since it is firing electromagnetically, it does not have muzzle flash or much sound... But it is rather muzzle attachment-unfriendly due to being packable. Use Unique action key to deploy/undeploy it."
+	name = "\improper SMFC Vortex rapid-fire EM SMG"
+	desc = "The SFMC Vortex electromagnetic submachinegun is the specialized weapon made by commission for Novamed Trauma Teams, calibered in 9x19mm Parabellum but it uses special rounds without a primer or anything for it's electromagnetic operation. Made to be used by hospital security and combat medics. Though much like other new-world design weapons, this lacks fire-modes and it is always on full-auto. - With it's foldable design, it is easily carried around in satchels until need arises. It is designed in such a way it retains great accuracy in rapid fire but the accuracy quickly decays on sustained fire and must be rested a little while to let heatsinks do it's work, and since it is firing electromagnetically, it does not have muzzle flash or much sound... But it is rather muzzle attachment-unfriendly due to being packable. Use Unique action key to deploy/undeploy it."
 	icon_state = "vortex"
 	icon = 'ntf_modular/icons/obj/items/guns/submachineguns64.dmi'
 	worn_icon_list = list(
@@ -107,7 +107,7 @@
 	)
 	fire_sound = 'sound/weapons/guns/fire/vector_fire.ogg'
 	gun_features_flags = GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER|GUN_DEPLOYED_FIRE_ONLY
-	gun_firemode_list = list(GUN_FIREMODE_AUTOMATIC)
+	gun_firemode_list = list(GUN_FIREMODE_AUTOMATIC, GUN_FIREMODE_AUTOBURST) //full auto, fuller auto
 
 	attachable_allowed = list(
 		/obj/item/attachable/reddot,
@@ -117,6 +117,8 @@
 		/obj/item/attachable/magnetic_harness,
 		/obj/item/attachable/motiondetector,
 		/obj/item/attachable/suppressor/unremovable/invisible/vortex,
+		/obj/item/attachable/verticalgrip,
+		/obj/item/attachable/angledgrip,
 	)
 
 	//negating some of the suppressor barrel length increase effects in stats, this is only in this for the sound and muzzle flash removal etc
@@ -124,27 +126,30 @@
 
 	attachable_offset = list("muzzle_x" = 38, "muzzle_y" = 20,"rail_x" = 28, "rail_y" = 22, "under_x" = 31, "under_y" = 15, "stock_x" = 24, "stock_y" = 10)
 
-	fire_delay = 0.1 SECONDS
+	fire_delay = 0.15 SECONDS
 	aim_slowdown = 0.15
-	wield_delay = 0.3 SECONDS
+	wield_delay = 0.4 SECONDS
 	burst_amount = 1
 
-	accuracy_mult = 1.15
+	accuracy_mult = 1.05
 	accuracy_mult_unwielded = 0.75
 
 	recoil = 1
 	recoil_unwielded = 7.5
 
-	scatter = 1 //gets progressively worse while shot, also angled grip included in stats
-	scatter_unwielded = 10
+	scatter = 3
+	scatter_unwielded = 9
+
+	burst_amount = 1
+	burst_delay = 0.1 SECONDS
+	extra_delay = 0.1 SECONDS
+	autoburst_delay = 0.1 SECONDS //this makes it fuller auto
+	burst_accuracy_bonus = -0.3
+	burst_scatter_mult = 9
+
 	aim_speed_modifier = 5.8
-	min_scatter_unwielded = 8
-	scatter_increase = 0.5
-	scatter_increase_unwielded = 0.5
-	scatter_decay = 3
-	scatter_decay_unwielded = 3
-	min_scatter = -1
 	movement_acc_penalty_mult = 4
+	damage_mult = 0.96
 
 	akimbo_additional_delay = 0.7
 	var/extended = FALSE

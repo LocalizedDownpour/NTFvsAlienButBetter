@@ -18,7 +18,7 @@
 
 /datum/loadout_item/uniform/white_dress
 	name = "white dress uniform"
-	desc = "A standard-issue NTF Special Operations Division white dress uniform. \
+	desc = "A standard-issue SFMC Special Operations Division white dress uniform. \
 	The starch in the fabric chafes a small amount but it pales in comparison to the pride you feel when you first put it on during graduation from boot camp. Doesn't seem to fit perfectly around the waist though."
 	item_typepath = /obj/item/clothing/under/marine/whites
 	jobs_supported = list(SQUAD_MARINE, SQUAD_SLUT, VANGUARD, SQUAD_SPECIALIST, SQUAD_CORPSMAN, SQUAD_ENGINEER, SQUAD_SMARTGUNNER, SQUAD_LEADER, FIELD_COMMANDER, STAFF_OFFICER, CAPTAIN)
@@ -52,7 +52,7 @@
 //FC
 /datum/loadout_item/uniform/field_commander
 	name = "FC uniform"
-	desc = "A special-issue, kevlar-weaved, hazmat-tested, EMF-augmented worn by a field-grade officer of the NTF. You suspect it's not as robust-proof as advertised."
+	desc = "A special-issue, kevlar-weaved, hazmat-tested, EMF-augmented worn by a field-grade officer of the SFMC. You suspect it's not as robust-proof as advertised."
 	item_typepath = /obj/item/clothing/under/tdf/black_vest
 	jobs_supported = list(FIELD_COMMANDER)
 	loadout_item_flags = LOADOUT_ITEM_ROUNDSTART_OPTION

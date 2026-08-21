@@ -1,5 +1,5 @@
 /datum/outfit/job/retired
-	name = "NTF retired veteran"
+	name = "SFMC retired veteran"
 	jobtype = /datum/job/retired
 
 	id = /obj/item/card/id/dogtag
@@ -41,7 +41,7 @@
 
 
 /datum/outfit/job/retired/leader
-	name = "NTF retired veteran expedition leader"
+	name = "SFMC retired veteran expedition leader"
 	jobtype = /datum/job/retired/leader
 
 	id = /obj/item/card/id/dogtag/fc

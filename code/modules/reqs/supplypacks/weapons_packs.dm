@@ -618,7 +618,7 @@ WEAPONS
 	available_against_xeno_only = TRUE
 
 /datum/supply_packs/weapons/rechargemag
-	name = "old world recharger battery"
+	name = "Terra-Experimental recharger battery"
 	contains = list(/obj/item/cell/lasgun/lasrifle/recharger)
 	cost = 60
 
@@ -646,6 +646,16 @@ WEAPONS
 	name = "TX13 smart machinepistol ammo"
 	contains = list(/obj/item/ammo_magazine/pistol/standard_pistol/smart_pistol)
 	cost = 10
+
+/datum/supply_packs/weapons/smart_autopistol
+	name = "TX28 smart machinepistol"
+	contains = list(/obj/item/weapon/gun/pistol/smart_fastpistol)
+	cost = 175
+
+/datum/supply_packs/weapons/smart_autopistol_ammo
+	name = "TX28 smart machinepistol ammo"
+	contains = list(/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol)
+	cost = 5
 
 /datum/supply_packs/weapons/sledgehammer
 	name = "Sledgehammer"

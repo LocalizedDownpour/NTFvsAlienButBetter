@@ -24,7 +24,7 @@
 
 /obj/item/attachable/bayonet
 	name = "\improper M-22 bayonet"
-	desc = "A sharp knife that is the standard issue combat knife of the NTF can be attached to a variety of weapons at will or used as a standard knife."
+	desc = "A sharp knife that is the standard issue combat knife of the SFMC can be attached to a variety of weapons at will or used as a standard knife."
 	icon_state = "bayonetknife"
 	icon = 'icons/obj/items/guns/attachments/muzzle.dmi'
 	worn_icon_list = list(

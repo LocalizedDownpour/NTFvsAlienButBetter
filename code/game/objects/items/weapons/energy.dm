@@ -157,10 +157,10 @@
 	standing.overlays.Add(emissive_overlay)
 
 /obj/item/weapon/energy/sword/ntc
-	name = "NTC Energy blade"
+	name = "SFMC Energy blade"
 	icon = 'ntf_modular/icons/obj/items/weapons/energy.dmi'
 	icon_state = "sword"
-	desc = "A NTC energy sword, it should cut through anything."
+	desc = "A SFMC energy sword, it should cut through anything."
 	force_activated = 50
 	sword_color = "red"
 

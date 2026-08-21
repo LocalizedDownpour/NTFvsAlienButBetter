@@ -96,7 +96,7 @@
 /obj/item/armor_module/module/fire_proof
 	name = "\improper Surt thermal insulation system"
 	icon = 'icons/mob/modular/modular_armor_modules.dmi'
-	desc = "Designed for mounting on modular armor. Providing a near immunity to being bathed in flames, and amazing flame retardant qualities, this is every pyromaniac's first stop to survival. Will impact mobility. Made by Kaizoku."
+	desc = "Designed for mounting on modular armor. Providing a near immunity to being bathed in flames, and amazing flame retardant qualities, this is every pyromaniac's first stop to survival. Will impact mobility. Made by Grunwald-Svarog Werke."
 	icon_state = "mod_fire"
 	worn_icon_state = "mod_fire_a"
 	soft_armor = list(MELEE = -10, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 40, ACID = -10)
@@ -215,7 +215,7 @@
 /obj/item/armor_module/module/knight
 	name = "\improper Magni Knight System"
 	icon = 'icons/mob/modular/modular_armor_modules.dmi'
-	desc = "Designed for mounting on modular armor. An aftermarket kit that provides substantial armor while not compromising speed, allows access to exclusive sword and axe techniques but restricts the use of guns. Made by Kaizoku."
+	desc = "Designed for mounting on modular armor. An aftermarket kit that provides substantial armor while not compromising speed, allows access to exclusive sword and axe techniques but restricts the use of guns. Made by Grunwald-Svarog Werke."
 	icon_state = "mod_armor"
 	worn_icon_state = "mod_armor_a"
 	attachment_layer = COLLAR_LAYER
@@ -542,7 +542,7 @@
 //original Martian design, donutsteel
 /obj/item/armor_module/module/eshield/som
 	name = "\improper Aegis energy dispersion system"
-	desc = "A sophisticated shielding unit, designed to disperse the energy of incoming impacts, rendering them harmless to the user. If it sustains too much it will deactivate, and leave the user vulnerable. It is unclear if this was a purely  SOM designed module, or whether it was reverse engineered from the NTF's 'Svalinn' shield system which was developed around the same time."
+	desc = "A sophisticated shielding unit, designed to disperse the energy of incoming impacts, rendering them harmless to the user. If it sustains too much it will deactivate, and leave the user vulnerable. It is unclear if this was a purely  SOM designed module, or whether it was reverse engineered from the SFMC's 'Svalinn' shield system which was developed around the same time."
 
 /obj/item/armor_module/module/eshield/som/overclocked
 	max_shield_health = 90

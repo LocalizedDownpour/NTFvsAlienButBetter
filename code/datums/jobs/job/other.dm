@@ -165,7 +165,7 @@
 	paygrade = "Wrkr"
 	comm_title = "Wrkr"
 	outfit = /datum/outfit/job/worker
-	supervisors = "Ninetails Corp"
+	supervisors = "SFMC"
 	access = list(ACCESS_MARINE_ENGINEERING, ACCESS_MARINE_PREP, ACCESS_MARINE_MEDBAY, ACCESS_MARINE_DROPSHIP, ACCESS_MARINE_LOGISTICS, ACCESS_MARINE_CARGO,  ACCESS_CIVILIAN_ENGINEERING)
 	minimal_access = list(ACCESS_MARINE_ENGINEERING, ACCESS_MARINE_PREP, ACCESS_MARINE_MEDBAY, ACCESS_MARINE_DROPSHIP, ACCESS_MARINE_LOGISTICS, ACCESS_MARINE_CARGO,  ACCESS_CIVILIAN_ENGINEERING)
 	skills_type = /datum/skills/civilian/worker
@@ -200,7 +200,7 @@
 	paygrade = "MO"
 	comm_title = "MO"
 	outfit = /datum/outfit/job/mo
-	supervisors = "Ninetails Corp"
+	supervisors = "SFMC"
 	access = list(ACCESS_MARINE_PREP)
 	minimal_access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_DROPSHIP)
 	skills_type = /datum/skills/civilian/mo
@@ -233,7 +233,7 @@
 	paygrade = "C"
 	comm_title = "C"
 	outfit = /datum/outfit/job/offduty
-	supervisors = "Ninetails Corp"
+	supervisors = "SFMC"
 	access = list(ACCESS_MARINE_ENGINEERING, ACCESS_MARINE_PREP, ACCESS_MARINE_MEDBAY, ACCESS_MARINE_DROPSHIP, ACCESS_MARINE_LOGISTICS, ACCESS_MARINE_CARGO,  ACCESS_CIVILIAN_ENGINEERING)
 	minimal_access = list(ACCESS_MARINE_ENGINEERING, ACCESS_MARINE_PREP, ACCESS_MARINE_MEDBAY, ACCESS_MARINE_DROPSHIP, ACCESS_MARINE_LOGISTICS, ACCESS_MARINE_CARGO,  ACCESS_CIVILIAN_ENGINEERING)
 	skills_type = /datum/skills
@@ -253,7 +253,7 @@
 /datum/job/terragov/offduty/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += {"\nYou are an off-duty employee of Ninetails, you have access to most of the station but you are not expected to do much with it."}
+	. += {"\nYou are an off-duty employee of SFMC, you have access to most of the station but you are not expected to do much with it."}
 
 /obj/item/paper/jobnamer
 	name = "Job papers"

@@ -7,9 +7,9 @@
 /datum/job/pmc/squad/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += {"You're elite commandos of ArcherCorp Asset protection team, You are here in behalf of ArcherCorp's interests so stay in touch with your representative and strengthen up through gaining points and trading with NTC or other friendly factions while keeping observation.
-	You are only obligated to intervene if NTC ship or FOB is under attack as it risks the entire campaign and investments made until this point. Otherwise Archercorp sees no reason to waste any more in this operation. Archercorp does not mind acquiring some value from the fallen colonies, as said."}
-	/*. += {"You're elite commandos of NTC's Nine Tailed Fox PMC, you always thought infiltrators and recons were not hands on enough so you joined as an enforcer, and outperformed your peers to become one of the elite, just before deathsquad.
+	. += {"You're elite commandos of ArcherCorp Asset protection team, You are here in behalf of ArcherCorp's interests so stay in touch with your representative and strengthen up through gaining points and trading with SFMC or other friendly factions while keeping observation.
+	You are only obligated to intervene if SFMC ship or FOB is under attack as it risks the entire campaign and investments made until this point. Otherwise Archercorp sees no reason to waste any more in this operation. Archercorp does not mind acquiring some value from the fallen colonies, as said."}
+	/*. += {"You're elite commandos of SFMC's Nine Tailed Fox PMC, you always thought infiltrators and recons were not hands on enough so you joined as an enforcer, and outperformed your peers to become one of the elite, just before deathsquad.
 	You are usually called when things seem dire and your equipment is a great cost to the corporation (so are you to train.)
 	Make it worth the cost and earn you and your family's luxury living again."}*/
 

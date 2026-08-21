@@ -643,16 +643,16 @@ Status: [status ? status : "Unknown"] | Damage: [health ? health : "None"]
 		if(!istype(H))
 			return
 
-		var/input = input("Please enter a message to reply to [key_name(H)].", "Outgoing message from NTC", "") as message|null
+		var/input = input("Please enter a message to reply to [key_name(H)].", "Outgoing message from High Command", "") as message|null
 		if(!input)
 			return
 
-		to_chat(H, span_boldnotice("Please stand by for a message from NTC:<br/>[input]"))
+		to_chat(H, span_boldnotice("Please stand by for a message from High Command:<br/>[input]"))
 		var/sound/S = sound('sound/effects/sos-morse-code.ogg', channel = CHANNEL_ADMIN)
 		SEND_SOUND(H, S)
 
-		log_admin("[key_name(usr)] replied to [ADMIN_TPMONTY(H)]'s NTC message with: [input].")
-		message_admins("[ADMIN_TPMONTY(usr)] replied to [ADMIN_TPMONTY(H)]'s' NTC message with: [input]")
+		log_admin("[key_name(usr)] replied to [ADMIN_TPMONTY(H)]'s High Command message with: [input].")
+		message_admins("[ADMIN_TPMONTY(usr)] replied to [ADMIN_TPMONTY(H)]'s' High Command message with: [input]")
 
 
 	if(href_list["deny"])
@@ -930,9 +930,9 @@ Status: [status ? status : "Unknown"] | Damage: [health ? health : "None"]
 		if(!dep)
 			return
 
-		var/department = input("Which department do you want to reply AS?", "Fax Message") as null|anything in list("NTC Human Resources", "NTC Management", "NTC Secretary", "Custom")
+		var/department = input("Which department do you want to reply AS?", "Fax Message") as null|anything in list("SFMC Human Resources", "SFMC Management", "SFMC Secretary", "Custom")
 		if(department == "Custom")
-			department = input("Enter a custom sender", "Fax Message", "NTC Secretary") as text|null
+			department = input("Enter a custom sender", "Fax Message", "SFMC Secretary") as text|null
 		if(!department)
 			return
 

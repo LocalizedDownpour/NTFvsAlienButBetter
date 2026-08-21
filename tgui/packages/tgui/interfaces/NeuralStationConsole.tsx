@@ -159,7 +159,7 @@ export const NeuralStationConsole = () => {
     <Window width={820} height={760} theme="kaizoku">
       <Window.Content scrollable>
         <Section
-          title="KZ Neural Harvesting System"
+          title="GSW Neural Harvesting System"
           buttons={
             <Box color="#d4af37" bold fontSize="13px">
               Covert Division • NS-92

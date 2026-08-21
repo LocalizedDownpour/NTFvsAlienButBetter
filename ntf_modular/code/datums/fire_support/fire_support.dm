@@ -130,7 +130,7 @@
 	bino_cooldown_mult = 0.4
 
 /obj/item/binoculars/fire_support/extended
-	name = "pair of NTC command laser-designator"
+	name = "pair of SFMC command laser-designator"
 	desc = "A pair of binoculars, used to mark targets for tactical strikes, connected directly to factional ship systems and squadrons. Unique action to toggle mode. Ctrl+Click when using to target something."
 	mode_list = list(
 		FIRESUPPORT_TYPE_GUN_SOLMODE,
@@ -151,7 +151,7 @@
 	color = COLOR_RED_GRAY //so its distinguishable hopefully
 
 /obj/item/binoculars/fire_support/extended/sl
-	name = "pair of NTC SL laser-designator"
+	name = "pair of SFMC SL laser-designator"
 	mode_list = list(
 		FIRESUPPORT_TYPE_GUN_SOLMODE,
 		FIRESUPPORT_TYPE_LASER_SOLMODE,

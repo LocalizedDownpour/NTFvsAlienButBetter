@@ -219,7 +219,7 @@ Note that this means that snipers will have a slowdown of 3, due to the scope
 
 /obj/item/weapon/gun/rifle/sniper/pmc_railgun
 	name = "\improper SRX-42 anti-tank rail rifle"
-	desc = "A high end mag-rail heavy sniper rifle from Ninetails chambered in the heaviest ammo available. Trigger discipline is highly recommended."
+	desc = "A high end mag-rail heavy sniper rifle from SFMC chambered in the heaviest ammo available. Trigger discipline is highly recommended."
 	icon = 'icons/obj/items/guns/special64.dmi'
 	icon_state = "m42r"
 	worn_icon_state = "m42r"
@@ -500,7 +500,7 @@ Note that this means that snipers will have a slowdown of 3, due to the scope
 
 /obj/item/weapon/gun/minigun/smart_minigun
 	name = "\improper SG-85 smart handheld gatling gun"
-	desc = "A true monster of providing supportive suppresing fire, the SG-85 is the NTC's IFF-capable minigun for heavy fire support duty. Boasting a higher firerate than any other handheld weapon. It is chambered in 10x26 caseless."
+	desc = "A true monster of providing supportive suppresing fire, the SG-85 is the SFMC's IFF-capable minigun for heavy fire support duty. Boasting a higher firerate than any other handheld weapon. It is chambered in 10x26 caseless."
 	icon_state = "minigun_sg"
 	worn_icon_state = "minigun_sg"
 	fire_animation = "minigun_sg_fire"
@@ -1036,7 +1036,7 @@ Note that this means that snipers will have a slowdown of 3, due to the scope
 //VSD RPG
 /obj/item/weapon/gun/launcher/rocket/vsd
 	name = "\improper C153 shoulder launcher"
-	desc = "An Anti-personnel Rocket Launcher made by Crash Core. Used mainly by KZ specialists, it can fire three specialized rounds. High Explosive, Incendiary Explosive, and a Chemical Capped High Explosive."
+	desc = "An Anti-personnel Rocket Launcher made by Crash Core. Used mainly by GSW specialists, it can fire three specialized rounds. High Explosive, Incendiary Explosive, and a Chemical Capped High Explosive."
 	icon = 'ntf_modular/icons/obj/items/guns/special64.dmi'
 	icon_state = "c153"
 	worn_icon_state = "c153"
@@ -1170,7 +1170,7 @@ Note that this means that snipers will have a slowdown of 3, due to the scope
 
 /obj/item/weapon/gun/minigun/vsd_autocannon
 	name = "\improper CC/AT32 Handheld Autocannon"
-	desc = "The CC/AT32, a new handheld Autocannon of the Kaizoku Corporation. Firing 20mm rounds and 40mm grenades. Its ammo variety goes from Armor Piercing, Anti-Tank, and Explosives. You will most likely hit nothing while moving with this unless you're specifically trained in doing so."
+	desc = "The CC/AT32, a new handheld Autocannon of the Grunwald-Svarog Werke. Firing 20mm rounds and 40mm grenades. Its ammo variety goes from Armor Piercing, Anti-Tank, and Explosives. You will most likely hit nothing while moving with this unless you're specifically trained in doing so."
 	icon = 'icons/obj/items/guns/special64.dmi'
 	icon_state = "at32"
 	worn_icon_state = "at32"

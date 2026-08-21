@@ -272,7 +272,7 @@ The Grenade Launchers
 
 /obj/item/weapon/gun/grenade_launcher/single_shot/riot
 	name = "\improper GL-81 riot grenade launcher"
-	desc = "A lightweight, single-shot grenade launcher to launch tear gas grenades. Used by Ninetails security during riots."
+	desc = "A lightweight, single-shot grenade launcher to launch tear gas grenades. Used by SFMC security during riots."
 	default_ammo_type = null
 	allowed_ammo_types = list(/obj/item/explosive/grenade/chem_grenade)
 	req_access = list(ACCESS_MARINE_BRIG)
@@ -294,5 +294,5 @@ The Grenade Launchers
 
 /obj/item/weapon/gun/grenade_launcher/single_shot/flare/marine
 	name = "M30E2 flare gun"
-	desc = "A very tiny flaregun that fires flares equipped with long range irons, the mass amounts of markings on the back and barrel denote it as owned by the NTC."
+	desc = "A very tiny flaregun that fires flares equipped with long range irons, the mass amounts of markings on the back and barrel denote it as owned by the SFMC."
 	icon_state = "marine_flaregun"

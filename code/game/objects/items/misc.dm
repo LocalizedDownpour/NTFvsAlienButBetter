@@ -108,13 +108,13 @@
 
 /obj/item/minerupgrade/overclock
 	name = "high-efficiency drill"
-	desc = "A box with a few pumps and an improved, bigger drill, meant to replace the standard drill used in normal mining wells for faster extraction. Produced by NTC."
+	desc = "A box with a few pumps and an improved, bigger drill, meant to replace the standard drill used in normal mining wells for faster extraction. Produced by SFMC."
 	icon_state = "mining_drill_overclockeddisplay"
 	uptype = "high-efficiency drill"
 
 /obj/item/minerupgrade/automatic
 	name = "mining computer"
-	desc = "A small NTC-brand computer that can automate mining wells, reducing the need for oversight."
+	desc = "A small SFMC-brand computer that can automate mining wells, reducing the need for oversight."
 	icon_state = "mining_drill_automaticdisplay"
 	uptype = "mining computer"
 

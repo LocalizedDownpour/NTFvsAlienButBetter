@@ -25,8 +25,8 @@ GLOBAL_VAR_INIT(plat_crate_value, PLATINUM_CRATE_SELL_AMOUNT)
 
 ///Resource generator that produces a certain material that can be repaired by marines and attacked by xenos, Intended as an objective for marines to play towards to get more req gear
 /obj/machinery/miner
-	name = "\improper Ninetails phoron Mining Well"
-	desc = "Top-of-the-line Ninetails research drill with it's own export module, used to extract phoron in vast quantities. Selling the phoron mined by these would net a nice profit..."
+	name = "\improper SFMC phoron Mining Well"
+	desc = "Top-of-the-line SFMC research drill with it's own export module, used to extract phoron in vast quantities. Selling the phoron mined by these would net a nice profit..."
 	icon = 'icons/obj/mining_drill.dmi'
 	density = TRUE
 	icon_state = "mining_drill_active_"
@@ -81,8 +81,8 @@ GLOBAL_VAR_INIT(plat_crate_value, PLATINUM_CRATE_SELL_AMOUNT)
 	return //Marker will be set by itself once processing pauses when it detects this miner is broke.
 
 /obj/machinery/miner/damaged/platinum
-	name = "\improper Ninetails platinum Mining Well"
-	desc = "A Ninetails platinum drill with an internal export module. Produces even more valuable materials than it's phoron counterpart"
+	name = "\improper SFMC platinum Mining Well"
+	desc = "A SFMC platinum drill with an internal export module. Produces even more valuable materials than it's phoron counterpart"
 	mineral_value = PLATINUM_CRATE_SELL_AMOUNT
 	dropship_bonus = PLATINUM_DROPSHIP_BONUS_AMOUNT
 /obj/machinery/miner/Initialize(mapload)

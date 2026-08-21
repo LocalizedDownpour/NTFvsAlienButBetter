@@ -1,5 +1,5 @@
 /datum/sprite_accessory/lizard_tail/skyrat/chomp_teshari_fluffy
-	name = "Teshari Fluffy (NTF)"
+	name = "Teshari Fluffy (SFMC)"
 	icon = 'ntf_modular/icons/mob/sprite_accessories/chomp_teshari_tails.dmi'
 	icon_state = "chomp_teshari_fluffy"
 	uses_color_suffixes = TRUE

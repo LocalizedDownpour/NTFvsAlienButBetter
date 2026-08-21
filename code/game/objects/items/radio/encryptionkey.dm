@@ -94,7 +94,7 @@ GLOBAL_LIST_EMPTY_TYPED(custom_updating_encryptkeys, /obj/item/encryptionkey)
 	channels = list(RADIO_CHANNEL_COLONIST = TRUE)
 
 /obj/item/encryptionkey/PMC
-	name = "\improper Ninetails encryption key"
+	name = "\improper SFMC encryption key"
 	channels = list(RADIO_CHANNEL_COMMON = TRUE, RADIO_CHANNEL_PMC = TRUE)
 
 
@@ -141,7 +141,7 @@ GLOBAL_LIST_EMPTY_TYPED(custom_updating_encryptkeys, /obj/item/encryptionkey)
 	independent = TRUE
 
 /obj/item/encryptionkey/vsd
-	name = "\improper Kaizoku encryption key"
+	name = "\improper Grunwald-Svarog Werke encryption key"
 	channels = list(RADIO_CHANNEL_VSD = TRUE)
 	independent = TRUE
 

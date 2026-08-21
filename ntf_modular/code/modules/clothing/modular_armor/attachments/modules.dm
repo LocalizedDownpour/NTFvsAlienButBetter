@@ -26,7 +26,7 @@
 	var/auto_release_chance = 75
 
 /obj/item/armor_module/module/eshield/absorbant/energy
-	name = "NT Voidwalker Anti-Energy Shield System"
+	name = "SFMC Voidwalker Anti-Energy Shield System"
 	desc = "NineTails Corporation's special modification of Svalinn energy shield system, allowing the shield to fully nullify energy attacks by absorbing them in an antienergy field\
 converting the absorbed energy into shield power, warning: overcharging too much will result in an explosion, accumulated energy dissipates over time using heatsinks. Does not prevent deflagrates or fires."
 	blocked_attack_types = list(LASER, ENERGY)
@@ -112,8 +112,8 @@ converting the absorbed energy into shield power, warning: overcharging too much
 
 //boolet shield
 /obj/item/armor_module/module/eshield/absorbant/ballistic
-	name = "KZ Ronin Anti-Ballistics Shield System"
-	desc = "Kaizoku Corporation's specialized anti-ballistic shield allowing the shield utilize the kinetic energy created by bullet impacts to overcharge itself.\
+	name = "GSW Ronin Anti-Ballistics Shield System"
+	desc = "Grunwald-Svarog Werke's specialized anti-ballistic shield allowing the shield utilize the kinetic energy created by bullet impacts to overcharge itself.\
 warning: overcharging too much will result in an explosion, accumulated energy dissipates over time using heatsinks."
 	soft_armor = list(MELEE = -10, BULLET = -10, LASER = 0, ENERGY = 0, BOMB = 0, BIO = -5, FIRE = 10, ACID = -5)
 	blocked_attack_types = list(BULLET)

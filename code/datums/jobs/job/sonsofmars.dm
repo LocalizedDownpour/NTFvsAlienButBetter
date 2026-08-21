@@ -22,9 +22,9 @@
 	. += separator_hr("[span_role_header("[SSticker.mode.name] Information")]")
 	if(istype(SSticker.mode, /datum/game_mode/hvh/combat_patrol))
 		if(issensorcapturegamemode(SSticker.mode))
-			. += span_role_header("Your platoon has orders to defend sensor towers in the AO and prevent them from reactivation by NTC until heavy reeinforcement arrives. High Command considers the successful prevention of the reactivation of the sensor towers a major victory")
+			. += span_role_header("Your platoon has orders to defend sensor towers in the AO and prevent them from reactivation by SFMC until heavy reeinforcement arrives. High Command considers the successful prevention of the reactivation of the sensor towers a major victory")
 		else
-			. += span_role_header("Your platoon has orders to patrol a remote territory illegally claimed by corpos. Intel suggests NTC units are similarly trying to press their claims by force. Work with your team and eliminate all NTF you encounter while preserving your own strength! High Command considers wiping out all enemies a major victory, or inflicting more casualties a minor victory.")
+			. += span_role_header("Your platoon has orders to patrol a remote territory illegally claimed by corpos. Intel suggests SFMC units are similarly trying to press their claims by force. Work with your team and eliminate all SFMC you encounter while preserving your own strength! High Command considers wiping out all enemies a major victory, or inflicting more casualties a minor victory.")
 
 /datum/job/som/squad/after_spawn(mob/living/carbon/C, mob/M, latejoin = FALSE)
 	. = ..()

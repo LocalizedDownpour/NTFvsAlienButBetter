@@ -42,7 +42,7 @@
 
 /obj/item/weapon/gun/shotgun/combat
 	name = "\improper SH-221 tactical shotgun"
-	desc = "The Ninetails SH-221 Shotgun, a quick-firing semi-automatic shotgun based on the centuries old Benelli M4 shotgun. Only issued to the NTC in small numbers."
+	desc = "The SFMC SH-221 Shotgun, a quick-firing semi-automatic shotgun based on the centuries old Benelli M4 shotgun. Only issued to the SFMC in small numbers."
 	equip_slot_flags = ITEM_SLOT_BACK
 	icon_state = "mk221"
 	worn_icon_state = "mk221"
@@ -76,7 +76,7 @@
 
 /obj/item/weapon/gun/shotgun/combat/standardmarine
 	name = "\improper SH-39 combat shotgun"
-	desc = "The Archercorp SH-39 combat shotgun is a semi automatic shotgun used by breachers and pointmen within the NTC squads. Uses 12 gauge shells."
+	desc = "The Archercorp SH-39 combat shotgun is a semi automatic shotgun used by breachers and pointmen within the SFMC squads. Uses 12 gauge shells."
 	force = 20 //Has a stock already
 	equip_slot_flags = ITEM_SLOT_BACK
 	icon = 'icons/obj/items/guns/shotguns64.dmi'
@@ -122,23 +122,20 @@
 
 /obj/item/weapon/gun/shotgun/combat/masterkey
 	name = "masterkey shotgun"
-	desc = "A weapon-mounted, three-plus-one shot shotgun. Reloadable with any normal 12 gauge shell. The short barrel reduces the ammo's effectiveness drastically in exchange for fitting as a attachment... Use the underrail unique action to cycle between shots while attached. (Shift+Space by default.)"
-	icon = 'ntf_modular/icons/obj/items/guns/attachments/gun.dmi'
+	desc = "A weapon-mounted, three-shot shotgun. Reloadable with any normal 12 gauge shell. The short barrel reduces the ammo's effectiveness drastically in exchange for fitting as a attachment.."
+	icon = 'icons/obj/items/guns/attachments/gun.dmi'
 	icon_state = "masterkey"
-	cocked_sound = 'sound/weapons/guns/interact/trenchgun_pump.ogg'
-	max_chamber_items = 3
+	max_chamber_items = 2
 	attachable_allowed = list()
 	starting_attachment_types = list()
 	slot = ATTACHMENT_SLOT_UNDER
 	attach_delay = 3 SECONDS
 	detach_delay = 3 SECONDS
-	reciever_flags = AMMO_RECIEVER_HANDFULS|AMMO_RECIEVER_REQUIRES_UNIQUE_ACTION|AMMO_RECIEVER_UNIQUE_ACTION_LOCKS
 	gun_features_flags = GUN_IS_ATTACHMENT|GUN_AMMO_COUNTER|GUN_ATTACHMENT_FIRE_ONLY|GUN_WIELDED_STABLE_FIRING_ONLY|GUN_CAN_POINTBLANK|GUN_WIELDED_FIRING_ONLY|GUN_SMOKE_PARTICLES
 	default_ammo_type = /datum/ammo/bullet/shotgun/buckshot
+	damage_mult = 0.6 // 40% less damage, but MUCH higher falloff.
 	scatter = 3
-	damage_mult = 1
-	cock_delay = 1.2 SECONDS
-	fire_delay = 1.5 SECONDS
+	fire_delay = 2 SECONDS
 	pixel_shift_x = 14
 	pixel_shift_y = 18
 
@@ -202,7 +199,7 @@
 
 /obj/item/weapon/gun/shotgun/double/marine
 	name = "\improper SH-34 double barrel shotgun"
-	desc = "A double barreled shotgun of archaic, but sturdy design used by the NTC. Due to reports of barrel bursting, the abiility to fire both barrels has been disabled. Uses 12 gauge shells, but can only hold 2 at a time."
+	desc = "A double barreled shotgun of archaic, but sturdy design used by the SFMC. Due to reports of barrel bursting, the abiility to fire both barrels has been disabled. Uses 12 gauge shells, but can only hold 2 at a time."
 	equip_slot_flags = ITEM_SLOT_BACK
 	icon_state = "ts34"
 	worn_icon_state = "ts34"
@@ -450,7 +447,7 @@
 
 /obj/item/weapon/gun/shotgun/pump/sh23
 	name = "\improper SH-23-NT heavy pump shotgun"
-	desc = "An NTF clone of an ICC classic, slow to chamber but hits like a truck. Due to the reinforcement needed to slam 6 gauge downrange, the body of this shotgun has no attachment mounting points\n<b>Requires a pump, which is the Unique Action key.</b>"
+	desc = "An SFMC clone of an ICC classic, slow to chamber but hits like a truck. Due to the reinforcement needed to slam 6 gauge downrange, the body of this shotgun has no attachment mounting points\n<b>Requires a pump, which is the Unique Action key.</b>"
 	equip_slot_flags = ITEM_SLOT_BACK
 	icon = 'ntf_modular/icons/obj/items/guns/shotguns64.dmi'
 	icon_state = "sh23"
@@ -1100,7 +1097,7 @@
 
 /obj/item/weapon/gun/shotgun/combat/shq6
 	name = "\improper SH-46 combat shotgun"
-	desc = "The SH-46, is a semi-automatic, 12 Gauge, gas piston-operated shotgun, released for NTC by CAU."
+	desc = "The SH-46, is a semi-automatic, 12 Gauge, gas piston-operated shotgun, released for SFMC by CAU."
 	force = 20 //Has a stock already
 	icon = 'ntf_modular/icons/obj/items/guns/shotguns64.dmi'
 	icon_state = "shq6"

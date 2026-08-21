@@ -10,14 +10,14 @@
 */
 /obj/item/clothing/under/rank/warden
 	name = "security suit"
-	desc = "A formal security suit for officers complete with Ninetails belt buckle."
+	desc = "A formal security suit for officers complete with SFMC belt buckle."
 	icon_state = "wardenred"
 	worn_icon_state = "r_suit"
 	siemens_coefficient = 0.9
 
 /obj/item/clothing/under/rank/warden/white
 	name = "white security suit"
-	desc = "A formal relic of years past before Ninetails decided it was cheaper to dye the suits red instead of washing out the blood."
+	desc = "A formal relic of years past before SFMC decided it was cheaper to dye the suits red instead of washing out the blood."
 	icon_state = "wardenwhite"
 	worn_icon_state = "wardenwhite"
 
@@ -30,7 +30,7 @@
 
 /obj/item/clothing/under/rank/security/white
 	name = "white security jumpsuit"
-	desc = "A tactical relic of years past before Ninetails decided it was cheaper to dye the suits red instead of washing out the blood."
+	desc = "A tactical relic of years past before SFMC decided it was cheaper to dye the suits red instead of washing out the blood."
 	icon_state = "securitywhite"
 	worn_icon_state = "securitywhite"
 
@@ -133,7 +133,7 @@
 *Blart Uniform
 */
 /obj/item/clothing/under/rank/security/mallcop
-	name = "NT mall cop uniform"
+	name = "SFMC mall cop uniform"
 	desc = "The radio and badge are sewn on, what a crappy knock off. Secway not included."
 	icon_state = "mallcop"
 	worn_icon_state = "mallcop"

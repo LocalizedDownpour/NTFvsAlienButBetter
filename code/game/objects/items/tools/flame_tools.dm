@@ -433,7 +433,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 /obj/item/clothing/mask/cigarette/tram
 	name = "poppy flavored cigarette"
-	desc = "Ninetails opioid alternative, diluted in water to skirt the 2112 Opioid Control act."
+	desc = "SFMC opioid alternative, diluted in water to skirt the 2112 Opioid Control act."
 	icon_state = "tramcigoff"
 	worn_icon_state = "tramcigoff"
 	icon_on = "tramcigon"

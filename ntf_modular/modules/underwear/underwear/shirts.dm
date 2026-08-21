@@ -28,6 +28,12 @@
 	greyscale_config = /datum/greyscale_config/shirt
 	colorable_allowed = COLOR_WHEEL_ALLOWED
 
+/obj/item/clothing/underwear/shirt/longsleeverolled
+	name = "Rolled Long-Sleeved Shirt"
+	icon_state = "shirt_white_long_rolled"
+	greyscale_config = /datum/greyscale_config/shirt
+	colorable_allowed = COLOR_WHEEL_ALLOWED
+
 /obj/item/clothing/underwear/shirt/longsleeve
 	name = "Long-Sleeved Shirt"
 	icon_state = "shirt_white_long"
@@ -241,11 +247,11 @@
 	icon_state = "uk"
 
 /obj/item/clothing/underwear/shirt/shirt_nano
-	name = "Shirt - NTC"
+	name = "Shirt - SFMC"
 	icon_state = "shirt_nano"
 
 /obj/item/clothing/underwear/shirt/iloventc
-	name = "Shirt - I Love NTC"
+	name = "Shirt - I Love SFMC"
 	icon_state = "ilovent"
 
 /obj/item/clothing/underwear/shirt/lover

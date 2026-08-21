@@ -123,7 +123,7 @@
 	name = "CM Supply Shuttle"
 
 /area/shuttle/supply/kz
-	name = "KZ Supply Shuttle"
+	name = "GSW Supply Shuttle"
 
 /area/shuttle/supply/colony
 	name = "Colony Supply Shuttle"

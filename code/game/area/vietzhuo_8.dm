@@ -57,7 +57,7 @@
 
 // Landing Zone 1
 /area/vietzhuo8/outdoors/landing_zone_1
-	name = "Vietzhuo-8 Southeast NTC Airfield - Landing Zone One"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Landing Zone One"
 	icon_state = "v8se_lz1site"
 	minimap_color = MINIMAP_AREA_LZ
 	ceiling = CEILING_NONE
@@ -72,125 +72,125 @@
 	minimap_color = MINIMAP_AREA_ESCAPE
 
 /area/vietzhuo8/indoors/landing_zone_1/air_control_room
-	name = "Vietzhuo-8 Southeast NTC Airfield - Air Control Room"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Air Control Room"
 	icon_state = "v8se_lz1acb"
 
 /area/vietzhuo8/indoors/landing_zone_1/lz1_console
-	name = "Vietzhuo-8 Southeast NTC Airfield - Dropship Alamo Console"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Dropship Alamo Console"
 	requires_power = FALSE
 
-//NTC Airfield Quarters & Amenities
+//SFMC Airfield Quarters & Amenities
 
 /area/vietzhuo8/outdoors/v8sentaf/corporatewalkwaysnorth
-	name = "Vietzhuo-8 Southeast NTC Airfield - Corporate Walkways North"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Corporate Walkways North"
 	icon_state = "v8se_ntcwalkway"
 
 /area/vietzhuo8/outdoors/v8sentaf/corporatewalkwaysouth
-	name = "Vietzhuo-8 Southeast NTC Airfield - Corporate Walkways South"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Corporate Walkways South"
 	icon_state = "v8se_ntcwalkway"
 
 /area/vietzhuo8/indoors/v8sentaf/corporate_dorms
-	name = "Vietzhuo-8 Southeast NTC Airfield - Corporate Dorms"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Corporate Dorms"
 	icon_state = "v8se_dorms"
 	minimap_color = MINIMAP_AREA_LIVING
 
 /area/vietzhuo8/indoors/v8sentaf/restrooms
-	name = "Vietzhuo-8 Southeast NTC Airfield - Restrooms"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Restrooms"
 	icon_state = "v8se_restroom"
 	minimap_color = MINIMAP_AREA_LIVING
 
 /area/vietzhuo8/indoors/v8sentaf/substation
-	name = "Vietzhuo-8 Southeast NTC Airfield - Substation"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Substation"
 	icon_state = "v8se_powerstation"
 	minimap_color = MINIMAP_AREA_ENGI
 
 /area/vietzhuo8/indoors/v8sentaf/substation/maintenance
-	name = "Vietzhuo-8 Southeast NTC Airfield - Substation - Maintenance"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Substation - Maintenance"
 	minimap_color = MINIMAP_AREA_ENGI
 
-//NTC Airfield Corporate
+//SFMC Airfield Corporate
 
 /area/vietzhuo8/outdoors/v8ntc
-	name = "Vietzhuo-8 Southeast NTC Airfield - Corporate Grounds"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Corporate Grounds"
 	icon_state = "v8se_officegeneral"
 
 /area/vietzhuo8/indoors/v8ntc
-	name = "Vietzhuo-8 Southeast NTC Airfield - Office Building"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Office Building"
 	icon_state = "v8se_offices"
 	minimap_color = MINIMAP_AREA_COMMAND
 
 /area/vietzhuo8/indoors/v8ntc/officeslobby
-	name = "Vietzhuo-8 Southeast NTC Airfield - Offices Lobby"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Offices Lobby"
 
 /area/vietzhuo8/indoors/v8ntc/officesmain
-	name = "Vietzhuo-8 Southeast NTC Airfield - Offices Main"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Offices Main"
 
 /area/vietzhuo8/indoors/v8ntc/officesmanagement
-	name = "Vietzhuo-8 Southeast NTC Airfield - Offices Management"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Offices Management"
 
 /area/vietzhuo8/indoors/v8ntc/breakroom
-	name = "Vietzhuo-8 Southeast NTC Airfield - Offices Breakroom"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Offices Breakroom"
 
 /area/vietzhuo8/indoors/v8ntc/officeshalls
-	name = "Vietzhuo-8 Southeast NTC Airfield - Southern Offices Halls"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Southern Offices Halls"
 
 /area/vietzhuo8/indoors/v8ntc/conference
-	name = "Vietzhuo-8 Southeast NTC Airfield - Conference Room"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Conference Room"
 
 /area/vietzhuo8/indoors/v8ntc/officessecurity
-	name = "Vietzhuo-8 Southeast NTC Airfield - Offices Security-Post"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Offices Security-Post"
 	icon_state = "v8se_secpost"
 
-//NTC Airfield Security Assets
+//SFMC Airfield Security Assets
 
 /area/vietzhuo8/indoors/v8sentafsec
-	name = "Vietzhuo-8 Southeast NTC Airfield - Security"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Security"
 	minimap_color = MINIMAP_AREA_SEC
 
 /area/vietzhuo8/indoors/v8sentafsec/checkpoint_north
-	name = "Vietzhuo-8 Southeast NTC Airfield - Security Checkpoint North"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Security Checkpoint North"
 	icon_state = "v8se_secpost"
 
 /area/vietzhuo8/indoors/v8sentafsec/security_checkpoint_northwest
-	name = "Vietzhuo-8 Southeast NTC Airfield - Security Checkpoint Northwest"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Security Checkpoint Northwest"
 	icon_state = "v8se_secpost"
 
 /area/vietzhuo8/indoors/v8sentafsec/security_checkpoint_west
-	name = "Vietzhuo-8 Southeast NTC Airfield - Security Checkpoint West"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Security Checkpoint West"
 	icon_state = "v8se_secpost"
 
 /area/vietzhuo8/indoors/v8sentafsec/security_dorms_central
-	name = "Vietzhuo-8 Southeast NTC Airfield - Security Dorms Central"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Security Dorms Central"
 	icon_state = "v8se_secdorms"
 
 /area/vietzhuo8/indoors/v8sentafsec/security_dorms_west
-	name = "Vietzhuo-8 Southeast NTC Airfield - Security Dorms West"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Security Dorms West"
 	icon_state = "v8se_secdorms"
 
 /area/vietzhuo8/indoors/v8sentafsec/security_armory
-	name = "Vietzhuo-8 Southeast NTC Airfield - Security Armory"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Security Armory"
 	icon_state = "v8se_secarmory"
 
-//NTC Airfield Roads & Territories
+//SFMC Airfield Roads & Territories
 
 /area/vietzhuo8/outdoors/v8ntcroadwest
-	name = "Vietzhuo-8 Southeast NTC Airfield - Roads West"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Roads West"
 	icon_state = "v8se_territory"
 
 /area/vietzhuo8/outdoors/v8ntcroadnw
-	name = "Vietzhuo-8 Southeast NTC Airfield - Roads Northwest"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Roads Northwest"
 	icon_state = "v8se_territory"
 
 /area/vietzhuo8/outdoors/v8ntcroadnorth
-	name = "Vietzhuo-8 Southeast NTC Airfield - Road North"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Road North"
 	icon_state = "v8se_territory"
 
 /area/vietzhuo8/outdoors/v8ntcregionnorth
-	name = "Vietzhuo-8 Southeast NTC Airfield - Region North"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Region North"
 	icon_state = "v8se_territory"
 
 /area/vietzhuo8/outdoors/v8ntcregionnorthwest
-	name = "Vietzhuo-8 Southeast NTC Airfield - Region Northwest"
+	name = "Vietzhuo-8 Southeast SFMC Airfield - Region Northwest"
 	icon_state = "v8se_territory"
 
 // Vietzhuo-8 Central Buffer Zone

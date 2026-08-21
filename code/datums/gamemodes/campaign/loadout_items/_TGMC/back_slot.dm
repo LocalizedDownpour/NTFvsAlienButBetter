@@ -10,14 +10,14 @@
 
 /datum/loadout_item/back/marine_satchel
 	name = "Satchel"
-	desc = "A heavy-duty satchel carried by some NTF soldiers and support personnel. Carries less than a backpack, but items can be drawn instantly."
+	desc = "A heavy-duty satchel carried by some SFMC soldiers and support personnel. Carries less than a backpack, but items can be drawn instantly."
 	item_typepath = /obj/item/storage/backpack/marine/satchel
 	jobs_supported = list(SQUAD_MARINE, SQUAD_SLUT, VANGUARD, SQUAD_SPECIALIST, SQUAD_SMARTGUNNER, STAFF_OFFICER, CAPTAIN)
 	loadout_item_flags = LOADOUT_ITEM_ROUNDSTART_OPTION
 
 /datum/loadout_item/back/marine_backpack
 	name = "Backpack"
-	desc = "The standard-issue pack of the NTF forces. Designed to slug gear into the battlefield. Carries more than a satchel but has a draw delay."
+	desc = "The standard-issue pack of the SFMC forces. Designed to slug gear into the battlefield. Carries more than a satchel but has a draw delay."
 	item_typepath = /obj/item/storage/backpack/marine
 	jobs_supported = list(SQUAD_MARINE, SQUAD_SLUT, VANGUARD, SQUAD_SPECIALIST, SQUAD_SMARTGUNNER)
 
@@ -67,7 +67,7 @@
 /datum/loadout_item/back/marine_shotgun
 	name = "SH-35"
 	desc = "Equipped with a mag harness, bayonet, angled grip and foldable stock. \
-	The SH-35 is the most commonly used shotgun of the NTF. With good mobility and handling, it has unparalleled close range power when using buckshot. Able to kill or maim all but the most heavily armored targets with a single well aimmed blast. \
+	The SH-35 is the most commonly used shotgun of the SFMC. With good mobility and handling, it has unparalleled close range power when using buckshot. Able to kill or maim all but the most heavily armored targets with a single well aimmed blast. \
 	When using flechette rounds, it can provide surprisingly powerful long range damage with good penetration, although its low rate of fire means its sustained damage is relatively poor. \
 	Uses 12 gauge shells."
 	ui_icon = "t35"
@@ -113,13 +113,13 @@
 //corpsman
 /datum/loadout_item/back/corpsman_satchel
 	name = "Medical satchel"
-	desc = "A heavy-duty satchel carried by some NTF corpsmen. You can recharge defibrillators by plugging them in. Carries less than a backpack, but items can be drawn instantly."
+	desc = "A heavy-duty satchel carried by some SFMC corpsmen. You can recharge defibrillators by plugging them in. Carries less than a backpack, but items can be drawn instantly."
 	item_typepath = /obj/item/storage/backpack/marine/corpsman/satchel
 	jobs_supported = list(SQUAD_CORPSMAN, VANGUARD)
 
 /datum/loadout_item/back/corpsman_backpack
 	name = "Medical backpack"
-	desc = "The standard-issue backpack worn by NTF corpsmen. You can recharge defibrillators by plugging them in. Carries more than a satchel but has a draw delay."
+	desc = "The standard-issue backpack worn by SFMC corpsmen. You can recharge defibrillators by plugging them in. Carries more than a satchel but has a draw delay."
 	item_typepath = /obj/item/storage/backpack/marine/corpsman
 	jobs_supported = list(SQUAD_CORPSMAN, VANGUARD)
 	loadout_item_flags = LOADOUT_ITEM_ROUNDSTART_OPTION
@@ -127,7 +127,7 @@
 //engineer
 /datum/loadout_item/back/engineerpack
 	name = "Sentry welderpack"
-	desc = "A specialized backpack worn by NTF technicians. It carries a fueltank for quick welder refueling. Loaded with a point defense sentry, excellent for defending areas or establishing killboxes."
+	desc = "A specialized backpack worn by SFMC technicians. It carries a fueltank for quick welder refueling. Loaded with a point defense sentry, excellent for defending areas or establishing killboxes."
 	item_typepath = /obj/item/storage/backpack/marine/engineerpack
 	jobs_supported = list(SQUAD_ENGINEER)
 	loadout_item_flags = LOADOUT_ITEM_ROUNDSTART_OPTION
@@ -150,7 +150,7 @@
 
 /datum/loadout_item/back/tech_backpack
 	name = "Demolition backpack"
-	desc = "The standard-issue backpack worn by NTF technicians. Filled with a detpacks, C4 and grenades. Has a draw delay."
+	desc = "The standard-issue backpack worn by SFMC technicians. Filled with a detpacks, C4 and grenades. Has a draw delay."
 	item_typepath = /obj/item/storage/backpack/marine/tech
 	jobs_supported = list(SQUAD_ENGINEER)
 

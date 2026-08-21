@@ -591,14 +591,14 @@
 // VSD
 
 /obj/machinery/marine_selector/clothes/vsd
-	name = "GHMME Automated KZ Closet"
+	name = "GHMME Automated GSW Closet"
 	req_access = list(ACCESS_VSD_PREP)
 	vendor_role = /datum/job/vsd_squad/standard
 	faction = FACTION_VSD
 	lock_flags = JOB_LOCK
 
 /obj/machinery/marine_selector/clothes/vsd/standard
-	name = "GHMME Automated KZ Standard Closet"
+	name = "GHMME Automated GSW Standard Closet"
 	vendor_role = /datum/job/vsd_squad/standard
 
 /obj/machinery/marine_selector/clothes/vsd/standard/Initialize(mapload)
@@ -606,7 +606,7 @@
 	listed_products = GLOB.vsd_standard_clothes_listed_products
 
 /obj/machinery/marine_selector/clothes/vsd/medic
-	name = "GHMME Automated KZ Medic Closet"
+	name = "GHMME Automated GSW Medic Closet"
 	vendor_role = /datum/job/vsd_squad/medic
 	req_access = list(ACCESS_VSD_MEDPREP)
 
@@ -615,7 +615,7 @@
 	listed_products = GLOB.vsd_medic_clothes_listed_products
 
 /obj/machinery/marine_selector/clothes/vsd/engineer
-	name = "GHMME Automated KZ Engineer Closet"
+	name = "GHMME Automated GSW Engineer Closet"
 	vendor_role = /datum/job/vsd_squad/engineer
 	req_access = list(ACCESS_VSD_ENGPREP)
 
@@ -624,7 +624,7 @@
 	listed_products = GLOB.vsd_engineer_clothes_listed_products
 
 /obj/machinery/marine_selector/clothes/vsd/specialist
-	name = "GHMME Automated KZ Specialist Closet"
+	name = "GHMME Automated GSW Specialist Closet"
 	vendor_role = /datum/job/vsd_squad/spec
 	req_access = list(ACCESS_VSD_SPECPREP)
 
@@ -633,7 +633,7 @@
 	listed_products = GLOB.vsd_specialist_clothes_listed_products
 
 /obj/machinery/marine_selector/clothes/vsd/leader
-	name = "GHMME Automated KZ Leader Closet"
+	name = "GHMME Automated GSW Leader Closet"
 	vendor_role = /datum/job/vsd_squad/leader
 	req_access = list(ACCESS_VSD_LEADPREP)
 
@@ -1303,6 +1303,28 @@
 		/obj/item/ammo_magazine/pistol/standard_pistol/smart_pistol,
 	)
 
+/obj/effect/vendor_bundle/smartgunner_autopistol
+	gear_to_spawn = list(
+		/obj/item/storage/holster/belt/pistol/smart_pistol,
+		/obj/item/weapon/gun/pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
+	)
+
 /obj/effect/vendor_bundle/leader
 	gear_to_spawn = list(
 		/obj/item/explosive/plastique,
@@ -1367,7 +1389,7 @@
 	)
 
 /obj/effect/vendor_bundle/white_dress
-	name = "Full set of NTC white dress uniform"
+	name = "Full set of SFMC white dress uniform"
 	desc = "A standard-issue Nine Tailed Fox white dress uniform. The starch in the fabric chafes a small amount but it pales in comparison to the pride you feel when you first put it on during graduation from boot camp. Doesn't seem to fit perfectly around the waist though."
 	gear_to_spawn = list(
 		/obj/item/clothing/under/marine/whites,
@@ -1378,7 +1400,7 @@
 	)
 
 /obj/effect/vendor_bundle/service_uniform
-	name = "Full set of NTC service uniform"
+	name = "Full set of SFMC service uniform"
 	desc = "A standard-issue Nine Tailed Fox dress uniform. Sometimes, you hate wearing this since you remember wearing this to Infantry School and have to wear this when meeting a commissioned officer. This is what you wear when you are not deployed and are working in an office. Doesn't seem to fit perfectly around the waist."
 	gear_to_spawn = list(
 		/obj/item/clothing/under/marine/service,

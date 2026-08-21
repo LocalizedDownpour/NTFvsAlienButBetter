@@ -1,6 +1,6 @@
 /obj/machinery/loadout_vendor
 	name = "automated loadout vendor"
-	desc = "An advanced vendor used by the NTC to rapidly equip their marines"
+	desc = "An advanced vendor used by the SFMC to rapidly equip their marines"
 	icon = 'icons/obj/machines/vending.dmi'
 	icon_state = "specialist"
 	density = TRUE
@@ -116,14 +116,14 @@
 
 
 /obj/machinery/loadout_vendor/vsd
-	desc = "An advanced vendor used by the KZ to rapidly equip their operatives"
+	desc = "An advanced vendor used by the GSW to rapidly equip their operatives"
 	faction = VENDOR_FACTION_VSD
 	categories = list(
-		"KZ Standard",
-		"KZ Medic",
-		"KZ Engineer",
-		"KZ Specialist",
-		"KZ Squad Leader",
+		"GSW Standard",
+		"GSW Medic",
+		"GSW Engineer",
+		"GSW Specialist",
+		"GSW Squad Leader",
 	)
 
 

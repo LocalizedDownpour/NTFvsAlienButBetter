@@ -46,12 +46,12 @@
 	autolinkers = list("processor4_kz")
 
 /obj/machinery/telecomms/server/presets/common/kz
-	id = "Common Server KZ"
+	id = "Common Server GSW"
 	freq_listening = list(FREQ_VSD)
 	autolinkers = list("common_kz")
 
 /obj/machinery/telecomms/hub/preset/kz
-	id = "Hub KZ"
+	id = "Hub GSW"
 	autolinkers = list("hub_kz", "relay", "s_relay", "common_kz",
 	"receiverA_kz", "receiverB_kz", "broadcasterA_kz")
 

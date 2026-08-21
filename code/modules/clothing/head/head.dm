@@ -49,7 +49,7 @@
 	worn_icon_list = list(slot_head_str = icon)
 
 /obj/item/clothing/head/beanie
-	name = "\improper NTC beanie"
+	name = "\improper SFMC beanie"
 	desc = "A standard military beanie, often worn by non-combat military personnel and support crews, though the occasional one finds its way to the front line. Popular due to being comfortable and snug."
 	icon = 'icons/obj/clothing/headwear/marine_hats.dmi'
 	worn_icon_list = list(
@@ -61,7 +61,7 @@
 	inv_hide_flags = HIDETOPHAIR
 /obj/item/clothing/head/tgmcberet
 	name = "\improper Dark gray beret"
-	desc = "A hat typically worn by the field-officers of the NTC. Occasionally they find their way down the ranks into the hands of squad-leaders and decorated grunts."
+	desc = "A hat typically worn by the field-officers of the SFMC. Occasionally they find their way down the ranks into the hands of squad-leaders and decorated grunts."
 	icon = 'icons/obj/clothing/headwear/marine_hats.dmi'
 	worn_icon_list = list(
 		slot_head_str = 'icons/mob/clothing/headwear/marine_hats.dmi',
@@ -134,7 +134,7 @@
 
 
 /obj/item/clothing/head/tgmccap
-	name = "\improper NTC cap"
+	name = "\improper SFMC cap"
 	desc = "A casual cap occasionally worn by Squad-leaders and Combat-Engineers. While it has limited combat functionality, some prefer to wear it instead of the standard issue helmet."
 	icon_state = "cap"
 	icon = 'icons/obj/clothing/headwear/marine_hats.dmi'
@@ -169,8 +169,8 @@
 
 
 /obj/item/clothing/head/tgmccap/ro
-	name = "\improper NTC officer cap"
-	desc = "A hat usually worn by officers in the NTC. While it has limited combat functionality, some prefer to wear it instead of the standard issue helmet. It has a built in signal booster plus antenna module both at once."
+	name = "\improper SFMC officer cap"
+	desc = "A hat usually worn by officers in the SFMC. While it has limited combat functionality, some prefer to wear it instead of the standard issue helmet. It has a built in signal booster plus antenna module both at once."
 	icon_state = "rocap"
 	attachments_allowed = list(
 		/obj/item/armor_module/module/tyr_head,
@@ -205,12 +205,12 @@
 	inplace_interference[1] = max(0, inplace_interference[1] - 1)
 
 /obj/item/clothing/head/tgmccap/ro/navy
-	name = "\improper NTC navy officer cap"
-	desc = "A hat usually worn by officers in the NTC. This time in a nice shade of navy blue. It has a built in signal booster plus antenna module both at once."
+	name = "\improper SFMC navy officer cap"
+	desc = "A hat usually worn by officers in the SFMC. This time in a nice shade of navy blue. It has a built in signal booster plus antenna module both at once."
 	icon_state = "navycap"
 
 /obj/item/clothing/head/tgmccap/req
-	name = "\improper NTC requisition cap"
+	name = "\improper SFMC requisition cap"
 	desc = "It's a fancy hat for a not-so-fancy military supply clerk."
 	icon_state = "cargocap"
 	item_map_variant_flags = null
@@ -233,8 +233,8 @@
 	armor_features_flags = ARMOR_NO_DECAP
 
 /obj/item/clothing/head/slouch
-	name = "\improper NTC slouch hat"
-	desc = "A nice slouch hat worn by some NTC troopers while on planets with hot weather, or just for style. While it has limited combat functionality, some prefer to wear it instead of the standard issue helmet."
+	name = "\improper SFMC slouch hat"
+	desc = "A nice slouch hat worn by some SFMC troopers while on planets with hot weather, or just for style. While it has limited combat functionality, some prefer to wear it instead of the standard issue helmet."
 	icon_state = "slouch_hat"
 	icon = 'icons/obj/clothing/headwear/marine_hats.dmi'
 	worn_icon_list = list(
@@ -243,7 +243,7 @@
 
 /obj/item/clothing/head/headband
 	name = "\improper Cyan headband"
-	desc = "A rag typically worn by the less-orthodox weapons operators in the NTC. While it offers no protection, it is certainly comfortable to wear compared to the standard helmet. Comes in two stylish colors."
+	desc = "A rag typically worn by the less-orthodox weapons operators in the SFMC. While it offers no protection, it is certainly comfortable to wear compared to the standard helmet. Comes in two stylish colors."
 	icon = 'icons/obj/clothing/headwear/marine_hats.dmi'
 	worn_icon_list = list(
 		slot_head_str = 'icons/mob/clothing/headwear/marine_hats.dmi',
@@ -268,7 +268,7 @@
 
 
 /obj/item/clothing/head/headset
-	name = "\improper NTC headset"
+	name = "\improper SFMC headset"
 	desc = "A headset typically found in use by radio-operators and officers. This one appears to be malfunctioning."
 	icon_state = "headset"
 	icon = 'icons/obj/clothing/headwear/marine_hats.dmi'
@@ -294,7 +294,7 @@
 
 /obj/item/clothing/head/beret/marine
 	name = "Operative officer beret"
-	desc = "A beret with the NTC insignia emblazoned on it. It radiates respect and authority."
+	desc = "A beret with the SFMC insignia emblazoned on it. It radiates respect and authority."
 	icon_state = "hosberet"
 	inventory_flags = BLOCKSHARPOBJ
 
@@ -496,8 +496,8 @@
 	armor_features_flags = ARMOR_NO_DECAP
 
 /obj/item/clothing/head/vsd/beret
-	name = "\improper Crasher MT/45 Kaizoku armored beret"
-	desc = "CrashCore sponsored beret with kevlar fabric, seen on Kaizoku's Squad Leaders and Officers."
+	name = "\improper Crasher MT/45 Grunwald-Svarog Werke armored beret"
+	desc = "CrashCore sponsored beret with kevlar fabric, seen on Grunwald-Svarog Werke's Squad Leaders and Officers."
 	icon_state = "vsd_beret"
 	worn_icon_state = "vsd_beret"
 	icon = 'icons/mob/clothing/headwear/ert_headwear.dmi'
@@ -508,8 +508,8 @@
 	)
 
 /obj/item/clothing/head/vsd/beret_alt
-	name = "\improper Crasher MT/45/A Kaizoku armored beret"
-	desc = "CrashCore sponsored beret with kevlar fabric, seen on Kaizoku Squad Leaders and Officers."
+	name = "\improper Crasher MT/45/A Grunwald-Svarog Werke armored beret"
+	desc = "CrashCore sponsored beret with kevlar fabric, seen on Grunwald-Svarog Werke Squad Leaders and Officers."
 	icon_state = "usl_beret"
 	worn_icon_state = "usl_beret"
 	icon = 'icons/mob/clothing/headwear/ert_headwear.dmi'

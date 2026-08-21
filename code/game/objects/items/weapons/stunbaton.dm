@@ -233,7 +233,7 @@
 			X.use_stun_health(drain_multiplier * X.xeno_caste.max_health)
 			if(X.stun_health_damage >= X.health)
 				X.do_jitter_animation(50, 11 SECONDS)
-				X.ParalyzeNoChain(12 SECONDS)//can now be used to riot control xenos when they abuse the hospitality of NTC
+				X.ParalyzeNoChain(12 SECONDS)//can now be used to riot control xenos when they abuse the hospitality of SFMC
 				to_chat(X, span_xenowarning("We feel our energy zapped out of us, maybe it's best we stop to talk?"))
 
 		if(ishuman(L))

@@ -100,7 +100,7 @@
 /obj/machinery/vending/snack
 	name = "\improper Hot Foods machine"
 	desc = "A vending machine full of ready to cook meals, mhmmmm taste the nutritional goodness!"
-	product_slogans = "Kepler Crisps! Try a snack that's out of this world!;Eat an EAT!;Eat a Ninetails brand packaged hamburger.;Eat a Ninetails brand packaged hot dog.;Eat a Ninetails brand packaged burrito.;"
+	product_slogans = "Kepler Crisps! Try a snack that's out of this world!;Eat an EAT!;Eat a SFMC brand packaged hamburger.;Eat a SFMC brand packaged hot dog.;Eat a SFMC brand packaged burrito.;"
 	icon_state = "snack"
 	icon_vend = "snack-vend"
 	icon_deny = "snack-deny"
@@ -126,7 +126,7 @@
 	name = "\improper Souto Softdrinks"
 	desc = "A softdrink vendor provided by Souto Soda Company, Havana."
 	icon_state = "Cola_Machine"
-	product_slogans = "Souto Soda: Have a Souto and be taken away to a tropical paradise!;Souto Classic. You can't beat that tangerine goodness!;Souto Cherry. The sweet flavor of a cool winter morning!;Souto Lime. For that sweet and sour flavor that you know and love!;Souto Grape. There's nothing better than a grape soda.;Ninetails Fruit Beer. Nothing came from that lawsuit!;Ninetails Spring Water. It came from a spring!"
+	product_slogans = "Souto Soda: Have a Souto and be taken away to a tropical paradise!;Souto Classic. You can't beat that tangerine goodness!;Souto Cherry. The sweet flavor of a cool winter morning!;Souto Lime. For that sweet and sour flavor that you know and love!;Souto Grape. There's nothing better than a grape soda.;SFMC Fruit Beer. Nothing came from that lawsuit!;SFMC Spring Water. It came from a spring!"
 	icon_deny = "Cola_Machine-deny"
 	icon_vend = "Cola_Machine-vend"
 	products = list(

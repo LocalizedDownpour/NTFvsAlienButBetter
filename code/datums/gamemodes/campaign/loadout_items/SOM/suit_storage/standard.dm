@@ -12,7 +12,7 @@
 /datum/loadout_item/suit_store/main_gun/som_marine/standard_rifle
 	name = "V-31"
 	desc = "Equipped with a red dot sight, extended barrel, vertical grip and integrated micro rail launcher. The V-31 is the principal ballistic weapon for the SOM. \
-	It has good mobility and handling and a good rate of fire, but tends to favour closer range fighting compared to many NTF equivalents. \
+	It has good mobility and handling and a good rate of fire, but tends to favour closer range fighting compared to many SFMC equivalents. \
 	The rail launcher electromagnetically launches a variety of 10 gauge airbursting grenades. Extremely effective when used correctly, their fixed fuse time makes them entirely ineffective at very close or far ranges. \
 	Managing engagement range is thus vital for maximising the effectiveness of this weapon. \
 	Uses 10x24mm caseless ammunition and 10 gauge micro grenades."
@@ -45,7 +45,7 @@
 /datum/loadout_item/suit_store/main_gun/som_marine/standard_rifle/enhanced
 	name = "V-31+"
 	desc = "Equipped with a red dot sight, extended barrel, vertical grip and integrated micro rail launcher. The V-31 is the principal ballistic weapon for the SOM. \
-	It has good mobility and handling and a good rate of fire, but tends to favour closer range fighting compared to many NTF equivalents. \
+	It has good mobility and handling and a good rate of fire, but tends to favour closer range fighting compared to many SFMC equivalents. \
 	The rail launcher electromagnetically launches a variety of 10 gauge airbursting grenades. Extremely effective when used correctly, their fixed fuse time makes them entirely ineffective at very close or far ranges. \
 	Managing engagement range is thus vital for maximising the effectiveness of this weapon. \
 	Uses a mix of standard and AP 10x24mm caseless ammunition, and 10 gauge micro grenades."
@@ -155,7 +155,7 @@
 /datum/loadout_item/suit_store/main_gun/som_marine/standard_shotgun
 	name = "V-51"
 	desc = "Equipped with a mag harness, bayonet and undebarrel flashlight. The V-51 is the main shotgun utilised by the Sons of Mars. \
-	Semi automatic with great handling and mobility, it is less powerful than the SH-35 used by the NTF, but makes up for it with a superior rate of fire. \
+	Semi automatic with great handling and mobility, it is less powerful than the SH-35 used by the SFMC, but makes up for it with a superior rate of fire. \
 	Uses 12 gauge shells."
 	req_desc = "Requires M-11 scout armor."
 	ui_icon = "v51"
@@ -198,7 +198,7 @@
 /datum/loadout_item/suit_store/main_gun/som_marine/flamer
 	name = "V-62 incinerator"
 	desc = "Equipped with a mag harness and wide nozzle. The V-62 is a deadly weapon employed in close quarter combat, favoured as much for the terror it inspires as the actual damage it inflicts. \
-	It has good range for a flamer, able to effortly clear out enclosed or defensive positions but lacks the integrated extinguisher of its NTF equivalent."
+	It has good range for a flamer, able to effortly clear out enclosed or defensive positions but lacks the integrated extinguisher of its SFMC equivalent."
 	req_desc = "Requires M-31 combat armor with a Hades fireproof module."
 	ui_icon = "v62"
 	item_typepath = /obj/item/weapon/gun/flamer/som/mag_harness
@@ -422,7 +422,7 @@
 /datum/loadout_item/suit_store/main_gun/som_marine/suppressed_rifle
 	name = "V-31-suppressed"
 	desc = "Equipped with a mag harness, suppressor, vertical grip and integrated micro rail launcher. The V-31 is the principal ballistic weapon for the SOM. \
-	It has good mobility and handling and a good rate of fire, but tends to favour closer range fighting compared to many NTF equivalents. \
+	It has good mobility and handling and a good rate of fire, but tends to favour closer range fighting compared to many SFMC equivalents. \
 	The rail launcher electromagnetically launches a variety of 10 gauge airbursting grenades. Extremely effective when used correctly, their fixed fuse time makes them entirely ineffective at very close or far ranges. \
 	Managing engagement range is thus vital for maximising the effectiveness of this weapon. \
 	This particular example is a less common variant intended for stealthy operations, where its quietness and lack of muzzle flash can help get the jump on unsuspecting opponents. \
@@ -454,7 +454,7 @@
 /datum/loadout_item/suit_store/main_gun/som_marine/suppressed_rifle/enhanced
 	name = "V-31-suppressed+"
 	desc = "Equipped with a mag harness, suppressor, vertical grip and integrated micro rail launcher. The V-31 is the principal ballistic weapon for the SOM. \
-	It has good mobility and handling and a good rate of fire, but tends to favour closer range fighting compared to many NTF equivalents. \
+	It has good mobility and handling and a good rate of fire, but tends to favour closer range fighting compared to many SFMC equivalents. \
 	The rail launcher electromagnetically launches a variety of 10 gauge airbursting grenades. Extremely effective when used correctly, their fixed fuse time makes them entirely ineffective at very close or far ranges. \
 	Managing engagement range is thus vital for maximising the effectiveness of this weapon. \
 	This particular example is a less common variant intended for stealthy operations, where its quietness and lack of muzzle flash can help get the jump on unsuspecting opponents. \

@@ -27,7 +27,7 @@
 /datum/job/survivor/synth
 	title = "Synthetic Colonist"
 	paygrade = "Mk.I"
-	supervisors = "the acting captain, Ninetails."
+	supervisors = "the acting captain, SFMC."
 	skills_type = /datum/skills/synthetic
 	outfit = /datum/outfit/job/survivor/synth
 	access = list(ACCESS_CIVILIAN_PUBLIC, ACCESS_CIVILIAN_MEDICAL, ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_ENGINEERING, ACCESS_CIVILIAN_LOGISTICS, ACCESS_MARINE_BRIG, ACCESS_ICC_SECURITY, ACCESS_ICC_CARGO)
@@ -38,7 +38,7 @@
 
 	html_description = {"
 		<b>Difficulty</b>: Soul Crushing<br /><br />
-		<b>You answer to the</b> acting Command Staff and the NTC<br /><br />
+		<b>You answer to the</b> acting Command Staff and the SFMC<br /><br />
 		<b>Unlock Requirement</b>: Starting Role<br /><br />
 		<b>Gamemode Availability</b>: Crash, Nuclear War<br /><br /><br />
 		<b>Duty</b>: Support and assist other survivors and the Nine Tailed Fox, use your incredibly developed skills to help the marines during their missions. You can talk to other synthetics or the AI on the :n channel. Serve your purpose.
@@ -85,7 +85,7 @@
 /datum/job/survivor/synth/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += "Your primary job is to support and assist all survivors, NTC departments and personnel. \
+	. += "Your primary job is to support and assist all survivors, SFMC departments and personnel. \
 		In addition, being a Synthetic gives you knowledge in every field and specialization possible on-board the ship."
 
 

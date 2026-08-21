@@ -252,7 +252,7 @@
 	)
 
 /obj/item/clothing/suit/modular/xenonauten/pilot
-	name = "\improper NTC standard flak jacket"
+	name = "\improper SFMC standard flak jacket"
 	desc = "A flak jacket used by dropship pilots to protect themselves while flying in the cockpit. Excels in protecting the wearer against high-velocity solid projectiles."
 	item_flags = NONE
 	soft_armor = list(MELEE = 40, BULLET = 50, LASER = 50, ENERGY = 25, BOMB = 30, BIO = 5, FIRE = 25, ACID = 30)
@@ -327,7 +327,7 @@
 
 /obj/item/clothing/suit/storage/marine/vsd_two
 	name = "Crasher multi-threat light ballistic armor"
-	desc = "The Kaizoku Corporation's main body armor. Protects the user from most bullet calibers."
+	desc = "The Grunwald-Svarog Werke's main body armor. Protects the user from most bullet calibers."
 	icon = 'icons/mob/clothing/suits/marine_armor.dmi'
 	worn_icon_list = list(
 		slot_wear_suit_str = 'icons/mob/clothing/suits/marine_armor.dmi',
@@ -355,7 +355,7 @@
 
 /obj/item/clothing/suit/storage/marine/vsd_two/marmor
 	name = "Crasher multi-threat medium-set ballistic armor"
-	desc = "Kaizoku Corporation's uncommon use body armor, used usually by engineers. Protects the user from most bullet calibers."
+	desc = "Grunwald-Svarog Werke's uncommon use body armor, used usually by engineers. Protects the user from most bullet calibers."
 	icon_state = "vsd_marmor"
 	worn_icon_state = "vsd_marmor"
 	slowdown = SLOWDOWN_ARMOR_MEDIUM
@@ -363,7 +363,7 @@
 
 /obj/item/clothing/suit/storage/marine/vsd_two/harmor
 	name = "Crasher multi-threat heavy-set ballistic armor"
-	desc = "The Kaizoku Corporation's leader set of armor, rarely given to the grunts. Protects the user from most bullet calibers."
+	desc = "The Grunwald-Svarog Werke's leader set of armor, rarely given to the grunts. Protects the user from most bullet calibers."
 	icon_state = "vsd_harmor"
 	worn_icon_state = "vsd_harmor"
 	slowdown = SLOWDOWN_ARMOR_HEAVY
@@ -371,7 +371,7 @@
 
 /obj/item/clothing/suit/storage/marine/usl_squad
 	name = "UL5 personal armor"
-	desc = "Standard body armor of the USL operatives, the UL5 (United Light MK5) is a set of light body armor, roughly on par with the venerable Xenonauten in service with the NTC."
+	desc = "Standard body armor of the USL operatives, the UL5 (United Light MK5) is a set of light body armor, roughly on par with the venerable Xenonauten in service with the SFMC."
 	icon = 'icons/mob/clothing/suits/marine_armor.dmi'
 	worn_icon_list = list(
 		slot_wear_suit_str = 'icons/mob/clothing/suits/marine_armor.dmi',
@@ -395,7 +395,7 @@
 
 /obj/item/clothing/suit/storage/marine/usl_squadul5urban
 	name = "UL5 personal armor"
-	desc = "Standard body armor of the USL operatives, now in service with KZ. The UL5 (United Light MK5) is a set of light body armor, roughly on par with the venerable Xenonauten in service with the NTC."
+	desc = "Standard body armor of the USL operatives, now in service with GSW. The UL5 (United Light MK5) is a set of light body armor, roughly on par with the venerable Xenonauten in service with the SFMC."
 	icon = 'icons/mob/clothing/suits/marine_armor.dmi'
 	worn_icon_list = list(
 		slot_wear_suit_str = 'icons/mob/clothing/suits/marine_armor.dmi',

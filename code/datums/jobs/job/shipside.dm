@@ -12,7 +12,7 @@
 	req_admin_notify = TRUE
 	paygrade = "COL"
 	comm_title = "CMMDR"
-	supervisors = "NTC high command"
+	supervisors = "SFMC high command"
 	selection_color = "#ccccff"
 	total_positions = 1
 	skills_type = /datum/skills/captain
@@ -37,17 +37,17 @@
 	)
 	html_description = {"
 		<b>Difficulty</b>: Hard<br /><br />
-		<b>You answer to</b> NTC High Command<br /><br />
+		<b>You answer to</b> SFMC High Command<br /><br />
 		<b>Unlock Requirement</b>: 25 hours playtime (any role)<br /><br />
 		<b>Gamemode Availability</b>: Nuclear War<br /><br /><br />
-		<b>Duty</b>: Lead the NTF platoon and complete your mission. Support the marines and communicate with your command staff, execute orders. Coordinate with Operations officer.
+		<b>Duty</b>: Lead the SFMC platoon and complete your mission. Support the marines and communicate with your command staff, execute orders. Coordinate with Operations officer.
 	"}
 	minimap_icon = "captain"
 
 /datum/job/terragov/command/captain/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += {"As the Captain and Commander of the [SSmapping.configs[SHIP_MAP].map_name] you are held by higher standard and are expected to act competently. you report to NTC Management.
+	. += {"As the Captain and Commander of the [SSmapping.configs[SHIP_MAP].map_name] you are held by higher standard and are expected to act competently. you report to SFMC Management.
 Your primary task is the safety of the ship and her crew, and ensuring the survival and success of the Operatives.
 Your first order of business should be briefing the marines on the mission they are about to undertake.
 You should not be voluntarily leaving your vessel under any circumstances.
@@ -117,7 +117,7 @@ Godspeed, Commander! And remember, you are not above the law."}
 	. += {"You are charged with overseeing the operation on the ground, and are the highest-ranked deployed marine.
 Your duties are to ensure operatives hold when ordered, and push when they are cowering behind barricades.
 Do not ask your men to do anything you would not do side by side with them.
-Make the NTC proud!"}
+Make the SFMC proud!"}
 
 /datum/job/terragov/command/fieldcommander/after_spawn(mob/living/carbon/new_mob, mob/user, latejoin = FALSE)
 	. = ..()
@@ -442,7 +442,7 @@ Though you are an officer, your authority is limited to the dropship and the Con
 /datum/job/terragov/command/assault_crewman/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += "You are an Assault Crewman from Archercorp. You operate the NTF's armored assault vehicles along with your partner, and in some cases a \"willing\" loader. Make sure that you work as a team to advance the front!"
+	. += "You are an Assault Crewman from Archercorp. You operate the SFMC's armored assault vehicles along with your partner, and in some cases a \"willing\" loader. Make sure that you work as a team to advance the front!"
 
 /datum/job/terragov/command/assault_crewman/after_spawn(mob/living/carbon/new_mob, mob/user, latejoin = FALSE)
 	. = ..()
@@ -498,7 +498,7 @@ Though you are an officer, your authority is limited to the dropship and the Con
 /datum/job/terragov/command/transport_crewman/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += "You are a Transport Crewman from TRANSCo. You operate the NTF's transport vehciles to ensure that marines and equipment gets to the front in a timely and safe manner."
+	. += "You are a Transport Crewman from TRANSCo. You operate the SFMC's transport vehciles to ensure that marines and equipment gets to the front in a timely and safe manner."
 
 /datum/job/terragov/command/transport_crewman/after_spawn(mob/living/carbon/new_mob, mob/user, latejoin = FALSE)
 	. = ..()
@@ -884,10 +884,10 @@ You are also an expert when it comes to medication and treatment. If you do not 
 	)
 	html_description = {"
 		<b>Difficulty</b>: Medium<br /><br />
-		<b>You answer to the</b> Ninetails Corporate Office<br /><br />
+		<b>You answer to the</b> SFMCorate Office<br /><br />
 		<b>Unlock Requirement</b>: Starting Role<br /><br />
 		<b>Gamemode Availability</b>: Nuclear War<br /><br /><br />
-		<b>Duty</b>: Research extraterrestrial life aboard the ship if provided by Ninetails/NTF, synthesize chemicals for the benefit of the marines. Find out the cause of why and when. Learn new things for humankind. Act as a secondary medical officer in practice.
+		<b>Duty</b>: Research extraterrestrial life aboard the ship if provided by SFMC/SFMC, synthesize chemicals for the benefit of the marines. Find out the cause of why and when. Learn new things for humankind. Act as a secondary medical officer in practice.
 	"}
 	minimap_icon = "researcher"
 
@@ -895,7 +895,7 @@ You are also an expert when it comes to medication and treatment. If you do not 
 /datum/job/terragov/medical/researcher/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += {"You are a civilian, working for the Ninetails Corporation.
+	. += {"You are a civilian, working for the Sol Federation.
 You are tasked with deploying with the operatives and researching the remains of the colony to get funding for Requisitions.
 You are free to use any new technology you discover as you want, or give them out to the marines.
 If shipside medbay is unstaffed, you should consider working as a regular doctor until someone else is available to take over.
@@ -951,7 +951,7 @@ It is also recommended that you gear up like a regular marine, or your 'internsh
 	)
 	html_description = {"
 		<b>Difficulty</b>: Hard (varies)<br /><br />
-		<b>You answer to the</b> Ninetails Corporate Office, the CEO.<br /><br />
+		<b>You answer to the</b> SFMC High Comannd.<br /><br />
 		<b>Unlock Requirement</b>: Starting Role<br /><br />
 		<b>Gamemode Availability</b>: Nuclear War<br /><br /><br />
 		<b>Duty</b>: Manage the operations along with command, do paperwork, Reply if you’re called.
@@ -983,9 +983,9 @@ It is also recommended that you gear up like a regular marine, or your 'internsh
 /datum/job/terragov/civilian/liaison/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += {"As a representative of Ninetails Corporation you are expected to stay professional and loyal to the corporation at all times.
-You are expected to make sure the NTF is functioning as intended for Ninetails Corp's interests and good outlook. Running miners while at peace is usually more profitable than warring and wasting resources, but that does not mean you should submit your rightful resources to hostile forces.
-Your primary job is to observe and report back your findings to Ninetails. Follow regular game rules unless told otherwise by your superiors.
+	. += {"As a representative of Sol Federation you are expected to stay professional and loyal to the corporation at all times.
+You are expected to make sure the SFMC is functioning as intended for SFMC's interests and good outlook. Running miners while at peace is usually more profitable than warring and wasting resources, but that does not mean you should submit your rightful resources to hostile forces.
+Your primary job is to observe and report back your findings to SFMC. Follow regular game rules unless told otherwise by your superiors.
 Use your office fax machine to communicate with corporate headquarters or to acquire new directives. You may not receive anything back (especially if the game staff is absent or otherwise busy), and this is normal."}
 
 /datum/job/terragov/silicon
@@ -999,7 +999,7 @@ Use your office fax machine to communicate with corporate headquarters or to acq
 	req_admin_notify = TRUE
 	comm_title = "Syn"
 	paygrade = "Mk.I"
-	supervisors = "the acting captain, Ninetails."
+	supervisors = "the acting captain, SFMC."
 	total_positions = 4
 	skills_type = /datum/skills/synthetic
 	access = ALL_ACCESS
@@ -1079,7 +1079,7 @@ Use your office fax machine to communicate with corporate headquarters or to acq
 /datum/job/terragov/silicon/synthetic/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += "Your primary job is to support and assist all NTC departments and personnel on-board. \
+	. += "Your primary job is to support and assist all SFMC departments and personnel on-board. \
 		In addition, being a Synthetic gives you knowledge in every field and specialization possible on-board the ship."
 
 /datum/job/terragov/silicon/combat_robot
@@ -1107,7 +1107,7 @@ Use your office fax machine to communicate with corporate headquarters or to acq
 		<b>You answer to the</b> acting Command Staff and squad leadership<br /><br />
 		<b>Unlock Requirement</b>: Starting Role<br /><br />
 		<b>Gamemode Availability</b>: Crash, Nuclear War<br /><br /><br />
-		<b>Duty</b>: Fight as a dedicated Ninetails combat platform. This role is separate from the Synthetic support slot.
+		<b>Duty</b>: Fight as a dedicated SFMC combat platform. This role is separate from the Synthetic support slot.
 	"}
 	minimap_icon = "private"
 
@@ -1132,7 +1132,7 @@ Use your office fax machine to communicate with corporate headquarters or to acq
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
 	. += "You are a dedicated combat robot, not the ship's Synthetic. \
-		Support the NTC in combat operations and follow command directives."
+		Support the SFMC in combat operations and follow command directives."
 
 /datum/job/terragov/silicon/ai
 	title = SILICON_AI
@@ -1174,7 +1174,7 @@ Use your office fax machine to communicate with corporate headquarters or to acq
 /datum/job/terragov/silicon/ai/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += {"Your primary job is to support and assist all NTC departments and personnel on-board.
+	. += {"Your primary job is to support and assist all SFMC departments and personnel on-board.
 However, your vision is limited through cameras from the ship or to marines groundside.
 Recon any threats and report findings at various communication channels.
 If you require any help, use <b>Mentorhelp</b> to ask mentors about what you're supposed to do."}

@@ -3,7 +3,7 @@
 
 /obj/item/clothing/suit/storage/marine
 	name = "\improper M3 pattern operative armor"
-	desc = "A standard Ninetails M3 Pattern Chestplate. Protects the chest from ballistic rounds, bladed objects and accidents. It has a small leather pouch strapped to it for limited storage."
+	desc = "A standard SFMC M3 Pattern Chestplate. Protects the chest from ballistic rounds, bladed objects and accidents. It has a small leather pouch strapped to it for limited storage."
 	icon = 'icons/obj/clothing/suits/marine_armor.dmi'
 	icon_state = ""
 	worn_icon_state = "armor"
@@ -266,7 +266,7 @@
 
 /obj/item/clothing/suit/storage/marine/officer/req
 	name = "\improper PAS-N2 pattern MA armor"
-	desc = "A standard Ninetails Navy N2 Personal Armor System. Protects the chest from ballistic rounds, bladed objects and accidents. It has a small leather pouch strapped to it for limited storage."
+	desc = "A standard SFMC Navy N2 Personal Armor System. Protects the chest from ballistic rounds, bladed objects and accidents. It has a small leather pouch strapped to it for limited storage."
 	icon_state = "mp"
 
 /*=============================PMCS==================================*/
@@ -281,7 +281,7 @@
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc
 	name = "\improper M4 pattern PMC armor"
-	desc = "A modification of outdated army vest. Even tho it doesn't have an advanced armor layering and protection against unwelcome enviroment, that armor is still produced by Ninetails Armory Divison for low ranking members of Ninetails PMC and security firms of Outer Rim."
+	desc = "A modification of outdated army vest. Even tho it doesn't have an advanced armor layering and protection against unwelcome enviroment, that armor is still produced by SFMC Armory Divison for low ranking members of SFMC PMC and security firms of Outer Rim."
 	icon_state = "pmc_armor"
 	soft_armor = MARINE_ARMOR_MEDIUM
 	slowdown = SLOWDOWN_ARMOR_MEDIUM
@@ -304,23 +304,23 @@
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/standard
 	name = "\improper M4 Legionary pattern PMC armor"
-	desc = "Standard issue suit, designed for quick movement. produced by Ninetails Armory Division. It's a preffered choice among mercenaries and security assets."
+	desc = "Standard issue suit, designed for quick movement. produced by SFMC Armory Division. It's a preffered choice among mercenaries and security assets."
 	icon_state = "pmc_armor_standard"
 	armor_features_flags = NONE
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/standard/sarge
 	name = "\improper M4 Legionary Sarge pattern PMC armor"
-	desc = "Standard issue suit, designed for quick movement. produced by Ninetails Armory Division. It's a preffered choice among mercenaries and security assets. You're no longer a shiny, aren't you?"
+	desc = "Standard issue suit, designed for quick movement. produced by SFMC Armory Division. It's a preffered choice among mercenaries and security assets. You're no longer a shiny, aren't you?"
 	icon_state = "pmc_armor_standard_sarge"
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/standard/joker
 	name = "\improper M4 Legionary Joker pattern PMC armor"
-	desc = "Standard issue suit, designed for quick movement. produced by Ninetails Armory Division. It's a preffered choice among mercenaries and security assets. You're either one of the funniest, or most annoying man in your squad."
+	desc = "Standard issue suit, designed for quick movement. produced by SFMC Armory Division. It's a preffered choice among mercenaries and security assets. You're either one of the funniest, or most annoying man in your squad."
 	icon_state = "pmc_armor_standard_joker"
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/standard/stripes
 	name = "\improper M4 Legionary Stripes pattern PMC armor"
-	desc = "Standard issue suit, designed for quick movement. produced by Ninetails Armory Division. It's a preffered choice among mercenaries and security assets. You like stripes, don't you?"
+	desc = "Standard issue suit, designed for quick movement. produced by SFMC Armory Division. It's a preffered choice among mercenaries and security assets. You like stripes, don't you?"
 	icon_state = "pmc_armor_standard_stripes"
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/leader
@@ -341,7 +341,7 @@
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/gunner
 	name = "\improper M7-H Cathaphract pattern PMC exo-armor"
-	desc = "A newest generation of Ninetails Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome."
+	desc = "A newest generation of SFMC Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome."
 	icon_state = "pmc_heavyarmor"
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 	soft_armor = list(MELEE = 55, BULLET = 75, LASER = 75, ENERGY = 75, BOMB = 65, BIO = 65, FIRE = 65, ACID = 65) //Tyr2 but averaged out
@@ -349,27 +349,27 @@
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/gunner/sarge
 	name = "\improper M7-H Cathaphract Sarge pattern PMC exo-armor"
-	desc = "A newest generation of Ninetails Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome. You're no longer a shiny, aren't you?"
+	desc = "A newest generation of SFMC Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome. You're no longer a shiny, aren't you?"
 	icon_state = "pmc_heavyarmor_sarge"
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/gunner/joker
 	name = "\improper M7-H Cathaphract Joker pattern PMC exo-armor"
-	desc = "A newest generation of Ninetails Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome. You're either one of the funniest, or most annoying man in your squad."
+	desc = "A newest generation of SFMC Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome. You're either one of the funniest, or most annoying man in your squad."
 	icon_state = "pmc_heavyarmor_joker"
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/gunner/stripes
 	name = "\improper M7-H Cathaphract Stripes pattern PMC exo-armor"
-	desc = "A newest generation of Ninetails Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome. You like stripes, don't you?"
+	desc = "A newest generation of SFMC Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome. You like stripes, don't you?"
 	icon_state = "pmc_heavyarmor_stripes"
 
 /obj/item/clothing/suit/storage/marine/veteran/pmc/gunner/leader
 	name = "\improper M7-H Cathaphract pattern PMC officer exo-armor"
-	desc = "A newest generation of Ninetails Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome. This particular set looks like it belongs to a high-ranking officer, with integrated energy shield system."
+	desc = "A newest generation of SFMC Armory. Heavy layered plasteel-weave plates with solid ablative coatings. Servo-assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome. This particular set looks like it belongs to a high-ranking officer, with integrated energy shield system."
 	icon_state = "pmc_heavyarmor_officer"
 
 /*===========================Death Commando============================*/
 /obj/item/clothing/suit/storage/marine/veteran/pmc/commando
-	name = "\improper NTC commando armor"
+	name = "\improper SFMC commando armor"
 	desc = "A heavily armored suit built by who-knows-what for elite operations. It is a fully self-contained system and is heavily corrosion resistant."
 	icon_state = "commando_armor"
 	soft_armor = list(MELEE = 90, BULLET = 90, LASER = 90, ENERGY = 90, BOMB = 90, BIO = 100, FIRE = 90, ACID = 90)
@@ -438,7 +438,7 @@
 
 /obj/item/clothing/suit/storage/marine/freelancer
 	name = "\improper M3 pattern freelancer cuirass"
-	desc = "A armored protective chestplate scrapped together from various plates. It keeps up remarkably well, as the craftsmanship is solid, and the design mirrors such armors in the CM and Ninetails."
+	desc = "A armored protective chestplate scrapped together from various plates. It keeps up remarkably well, as the craftsmanship is solid, and the design mirrors such armors in the CM and SFMC."
 	icon = 'icons/obj/clothing/suits/ert_suits.dmi'
 	worn_icon_list = list(
 		slot_wear_suit_str = 'icons/mob/clothing/suits/ert_suits.dmi',
@@ -534,7 +534,7 @@
 
 /obj/item/clothing/suit/storage/marine/cmfreelancer
 	name = "\improper CM3 pattern cuirass"
-	desc = "An armored protective chestplate pieced together from various plates. It keeps up remarkably well, as the craftsmanship is solid, and the design mirrors such armors in the Freelancers and Ninetails. Most of the CM3 series support all storage modules but only have an attachment point for a baldur in exchange for protection."
+	desc = "An armored protective chestplate pieced together from various plates. It keeps up remarkably well, as the craftsmanship is solid, and the design mirrors such armors in the Freelancers and SFMC. Most of the CM3 series support all storage modules but only have an attachment point for a baldur in exchange for protection."
 	icon = 'icons/obj/clothing/suits/ert_suits.dmi'
 	worn_icon_list = list(
 		slot_wear_suit_str = 'icons/mob/clothing/suits/ert_suits.dmi',
@@ -679,7 +679,7 @@
 
 /obj/item/clothing/suit/storage/faction/UPP
 	name = "\improper UM5 personal armor"
-	desc = "Standard body armor of the USL pirates, the UM5 (United Medium MK5) is a medium body armor, roughly on par with the venerable M3 pattern body armor in service with the NTC."
+	desc = "Standard body armor of the USL pirates, the UM5 (United Medium MK5) is a medium body armor, roughly on par with the venerable M3 pattern body armor in service with the SFMC."
 	icon_state = "upp_armor"
 	slowdown = SLOWDOWN_ARMOR_MEDIUM
 	armor_protection_flags = CHEST|GROIN|ARMS|LEGS|FEET|HANDS
@@ -726,7 +726,7 @@
 
 /obj/item/clothing/suit/storage/faction/freelancer
 	name = "\improper freelancer cuirass"
-	desc = "A armored protective chestplate scrapped together from various plates. It keeps up remarkably well, as the craftsmanship is solid, and the design mirrors such armors in the UPP and the NTC."
+	desc = "A armored protective chestplate scrapped together from various plates. It keeps up remarkably well, as the craftsmanship is solid, and the design mirrors such armors in the UPP and the SFMC."
 	icon_state = "freelancer_armor"
 	slowdown = SLOWDOWN_ARMOR_LIGHT
 	armor_protection_flags = CHEST|GROIN|ARMS|LEGS|FEET|HANDS
@@ -839,7 +839,7 @@
 
 /obj/item/clothing/suit/storage/RO
 	name = "\improper RO jacket"
-	desc = "A green jacket worn by NTC personnel. The back has the emblem of the Ninetails on it."
+	desc = "A green jacket worn by SFMC personnel. The back has the emblem of the SFMC on it."
 	icon_state = "RO_jacket"
 	blood_overlay_type = "coat"
 	armor_protection_flags = CHEST|GROIN|ARMS|LEGS|FEET|HANDS
@@ -1010,7 +1010,7 @@
 
 /obj/item/clothing/suit/storage/marine/vsd
 	name = "\improper Crasher MT-L/43 ballistic armor"
-	desc = "The Kaizoku Corporation's main body armor. Protects the user from most bullet calibers."
+	desc = "The Grunwald-Svarog Werke's main body armor. Protects the user from most bullet calibers."
 	icon = 'icons/mob/clothing/suits/ert_suits.dmi'
 	worn_icon_list = list(
 		slot_wear_suit_str = 'icons/mob/clothing/suits/ert_suits.dmi',
@@ -1039,7 +1039,7 @@
 
 /obj/item/clothing/suit/storage/marine/vsd/marmor
 	name = "\improper Crasher MT-M/43 ballistic armor"
-	desc = "The Kaizoku Corporation's uncommon use body armor, used usually by engineers. Protects the user from most bullet calibers."
+	desc = "The Grunwald-Svarog Werke's uncommon use body armor, used usually by engineers. Protects the user from most bullet calibers."
 	slowdown = SLOWDOWN_ARMOR_MEDIUM
 	icon_state = "vsd_armor_medium"
 	worn_icon_state = "vsd_armor_medium"
@@ -1058,7 +1058,7 @@
 /obj/item/clothing/suit/storage/marine/vsd/harmor
 	name = "\improper Crasher MT-H/43 powered ballistic armor"
 	icon = 'icons/mob/clothing/suits/ert_suits.dmi'
-	desc = "The Kaizoku Corporation's heavy armor, rarely given to the grunts. Protects the user from most bullet calibers."
+	desc = "The Grunwald-Svarog Werke's heavy armor, rarely given to the grunts. Protects the user from most bullet calibers."
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 	icon_state = "vsd_armor_heavy"
 	worn_icon_state = "vsd_armor_heavy"
@@ -1071,7 +1071,7 @@
 
 /obj/item/clothing/suit/storage/marine/vsd/juggernaut
 	name = "\improper Crasher MT-H/43 'Ares' powered ballistic armor"
-	desc = "The Kaizoku Corporation's juggernaut set, given to the best and trusted veterans. Protects the user from almost all bullet calibers."
+	desc = "The Grunwald-Svarog Werke's juggernaut set, given to the best and trusted veterans. Protects the user from almost all bullet calibers."
 	icon = 'icons/mob/clothing/suits/ert_suits.dmi'
 	slowdown = SLOWDOWN_ARMOR_VERY_HEAVY
 	stamina_regen_mod = -0.2
@@ -1087,7 +1087,7 @@
 
 /obj/item/clothing/suit/storage/marine/vsd/eod
 	name = "\improper Crasher MT-H/43 'Zeus' powered explosive-defensive armor"
-	desc = "The Kaizoku Corporation's EOD-based armor, protects the user from most threats and heavily protects them against explosives."
+	desc = "The Grunwald-Svarog Werke's EOD-based armor, protects the user from most threats and heavily protects them against explosives."
 	icon = 'icons/mob/clothing/suits/ert_suits.dmi'
 	slowdown = SLOWDOWN_ARMOR_VERY_HEAVY
 	stamina_regen_mod = -0.2
@@ -1097,7 +1097,7 @@
 
 /obj/item/clothing/suit/storage/marine/vsd/flamer
 	name = "\improper Crasher MT-H/43 'Apollo' powered fire-protected armor"
-	desc = "The Kaizoku Corporation's flamer armor, protects the user from most threats and suits them against fire and heat."
+	desc = "The Grunwald-Svarog Werke's flamer armor, protects the user from most threats and suits them against fire and heat."
 	icon = 'icons/mob/clothing/suits/ert_suits.dmi'
 	slowdown = SLOWDOWN_ARMOR_VERY_HEAVY
 	stamina_regen_mod = -0.2

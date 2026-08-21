@@ -79,32 +79,32 @@ mode Campaign
 	votable 0
 endmode
 
-mode Secret of Life - Main
+mode Redfin - Main
 	requiredplayers 0
 	default
 endmode
 
-mode Secret of Life - Faction Bloat
+mode Redfin - Faction Bloat
 	requiredplayers 20
 	default
 endmode
 
-mode Secret of Life - NTF vs Alien only
+mode Redfin - SFMC vs Xenos only
 	requiredplayers 0
 	votable 1
 endmode
 
-mode Secret of Life - No Subfactions
+mode Redfin - No Subfactions
 	requiredplayers 0
 	votable 1
 endmode
 
-mode Secret of Life - Classic
+mode Redfin - Classic
 	requiredplayers 0
 	votable 1
 endmode
 
-mode Secret of Life - NTF vs Cult
+mode Redfin - SFMC vs Cult
 	requiredplayers 0
 	votable 1
 endmode

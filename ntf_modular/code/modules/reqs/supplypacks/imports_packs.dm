@@ -49,44 +49,44 @@
 	cost = 100
 
 /datum/supply_packs/imports/halterex
-	name = "NT Halter extended mag (x1)"
+	name = "SFMC Halter extended mag (x1)"
 	contains = list(/obj/item/ammo_magazine/rifle/nt_halter/extended)
 	cost = 15
 
 /datum/supply_packs/imports/halterdrum
-	name = "NT Halter drum mag (x1)"
+	name = "SFMC Halter drum mag (x1)"
 	contains = list(/obj/item/ammo_magazine/rifle/nt_halter/drum)
-	cost = 30
+	cost = 40
 
 /datum/supply_packs/imports/halterexlaser
-	name = "NT Halter extended laser mag (x1)"
+	name = "SFMC Halter extended laser mag (x1)"
 	contains = list(/obj/item/ammo_magazine/rifle/nt_halter/laser/extended)
 	cost = 15
 
 /datum/supply_packs/imports/halterexrub
-	name = "NT Halter extended rubber mag (x1)"
+	name = "SFMC Halter extended rubber mag (x1)"
 	contains = list(/obj/item/ammo_magazine/rifle/nt_halter/rubber/extended)
 	cost = 10
 
 /datum/supply_packs/imports/halterdrumlaser
-	name = "NT Halter drum laser mag (x1)"
+	name = "SFMC Halter drum laser mag (x1)"
 	contains = list(/obj/item/ammo_magazine/rifle/nt_halter/laser/drum)
-	cost = 30
+	cost = 40
 
 /datum/supply_packs/imports/haltercharged
-	name = "NT Halter taser mag (x1)"
+	name = "SFMC Halter taser mag (x1)"
 	contains = list(/obj/item/ammo_magazine/rifle/nt_halter/charged)
-	cost = 60
+	cost = 100
 
 /datum/supply_packs/imports/haltersmart
-	name = "NT Halter smart mag (x1)"
+	name = "SFMC Halter smart mag (x1)"
 	contains = list(/obj/item/ammo_magazine/rifle/nt_halter/smart)
-	cost = 5 //its pretty ass and small cap anyway.
+	cost = 25
 
 /datum/supply_packs/imports/halterfoxfire
-	name = "NT Halter foxfire mag (x1)"
+	name = "SFMC Halter incendiary mag (x1)"
 	contains = list(/obj/item/ammo_magazine/rifle/nt_halter/foxfire)
-	cost = 20
+	cost = 35
 
 /datum/supply_packs/imports/unity_ammo
 	name = "NT105 Unity Revolver Ammo"
@@ -166,12 +166,12 @@
 	cost = 25
 
 /datum/supply_packs/imports/antienergyshield
-	name = "NTC Anti Energy Shield"
+	name = "SFMC Anti Energy Shield"
 	contains = list(/obj/item/armor_module/module/eshield/absorbant/energy)
 	cost = 800
 
 /datum/supply_packs/imports/antiballisticshield
-	name = "KZ Anti Ballsitic Shield"
+	name = "GSW Anti Ballsitic Shield"
 	contains = list(/obj/item/armor_module/module/eshield/absorbant/ballistic)
 	cost = 800
 
@@ -818,75 +818,75 @@
 //faction specific things below here.
 
 /datum/supply_packs/imports/vortexammo
-	name = "NT Vortex AP SMG magazine (9x19mm Parabellum) (Ninetails Supply)"
+	name = "SFMC Vortex AP SMG magazine (9x19mm Parabellum) (SFMC Supply)"
 	contains = list(/obj/item/ammo_magazine/smg/vortex/ap)
 	faction_lock = list(FACTION_TERRAGOV)
 	cost = 60
 
 /datum/supply_packs/imports/vortexammo/incend
-	name = "NT Vortex incendiary SMG magazine (9x19mm Parabellum) (Ninetails Supply)"
+	name = "SFMC Vortex incendiary SMG magazine (9x19mm Parabellum) (SFMC Supply)"
 	contains = list(/obj/item/ammo_magazine/smg/vortex/incendiary)
 
 /datum/supply_packs/imports/vortexammo/taser
-	name = "NT Vortex HC SMG magazine (9x19mm Parabellum) (Ninetails Supply)"
+	name = "SFMC Vortex HC SMG magazine (9x19mm Parabellum) (SFMC Supply)"
 	contains = list(/obj/item/ammo_magazine/smg/vortex/taser)
 
 /datum/supply_packs/imports/antienergyshieldfs
-	name = "NTC Anti Energy Shield (Ninetails Supply)"
+	name = "SFMC Anti Energy Shield (SFMC Supply)"
 	contains = list(/obj/item/armor_module/module/eshield/absorbant/energy)
 	faction_lock = list(FACTION_TERRAGOV)
 	cost = 600
 
 /datum/supply_packs/imports/kzflamethrower
-	name = "KZ CC/21 flamethrower (Kaizoku Supply)"
+	name = "GSW CC/21 flamethrower (Grunwald-Svarog Werke Supply)"
 	contains = list(/obj/item/weapon/gun/flamer/vsd)
 	faction_lock = list(FACTION_VSD)
 	cost = 300
 
 /datum/supply_packs/imports/kzfuelreg
-	name = "KZ CC/21 fuel tank (Kaizoku Supply)"
+	name = "GSW CC/21 fuel tank (Grunwald-Svarog Werke Supply)"
 	contains = list(/obj/item/ammo_magazine/flamer_tank/vsd)
 	faction_lock = list(FACTION_VSD)
 	cost = 50
 
 /datum/supply_packs/imports/kzfuelx
-	name = "KZ CC/21 X fuel tank (Kaizoku upply)"
+	name = "GSW CC/21 X fuel tank (Grunwald-Svarog Werke upply)"
 	contains = list(/obj/item/ammo_magazine/flamer_tank/vsd/blue)
 	faction_lock = list(FACTION_VSD)
 	cost = 150
 
 /datum/supply_packs/imports/kzrocketlauncher
-	name = "KZ C153 shoulder launcher (Kaizoku Supply)"
+	name = "GSW C153 shoulder launcher (Grunwald-Svarog Werke Supply)"
 	contains = list(/obj/item/weapon/gun/launcher/rocket/vsd)
 	faction_lock = list(FACTION_VSD)
 	cost = 800
 
 /datum/supply_packs/imports/kzrockethe
-	name = "KZ C153 shoulder launcher he rocket (Kaizoku Supply)"
+	name = "GSW C153 shoulder launcher he rocket (Grunwald-Svarog Werke Supply)"
 	contains = list(/obj/item/ammo_magazine/rocket/vsd/he)
 	faction_lock = list(FACTION_VSD)
 	cost = 25
 
 /datum/supply_packs/imports/kzrocketincend
-	name = "KZ C153 shoulder launcher incendiary rocket (Kaizoku Supply)"
+	name = "GSW C153 shoulder launcher incendiary rocket (Grunwald-Svarog Werke Supply)"
 	contains = list(/obj/item/ammo_magazine/rocket/vsd/incendiary)
 	faction_lock = list(FACTION_VSD)
 	cost = 50
 
 /datum/supply_packs/imports/kzrocketchem
-	name = "KZ C153 shoulder launcher chemical rocket (Kaizoku Supply)"
+	name = "GSW C153 shoulder launcher chemical rocket (Grunwald-Svarog Werke Supply)"
 	contains = list(/obj/item/ammo_magazine/rocket/vsd/chemical)
 	faction_lock = list(FACTION_VSD)
 	cost = 50
 
 /datum/supply_packs/imports/kzrocketheat
-	name = "KZ C153 shoulder launcher HEAT rocket (Kaizoku Supply)"
+	name = "GSW C153 shoulder launcher HEAT rocket (Grunwald-Svarog Werke Supply)"
 	contains = list(/obj/item/ammo_magazine/rocket/vsd/heat)
 	faction_lock = list(FACTION_VSD)
 	cost = 50
 
 /datum/supply_packs/imports/antiballisticshieldfs
-	name = "KZ Anti Ballsitic Shield (Kaizoku Supply)"
+	name = "GSW Anti Ballsitic Shield (Grunwald-Svarog Werke Supply)"
 	contains = list(/obj/item/armor_module/module/eshield/absorbant/ballistic)
 	faction_lock = list(FACTION_VSD)
 	cost = 600

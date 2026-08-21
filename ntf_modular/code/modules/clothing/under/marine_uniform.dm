@@ -64,8 +64,8 @@
 	name = "purple plaid skirt"
 
 /obj/item/clothing/under/tdf
-	name = "\improper NTF uniform"
-	desc = "The standard uniform of NTF PMC personnel. A very easy to recognize design with its distinct red to represent the NTF."
+	name = "\improper SFMC uniform"
+	desc = "The standard uniform of SFMC PMC personnel. A very easy to recognize design with its distinct red to represent the SFMC."
 	icon = 'ntf_modular/icons/obj/clothing/uniforms/ert_uniforms.dmi'
 	worn_icon_list = list(
 		slot_w_uniform_str = 'ntf_modular/icons/mob/clothing/uniforms/ert_uniforms.dmi',
@@ -74,7 +74,7 @@
 	)
 
 /obj/item/clothing/under/tdf/medic
-	name = "\improper NTF Medic uniform"
+	name = "\improper SFMC Medic uniform"
 
 /obj/item/clothing/under/marine_skirt
 	name = "\improper ArcherCorp-brand combat jumpskirt"
@@ -109,8 +109,8 @@
 	json_config = 'ntf_modular/code/datums/greyscale/json_configs/marine_uniform.json'
 
 /obj/item/clothing/under/marine/squad/neck/alpha_skirt
-	name = "\improper NTF Alpha skirtleneck"
-	desc = "A standard issued NTF turtleneck colored red- OH COME ON"
+	name = "\improper SFMC Alpha skirtleneck"
+	desc = "A standard issued SFMC turtleneck colored red- OH COME ON"
 	icon = 'ntf_modular/icons/obj/clothing/uniforms/marine_uniforms.dmi'
 	icon_state = "alpha_merc_skirt"
 	worn_icon_list =list(
@@ -120,8 +120,8 @@
 	)
 
 /obj/item/clothing/under/marine/squad/neck/delta_skirt
-	name = "\improper NTF Delta skirtleneck"
-	desc = "A standard issued NTF turtleneck colored blue- OH COME ON"
+	name = "\improper SFMC Delta skirtleneck"
+	desc = "A standard issued SFMC turtleneck colored blue- OH COME ON"
 	icon = 'ntf_modular/icons/obj/clothing/uniforms/marine_uniforms.dmi'
 	icon_state = "delta_merc_skirt"
 	worn_icon_list =list(
@@ -131,8 +131,8 @@
 	)
 
 /obj/item/clothing/under/marine/squad/neck/charlie_skirt
-	name = "\improper NTF Charlie skirtleneck"
-	desc = "A standard issued NTF turtleneck colored purple- OH COME ON"
+	name = "\improper SFMC Charlie skirtleneck"
+	desc = "A standard issued SFMC turtleneck colored purple- OH COME ON"
 	icon = 'ntf_modular/icons/obj/clothing/uniforms/marine_uniforms.dmi'
 	icon_state = "charlie_merc_skirt"
 	worn_icon_list =list(
@@ -142,8 +142,8 @@
 	)
 
 /obj/item/clothing/under/marine/squad/neck/bravo_skirt
-	name = "\improper NTF Bravo skirtleneck"
-	desc = "A standard issued NTF turtleneck colored yellow- OH COME ON"
+	name = "\improper SFMC Bravo skirtleneck"
+	desc = "A standard issued SFMC turtleneck colored yellow- OH COME ON"
 	icon = 'ntf_modular/icons/obj/clothing/uniforms/marine_uniforms.dmi'
 	icon_state = "bravo_merc_skirt"
 	worn_icon_list =list(
@@ -225,3 +225,21 @@
 	desc = "Surplus blue tactical booty shorts."
 	icon_state = "shortsblue"
 	shows_top_genital = TRUE
+
+/obj/item/clothing/under/dress/apron
+	name = "apron dress"
+	desc = "A stylish apron dress intended to be worn over a shirt, there are white, subtle seams almost resembling a web."
+	icon = 'ntf_modular/icons/obj/clothing/uniforms/uniforms.dmi'
+	worn_icon_list = list(
+		slot_w_uniform_str = 'ntf_modular/icons/obj/clothing/uniforms/uniforms.dmi',
+	)
+	icon_state = "alex_aprondress"
+
+/obj/item/clothing/under/dress/qipao
+	name = "dark blue qipao dress"
+	desc = "A stylish qipao with dark blue aquamarine markings, suggesting ties to old history."
+	icon = 'ntf_modular/icons/obj/clothing/uniforms/uniforms.dmi'
+	worn_icon_list = list(
+		slot_w_uniform_str = 'ntf_modular/icons/obj/clothing/uniforms/uniforms.dmi',
+	)
+	icon_state = "taiwan_qipaodress"

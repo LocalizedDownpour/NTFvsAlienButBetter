@@ -29,7 +29,7 @@
 	worn_icon_state = "fingerless"
 
 /obj/item/clothing/gloves/marine/hyperscale
-	name = "\improper 8E Chameleon NTC combat gloves"
+	name = "\improper 8E Chameleon SFMC combat gloves"
 	desc = "Standard issue marine tactical gloves BUT colorable with a facepaint! It reads: 'knit by Marine Widows Association'."
 	icon_state = "hyperscale_glove_inhand"
 	worn_icon_state = "hyperscale_glove_mob"
@@ -102,7 +102,7 @@
 
 /obj/item/clothing/gloves/marine/veteran/pmc_elite
 	name = "AC elite gloves"
-	desc = "A pair of black gloves armored with pure white plates, used by Ninetails PMC contractors."
+	desc = "A pair of black gloves armored with pure white plates, used by SFMC PMC contractors."
 	icon_state = "armored_pmc"
 	siemens_coefficient = 0
 	item_flags = SYNTH_RESTRICTED

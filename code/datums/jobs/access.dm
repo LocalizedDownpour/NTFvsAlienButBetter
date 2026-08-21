@@ -160,17 +160,17 @@
 /proc/get_centcom_access_desc(A)
 	switch(A)
 		if(ACCESS_NT_PMC_GREEN)
-			return "NT PMC Green"
+			return "SFMC PMC Green"
 		if(ACCESS_NT_PMC_ORANGE)
-			return "NT PMC Orange"
+			return "SFMC PMC Orange"
 		if(ACCESS_NT_PMC_RED)
-			return "NT PMC Red"
+			return "SFMC PMC Red"
 		if(ACCESS_NT_PMC_BLACK)
-			return "NT PMC Black"
+			return "SFMC PMC Black"
 		if(ACCESS_NT_PMC_WHITE)
-			return "NT PMC White"
+			return "SFMC PMC White"
 		if(ACCESS_NT_CORPORATE)
-			return "NT Executive"
+			return "SFMC Executive"
 
 
 /proc/get_access_job_name(obj/item/card/id/ID)
@@ -458,15 +458,15 @@
 		if("CM6")
 			. = size ? "ADMN" : "CM Colony Administrator"
 		if("KZ1")
-			. = size ? "JSGT" : "KZ Junior Sergeant"
+			. = size ? "JSGT" : "GSW Junior Sergeant"
 		if("KZ2")
-			. = size ? "SSGT" : "KZ Staff Sergeant"
+			. = size ? "SSGT" : "GSW Staff Sergeant"
 		if("KZ3")
-			. = size ? "SGM" : "KZ Sergeant Major"
+			. = size ? "SGM" : "GSW Sergeant Major"
 		if("KZ4")
-			. = size ? "LT" : "KZ Lieutenant"
+			. = size ? "LT" : "GSW Lieutenant"
 		if("KZ5")
-			. = size ? "KZCOMM" : "KZ Commander"
+			. = size ? "KZCOMM" : "GSW Commander"
 		if("MRC1")
 			. = size ? "MERC" : "MERC Heavy"
 		if("MRC2")

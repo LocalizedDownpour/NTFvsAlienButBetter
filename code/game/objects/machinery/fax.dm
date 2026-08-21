@@ -17,7 +17,7 @@
 	var/sendcooldown = FALSE
 
 	var/department = ""
-	var/selected = "Ninetails"
+	var/selected = "SFMC"
 
 /obj/machinery/faxmachine/Initialize(mapload)
 	. = ..()
@@ -141,7 +141,7 @@
 		authenticated = FALSE
 
 	if(href_list["dept"])
-		var/list/fax_machine_departments = list("Ninetails Human Resources", "NTC Intel Division", "NTC Misc")
+		var/list/fax_machine_departments = list("SFMC Human Resources", "SFMC Intel Division", "SFMC Misc")
 		for(var/obj/machinery/faxmachine/machine in GLOB.faxmachines)
 			fax_machine_departments |= machine.department
 		var/choice = tgui_input_list(usr, "Who do you want to message?", "Fax", fax_machine_departments)
@@ -202,7 +202,7 @@
 	faction = FACTION_TERRAGOV
 
 /obj/machinery/faxmachine/research
-	department = "NTC Research"
+	department = "SFMC Research"
 	faction = FACTION_TERRAGOV
 
 /obj/machinery/faxmachine/warden //Prison Station
@@ -214,7 +214,7 @@
 	faction = FACTION_SOM
 
 /obj/machinery/faxmachine/kz
-	department = "KZ"
+	department = "GSW"
 	faction = FACTION_VSD
 
 /obj/machinery/faxmachine/pmc

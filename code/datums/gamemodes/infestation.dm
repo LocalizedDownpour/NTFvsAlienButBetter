@@ -362,7 +362,7 @@
 	priority_announce(
 		title = "High Command Update",
 		subtitle = "Good morning, operatives.",
-		message = "Cryosleep disengaged by NTF High Command.<br><br>ATTN: [SSmapping.configs[SHIP_MAP].map_name].<br>[SSmapping.configs[GROUND_MAP].announce_text]",
+		message = "Cryosleep disengaged by SFMC High Command.<br><br>ATTN: [SSmapping.configs[SHIP_MAP].map_name].<br>[SSmapping.configs[GROUND_MAP].announce_text]",
 		sound = 'sound/AI/ares_online.ogg',
 		color_override = "red"
 	)

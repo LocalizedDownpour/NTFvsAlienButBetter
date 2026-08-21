@@ -152,13 +152,13 @@
 		var/mob/living/carbon/xenomorph/X = user
 		X.impregify(user, target_hole)
 
-/datum/sex_action/simple_interaction/can_heal(mob/living/carbon/user, mob/living/carbon/target, mob/living/action_target)
+/*/datum/sex_action/simple_interaction/can_heal(mob/living/carbon/user, mob/living/carbon/target, mob/living/action_target)
 	if(quick_heal_requires_target_pref \
 		&& user?.sexcon?.drain_style == SEX_DRAIN_STYLE_HEAL_TARGET \
 		&& action_target?.mind \
 		&& !(action_target.client?.prefs.sex_pref_flags & SEXPREF_QUICK_SEX_HEAL))
 		return FALSE
-	return ..()
+	return ..()*/
 
 /datum/sex_action/simple_interaction/cheer
 	name = "Cheer"
@@ -223,6 +223,7 @@
 	name = "Kiss"
 	continous = TRUE
 	perform_sound = FALSE
+	heal_sex = FALSE
 
 /datum/sex_action/simple_interaction/kiss/on_start(mob/living/carbon/user, mob/living/carbon/target)
 	user.visible_message(span_warning("[user] leans in close to [target]..."))
@@ -250,6 +251,7 @@
 	perform_message = "%USER% gropes %TARGET%'s ass."
 	user_arousal = 3
 	target_arousal = 3
+	heal_sex = FALSE
 
 /datum/sex_action/simple_interaction/slap_ass
 	name = "Slap Ass"
@@ -257,6 +259,7 @@
 	perform_message = "%USER% slaps %TARGET%'s ass."
 	user_arousal = 2
 	target_pain = 10
+	heal_sex = FALSE
 
 /datum/sex_action/simple_interaction/handjob
 	name = "Handjob"
@@ -322,6 +325,7 @@
 	perform_message = "%USER% licks %TARGET%'s armpit."
 	user_arousal = 2
 	target_arousal = 3
+	heal_sex = FALSE
 
 /datum/sex_action/simple_interaction/belly_sex
 	name = "Bellyfuck"
@@ -342,6 +346,7 @@
 	perform_message = "%USER% nuzzles %TARGET%'s belly."
 	user_arousal = 1
 	target_arousal = 2
+	heal_sex = FALSE
 
 /datum/sex_action/simple_interaction/grope_breasts
 	name = "Grope Breasts"
@@ -384,6 +389,7 @@
 	perform_message = "%USER% licks %TARGET%'s ear."
 	user_arousal = 2
 	target_arousal = 3
+	heal_sex = FALSE
 
 /datum/sex_action/simple_interaction/facefuck_vagina
 	name = "Facefuck (Vagina)"

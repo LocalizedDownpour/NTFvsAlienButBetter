@@ -143,7 +143,7 @@
 		if("evacuation_start")
 			if(state == STATE_EVACUATION)
 				if(world.time < EVACUATION_TIME_LOCK) //Cannot call it early in the round.
-					to_chat(usr, span_warning("NTC protocol does not allow immediate evacuation. Please wait another [round((EVACUATION_TIME_LOCK-world.time)/600)] minutes before trying again."))
+					to_chat(usr, span_warning("SFMC protocol does not allow immediate evacuation. Please wait another [round((EVACUATION_TIME_LOCK-world.time)/600)] minutes before trying again."))
 					return FALSE
 
 				if(!SSticker?.mode)
@@ -161,7 +161,7 @@
 				*/
 
 				if(SSevacuation.scuttle_flags & FLAGS_EVACUATION_DENY)
-					to_chat(usr, span_warning("The NTC has placed a lock on deploying the evacuation pods."))
+					to_chat(usr, span_warning("The SFMC has placed a lock on deploying the evacuation pods."))
 					return FALSE
 
 				if(!SSevacuation.initiate_evacuation())
@@ -310,14 +310,14 @@
 					to_chat(usr, span_warning("Arrays recycling.  Please stand by."))
 					return FALSE
 
-				var/msg = tgui_input_text(usr, "Please choose a message to transmit to the NTC High Command.  Please be aware that this process is very expensive, and abuse will lead to termination.  Transmission does not guarantee a response. There is a small delay before you may send another message. Be clear and concise.", "To abort, send an empty message.", "", encode = FALSE)
+				var/msg = tgui_input_text(usr, "Please choose a message to transmit to the High Command.  Please be aware that this process is very expensive, and abuse will lead to termination.  Transmission does not guarantee a response. There is a small delay before you may send another message. Be clear and concise.", "To abort, send an empty message.", "", encode = FALSE)
 				if(!msg || !usr.Adjacent(src) || authenticated != 2 || world.time < cooldown_central + COOLDOWN_COMM_CENTRAL)
 					return FALSE
 
 
 				tgmc_message(msg, usr)
 				to_chat(usr, span_notice("Message transmitted."))
-				usr.log_talk(msg, LOG_SAY, tag = "NTC announcement")
+				usr.log_talk(msg, LOG_SAY, tag = "High Command Transmission")
 				cooldown_central = world.time
 
 		if("securitylevel")

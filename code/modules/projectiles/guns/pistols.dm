@@ -427,7 +427,7 @@
 
 /obj/item/weapon/gun/pistol/standard_pocketpistol
 	name = "\improper P-17 pocket pistol"
-	desc = "A tiny pistol used by the NTC as an emergency handgun meant to be stored about anywhere. Fits in boots. Uses .380 ACP stored in an eight round magazine."
+	desc = "A tiny pistol used by the SFMC as an emergency handgun meant to be stored about anywhere. Fits in boots. Uses .380 ACP stored in an eight round magazine."
 	icon_state = "tp17"
 	worn_icon_state = "tp17"
 	fire_animation = "tp17_fire"
@@ -545,7 +545,7 @@
 
 /obj/item/weapon/gun/pistol/vp78
 	name = "\improper VP78 combat pistol"
-	desc = "A massive, formidable automatic handgun chambered in 9mm squash-head rounds. Commonly seen in the hands of wealthy Ninetails members."
+	desc = "A massive, formidable automatic handgun chambered in 9mm squash-head rounds. Commonly seen in the hands of wealthy SFMC members."
 	icon_state = "vp78"
 	worn_icon_state = "vp78"
 	caliber = CALIBER_9X19 //codex
@@ -575,7 +575,7 @@
 
 /obj/item/weapon/gun/pistol/mk90
 	name = "\improper MK90 Mod 4 combat pistol"
-	desc = "Standard issue pistol for Ninetails Contractors, based on MK88. Has inbuilt barrel charger. Lost it's inbuilt burst fire mode, but in exchange got much heavier punch. Fires 9mm armor piercing rounds."
+	desc = "Standard issue pistol for SFMC Contractors, based on MK88. Has inbuilt barrel charger. Lost it's inbuilt burst fire mode, but in exchange got much heavier punch. Fires 9mm armor piercing rounds."
 	icon_state = "90m4"
 	worn_icon_state = "90m4"
 	caliber = CALIBER_9X19 //codex
@@ -626,7 +626,7 @@
 
 /obj/item/weapon/gun/pistol/mk100_gyrojet
 	name = "\improper MK100 mod 5 'Suppresor' gyrojet pistol"
-	desc = "A massive, formidable automatic handgun chambered with 15x50mm rocket propelled rounds. Commonly seen in the hands of wealthy Ninetails members, not because this weapon is expensive, but because you better have a power armor on, to not break your arm while firing this thing. Due to shell's rupture in target's body, high chance of causing shrapnel."
+	desc = "A massive, formidable automatic handgun chambered with 15x50mm rocket propelled rounds. Commonly seen in the hands of wealthy SFMC members, not because this weapon is expensive, but because you better have a power armor on, to not break your arm while firing this thing. Due to shell's rupture in target's body, high chance of causing shrapnel."
 	icon_state = "100m5"
 	worn_icon_state = "100m5"
 	caliber = CALIBER_15X50 //codex
@@ -716,7 +716,7 @@
 
 /obj/item/weapon/gun/pistol/vsd_pistol
 	name = "\improper C96 pistol"
-	desc = "A 'riot control' weapon used by the protectors of colonies. Now adopted by the KZ, it is the standard side arm for all members. Firing armor piercing 9x19mm parabellum with a capacity of 22 rounds."
+	desc = "A 'riot control' weapon used by the protectors of colonies. Now adopted by the GSW, it is the standard side arm for all members. Firing armor piercing 9x19mm parabellum with a capacity of 22 rounds."
 	icon_state = "c96"
 	worn_icon_state = "c96"
 	caliber = CALIBER_9X19

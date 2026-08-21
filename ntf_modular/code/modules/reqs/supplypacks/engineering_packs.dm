@@ -74,7 +74,7 @@
 	cost = 1200
 
 /datum/supply_packs/engineering/towerboard/ntc
-	name = "TC-4T Telecommunications Circuit Board (NTC)"
+	name = "TC-4T Telecommunications Circuit Board (SFMC)"
 	notes = "A modular component commonly used in machines."
 	contains = list(/obj/item/circuitboard/machine/telecomms/relay/tower/faction)
 	cost = 50
@@ -102,7 +102,7 @@
 	faction_lock = list(FACTION_CLF)
 
 /datum/supply_packs/engineering/towerboard/kz
-	name = "TC-4T Telecommunications Circuit Board (KZ)"
+	name = "TC-4T Telecommunications Circuit Board (GSW)"
 	notes = "A modular component commonly used in machines."
 	contains = list(/obj/item/circuitboard/machine/telecomms/relay/tower/faction/kz)
 	cost = 50

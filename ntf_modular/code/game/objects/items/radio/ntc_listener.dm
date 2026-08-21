@@ -1,5 +1,5 @@
 /obj/item/radio/headset/ntc_listener
-	name = "NTC frequency decrypter"
+	name = "SFMC frequency decrypter"
 	desc = "An all-freq radio and terminal connected to a cutting edge set up within the ship that decrypts enemy communications using an AI from the great war, integrated into ship systems. It cannot decrypt enemy command frequency unfortunately as they tend to be on a more secure channel that changes encryption constantly. You need to be adjacent to this to listen in."
 	//icon = 'ntf_modular/icons/obj/machines/radio.dmi'
 	//icon_state = "intercom"

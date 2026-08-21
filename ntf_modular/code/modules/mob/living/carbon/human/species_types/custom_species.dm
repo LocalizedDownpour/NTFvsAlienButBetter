@@ -4,7 +4,7 @@
 	unarmed_type = /datum/unarmed_attack/punch/medium
 	species_flags = HAS_LIPS|HAS_UNDERWEAR|HAS_SKIN_COLOR
 	count_human = TRUE
-	joinable_roundstart = TRUE
+	joinable_roundstart = FALSE
 	has_genital_selection = TRUE
 	limb_type = SPECIES_LIMB_SPLURT
 	splurt_limb_prefix = "human"

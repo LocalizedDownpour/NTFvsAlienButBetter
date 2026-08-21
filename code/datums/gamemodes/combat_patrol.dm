@@ -20,7 +20,7 @@
 
 /datum/game_mode/hvh/combat_patrol/announce()
 	to_chat(world, "<b>The current game mode is - Combat Patrol!</b>")
-	to_chat(world, "<b>The NTC and SOM both lay claim to this planet. Across contested areas, small combat patrols frequently clash in their bid to enforce their respective claims. Seek and destroy any hostiles you encounter, good hunting!</b>")
+	to_chat(world, "<b>The SFMC and SOM both lay claim to this planet. Across contested areas, small combat patrols frequently clash in their bid to enforce their respective claims. Seek and destroy any hostiles you encounter, good hunting!</b>")
 
 /datum/game_mode/hvh/combat_patrol/setup_blockers()
 	. = ..()
@@ -123,7 +123,7 @@
 
 /datum/game_mode/hvh/combat_patrol/declare_completion()
 	. = ..()
-	log_game("[round_finished]\nGame mode: [name]\nRound time: [duration2text()]\nEnd round player population: [length(GLOB.whitelisted_clients)]\nTotal NTC spawned: [GLOB.round_statistics.total_humans_created[FACTION_TERRAGOV]]\nTotal SOM spawned: [GLOB.round_statistics.total_humans_created[FACTION_SOM]]")
+	log_game("[round_finished]\nGame mode: [name]\nRound time: [duration2text()]\nEnd round player population: [length(GLOB.whitelisted_clients)]\nTotal SFMC spawned: [GLOB.round_statistics.total_humans_created[FACTION_TERRAGOV]]\nTotal SOM spawned: [GLOB.round_statistics.total_humans_created[FACTION_SOM]]")
 
 /datum/game_mode/hvh/combat_patrol/end_round_fluff()
 	send_ooc_announcement(

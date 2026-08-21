@@ -5,7 +5,7 @@
 
 /obj/machinery/computer/intel_computer
 	name = "Intelligence computer"
-	desc = "A computer used to access the colonies central database. NTC Intel division will occasionally request remote data retrieval from these computers"
+	desc = "A computer used to access the colonies central database. SFMC Intel division will occasionally request remote data retrieval from these computers"
 	icon = 'ntf_modular/icons/obj/machines/computer.dmi'
 	icon_state = "intel_computer"
 	screen_overlay = "intel_computer_screen"

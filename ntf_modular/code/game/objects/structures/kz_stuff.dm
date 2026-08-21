@@ -48,7 +48,7 @@
 	. = ..()
 	if(user.faction != FACTION_VSD)
 		return
-	. += "<br><b>KZ Neural Station</b><br>Kaizoku Covert Division prototype for neural harvesting and imprinting."
+	. += "<br><b>GSW Neural Station</b><br>Grunwald-Svarog Werke Covert Division prototype for neural harvesting and imprinting."
 	. += "<br>Designed to capture and encode cortical skill structures onto NS-92 neurodisks, and transfer them to new hosts."
 	. += "<br><i>Unauthorized disclosure will result in immediate contract termination and/or asset liquidation.</i><br>"
 	if(attached_console)
@@ -420,7 +420,7 @@
 	. = ..()
 	if(user.faction != FACTION_VSD)
 		return
-	. += "<br><b>KZ Neural Station Console</b><br>Kaizoku Covert Division control interface for neural harvesting and imprinting operations."
+	. += "<br><b>GSW Neural Station Console</b><br>Grunwald-Svarog Werke Covert Division control interface for neural harvesting and imprinting operations."
 	. += "<br>Allows extraction and imprinting of cortical skill structures via NS-92 neurodisks."
 	. += "<br><i>Unauthorized access will result in immediate contract termination and/or asset liquidation.</i><br>"
 	if(linked_station)
@@ -627,7 +627,7 @@
 	. = ..()
 	if(user.faction != FACTION_VSD)
 		return
-	. += "<br><b>NS-92 Covert Neurodisk</b><br>Kaizoku Covert Division encrypted module containing extracted neural skill architecture."
+	. += "<br><b>NS-92 Covert Neurodisk</b><br>Grunwald-Svarog Werke Covert Division encrypted module containing extracted neural skill architecture."
 	. += "<br><i>Unauthorized disclosure will result in immediate termination.</i><br>"
 	if(stored_name)
 		. += "This neurodisk contains <b>[stored_name]'s</b> scan."

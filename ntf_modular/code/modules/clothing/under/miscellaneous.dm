@@ -1,6 +1,6 @@
 /obj/item/clothing/under/marine/sneaking
-	name = "NTF Infiltration Uniform"
-	desc = "An extremely expensive sneaking suit created by an Ninetails Corporation for high risk stealth missions, made with several layers of a nano-fiber that, while light, molds to the wearer's body shape and hardens protecting them. Only provided rarely to most successful Senior Operatives or higher. This uniform allows you to walk quietly and crawl through vents with ALT-CLICK. To change the variant of the suit, ALT-RIGHTCLICK on it."
+	name = "SFMC Infiltration Uniform"
+	desc = "An extremely expensive sneaking suit created by an SFMC for high risk stealth missions, made with several layers of a nano-fiber that, while light, molds to the wearer's body shape and hardens protecting them. Only provided rarely to most successful Senior Operatives or higher. This uniform allows you to walk quietly and crawl through vents with ALT-CLICK. To change the variant of the suit, ALT-RIGHTCLICK on it."
 	icon = 'ntf_modular/icons/obj/clothing/uniforms/uniforms.dmi'
 	icon_state = "sneak"
 	armor_protection_flags = CHEST|GROIN|LEGS|ARMS|HANDS|FEET
@@ -32,17 +32,17 @@
 		variant = 1
 	switch(variant)
 		if(1)
-			name = "NTF Infiltration Uniform"
-			desc = "An extremely expensive sneaking suit created by an Ninetails Corporation for high risk stealth missions, made with several layers of a nano-fiber that, while light, molds to the wearer's body shape and hardens protecting them. Only provided rarely to most successful Senior Operatives or higher. This uniform allows you to walk quietly and crawl through vents with ALT-CLICK. To change the variant of the suit, ALT-CLICK on it."
+			name = "SFMC Infiltration Uniform"
+			desc = "An extremely expensive sneaking suit created by an SFMC for high risk stealth missions, made with several layers of a nano-fiber that, while light, molds to the wearer's body shape and hardens protecting them. Only provided rarely to most successful Senior Operatives or higher. This uniform allows you to walk quietly and crawl through vents with ALT-CLICK. To change the variant of the suit, ALT-CLICK on it."
 			icon_state = "sneak"
 		if(2)
-			name = "NTC Spec-Ops Tactical T-Back Leotard"
-			desc = "An extremely expensive sneaking leotard with extra skin-showing properties created by an Ninetails Corporation for high risk missions with high risk clothes, made with several layers of a nano-fiber that, while light, molds to the wearer's body shape and hardens protecting them. Only provided rarely to most successful Senior Operatives or higher. This leotard allows you to walk quietly and crawl through vents with ALT-CLICK"
+			name = "SFMC Spec-Ops Tactical T-Back Leotard"
+			desc = "An extremely expensive sneaking leotard with extra skin-showing properties created by an SFMC for high risk missions with high risk clothes, made with several layers of a nano-fiber that, while light, molds to the wearer's body shape and hardens protecting them. Only provided rarely to most successful Senior Operatives or higher. This leotard allows you to walk quietly and crawl through vents with ALT-CLICK"
 			icon_state = "sneak_leotard"
 			shows_butt = TRUE
 		if(3)
-			name = "NTC Spec-Ops Tactical String bikini"
-			desc = "An extremely expensive sneaking... string bikini? with ultra-extra skin-showing properties created by an Ninetails Corporation for high risk missions with highest risk clothes, made with several layers of a nano-fiber that, while light-- It doesn't even matter, it practically doesn't exist, guess the sneakiest suit of all so far. This bikini allows you to walk quietly and crawl through vents with ALT-CLICK"
+			name = "SFMC Spec-Ops Tactical String bikini"
+			desc = "An extremely expensive sneaking... string bikini? with ultra-extra skin-showing properties created by an SFMC for high risk missions with highest risk clothes, made with several layers of a nano-fiber that, while light-- It doesn't even matter, it practically doesn't exist, guess the sneakiest suit of all so far. This bikini allows you to walk quietly and crawl through vents with ALT-CLICK"
 			icon_state = "sneak_kini"
 			shows_butt = TRUE
 		if(4)

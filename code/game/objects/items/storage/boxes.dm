@@ -394,7 +394,7 @@
 
 /obj/item/storage/box/m94
 	name = "\improper M40 FLDP flare pack"
-	desc = "A packet of seven M40 FLDP Flares. Carried by NTC marines to light dark areas that cannot be reached with the usual TNR Shoulder Lamp. Can be launched from an underslung grenade launcher."
+	desc = "A packet of seven M40 FLDP Flares. Carried by SFMC marines to light dark areas that cannot be reached with the usual TNR Shoulder Lamp. Can be launched from an underslung grenade launcher."
 	icon_state = "m40"
 	w_class = WEIGHT_CLASS_SMALL
 	spawn_type = /obj/item/explosive/grenade/flare
@@ -431,7 +431,7 @@
 	spawn_number = 7
 
 /obj/item/storage/box/MRE
-	name = "\improper NTC MRE"
+	name = "\improper SFMC MRE"
 	desc = "Meal Ready-to-Eat, meant to be consumed in the field, and has an expiration that is two decades past a marine's average combat life expectancy."
 	icon_state = "mealpack"
 	w_class = WEIGHT_CLASS_SMALL
@@ -1030,8 +1030,8 @@
 // -Energy-
 
 /obj/item/storage/box/visual/magazine/compact/lasrifle
-	name = "old world cell box"
-	desc = "A box specifically designed to hold a large amount of old world cells."
+	name = "Terra-Experimental cell box"
+	desc = "A box specifically designed to hold a large amount of Terra-Experimental cells."
 	closed_overlay = "mag_box_small_overlay_te"
 
 /obj/item/storage/box/visual/magazine/compact/lasrifle/Initialize(mapload, ...)
@@ -1336,13 +1336,13 @@
 
 /obj/item/storage/box/visual/grenade/neurotoxin
 	name = "\improper M40-N Neurotoxin smoke grenade box"
-	desc = "A secure box holding 25 M40-N Neurotoxin smoke grenades. Classed as a less lethal riot control tool by the NTC."
+	desc = "A secure box holding 25 M40-N Neurotoxin smoke grenades. Classed as a less lethal riot control tool by the SFMC."
 	spawn_number = 25
 	spawn_type = /obj/item/explosive/grenade/smokebomb/neuro
 
 /obj/item/storage/box/visual/grenade/acid
 	name = "\improper M40-A Acid smoke grenade box"
-	desc = "A secure box holding 25 M40-A Acid smoke grenades. Their use is considered a warcrime under several treaties, none of which NTF is a signatory to."
+	desc = "A secure box holding 25 M40-A Acid smoke grenades. Their use is considered a warcrime under several treaties, none of which SFMC is a signatory to."
 	spawn_number = 25
 	spawn_type = /obj/item/explosive/grenade/smokebomb/acid
 
@@ -1360,7 +1360,7 @@
 
 /obj/item/storage/box/visual/grenade/neurotoxin/alt
 	name = "\improper M40-N2 Neurotoxin smoke grenade box"
-	desc = "A secure box holding 25 M40-N2 Neurotoxin smoke grenades. Classed as a less lethal riot control tool by the NTC. Version two produces a weaker and smaller smoke cloud that lasts much longer."
+	desc = "A secure box holding 25 M40-N2 Neurotoxin smoke grenades. Classed as a less lethal riot control tool by the SFMC. Version two produces a weaker and smaller smoke cloud that lasts much longer."
 	spawn_number = 25
 	spawn_type = /obj/item/explosive/grenade/smokebomb/neuro/alt
 

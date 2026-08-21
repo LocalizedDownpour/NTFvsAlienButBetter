@@ -125,11 +125,11 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 	railing_gear_name = "supply_colony"
 
 /obj/docking_port/mobile/supply/kz
-	name = "KZ supply shuttle"
+	name = "GSW supply shuttle"
 	id = "supplykz"
 	faction = FACTION_VSD
-	home_id = "supply_KZ_home"
-	railing_gear_name = "supply_KZ"
+	home_id = "supply_GSW_home"
+	railing_gear_name = "supply_GSW"
 
 /obj/docking_port/mobile/supply/som
 	name = "SOM supply shuttle"
@@ -631,7 +631,7 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 	return SU.interact(user)
 
 /obj/item/storage/backpack/marine/radiopack
-	name = "\improper NTC radio operator backpack"
+	name = "\improper SFMC radio operator backpack"
 	desc = "A backpack that resembles the ones old-age radio operator marines would use. It has a supply ordering console installed on it, and a retractable antenna to receive supply drops. It also provides a boost to connectivity of comms of the user."
 	icon_state = "radiopack"
 	worn_icon_state = "radiopack"

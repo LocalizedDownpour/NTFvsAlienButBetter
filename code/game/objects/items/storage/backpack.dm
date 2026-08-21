@@ -193,7 +193,7 @@
 
 /obj/item/storage/backpack/satchel/pmc
 	name = "AC chestrig"
-	desc = "A heavy-duty chestrig used by Ninetails PMC contractors."
+	desc = "A heavy-duty chestrig used by SFMC PMC contractors."
 	icon_state = "pmc_chestrig"
 
 //ERT backpacks.
@@ -231,17 +231,17 @@
 
 /obj/item/storage/backpack/marine
 	name = "\improper lightweight IMP backpack"
-	desc = "The standard-issue pack of the NTC forces. Designed to slug gear into the battlefield."
+	desc = "The standard-issue pack of the SFMC forces. Designed to slug gear into the battlefield."
 	icon_state = "marinepack"
 	worn_icon_state = "marinepack"
 
 /obj/item/storage/backpack/marine/standard
 	name = "\improper lightweight IMP backpack"
-	desc = "The standard-issue pack of the NTC forces. Designed to slug gear into the battlefield."
+	desc = "The standard-issue pack of the SFMC forces. Designed to slug gear into the battlefield."
 
 /obj/item/storage/backpack/marine/corpsman
-	name = "\improper NTC corpsman backpack"
-	desc = "The standard-issue backpack worn by NTC corpsmen. You can recharge defibrillators by plugging them in."
+	name = "\improper SFMC corpsman backpack"
+	desc = "The standard-issue backpack worn by SFMC corpsmen. You can recharge defibrillators by plugging them in."
 	icon_state = "marinepackm"
 	worn_icon_state = "marinepackm"
 	var/obj/item/cell/high/cell //Starts with a high capacity energy cell.
@@ -328,34 +328,34 @@
 
 
 /obj/item/storage/backpack/marine/tech
-	name = "\improper NTC technician backpack"
-	desc = "The standard-issue backpack worn by NTF technicians. Specially equipped to hold some bulky equipment such as sentry guns and teleporter pads and the HSG-102."
+	name = "\improper SFMC technician backpack"
+	desc = "The standard-issue backpack worn by SFMC technicians. Specially equipped to hold some bulky equipment such as sentry guns and teleporter pads and the HSG-102."
 	icon_state = "marinepackt"
 	worn_icon_state = "marinepackt"
 	storage_type = /datum/storage/backpack/tech
 
 /obj/item/storage/backpack/marine/satchel
-	name = "\improper NTC satchel"
-	desc = "A heavy-duty satchel carried by some NTC soldiers and support personnel."
+	name = "\improper SFMC satchel"
+	desc = "A heavy-duty satchel carried by some SFMC soldiers and support personnel."
 	icon_state = "marinesat"
 	worn_icon_state = "marinesat"
 	storage_type = /datum/storage/backpack/satchel
 
 /obj/item/storage/backpack/marine/satchel/green
-	name = "\improper NTC satchel"
+	name = "\improper SFMC satchel"
 	icon_state = "marinesat_green"
 
 /obj/item/storage/backpack/marine/corpsman/satchel
-	name = "\improper NTC corpsman satchel"
-	desc = "A heavy-duty satchel carried by some NTC corpsmen. You can recharge defibrillators by plugging them in."
+	name = "\improper SFMC corpsman satchel"
+	desc = "A heavy-duty satchel carried by some SFMC corpsmen. You can recharge defibrillators by plugging them in."
 	icon_state = "marinesatm"
 	worn_icon_state = "marinesatm"
 	storage_type = /datum/storage/backpack/satchel
 	cell = /obj/item/cell/apc
 
 /obj/item/storage/backpack/marine/satchel/tech
-	name = "\improper NTC technician satchel"
-	desc = "A heavy-duty satchel carried by some NTC technicians. Can hold the ST-580 point defense sentry and ammo."
+	name = "\improper SFMC technician satchel"
+	desc = "A heavy-duty satchel carried by some SFMC technicians. Can hold the ST-580 point defense sentry and ammo."
 	icon_state = "marinesatt"
 	worn_icon_state = "marinesatt"
 	storage_type = /datum/storage/backpack/satchel/tech
@@ -373,7 +373,7 @@
 	storage_type = /datum/storage/backpack/satchel
 
 /obj/item/storage/backpack/marine/duffelbag
-	name = "\improper NTF Duffelbag"
+	name = "\improper SFMC Duffelbag"
 	desc = "A hard to reach backpack with no draw delay but is hard to access. \
 	Any squadmates can easily access the storage with right-click."
 	icon = 'icons/obj/items/storage/duffelbag.dmi'
@@ -794,8 +794,8 @@ GLOBAL_LIST_INIT(stealth_greyscale_matrix,\
 // Welder Backpacks //
 
 /obj/item/storage/backpack/marine/engineerpack
-	name = "\improper NTC technician welderpack"
-	desc = "A specialized backpack worn by NTC technicians. It carries a fueltank for quick welder refueling."
+	name = "\improper SFMC technician welderpack"
+	desc = "A specialized backpack worn by SFMC technicians. It carries a fueltank for quick welder refueling."
 	icon_state = "engineerpack"
 	worn_icon_state = "engineerpack"
 	storage_type = /datum/storage/backpack/satchel
@@ -821,7 +821,7 @@ GLOBAL_LIST_INIT(stealth_greyscale_matrix,\
 
 /obj/item/storage/backpack/commando
 	name = "commando bag"
-	desc = "A heavy-duty bag carried by Ninetails commandos."
+	desc = "A heavy-duty bag carried by SFMC commandos."
 	icon_state = "commandopack"
 	storage_type = /datum/storage/backpack/commando
 
@@ -833,7 +833,7 @@ GLOBAL_LIST_INIT(stealth_greyscale_matrix,\
 
 /obj/item/storage/backpack/lightpack/pmc
 	name = "AC bag"
-	desc = "A heavy-duty bag used by Ninetails PMC contractors."
+	desc = "A heavy-duty bag used by SFMC PMC contractors."
 	icon_state = "pmc_bag"
 
 /obj/item/storage/backpack/lightpack/som

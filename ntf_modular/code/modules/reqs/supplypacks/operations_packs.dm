@@ -1,15 +1,15 @@
 /datum/supply_packs/operations/xeno_cage
-	name = "NTC special containment cage"
+	name = "SFMC special containment cage"
 	contains = list(/obj/structure/closet/secure_closet/xeno_cage)
 	cost = 50
 
 /datum/supply_packs/operations/xeno_cage_grenade
-	name = "NTC cage grenade"
+	name = "SFMC cage grenade"
 	contains = list(/obj/item/explosive/grenade/cagenade)
 	cost = 100
 
 /datum/supply_packs/operations/xeno_shackles
-	name = "NTC xenomorph supression shackles"
+	name = "SFMC xenomorph supression shackles"
 	contains = list(/obj/item/restraints/handcuffs/shackles)
 	cost = 300
 

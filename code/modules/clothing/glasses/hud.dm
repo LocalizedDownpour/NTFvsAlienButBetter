@@ -85,7 +85,7 @@
 
 /obj/item/clothing/glasses/hud/medgoggles
 	name = "\improper HealthMate ballistic goggles"
-	desc = "Standard issue NTF goggles. This pair has been fitted with an internal HealthMate HUD projector."
+	desc = "Standard issue SFMC goggles. This pair has been fitted with an internal HealthMate HUD projector."
 	icon_state = "medgoggles"
 	worn_icon_state = "medgoggles"
 	deactive_state = "degoggles_medgoggles"
@@ -98,7 +98,7 @@
 
 /obj/item/clothing/glasses/hud/medgoggles/prescription
 	name = "\improper HealthMate prescription ballistic goggles"
-	desc = "Standard issue NTF prescription goggles. This pair has been fitted with an internal HealthMate HUD projector."
+	desc = "Standard issue SFMC prescription goggles. This pair has been fitted with an internal HealthMate HUD projector."
 	prescription = TRUE
 
 /obj/item/clothing/glasses/hud/medpatch
@@ -112,7 +112,7 @@
 
 /obj/item/clothing/glasses/hud/medglasses
 	name = "\improper HealthMate regulation prescription glasses"
-	desc = "Standard issue NTF Regulation Prescription Glasses. This pair has been fitted with an internal HealthMate HUD projector."
+	desc = "Standard issue SFMC Regulation Prescription Glasses. This pair has been fitted with an internal HealthMate HUD projector."
 	icon_state = "medglasses"
 	worn_icon_state = "medglasses"
 	deactive_state = "degoggles_medglasses"

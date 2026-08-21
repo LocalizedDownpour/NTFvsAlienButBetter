@@ -1,5 +1,5 @@
 #define FACTION_NEUTRAL "Neutral"
-#define FACTION_TERRAGOV "Ninetails Corporation"
+#define FACTION_TERRAGOV "Sol Federation Marine Corps"
 #define FACTION_XENO "Xeno"
 #define FACTION_ZOMBIE "Zombie"
 #define FACTION_CLF "Cult of Evolution"
@@ -19,7 +19,7 @@
 #define FACTION_PIRATE "Pirate"
 #define FACTION_SPECFORCE "Special Forces"
 #define FACTION_MOTHELLIAN "Mothellians"
-#define FACTION_VSD "Kaizoku Corporation"
+#define FACTION_VSD "Grunwald-Svarog Werke"
 #define FACTION_ERP "Emergency Response Pranksters"
 #define FACTION_SPATIAL_AGENT "Spatial Agents"
 
@@ -130,7 +130,7 @@ GLOBAL_LIST_INIT(faction_to_iff, list(
 ///Acronyms for each faction, or the shortest name possible
 GLOBAL_LIST_INIT(faction_to_acronym, list(
 	FACTION_NEUTRAL = "Neutral",
-	FACTION_TERRAGOV = "NTC",
+	FACTION_TERRAGOV = "SFMC",
 	FACTION_SPECFORCE = "SRF",
 	FACTION_NANOTRASEN = "ACAP",
 	FACTION_FREELANCERS = "FRE",
@@ -143,7 +143,7 @@ GLOBAL_LIST_INIT(faction_to_acronym, list(
 	FACTION_ICC = "CM",
 	FACTION_USL = "USL",
 	FACTION_PIRATE = "Pirates",
-	FACTION_VSD = "KZ",
+	FACTION_VSD = "GSW",
 ))
 
 ///general comms by faction where applicable

@@ -209,7 +209,7 @@
 
 /obj/item/clothing/glasses/night/optgoggles
 	name = "\improper Optical imager ballistic goggles"
-	desc = "Standard issue NTC goggles. This pair has been fitted with an internal optical imaging scanner."
+	desc = "Standard issue SFMC goggles. This pair has been fitted with an internal optical imaging scanner."
 	icon_state = "optgoggles"
 	worn_icon_state = "optgoggles"
 	deactive_state = "degoggles_optgoggles"
@@ -220,12 +220,12 @@
 
 /obj/item/clothing/glasses/night/optgoggles/prescription
 	name = "\improper Optical imager prescription ballistic goggles"
-	desc = "Standard issue NTC prescription goggles. This pair has been fitted with an internal optical imaging scanner."
+	desc = "Standard issue SFMC prescription goggles. This pair has been fitted with an internal optical imaging scanner."
 	prescription = TRUE
 
 /obj/item/clothing/glasses/night_vision/vsd
 	name = "\improper CM-12 night vision goggles"
-	desc = "KZ's night vision goggles, For the extra tacticool feel, Crash Core and your superior officers are not responsible for blindness and burning."
+	desc = "GSW's night vision goggles, For the extra tacticool feel, Crash Core and your superior officers are not responsible for blindness and burning."
 	icon = 'icons/mob/clothing/eyes.dmi'
 	icon_state = "vsd_nvg"
 	worn_icon_state = "vsd_nvg"
@@ -237,7 +237,7 @@
 
 /obj/item/clothing/glasses/night_vision/vsd/alt
 	name = "\improper CM-13 night vision faceplate"
-	desc = "KZs night vision Faceplate, made for attachments to the Medium armor variant of their armor. Crash Core and your superior officers are not responsible for blindness and burning."
+	desc = "GSWs night vision Faceplate, made for attachments to the Medium armor variant of their armor. Crash Core and your superior officers are not responsible for blindness and burning."
 	icon_state = "vsd_alt"
 	worn_icon_state = "vsd_alt"
 	deactive_state = "vsd_alt_off"

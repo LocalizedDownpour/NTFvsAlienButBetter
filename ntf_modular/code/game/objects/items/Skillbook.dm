@@ -80,7 +80,7 @@
 
 /obj/item/generic_skillbook/fcskill
 	name = "Field Commander's Diploma"
-	desc = "The diploma of the NTF Field Commander; showing the batchelors in which they specialised and achieved a degree in at the university of Phantom City."
+	desc = "The diploma of the SFMC Field Commander; showing the batchelors in which they specialised and achieved a degree in at the university of Phantom City."
 	skills = list("surgery", "engineering")
 	role = /datum/job/terragov/command/fieldcommander
 	title = "Field Commander Specialisation."

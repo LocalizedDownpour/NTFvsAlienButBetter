@@ -10,8 +10,8 @@ GLOBAL_DATUM(droppod_reservation, /datum/turf_reservation/transit/droppod)
 
 ///base marine drop pod. can be controlled by an attached [/obj/structure/droppod/leader] or [/obj/machinery/computer/droppod_control]
 /obj/structure/droppod
-	name = "\improper NTC Zeus orbital drop pod"
-	desc = "A menacing metal hunk of steel that is used by the NTC for quick tactical redeployment."
+	name = "\improper SFMC Zeus orbital drop pod"
+	desc = "A menacing metal hunk of steel that is used by the SFMC for quick tactical redeployment."
 	icon = 'icons/obj/structures/droppod.dmi'
 	icon_state = "singlepod_green"
 	density = TRUE
@@ -373,8 +373,8 @@ GLOBAL_DATUM(droppod_reservation, /datum/turf_reservation/transit/droppod)
 
 
 /obj/structure/droppod/leader
-	name = "\improper NTC Zeus command drop pod"
-	desc = "A menacing metal hunk of steel that is used by the NTC for quick tactical redeployment. This one comes with command capabilities."
+	name = "\improper SFMC Zeus command drop pod"
+	desc = "A menacing metal hunk of steel that is used by the SFMC for quick tactical redeployment. This one comes with command capabilities."
 	icon_state = "singlepod_red"
 	light_color = LIGHT_COLOR_EMISSIVE_RED
 
@@ -445,8 +445,8 @@ GLOBAL_DATUM(droppod_reservation, /datum/turf_reservation/transit/droppod)
 
 //parent for pods designed to carry something other than a mob
 /obj/structure/droppod/nonmob
-	name = "\improper NTC ??? drop pod ???" // Don't map these in, use a subtype!
-	desc = "A menacing metal hunk of steel that is used by the NTC for quick tactical redeployment. This one... something is wrong with this one.  Please report this."
+	name = "\improper SFMC ??? drop pod ???" // Don't map these in, use a subtype!
+	desc = "A menacing metal hunk of steel that is used by the SFMC for quick tactical redeployment. This one... something is wrong with this one.  Please report this."
 	buckle_flags = null
 	///The currently stored object
 	var/obj/stored_object
@@ -500,8 +500,8 @@ GLOBAL_DATUM(droppod_reservation, /datum/turf_reservation/transit/droppod)
 	update_icon()
 
 /obj/structure/droppod/nonmob/supply_pod
-	name = "\improper NTC Zeus supply drop pod"
-	desc = "A menacing metal hunk of steel that is used by the NTC for quick tactical redeployment. This one is designed to carry supplies."
+	name = "\improper SFMC Zeus supply drop pod"
+	desc = "A menacing metal hunk of steel that is used by the SFMC for quick tactical redeployment. This one is designed to carry supplies."
 	icon_state = "supplypod"
 	light_color = LIGHT_COLOR_EMISSIVE_ORANGE
 
@@ -542,8 +542,8 @@ GLOBAL_DATUM(droppod_reservation, /datum/turf_reservation/transit/droppod)
 		return ..()
 
 /obj/structure/droppod/nonmob/turret_pod
-	name = "\improper NTC Zeus sentry drop pod"
-	desc = "A menacing metal hunk of steel that is used by the NTC for quick tactical redeployment. This one carries a self deploying sentry system."
+	name = "\improper SFMC Zeus sentry drop pod"
+	desc = "A menacing metal hunk of steel that is used by the SFMC for quick tactical redeployment. This one carries a self deploying sentry system."
 	icon_state = "sentrypod"
 	light_color = LIGHT_COLOR_EMISSIVE_RED
 	launchable_empty = TRUE
@@ -557,8 +557,8 @@ GLOBAL_DATUM(droppod_reservation, /datum/turf_reservation/transit/droppod)
 	qdel(src)
 
 /obj/structure/droppod/nonmob/mech_pod
-	name = "\improper NTC Zeus mech drop pod"
-	desc = "A menacing metal hunk of steel that is used by the NTC for quick tactical redeployment. This is a larger model designed specifically to carry mechs. Shift click to enter when inside a mech."
+	name = "\improper SFMC Zeus mech drop pod"
+	desc = "A menacing metal hunk of steel that is used by the SFMC for quick tactical redeployment. This is a larger model designed specifically to carry mechs. Shift click to enter when inside a mech."
 	icon = 'icons/obj/structures/big_droppod.dmi'
 	icon_state = "mechpod"
 	light_range = 2

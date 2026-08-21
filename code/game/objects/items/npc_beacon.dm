@@ -16,12 +16,12 @@
 	. += span_notice("This one belongs to [faction ? faction : "no one"].")
 
 /obj/item/campaign_beacon/npc_beacon/tgmc
-	name = "\improper NTF N.P.C. beacon"
+	name = "\improper SFMC N.P.C. beacon"
 	deployable_type = /obj/structure/npc_beacon/tgmc_standard
 	faction = FACTION_TERRAGOV
 
 /obj/item/campaign_beacon/npc_beacon/tgmc/big
-	name = "\improper Large NTF N.P.C. beacon"
+	name = "\improper Large SFMC N.P.C. beacon"
 	icon_state = "fc_beacon_undeployed"
 	base_icon_state = "fc_beacon"
 	deployable_type = /obj/structure/npc_beacon/tgmc_big

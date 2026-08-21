@@ -1,7 +1,7 @@
 
 //These small little things allow you to give xenos an IFF signature. No more crying because your corrupted keep dying to smartgunners!
 /obj/item/xeno_iff_tag
-	name = "NTC xenomorph IFF tag"
+	name = "SFMC xenomorph IFF tag"
 	desc = "A small metallic card that can be clamped onto a xenomorph, allowing IFF systems to recognize the target as friendly."
 	icon = 'icons/obj/items/card.dmi'
 	icon_state = "guest" //Better I reuse this unused sprite for something that you'll see for ten seconds pre-attach than use my spriting "skills".

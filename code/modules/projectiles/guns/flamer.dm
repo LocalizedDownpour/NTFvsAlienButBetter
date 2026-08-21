@@ -399,7 +399,7 @@
 
 /obj/item/weapon/gun/flamer/big_flamer/marinestandard
 	name = "\improper FL-84 flamethrower"
-	desc = "The FL-84 flamethrower is the current standard issue flamethrower of the NTC, and is used for area control and urban combat. Use unique action to use hydro cannon"
+	desc = "The FL-84 flamethrower is the current standard issue flamethrower of the SFMC, and is used for area control and urban combat. Use unique action to use hydro cannon"
 	default_ammo_type = /obj/item/ammo_magazine/flamer_tank/large
 	icon_state = "tl84"
 	worn_icon_state = "tl84"

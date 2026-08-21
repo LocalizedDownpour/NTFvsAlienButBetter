@@ -151,8 +151,8 @@
 	name = "bulletproof wall"
 	desc = "A huge chunk of metal used to seperate rooms and make up the ship. Impervious to small arms fire."
 	soft_armor = list(MELEE = 0, BULLET = 200, LASER = 200, ENERGY = 200, BOMB = 200, BIO = 0, FIRE = 0, ACID = 0)
-	
-	
+
+
 /turf/closed/wall/desert
 	name = "wall"
 	icon = 'icons/turf/walls/chigusa.dmi'
@@ -266,7 +266,7 @@
 	opacity = FALSE
 
 /turf/closed/wall/indestructible/splashscreen
-	name = "NTF vs Alien"
+	name = "Project Redfin"
 	icon = 'icons/misc/title.dmi'
 	icon_state = "title_painting0"
 //	icon_state = "title_holiday"

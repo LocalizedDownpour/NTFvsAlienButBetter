@@ -1,5 +1,5 @@
 /datum/emergency_call/deathsquad
-	name = "NT Deathsquad"
+	name = "SFMC Deathsquad"
 	base_probability = 1
 	shuttle_id = SHUTTLE_DISTRESS_PMC
 
@@ -9,9 +9,9 @@
 	to_chat(H, "<B>Though rumors say that [pick("you work for a death squad group assigned in", "you were modified to not feel any emotions in a research lab of", "you were a soldier who was affected by PTSD after an operation in", "you were an product of a classified genetics research in", "you were an experimental soldier in the depths of", "left for dead and later recovered in", "listed as KIA but remained alive during a botchered operation in", 5;"raised literally from the depths of hell itself. Only until you were recovered in", 5;"raised literally from the Higher Power. But realized you were in")] [pick(10;"Mars", 10;"Earth's moon", 10;"Earth", 10;"a space station", "a war-ridden outpost", "a jungle", "a defunct old world station", "a desert planet", "an icey colony", "a frozen cave system", "a molten planet", "a digsite", "a research outpost")].</B>")
 	to_chat(H, "<B>Nevertheless, you deny all of those rumors and kept your real identity hidden.</b>")
 	to_chat(H, "")
-	to_chat(H, "<B>Today, you and your squadmates are sent by the Corporate Council to the NTC vessel, [SSmapping.configs[SHIP_MAP].map_name], after a long period of [pick("cryostasis", "rest and relaxation", "orgies")].</b>")
-	to_chat(H, "<B>You must sweep and terminate who are involved in the NTC vessel, [SSmapping.configs[SHIP_MAP].map_name]...</b>")
-	to_chat(H, "<B>Follow any orders directly from Ninetails Command as they are the spearhead of this operation.</b>")
+	to_chat(H, "<B>Today, you and your squadmates are sent by the Corporate Council to the SFMC vessel, [SSmapping.configs[SHIP_MAP].map_name], after a long period of [pick("cryostasis", "rest and relaxation", "orgies")].</b>")
+	to_chat(H, "<B>You must sweep and terminate who are involved in the SFMC vessel, [SSmapping.configs[SHIP_MAP].map_name]...</b>")
+	to_chat(H, "<B>Follow any orders directly from SFMC Command as they are the spearhead of this operation.</b>")
 
 
 /datum/emergency_call/deathsquad/create_member(datum/mind/M)

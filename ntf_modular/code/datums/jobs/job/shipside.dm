@@ -24,8 +24,8 @@
 	)
 	html_description = {"
 		<b>Difficulty</b>: Hard<br /><br />
-		<b>You answer to</b> NTC High Command<br /><br />
-		<b>Unlock Requirement</b>: Being the NTC CEO in lore.<br /><br />
+		<b>You answer to</b> SFMC High Command<br /><br />
+		<b>Unlock Requirement</b>: Being the SFMC CEO in lore.<br /><br />
 		<b>Gamemode Availability</b>: All<br /><br /><br />
 		<b>Duty</b>: Lead your corporation to ensure the operations go flawlessly
 		"}
@@ -33,7 +33,7 @@
 
 //ghetto proc usage why not, just to not edit the job shit
 /datum/job/terragov/command/ceo/player_old_enough(client/C)
-	if(check_other_rights(usr.client, R_ADMIN, FALSE) && C.key == "CrimsonQuiver")
+	if(check_other_rights(usr.client, R_ADMIN, FALSE) && C.key == "Colfer") // So only level 40 chuds can do it
 		return TRUE
 	return FALSE
 
@@ -61,7 +61,7 @@
 	)
 	html_description = {"
 		<b>Difficulty</b>: Hard<br /><br />
-		<b>You answer to</b> NTC High Command<br /><br />
+		<b>You answer to</b> SFMC High Command<br /><br />
 		<b>Unlock Requirement</b>: Being the NovaMed CEO in lore.<br /><br />
 		<b>Gamemode Availability</b>: All<br /><br /><br />
 		<b>Duty</b>: Oversee the work of contracted out medical personel and functioning of medical equipment to ensure operations go flawlessly.
@@ -69,7 +69,7 @@
 	minimap_icon = "nm_ceo"
 
 /datum/job/terragov/command/nm_ceo/player_old_enough(client/C)
-	if(check_other_rights(usr.client, R_ADMIN, FALSE) && C.ckey == "CrimsonQuiver") //need someone
+	if(check_other_rights(usr.client, R_ADMIN, FALSE) && C.ckey == "Colfer")
 		return TRUE
 	return FALSE
 
@@ -113,7 +113,7 @@
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
 	. += {"You are a veteran, elite operative with leadership skills and experience
-	trusted to keep the law and base protection within the front operations of Ninetails Corporation,
+	trusted to keep the law and base protection within the front operations of SFMC,
 	do not let them down."}
 
 /datum/job/terragov/command/corpseccommander/after_spawn(mob/living/carbon/new_mob, mob/user, latejoin = FALSE)
@@ -315,7 +315,7 @@ You are expected to make sure the operations are functioning as intended with th
 Your primary job is to build good relations, protect the interests of the company and then the corporate council and report critical events to Novamed. Follow regular game rules unless told otherwise by your superiors.
 Use a fax machine to communicate with corporate headquarters or to acquire new directives when in doubt. You may not receive anything back (especially if the game staff is absent or otherwise busy), and this is normal.
 The medics are NM personnel and medical and research divisions are run by Novamed and you have responsibility on them. Novamed has the monopoly over medical, cloning technologies, cybernetics and bioengineering manufactury and appliances of Phantom City and likely the entire new world. Known to be rather secretive in their inner workings, more than the usual megacorp, that is. Perhaps paranoia you don't even know.
-Novamed tends to be cooperative with other corporations, especially mutually with Ninetails."}
+Novamed tends to be cooperative with other corporations, especially mutually with SFMC."}
 
 /datum/outfit/job/civilian/liaison_novamed
 	name = "Novamed Liaison"
@@ -396,21 +396,21 @@ TRANSCo generally tend to be rather hands off with general matters unless they a
 	w_uniform = /obj/item/clothing/under/liaison_suit
 	shoes = /obj/item/clothing/shoes/laceup
 
-//Kaizoku Liaison
+//Grunwald-Svarog Werke Liaison
 /datum/job/vsd_squad/liaison_kaizoku
 	job_category = JOB_CAT_CIVILIAN
 	selection_color = "#ffeedd"
-	title = "Kaizoku Liaison"
+	title = "Grunwald-Svarog Werke Liaison"
 	paygrade = "NT1"
 	comm_title = "KZL"
-	supervisors = "the Kaizoku corporate office, and the corporate council."
+	supervisors = "the Grunwald-Svarog Werke corporate office, and the corporate council."
 	total_positions = 1
 	access = ALL_VSD_ACCESS
 	minimal_access = ALL_VSD_ACCESS
 	outfit = /datum/outfit/job/civilian/liaison_kaizoku
 	html_description = {"
 		<b>Difficulty</b>: Hard (varies)<br /><br />
-		<b>You answer to the</b> Kaizoku Corporate Office, the CEO.<br /><br />
+		<b>You answer to the</b> Grunwald-Svarog Werke Corporate Office, the CEO.<br /><br />
 		<b>Unlock Requirement</b>: Starting Role<br /><br />
 		<b>Gamemode Availability</b>: Nuclear War<br /><br /><br />
 		<b>Duty</b>: Create good relations and maintain corporation's image, do paperwork, have sex during meetings...? Reply if you’re called.
@@ -452,16 +452,16 @@ TRANSCo generally tend to be rather hands off with general matters unless they a
 /datum/job/vsd_squad/liaison_kaizoku/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += {"As a representative of Kaizoku you are expected to stay professional and loyal to the corporation at all times.
-You are expected to make sure the operations are functioning as intended with the interests of Kaizoku and are a good outlook.
-Your primary job is to build good relations, protect the interests of the company and then the corporate council and report critical events to Kaizoku. Follow regular game rules unless told otherwise by your superiors.
+	. += {"As a representative of Grunwald-Svarog Werke you are expected to stay professional and loyal to the corporation at all times.
+You are expected to make sure the operations are functioning as intended with the interests of Grunwald-Svarog Werke and are a good outlook.
+Your primary job is to build good relations, protect the interests of the company and then the corporate council and report critical events to Grunwald-Svarog Werke. Follow regular game rules unless told otherwise by your superiors.
 Use a fax machine to communicate with corporate headquarters or to acquire new directives when in doubt. You may not receive anything back (especially if the game staff is absent or otherwise busy), and this is normal.
-Kaizoku Corporation competes in different wings of weapons development against Archercorp, though Archercorp sees them as no opponent due their isolationist behavior. Kaizoku Has no hand in the corporate council ship, they operate seperately in their own ship... Which was not taken well by the council to begin with. Your job is tough.
-Kaizoku is secretive and untrustworthy to other corporations, following their own agenda and researching straight up war crime neural technologies. Your corporation is the primary developer of the neural implants everyone have today, together with Novamed.
+Grunwald-Svarog Werke competes in different wings of weapons development against Archercorp, though Archercorp sees them as no opponent due their isolationist behavior. Grunwald-Svarog Werke Has no hand in the corporate council ship, they operate seperately in their own ship... Which was not taken well by the council to begin with. Your job is tough.
+Grunwald-Svarog Werke is secretive and untrustworthy to other corporations, following their own agenda and researching straight up war crime neural technologies. Your corporation is the primary developer of the neural implants everyone have today, together with Novamed.
 Your ranking allows you to know your corporation has vital backing from the criminal syndicate of the slums which leader of also detonated the nuke in center of the city which of course affected the slums right, quite literally beneath the center underground too. You will have to maintain relationship with the corporate council despite the difficulties or else there is nothing even another nuke can do."}
 
 /datum/outfit/job/civilian/liaison_kaizoku
-	name = "Kaizoku Liaison"
+	name = "Grunwald-Svarog Werke Liaison"
 	jobtype = /datum/job/vsd_squad/liaison_kaizoku
 
 	id = /obj/item/card/id/silver
@@ -604,8 +604,8 @@ You honestly don't know what you are even here to negoitate, AS called terrorist
 You are expected to make sure the operations are functioning as intended with the interests of Colonial Militia and a good outlook.
 Your primary job is to build good relations, protect the interests of the company and then the corporate council and report critical events to Colonial Militia. Follow regular game rules unless told otherwise by your superiors.
 Use a fax machine to communicate with headquarters or to acquire new directives when in doubt. You may not receive anything back (especially if the game staff is absent or otherwise busy), and this is normal.
-Colonial Militia is formed out of surviving colonists against the initial Xenomorph assaults and som ransacking, armed by a bunch of NTC armories which were thankfully in the colonies.
-Almost all of CM members were colonisers hired by the NTC before all of this happened, It is unknown if they knew about the xenomorphs or not but they seem to care about the survivors so CM naturally has a positive inclination towards Ninetails."}
+Colonial Militia is formed out of surviving colonists against the initial Xenomorph assaults and som ransacking, armed by a bunch of SFMC armories which were thankfully in the colonies.
+Almost all of CM members were colonisers hired by the SFMC before all of this happened, It is unknown if they knew about the xenomorphs or not but they seem to care about the survivors so CM naturally has a positive inclination towards SFMC."}
 
 /datum/outfit/job/civilian/liaison_cm
 	name = "Colonial Militia Representative"

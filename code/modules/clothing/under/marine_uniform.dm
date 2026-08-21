@@ -49,31 +49,31 @@
 
 //Squad colored turtlenecks
 /obj/item/clothing/under/marine/squad/neck
-	name = "\improper NTF Delta turtleneck"
-	desc = "A standard issued NTF turtleneck colored blue."
+	name = "\improper SFMC Delta turtleneck"
+	desc = "A standard issued SFMC turtleneck colored blue."
 	icon_state = "delta_merc"
 	adjustment_variants = list(
 		"Rolled Sleeves" = "_d",
 	)
 
 /obj/item/clothing/under/marine/squad/neck/delta
-	name = "\improper NTF Delta turtleneck"
-	desc = "A standard issued NTF turtleneck colored blue, with a slight hint of bravery."
+	name = "\improper SFMC Delta turtleneck"
+	desc = "A standard issued SFMC turtleneck colored blue, with a slight hint of bravery."
 	icon_state = "delta_merc"
 
 /obj/item/clothing/under/marine/squad/neck/charlie
-	name = "\improper NTF Charlie turtleneck"
-	desc = "A standard issued NTF turtleneck colored purple, you're reminded of how proper squad cohesion can make or break a mission."
+	name = "\improper SFMC Charlie turtleneck"
+	desc = "A standard issued SFMC turtleneck colored purple, you're reminded of how proper squad cohesion can make or break a mission."
 	icon_state = "charlie_merc"
 
 /obj/item/clothing/under/marine/squad/neck/bravo
-	name = "\improper NTF Bravo turtleneck"
-	desc = "A standard issued NTF turtleneck colored yellow, you suddenly get thoughts of how to improve the FOB, if slightly."
+	name = "\improper SFMC Bravo turtleneck"
+	desc = "A standard issued SFMC turtleneck colored yellow, you suddenly get thoughts of how to improve the FOB, if slightly."
 	icon_state = "bravo_merc"
 
 /obj/item/clothing/under/marine/squad/neck/alpha
-	name = "\improper NTF Alpha turtleneck"
-	desc = "A standard issued NTF turtleneck colored red, you feel as if you can face the world and all it has to bring against you."
+	name = "\improper SFMC Alpha turtleneck"
+	desc = "A standard issued SFMC turtleneck colored red, you feel as if you can face the world and all it has to bring against you."
 	icon_state = "alpha_merc"
 
 // camo things stuff yeah!
@@ -118,7 +118,7 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/black_vest)
 
 /obj/item/clothing/under/marine/jaeger
-	name = "\improper NTF jaeger undersuit"
+	name = "\improper SFMC jaeger undersuit"
 	desc = "A standard-issue, kevlar-weaved, hazmat-tested, EMF-augmented marine uniform. You suspect it's not as robust-proof as advertised."
 	siemens_coefficient = 0.9
 	icon_state = "marine_undersuit"
@@ -170,7 +170,7 @@
 
 /obj/item/clothing/under/marine/striped
 	name = "\improper Striped fatigues"
-	desc = "A simple set of camo pants and a striped shirt. A tag on the back indicates that this is old KZ surplus."
+	desc = "A simple set of camo pants and a striped shirt. A tag on the back indicates that this is old GSW surplus."
 	icon_state = "marine_striped"
 	worn_icon_state = "marine_striped"
 	adjustment_variants = list()
@@ -211,7 +211,7 @@
 
 /obj/item/clothing/under/marine/officer/logistics
 	name = "marine officer uniform"
-	desc = "A standard-issue, kevlar-weaved, hazmat-tested, EMF-augmented uniform worn by logistics officers of the NTC. Do the corps proud."
+	desc = "A standard-issue, kevlar-weaved, hazmat-tested, EMF-augmented uniform worn by logistics officers of the SFMC. Do the corps proud."
 	icon_state = "BO_jumpsuit"
 	item_map_variant_flags = (ITEM_JUNGLE_VARIANT|ITEM_ICE_VARIANT)
 
@@ -254,7 +254,7 @@
 
 /obj/item/clothing/under/marine/officer/exec
 	name = "field commander uniform"
-	desc = "A special-issue, kevlar-weaved, hazmat-tested, EMF-augmented worn by a field-grade officer of the NTC. You suspect it's not as robust-proof as advertised."
+	desc = "A special-issue, kevlar-weaved, hazmat-tested, EMF-augmented worn by a field-grade officer of the SFMC. You suspect it's not as robust-proof as advertised."
 	icon_state = "XO_jumpsuit"
 	item_map_variant_flags = (ITEM_JUNGLE_VARIANT|ITEM_ICE_VARIANT)
 
@@ -263,7 +263,7 @@
 
 /obj/item/clothing/under/marine/officer/command
 	name = "commander uniform"
-	desc = "A special-issue, well-ironed, kevlar-weaved, hazmat-tested, EMF-augmented uniform worth of a NTC Commander. Even looking at it the wrong way could result in being court-martialed."
+	desc = "A special-issue, well-ironed, kevlar-weaved, hazmat-tested, EMF-augmented uniform worth of a SFMC Commander. Even looking at it the wrong way could result in being court-martialed."
 	icon_state = "CO_jumpsuit"
 	item_map_variant_flags = (ITEM_JUNGLE_VARIANT|ITEM_ICE_VARIANT)
 
@@ -294,16 +294,16 @@
 	icon_state = "research_jumpsuit"
 
 /obj/item/clothing/under/marine/whites
-	name = "\improper NTF white dress uniform"
-	desc = "A standard-issue NTF white dress uniform. The starch in the fabric chafes a small amount but it pales in comparison to the pride you feel when you first put it on during graduation from boot camp. Doesn't seem to fit perfectly around the waist though."
+	name = "\improper SFMC white dress uniform"
+	desc = "A standard-issue SFMC white dress uniform. The starch in the fabric chafes a small amount but it pales in comparison to the pride you feel when you first put it on during graduation from boot camp. Doesn't seem to fit perfectly around the waist though."
 	siemens_coefficient = 0.9
 	icon_state = "marine_whites" //with thanks to Manezinho
 	worn_icon_state = "marine_whites" //with thanks to Manezinho
 	adjustment_variants = list()
 
 /obj/item/clothing/under/marine/service
-	name = "\improper NTF service uniform"
-	desc = "A standard-issue NTF dress uniform. Sometimes, you hate wearing this since you remember wearing this to Infantry School and have to wear this when meeting a commissioned officer. This is what you wear when you are not deployed and are working in an office. Doesn't seem to fit perfectly around the waist."
+	name = "\improper SFMC service uniform"
+	desc = "A standard-issue SFMC dress uniform. Sometimes, you hate wearing this since you remember wearing this to Infantry School and have to wear this when meeting a commissioned officer. This is what you wear when you are not deployed and are working in an office. Doesn't seem to fit perfectly around the waist."
 	siemens_coefficient = 0.9
 	icon_state = "marine_service" //with thanks to Fitz 'Pancake' Sholl
 	worn_icon_state = "marine_service" //with thanks to Fitz 'Pancake' Sholl
@@ -346,7 +346,7 @@
 
 /obj/item/clothing/under/marine/veteran/pmc
 	name = "\improper PMC fatigues"
-	desc = "A white set of fatigues, designed for private security operators. The symbol of the Ninetails corporation is emblazed on the suit."
+	desc = "A white set of fatigues, designed for private security operators. The symbol of the SFMC corporation is emblazed on the suit."
 	icon_state = "pmc_jumpsuit"
 	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROTECTION_TEMPERATURE
 
@@ -357,7 +357,7 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/black_vest)
 /obj/item/clothing/under/marine/veteran/pmc/leader
 	name = "\improper PMC command fatigues"
-	desc = "A white set of fatigues, designed for private security operators. The symbol of the Ninetails corporation is emblazed on the suit. This particular suit looks like it belongs to a high-ranking officer."
+	desc = "A white set of fatigues, designed for private security operators. The symbol of the SFMC corporation is emblazed on the suit. This particular suit looks like it belongs to a high-ranking officer."
 	icon_state = "officer_jumpsuit"
 
 /obj/item/clothing/under/marine/veteran/pmc/leader/holster
@@ -365,7 +365,7 @@
 
 /obj/item/clothing/under/marine/veteran/pmc/commando
 	name = "\improper PMC commando uniform"
-	desc = "An armored uniform worn by Ninetails elite commandos. It is well protected while remaining light and comfortable."
+	desc = "An armored uniform worn by SFMC elite commandos. It is well protected while remaining light and comfortable."
 	icon_state = "commando_jumpsuit"
 	soft_armor = list(MELEE = 10, BULLET = 10, LASER = 10, ENERGY = 20, BOMB = 10, BIO = 10, FIRE = 20, ACID = 20)
 	has_sensor = 0
@@ -461,7 +461,7 @@
 
 /obj/item/clothing/under/liaison_suit
 	name = "liaison's tan suit"
-	desc = "A stiff, stylish tan suit commonly worn by businessmen from the Ninetails corporation. Expertly crafted to make you look like a prick."
+	desc = "A stiff, stylish tan suit commonly worn by businessmen from the SFMC corporation. Expertly crafted to make you look like a prick."
 	icon_state = "liaison_regular"
 
 /obj/item/clothing/under/liaison_suit/outing
@@ -476,7 +476,7 @@
 
 /obj/item/clothing/under/liaison_suit/suspenders
 	name = "liaison's attire"
-	desc = "A collared shirt, complimented by a pair of suspenders. Worn by Ninetails employees who ask the tough questions. Smells faintly of cigars and bad acting."
+	desc = "A collared shirt, complimented by a pair of suspenders. Worn by SFMC employees who ask the tough questions. Smells faintly of cigars and bad acting."
 	icon_state = "liaison_suspenders"
 
 /obj/item/clothing/under/liaison_suit/galaxy_blue
@@ -495,7 +495,7 @@
 	adjustment_variants = list()
 
 /obj/item/clothing/under/rank/synthetic
-	name = "\improper NTC Support Uniform"
+	name = "\improper SFMC Support Uniform"
 	desc = "A simple uniform made for Synthetic crewmembers."
 	icon_state = "rdalt"
 	adjustment_variants = list()
@@ -531,7 +531,7 @@
 
 /obj/item/clothing/under/som/sleeveless
 	name = "\improper SOM Sleeveless Uniform"
-	desc = "A non-standard uniform of the SOM, it is sleeveless and seems to be borrowed from the Kaizoku Corporation"
+	desc = "A non-standard uniform of the SOM, it is sleeveless and seems to be borrowed from the Grunwald-Svarog Werke"
 	icon = 'icons/mob/clothing/uniforms/ert_uniforms.dmi'
 	icon_state = "som_stripedshirt"
 	worn_icon_state = "som_stripedshirt"
@@ -645,8 +645,8 @@
 	has_sensor = 0
 
 /obj/item/clothing/under/vsd
-	name = "\improper KZ jumpsuit"
-	desc = "The standard uniform for the Kaizoku Corporation, weaved with kevlar and marked with blood."
+	name = "\improper GSW jumpsuit"
+	desc = "The standard uniform for the Grunwald-Svarog Werke, weaved with kevlar and marked with blood."
 	icon = 'icons/mob/clothing/uniforms/ert_uniforms.dmi'
 	icon_state = "vsd_uniform_main"
 	worn_icon_state = "vsd_uniform_main"
@@ -662,7 +662,7 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/white_vest)
 
 /obj/item/clothing/under/vsd/alt
-	name = "\improper KZ seasoned jumpsuit"
+	name = "\improper GSW seasoned jumpsuit"
 	icon_state = "vsd_uniform_alt"
 	worn_icon_state = "vsd_uniform_alt"
 
@@ -673,8 +673,8 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/white_vest)
 
 /obj/item/clothing/under/vsd/officer
-	name = "KZ officer jumpsuit"
-	desc = "The standard uniform for officers in the Kaizoku Corporation, weaved with kevlar and marked with blood."
+	name = "GSW officer jumpsuit"
+	desc = "The standard uniform for officers in the Grunwald-Svarog Werke, weaved with kevlar and marked with blood."
 	icon_state = "vsd_uniform_officer"
 	worn_icon_state = "vsd_uniform_officer"
 
@@ -682,7 +682,7 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/black_vest)
 
 /obj/item/clothing/under/vsd/secondary
-	name = "KZ 'mixed' jumpsuit"
+	name = "GSW 'mixed' jumpsuit"
 	icon_state = "vsd_uniform_alt"
 	worn_icon_state = "vsd_uniform_alt"
 
@@ -690,8 +690,8 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/black_vest)
 
 /obj/item/clothing/under/vsd/upp
-	name = "KZ military jumpsuit"
-	desc = "A standard uniform for a division in the Kaizoku Corporation, it's colors feel reminiscent."
+	name = "GSW military jumpsuit"
+	desc = "A standard uniform for a division in the Grunwald-Svarog Werke, it's colors feel reminiscent."
 	icon_state = "upp_retired"
 	worn_icon_state = "upp_retired"
 
@@ -702,7 +702,7 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/white_vest)
 
 /obj/item/clothing/under/vsd/upp/alt
-	name = "KZ military seasoned jumpsuit"
+	name = "GSW military seasoned jumpsuit"
 	icon_state = "upp_secondary"
 	worn_icon_state = "upp_secondary"
 
@@ -713,8 +713,8 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/white_vest)
 
 /obj/item/clothing/under/vsd/upp/officer
-	name = "KZ military officer jumpsuit"
-	desc = "A standard uniform for a officer in a division of the Kaizoku Corporation, it's colors feel reminiscent."
+	name = "GSW military officer jumpsuit"
+	desc = "A standard uniform for a officer in a division of the Grunwald-Svarog Werke, it's colors feel reminiscent."
 	icon_state = "upp_retired_officer"
 	worn_icon_state = "upp_retired_officer"
 
@@ -722,7 +722,7 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/black_vest)
 
 /obj/item/clothing/under/vsd/shirt
-	name = "KZ shirt"
+	name = "GSW shirt"
 	icon_state = "vsd_shirt"
 	worn_icon_state = "vsd_shirt"
 
@@ -730,12 +730,12 @@
 	starting_attachments = list(/obj/item/armor_module/storage/uniform/black_vest)
 
 /obj/item/clothing/under/vsd/sleeveless
-	name = "KZ sleeveless shirt"
+	name = "GSW sleeveless shirt"
 	icon_state = "vsd_stripedshirt"
 	worn_icon_state = "vsd_stripedshirt"
 
 /obj/item/clothing/under/vsd/juggernaut
-	name = "KZ military overalls"
+	name = "GSW military overalls"
 	icon_state = "vsd_alt_juggernaut"
 	worn_icon_state = "vsd_alt_juggernaut"
 

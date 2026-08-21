@@ -115,6 +115,10 @@
 /obj/item/weapon/gun/rifle/standard_carbine/npc
 	starting_attachment_types = list(/obj/item/attachable/stock/t18stock, /obj/item/attachable/magnetic_harness, /obj/item/attachable/verticalgrip, /obj/item/attachable/bayonet)
 
+/obj/item/weapon/gun/rifle/standard_carbine/ap
+	starting_attachment_types = list(/obj/item/attachable/stock/t18stock, /obj/item/attachable/magnetic_harness, /obj/item/attachable/angledgrip, /obj/item/attachable/compensator)
+	default_ammo_type = /obj/item/ammo_magazine/rifle/standard_carbine/ap
+
 //-------------------------------------------------------
 //AR-12 Assault Rifle
 
@@ -638,7 +642,7 @@
 	force = 20
 
 	burst_amount = 1
-	fire_delay = 0.225 SECONDS
+	fire_delay = 0.25 SECONDS
 	scatter = 1
 	wield_delay = 0.9 SECONDS
 
@@ -882,6 +886,12 @@
 	icon = 'icons/obj/items/guns/rifles64.dmi'
 	icon_state = "m16a4"
 	worn_icon_state = "m16a4"
+	worn_icon_list = list(
+		slot_l_hand_str = 'ntf_modular/icons/mob/inhands/guns/rifles_left_1.dmi',
+		slot_r_hand_str = 'ntf_modular/icons/mob/inhands/guns/rifles_right_1.dmi',
+		slot_s_store_str = 'ntf_modular/icons/mob/suit_slot.dmi',
+		slot_back_str = 'ntf_modular/icons/mob/clothing/back.dmi',
+	)
 
 	caliber = CALIBER_556X45 //codex
 	max_shells = 30 //codex
@@ -998,6 +1008,8 @@
 	worn_icon_list = list(
 		slot_l_hand_str = 'ntf_modular/icons/mob/inhands/guns/rifles_left_1.dmi',
 		slot_r_hand_str = 'ntf_modular/icons/mob/inhands/guns/rifles_right_1.dmi',
+		slot_s_store_str = 'ntf_modular/icons/mob/suit_slot.dmi',
+		slot_back_str = 'ntf_modular/icons/mob/clothing/back.dmi',
 	)
 
 	caliber = CALIBER_556X45 //codex
@@ -1061,6 +1073,10 @@
 	starting_attachment_types = list(/obj/item/attachable/reddot, /obj/item/attachable/verticalgrip, /obj/item/attachable/suppressor)
 
 /obj/item/weapon/gun/rifle/khm4/sof
+	starting_attachment_types = list(/obj/item/attachable/reddot, /obj/item/attachable/angledgrip, /obj/item/attachable/compensator)
+
+/obj/item/weapon/gun/rifle/khm4/extended
+	default_ammo_type = /obj/item/ammo_magazine/rifle/m16_quadstack
 	starting_attachment_types = list(/obj/item/attachable/reddot, /obj/item/attachable/angledgrip, /obj/item/attachable/compensator)
 
 //-------------------------------------------------------
@@ -1137,7 +1153,7 @@
 
 /obj/item/weapon/gun/rifle/standard_lmg
 	name = "\improper MG-42 Kauser light machine gun"
-	desc = "The Kauser MG-42 is the NTC's current standard non-IFF-capable LMG. It's known for its ability to lay down heavy fire support very well. It is generally used when someone wants to hold a position or provide fire support. It uses 10x24mm ammunition."
+	desc = "The Kauser MG-42 is the SFMC's current standard non-IFF-capable LMG. It's known for its ability to lay down heavy fire support very well. It is generally used when someone wants to hold a position or provide fire support. It uses 10x24mm ammunition."
 
 	icon_state = "t42"
 	worn_icon_state = "t42"
@@ -1218,7 +1234,7 @@
 
 /obj/item/weapon/gun/rifle/standard_gpmg
 	name = "\improper MG-60 Raummetall general purpose machine gun"
-	desc = "The Raummetall MG-60 general purpose machinegun is the NTC's current standard GPMG. Though usually seen mounted on vehicles, it is sometimes used by infantry to hold chokepoints or suppress enemies, or in rare cases for marching fire. It uses 10x26mm boxes."
+	desc = "The Raummetall MG-60 general purpose machinegun is the SFMC's current standard GPMG. Though usually seen mounted on vehicles, it is sometimes used by infantry to hold chokepoints or suppress enemies, or in rare cases for marching fire. It uses 10x26mm boxes."
 	icon = 'icons/obj/items/guns/machineguns64.dmi'
 	icon_state = "t60"
 	worn_icon_state = "t60"
@@ -1479,7 +1495,7 @@
 
 /obj/item/weapon/gun/rifle/standard_autoshotgun
 	name = "\improper Zauer SH-15 automatic shotgun"
-	desc = "The Zauer SH-15 Automatic Assault Shotgun, this is a Archercorp variant. Another iteration of the ZX series of firearms though it has been since regulated as part of the NTC arsenal, hence the SH designation. It took over the various shotgun models as the semi-automatic shotgun provided to the NTC. It is rifled, and loads primarily longer ranged munitions, being incompatible with buckshot shells. Takes 12-round 16 gauge magazines."
+	desc = "The Zauer SH-15 Automatic Assault Shotgun, this is a Archercorp variant. Another iteration of the ZX series of firearms though it has been since regulated as part of the SFMC arsenal, hence the SH designation. It took over the various shotgun models as the semi-automatic shotgun provided to the SFMC. It is rifled, and loads primarily longer ranged munitions, being incompatible with buckshot shells. Takes 12-round 16 gauge magazines."
 	icon_state = "tx15"
 	worn_icon_state = "tx15"
 	icon = 'icons/obj/items/guns/shotguns.dmi'
@@ -1546,7 +1562,7 @@
 
 /obj/item/weapon/gun/rifle/standard_smartmachinegun
 	name = "\improper SG-29 Raummetall-KT smart machine gun"
-	desc = "The Raummetall-KT SG-29 is the NTC's current standard IFF-capable medium machine gun. It's known for its ability to lay down heavy fire support very well. It is generally used when someone wants to hold a position or provide fire support. Requires special training and it cannot turn off IFF. It uses 10x26mm ammunition."
+	desc = "The Raummetall-KT SG-29 is the SFMC's current standard IFF-capable medium machine gun. It's known for its ability to lay down heavy fire support very well. It is generally used when someone wants to hold a position or provide fire support. Requires special training and it cannot turn off IFF. It uses 10x26mm ammunition."
 	icon_state = "sg29"
 	worn_icon_state = "sg29"
 	icon = 'icons/obj/items/guns/machineguns.dmi'
@@ -1699,7 +1715,7 @@
 
 /obj/item/weapon/gun/rifle/pmc_smartrifle
 	name = "\improper SG-25 smart rifle"
-	desc = "The SG-25 is a Ninetails's experimental model of smart gun system, mounted on the rifle frame of NTC standard issue AR-12. Requires special training and it cannot turn off IFF. It uses 10x26mm ammunition."
+	desc = "The SG-25 is a SFMC's experimental model of smart gun system, mounted on the rifle frame of SFMC standard issue AR-12. Requires special training and it cannot turn off IFF. It uses 10x26mm ammunition."
 	icon = 'icons/obj/items/guns/rifles64.dmi'
 	icon_state = "sg25"
 	worn_icon_state = "sg25"
@@ -1822,7 +1838,7 @@
 
 /obj/item/weapon/gun/rifle/chambered
 	name = "\improper SR-127 Bauer bolt action rifle"
-	desc = "The Bauer SR-127 is the standard issue bolt action rifle used by the NTC. Known for its long range accuracy and use by marksmen despite its age and lack of IFF, though careful aim allows fire support from behind. It has an irremoveable scope. Uses 8.6×70mm box magazines."
+	desc = "The Bauer SR-127 is the standard issue bolt action rifle used by the SFMC. Known for its long range accuracy and use by marksmen despite its age and lack of IFF, though careful aim allows fire support from behind. It has an irremoveable scope. Uses 8.6×70mm box magazines."
 	icon = 'icons/obj/items/guns/marksman64.dmi'
 	icon_state = "tl127"
 	worn_icon_state = "tl127"
@@ -1901,7 +1917,7 @@
 	icon_state = "t81"
 	worn_icon_state = "t81"
 	gun_crosshair = 'icons/UI_Icons/gun_crosshairs/sniper.dmi'
-	fire_sound = 'sound/weapons/guns/fire/sniper.ogg'
+	fire_sound = 'sound/weapons/guns/fire/iffautosniper1.ogg'
 	dry_fire_sound = 'sound/weapons/guns/fire/sniper_empty.ogg'
 	unload_sound = 'sound/weapons/guns/interact/m41a_unload.ogg'
 	reload_sound = 'sound/weapons/guns/interact/m41a_reload.ogg'
@@ -1945,7 +1961,7 @@
 
 /obj/item/weapon/gun/rifle/tx11
 	name = "\improper AR-11 K&H combat rifle"
-	desc = "The Keckler and Hoch AR-11 is the former standard issue rifle of the NTC. Most of them have been mothballed into storage long ago, but some still pop up in marine or mercenary hands. It is known for its large magazine size and great burst fire, but rather awkward to use, especially during combat. It uses 4.92×34mm caseless HV ammunition."
+	desc = "The Keckler and Hoch AR-11 is the former standard issue rifle of the SFMC. Most of them have been mothballed into storage long ago, but some still pop up in marine or mercenary hands. It is known for its large magazine size and great burst fire, but rather awkward to use, especially during combat. It uses 4.92×34mm caseless HV ammunition."
 	icon_state = "tx11"
 	worn_icon_state = "tx11"
 	caliber = CALIBER_492X34_CASELESS //codex
@@ -3197,14 +3213,20 @@
 
 /obj/item/weapon/gun/rifle/icc_assaultcarbine/export
 	name = "\improper L&S EM-88 assault carbine"
-	desc = "An aged, reliable, but outdated bullpup rifle produced by Lancaster & Stark. Usually seen within ICC space due to being surplused long ago, some of these surplus models sometimes find themselves within NTC space via underhanded means. It's best used in close quarters when you need to quickly clear corners at rapid pace, has an integral foregrip and unmagnified scope to increase accuracy and reduce drag. Chambered in 5.56x45mm NATO."
+	desc = "An aged, reliable, but outdated bullpup rifle produced by Lancaster & Stark. Usually seen within ICC space due to being surplused long ago, some of these surplus models sometimes find themselves within SFMC space via underhanded means. It's best used in close quarters when you need to quickly clear corners at rapid pace, has an integral foregrip and unmagnified scope to increase accuracy and reduce drag. Chambered in 5.56x45mm NATO."
 	icon_state = "l88_export"
 	worn_icon_state = "l88_export"
+	worn_icon_list = list(
+		slot_l_hand_str = 'icons/mob/inhands/guns/rifles_left_1.dmi',
+		slot_r_hand_str = 'icons/mob/inhands/guns/rifles_right_1.dmi',
+		slot_s_store_str = 'ntf_modular/icons/mob/suit_slot.dmi',
+		slot_back_str = 'ntf_modular/icons/mob/clothing/back.dmi',
+	)
 	default_ammo_type = /obj/item/ammo_magazine/rifle/icc_assaultcarbine/export
 
 /obj/item/weapon/gun/rifle/icc_assaultcarbine/exportautorifle
 	name = "\improper L&S EM-88 squad automatic weapon"
-	desc = "An aged, reliable, but outdated bullpup autorifle usually seen within ICC space due to being surplused long ago, some of these surplus models sometimes find themselves within NTC space via underhanded means. This variant of the L88 is used best at range when you need to put down sustained fire on target. The LBAR variant also has an integral foregrip, comes with a bipod mounted near the end of the barrel and a top rail for more attachment options. Chambered in 5.56x45mm NATO."
+	desc = "An aged, reliable, but outdated bullpup autorifle usually seen within ICC space due to being surplused long ago, some of these surplus models sometimes find themselves within SFMC space via underhanded means. This variant of the L88 is used best at range when you need to put down sustained fire on target. The LBAR variant also has an integral foregrip, comes with a bipod mounted near the end of the barrel and a top rail for more attachment options. Chambered in 5.56x45mm NATO."
 	gun_firemode_list = list(GUN_FIREMODE_AUTOMATIC, GUN_FIREMODE_BURSTFIRE, GUN_FIREMODE_AUTOBURST)
 	actions_types = list(/datum/action/item_action/aim_mode)
 	attachable_offset = list("muzzle_x" = 48, "muzzle_y" = 19,"rail_x" = 23, "rail_y" = 22, "under_x" = 31, "under_y" = 16, "stock_x" = 19, "stock_y" = 13)
@@ -3339,7 +3361,7 @@
 
 /obj/item/weapon/gun/rifle/vsd_lmg
 	name = "\improper L26 support machine gun"
-	desc = "The KZ's main all purpose machine gun, chambered in 5.56. It's design seems... outdated yet still reliable. Fires rapidly with devasting kicks, at a cost of movement speed."
+	desc = "The GSW's main all purpose machine gun, chambered in 5.56. It's design seems... outdated yet still reliable. Fires rapidly with devasting kicks, at a cost of movement speed."
 	icon = 'icons/obj/items/guns/machineguns64.dmi'
 	icon_state = "l26"
 	worn_icon_state = "l26"
@@ -3410,7 +3432,7 @@
 
 /obj/item/weapon/gun/rifle/vsd_rifle
 	name = "\improper CC/67 combat rifle"
-	desc = "Crash Core's next-gen combat rifle, chambered in 6.8mm. The KZ SOP manual recommends using the CC/67 at medium range to maximize stopping power and accuracy. The CC/67 has a few caveats for being difficult to handle in close quarters and loses effectiveness at longer distances due to falloff. This Crash Core combat rifle is still hard hitting and suppression worthy, it will pack a kick to anyone standing in front of you."
+	desc = "Crash Core's next-gen combat rifle, chambered in 6.8mm. The GSW SOP manual recommends using the CC/67 at medium range to maximize stopping power and accuracy. The CC/67 has a few caveats for being difficult to handle in close quarters and loses effectiveness at longer distances due to falloff. This Crash Core combat rifle is still hard hitting and suppression worthy, it will pack a kick to anyone standing in front of you."
 	icon = 'icons/obj/items/guns/rifles64.dmi'
 	icon_state = "c550"
 	worn_icon_state = "c550"
@@ -3527,7 +3549,7 @@
 
 /obj/item/weapon/gun/rifle/vsd_lmg_main
 	name = "\improper CC/74 Assault LMG"
-	desc = "The CC/74, newest Assault Light-Machinegun in the KZ arsenal. Chambered in 7.62x39mm, it crackles with power as it destroys anything in its cold iron sights."
+	desc = "The CC/74, newest Assault Light-Machinegun in the GSW arsenal. Chambered in 7.62x39mm, it crackles with power as it destroys anything in its cold iron sights."
 	icon = 'icons/obj/items/guns/machineguns64.dmi'
 	icon_state = "c74"
 	worn_icon_state = "c74"
@@ -3656,7 +3678,7 @@
 
 /obj/item/weapon/gun/rifle/vsd_breaching
 	name = "\improper CC/B/31 Breaching Shotgun"
-	desc = "The Kaizoku Corporation's breaching shotgun, firing 16 gauge breaching slugs. Not optimal for combat."
+	desc = "The Grunwald-Svarog Werke's breaching shotgun, firing 16 gauge breaching slugs. Not optimal for combat."
 	icon = 'ntf_modular/icons/obj/items/guns/shotguns64.dmi'
 	worn_icon_list = list(
 		slot_s_store_str = 'ntf_modular/icons/mob/suit_slot.dmi',
@@ -3781,7 +3803,7 @@
 
 /obj/item/weapon/gun/rifle/pmc_gpmg
 	name = "\improper SG-60 Raummetall-KT smart machine gun"
-	desc = "The Raummetall-KT SG-60 is the Ninetails's newest model of smartgun, mounted on general purpose MG-60. In comparison to the known SG-29, this weapon has much higher rate of fire, however, paying for it with accuracy. mostly seen in hands of Ninetails Contractors in heavy exo-armor. Has unbuilt barrel charger. Requires special training and it cannot turn off IFF. It uses 10x26mm ammunition."
+	desc = "The Raummetall-KT SG-60 is the SFMC's newest model of smartgun, mounted on general purpose MG-60. In comparison to the known SG-29, this weapon has much higher rate of fire, however, paying for it with accuracy. mostly seen in hands of SFMC Contractors in heavy exo-armor. Has unbuilt barrel charger. Requires special training and it cannot turn off IFF. It uses 10x26mm ammunition."
 	icon = 'icons/obj/items/guns/machineguns64.dmi'
 	icon_state = "sg60"
 	worn_icon_state = "sg60"
@@ -3840,7 +3862,7 @@
 
 /obj/item/weapon/gun/rifle/m416
 	name = "\improper RA-SH-416 skirmish rifle"
-	desc = "The RA-SH-416 RivArms is a standart issue rifle for Ninetails Contractors. Comes with inbuilt underbarrel grenade launcher. Uses 10x25mm ammunition."
+	desc = "The RA-SH-416 RivArms is a standart issue rifle for SFMC Contractors. Comes with inbuilt underbarrel grenade launcher. Uses 10x25mm ammunition."
 	icon = 'icons/obj/items/guns/rifles64.dmi'
 	icon_state = "m416"
 	worn_icon_state = "m416"
@@ -3890,7 +3912,7 @@
 
 /obj/item/weapon/gun/rifle/m416/elite
 	name = "\improper RA-SH-416E skirmish rifle"
-	desc = "The RA-SH-416E RivArms is a modified model of standard issue rifle for high ranked Ninetails Contractors. Comes with inbuilt barrel charger and underbarrel grenade launcher. Uses 10x25mm ammunition."
+	desc = "The RA-SH-416E RivArms is a modified model of standard issue rifle for high ranked SFMC Contractors. Comes with inbuilt barrel charger and underbarrel grenade launcher. Uses 10x25mm ammunition."
 	icon_state = "m416e"
 	worn_icon_state = "m416e"
 

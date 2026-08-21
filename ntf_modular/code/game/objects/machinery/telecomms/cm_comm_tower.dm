@@ -266,15 +266,15 @@
 	freq_listening = list()
 
 /obj/machinery/telecomms/relay/preset/tower/faction
-	name = "NTC telecommunications relay"
-	desc = "A mighty piece of hardware used to send massive amounts of data far away. This one is intercepting and rebroadcasting NTC frequencies."
+	name = "SFMC telecommunications relay"
+	desc = "A mighty piece of hardware used to send massive amounts of data far away. This one is intercepting and rebroadcasting SFMC frequencies."
 	icon = 'ntf_modular/icons/obj/structures/machinery/comm_tower.dmi'
 	icon_state = "comm_tower"
-	id = "NTC Relay"
+	id = "SFMC Relay"
 	autolinkers = list("relay")
 	hide = TRUE
 	freq_listening =  NTC_SIDED_FREQS
-	var/faction_shorthand = "NTC"
+	var/faction_shorthand = "SFMC"
 
 /obj/machinery/telecomms/relay/preset/tower/faction/screwdriver_act(mob/living/user, obj/item/I)
 	. = ..()
@@ -294,7 +294,7 @@
 
 /obj/machinery/telecomms/relay/preset/tower/faction/kz
 	freq_listening = KZ_FREQS
-	faction_shorthand = "KZ"
+	faction_shorthand = "GSW"
 
 /obj/machinery/telecomms/relay/preset/tower/faction/cm
 	freq_listening = CM_FREQS
@@ -306,9 +306,9 @@
 
 /obj/machinery/telecomms/relay/preset/tower/faction/Initialize(mapload, ...)
 	if(faction_shorthand)
-		name = replacetext(name, "NTC", faction_shorthand)
-		desc = replacetext(desc, "NTC", faction_shorthand)
-		id = replacetext(id, "NTC", faction_shorthand)
+		name = replacetext(name, "SFMC", faction_shorthand)
+		desc = replacetext(desc, "SFMC", faction_shorthand)
+		id = replacetext(id, "SFMC", faction_shorthand)
 	return ..()
 
 /obj/machinery/telecomms/relay/preset/tower/faction/colony

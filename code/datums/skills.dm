@@ -481,7 +481,7 @@ engineer, construction, leadership, medical, surgery, pilot, police, powerloader
 	smartgun = SKILL_SMART_TRAINED
 
 /datum/skills/veteran
-	name = "NTF Retired Veteran"
+	name = "SFMC Retired Veteran"
 	engineer = SKILL_ENGINEER_ENGI //to fix CIC apc.
 	construction = SKILL_CONSTRUCTION_PLASTEEL
 	leadership = SKILL_LEAD_MASTER
@@ -494,7 +494,7 @@ engineer, construction, leadership, medical, surgery, pilot, police, powerloader
 	rifles = SKILL_RIFLES_TRAINED
 
 /datum/skills/veteran_captain
-	name = "NTF Retired Veteran Expedition Leader"
+	name = "SFMC Retired Veteran Expedition Leader"
 	leadership = SKILL_LEAD_MASTER
 	police = SKILL_POLICE_MP
 	medical = SKILL_MEDICAL_COMPETENT
@@ -621,7 +621,7 @@ engineer, construction, leadership, medical, surgery, pilot, police, powerloader
 	surgery = SKILL_SURGERY_AMATEUR
 
 /datum/skills/sl/kz
-	name = "KZ Squad Leader"
+	name = "GSW Squad Leader"
 	rifles = SKILL_RIFLES_TRAINED
 
 /datum/skills/sl/clf

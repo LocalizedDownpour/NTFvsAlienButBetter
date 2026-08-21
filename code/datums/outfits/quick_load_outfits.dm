@@ -46,12 +46,12 @@
 
 //Base TGMC outfit
 /datum/outfit/quick/tgmc
-	name = "NTF base"
+	name = "SFMC base"
 	desc = "This is the base typepath for all TGMC quick vendor outfits. You shouldn't see this."
 
 //Base TGMC marine outfit
 /datum/outfit/quick/tgmc/marine
-	name = "NTF Squad Marine"
+	name = "SFMC Squad Marine"
 	jobtype = "Squad Operative"
 
 	ears = /obj/item/radio/headset/mainship/marine
@@ -234,7 +234,7 @@
 
 /datum/outfit/quick/tgmc/marine/standard_machinegunner
 	name = "MG-60 Machinegunner"
-	desc = "The old reliable workhorse of the NTF. Equipped with an MG-60 machinegun with bipod, heavy armor and some basic construction supplies. Good for holding ground and providing firesupport, and the cost of some mobility."
+	desc = "The old reliable workhorse of the SFMC. Equipped with an MG-60 machinegun with bipod, heavy armor and some basic construction supplies. Good for holding ground and providing firesupport, and the cost of some mobility."
 
 	belt = /obj/item/storage/belt/sparepouch
 	suit_store = /obj/item/weapon/gun/rifle/standard_gpmg/machinegunner
@@ -504,7 +504,7 @@
 
 //Base TGMC engineer outfit
 /datum/outfit/quick/tgmc/engineer
-	name = "NTF Squad Engineer"
+	name = "SFMC Squad Engineer"
 	jobtype = "Squad Engineer"
 
 	ears = /obj/item/radio/headset/mainship/marine
@@ -600,7 +600,7 @@
 
 //Base NTF corpsman outfit
 /datum/outfit/quick/tgmc/corpsman
-	name = "NTF Squad Corpsman"
+	name = "SFMC Squad Corpsman"
 	jobtype = "Squad Corpsman"
 
 	belt = /obj/item/storage/belt/lifesaver/quick
@@ -758,7 +758,7 @@
 
 //Base NTF smartgunner outfit
 /datum/outfit/quick/tgmc/smartgunner
-	name = "NTF Squad Smartgunner"
+	name = "SFMC Squad Smartgunner"
 	jobtype = "Squad Smartgunner"
 
 	belt = /obj/item/belt_harness/marine
@@ -845,7 +845,7 @@
 
 //Base TGMC leader outfit
 /datum/outfit/quick/tgmc/leader
-	name = "NTF Squad Leader"
+	name = "SFMC Squad Leader"
 	jobtype = "Squad Leader"
 
 	ears = /obj/item/radio/headset/mainship/marine
@@ -2140,11 +2140,11 @@
 
 /datum/outfit/quick/vsd
 	name = "KZ Debug"
-	jobtype = "KZ"
+	jobtype = "GSW"
 
 /datum/outfit/quick/vsd/standard
-	name = "KZ Standard"
-	jobtype = "KZ Standard"
+	name = "GSW Standard"
+	jobtype = "GSW Standard"
 	require_job = FALSE
 	w_uniform = /obj/item/clothing/under/vsd/webbing
 	shoes = /obj/item/clothing/shoes/marine/vsd/full
@@ -2165,7 +2165,7 @@
 	H.equip_to_slot_or_del(new /obj/item/tool/crowbar/red, SLOT_IN_BACKPACK)
 
 /datum/outfit/quick/vsd/standard/grunt_one
-	name = "CC/67 Rifle KZ Grunt"
+	name = "CC/67 Rifle GSW Grunt"
 	desc = "The old standard. Equipped with the standard CC/67 combat rifle, VP70 pistol, a deployable shield, and lightweight armor."
 	suit_store = /obj/item/weapon/gun/rifle/vsd_rifle
 	mask = /obj/item/clothing/mask/gas
@@ -2216,7 +2216,7 @@
 	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/vsd_rifle, SLOT_IN_SUIT)
 
 /datum/outfit/quick/vsd/standard/grunt_two
-	name = "CC/77 Rifle KZ Grunt"
+	name = "CC/77 Rifle GSW Grunt"
 	desc = "The new standard. Equipped with the standard CC/77 assault rifle, GL-81 single-shot grenade launcher, and medium armor."
 	suit_store = /obj/item/weapon/gun/rifle/vsd_carbine
 	mask = /obj/item/clothing/mask/gas/vsd
@@ -2268,7 +2268,7 @@
 	H.equip_to_slot_or_del(new /obj/item/attachable/scope/mini, SLOT_IN_SUIT)
 
 /datum/outfit/quick/vsd/standard/grunt_three
-	name = "L26 Support MG KZ Grunt"
+	name = "L26 Support MG GSW Grunt"
 	desc = "The standard of laying down suppressive fire. Equipped with the standard L26 support machinegun, C96 pistol, a deployable shield, various support-based grenades, and Crasher multi-threat heavy-set ballistic armor."
 	suit_store = /obj/item/weapon/gun/rifle/vsd_lmg
 	mask = /obj/item/clothing/mask/gas/icc
@@ -2320,7 +2320,7 @@
 	H.equip_to_slot_or_del(new /obj/item/binoculars, SLOT_IN_ACCESSORY)
 
 /datum/outfit/quick/vsd/standard/lmg
-	name = "CC/74 LMG KZ Grunt"
+	name = "CC/74 LMG GSW Grunt"
 	desc = "The standard of employing bruteforce to break through. Equipped with the CC/74 assault LMG. Also equipped with a CC/104 'divider' revolver, offense-based grenades, and the Crasher MT-H/43 powered ballistic armor."
 	w_uniform = /obj/item/clothing/under/vsd/shirt/webbing
 	suit_store = /obj/item/weapon/gun/rifle/vsd_lmg_main
@@ -2369,7 +2369,7 @@
 	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/vsd_mg, SLOT_IN_SUIT)
 
 /datum/outfit/quick/vsd/standard/ksg
-	name = "L12 Shotgun KZ Grunt"
+	name = "L12 Shotgun GSW Grunt"
 	desc = "The standard of getting up close and personal. Equipped with the 14 round capacity L12 pump-action shotgun. Also equipped with a C96 pistol sidearm and the Crasher MT-H/43 powered ballistic armor."
 	w_uniform = /obj/item/clothing/under/vsd/shirt/webbing
 	suit_store = /obj/item/weapon/gun/shotgun/pump/ksg/standard
@@ -2422,8 +2422,8 @@
 
 //outfits
 /datum/outfit/quick/vsd/engineer
-	name = "KZ Engineer"
-	jobtype = "KZ Engineer"
+	name = "GSW Engineer"
+	jobtype = "GSW Engineer"
 	glasses = /obj/item/clothing/glasses/meson
 	w_uniform = /obj/item/clothing/under/vsd/webbing
 	shoes = /obj/item/clothing/shoes/marine/vsd/full
@@ -2440,7 +2440,7 @@
 	. = ..()
 
 /datum/outfit/quick/vsd/engineer/l26
-	name = "CC/77 Rifle KZ Engineer"
+	name = "CC/77 Rifle GSW Engineer"
 	desc = "Shore up the outpost. Equipped with CC/77 assault carbine, two Build-A-Sentry attachments, Crasher MT-H/43 powered ballistic armor and a modest amount of materials and tools to work with in the field."
 	suit_store = /obj/item/weapon/gun/rifle/vsd_carbine
 	glasses = /obj/item/clothing/glasses/meson/enggoggles
@@ -2482,7 +2482,7 @@
 	H.equip_to_slot_or_del(new /obj/item/binoculars/tactical/range, SLOT_IN_ACCESSORY)
 
 /datum/outfit/quick/vsd/engineer/l27
-	name = "KPX/47 Spectra KZ Engineer"
+	name = "KPX/47 Spectra GSW Engineer"
 	desc = "Manipulate the battlefield with technology. Equipped with KPX/47 Spectra energy rifle, a plasma cutter, a C96 sidearm, the Archercorp heavy barrier armor, and a folded UGV Iguana. Don't forget the pair of superior welding goggles in the generator room, underneath the toolboxes."
 	suit_store = /obj/item/weapon/gun/energy/lasgun/lasrifle/plasma_kz/kpx
 	w_uniform = /obj/item/clothing/under/vsd/webbing
@@ -2526,7 +2526,7 @@
 	H.equip_to_slot_or_del(new /obj/item/cell/lasgun/volkite, SLOT_IN_SUIT)
 
 /datum/outfit/quick/vsd/engineer/l28
-	name = "lMG-D KZ Engineer"
+	name = "lMG-D GSW Engineer"
 	desc = "Plant the bulwark. Equipped with the lMG-D machinegun, multiple deployable shields, and razorwire grenades."
 	suit_store = /obj/item/weapon/gun/rifle/lmg_d
 	glasses = /obj/item/clothing/glasses/meson/sunglasses
@@ -2585,7 +2585,7 @@
 	H.equip_to_slot_or_del(new /obj/item/weapon/shield/riot/marine/deployable, SLOT_IN_SUIT)
 
 /datum/outfit/quick/vsd/engineer/l29
-	name = "V-34 Carbine KZ Engineer"
+	name = "V-34 Carbine GSW Engineer"
 	desc = "Make things go boom. Equipped with V-34 assault carbine, GL-81 single-shot grenade launcher, Crasher MT-L/43 ballistic armor and a modest amount of explosives both offensive and defensive."
 	suit_store = /obj/item/weapon/gun/rifle/som_carbine/black/standard
 	glasses = /obj/item/clothing/glasses/meson/enggoggles
@@ -2633,8 +2633,8 @@
 
 //outfits
 /datum/outfit/quick/vsd/medic
-	name = "KZ Medic"
-	jobtype = "KZ Medic"
+	name = "GSW Medic"
+	jobtype = "GSW Medic"
 	w_uniform = /obj/item/clothing/under/vsd/medic
 	glasses = /obj/item/clothing/glasses/hud/health
 	shoes = /obj/item/clothing/shoes/marine/vsd/full
@@ -2647,7 +2647,7 @@
 	H.equip_to_slot_or_del(new /obj/item/tool/crowbar/red, SLOT_IN_BACKPACK)
 
 /datum/outfit/quick/vsd/medic/ksg
-	name = "L12 Shotgun KZ Medic"
+	name = "L12 Shotgun GSW Medic"
 	desc = "For protecting the dead and wounded in closed spaces. Equipped with the Crasher MT-H/43 powered ballistic armor, the 14 round capacity L12 pump-action shotgun and C96 pistol."
 	wear_suit = /obj/item/clothing/suit/storage/marine/vsd/harmor
 	head = /obj/item/clothing/head/helmet/marine/vsd/heavy
@@ -2690,7 +2690,7 @@
 
 
 /datum/outfit/quick/vsd/medic/vsd_rifle
-	name = "CC/67 Rifle KZ Medic"
+	name = "CC/67 Rifle GSW Medic"
 	desc = "For keeping the team alive. Equipped with the Crasher multi-threat light ballistic armor, CC/67 combat rifle, the C96 pistol, and the NM Automedical dispenser."
 	suit_store = /obj/item/weapon/gun/rifle/vsd_rifle
 	ears = /obj/item/radio/headset/mainship/vsd
@@ -2781,7 +2781,7 @@
 
 
 /datum/outfit/quick/vsd/medic/vsd_pdw
-	name = "C17 PDW KZ Medic"
+	name = "C17 PDW GSW Medic"
 	desc = "For being the rapid response in evacuating the dead and wounded. Equipped with the rownin skeleton with an overclocked shield module, C17 Riot PDW, two medevac sets, and support grenades."
 	wear_suit = /obj/item/clothing/suit/modular/rownin/vsdelitealt
 	head = /obj/item/clothing/head/bandanna/grey
@@ -2827,8 +2827,8 @@
 
 //outfits
 /datum/outfit/quick/vsd/spec
-	name = "KZ Specialist"
-	jobtype = "KZ Specialist"
+	name = "GSW Specialist"
+	jobtype = "GSW Specialist"
 	w_uniform = /obj/item/clothing/under/vsd/officer
 	shoes = /obj/item/clothing/shoes/marine/vsd/full
 	gloves = /obj/item/clothing/gloves/marine/veteran/pmc
@@ -2850,7 +2850,7 @@
 
 
 /datum/outfit/quick/vsd/spec/flamer
-	name = "CC/21 Pyro KZ Specialist"
+	name = "CC/21 Pyro GSW Specialist"
 	desc = "For when you want to burn down a rainforest. Equipped with Crasher MT-H/43 'Apollo' powered fire-protected armor, CC/21 flamethrower, half a dozen WP grenades, and a C96 pistol."
 	wear_suit = /obj/item/clothing/suit/storage/marine/vsd/flamer
 	head = /obj/item/clothing/head/helmet/marine/vsd/flamer
@@ -2888,7 +2888,7 @@
 	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/flamer_tank/vsd, SLOT_IN_SUIT)
 
 /datum/outfit/quick/vsd/spec/demolitionist
-	name = "C153 Demolitionist KZ Specialist"
+	name = "C153 Demolitionist GSW Specialist"
 	desc = "You're part of the wrecking crew. Equipped with Crasher MT-H/43 'Zeus' powered explosive-defensive armor, C153 shoulder launcher with 6 84mm HE 'Anti-Personnel' cases, high capacity grenade belt, and a SH-221 tactical shotgun."
 	wear_suit = /obj/item/clothing/suit/storage/marine/vsd/eod
 	head = /obj/item/clothing/head/helmet/marine/vsd/eod
@@ -2940,7 +2940,7 @@
 	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rocket/vsd/he, SLOT_IN_SUIT)
 
 /datum/outfit/quick/vsd/spec/gunslinger
-	name = "CC/AT32 Gunslinger KZ Specialist"
+	name = "CC/AT32 Gunslinger GSW Specialist"
 	desc = "Bring on the impressive firepower. Equipped with Crasher MT-H/43 'Ares' powered ballistic armor, CC/AT32 Autocannon, and a V-34 assault carbine as a secondary."
 	wear_suit = /obj/item/clothing/suit/storage/marine/vsd/juggernaut
 	head = /obj/item/clothing/head/helmet/marine/vsd/juggernaut
@@ -2975,7 +2975,7 @@
 	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/vsd_autocannon/at, SLOT_IN_SUIT)
 
 /datum/outfit/quick/vsd/spec/scout
-	name = "T73 'Spetsnaz' KZ Specialist"
+	name = "T73 'Spetsnaz' GSW Specialist"
 	desc = "Comb the forests with covert intent. Equipped with the rownin skeleton, supplied with valkyrie beta, an overclocked eshield, a Type 73 Commando, smoke grenades, and a UV-T skink for remote scouting."
 	glasses = /obj/item/clothing/glasses/night_vision/vsd
 	w_uniform = /obj/item/clothing/under/vsd/webbing
@@ -3096,15 +3096,15 @@
 
 //outfits
 /datum/outfit/quick/vsd/escort
-	name = "KZ Combat Escort"
-	jobtype = "KZ Combat Escort"
+	name = "GSW Combat Escort"
+	jobtype = "GSW Combat Escort"
 
 /datum/outfit/quick/vsd/escort/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
 
 /datum/outfit/quick/vsd/escort/infiltrator
-	name = "KZ Combat Escort Infiltrator"
-	desc = "Convenience and timing is key, play your part. Equipped with a KZ Covert Outfit, VSD elite goggles, KZ Rownin Skeleton, MINI-B machinepistol and katana."
+	name = "GSW Combat Escort Infiltrator"
+	desc = "Convenience and timing is key, play your part. Equipped with a GSW Covert Outfit, VSD elite goggles, GSW Rownin Skeleton, MINI-B machinepistol and katana."
 	suit_store = /obj/item/storage/holster/blade/katana/full
 	gloves = /obj/item/clothing/gloves/marine/fingerless
 	ears = /obj/item/radio/headset/mainship/vsd
@@ -3170,8 +3170,8 @@
 	H.equip_to_slot_or_del(new /obj/item/clothing/underwear/bra/bra_skimpyblackalt, SLOT_BRA)
 
 /datum/outfit/quick/vsd/escort/surveillant
-	name = "KZ Combat Escort Surveyor"
-	desc = "With a plan in your hand and a map of the land, may nobody and nothing escape your gaze. Equipped with a KZ Covert Outfit, KZ Rownin Skeleton and Valerian assault carbine equipped with a night vision scope."
+	name = "GSW Combat Escort Surveyor"
+	desc = "With a plan in your hand and a map of the land, may nobody and nothing escape your gaze. Equipped with a GSW Covert Outfit, GSW Rownin Skeleton and Valerian assault carbine equipped with a night vision scope."
 	suit_store = /obj/item/weapon/gun/rifle/valerian/vantage/surveillant
 	gloves = /obj/item/clothing/gloves/marine/fingerless
 	ears = /obj/item/radio/headset/mainship/vsd
@@ -3230,16 +3230,16 @@
 
 //outfits
 /datum/outfit/quick/vsd/squadlead
-	name = "KZ Squad leader"
-	jobtype = "KZ Squad Leader"
+	name = "GSW Squad leader"
+	jobtype = "GSW Squad Leader"
 
 /datum/outfit/quick/vsd/squadlead/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
 
 /datum/outfit/quick/vsd/squadlead/juggernaut
-	name = "CC/B/31 'Ares' KZ Squad Leader"
+	name = "CC/B/31 'Ares' GSW Squad Leader"
 	desc = "You're in charge and look the part, charge with bruteforce. Equipped with Crasher MT-H/43 'Ares' powered ballistic armor, the V-34 assault carbine and the CC/B/31 breaching shotgun."
-	jobtype = "KZ Squad Leader"
+	jobtype = "GSW Squad Leader"
 	glasses = /obj/item/clothing/glasses/meson
 	w_uniform = /obj/item/clothing/under/vsd/webbing
 	shoes = /obj/item/clothing/shoes/marine/vsd/full
@@ -3278,9 +3278,9 @@
 	H.equip_to_slot_or_del(new /obj/item/binoculars/tactical/range, SLOT_IN_ACCESSORY)
 
 /datum/outfit/quick/vsd/squadlead/eod
-	name = "C153 'Zeus' KZ Squad Leader"
+	name = "C153 'Zeus' GSW Squad Leader"
 	desc = "You're in charge and look the part, blast a way through. Equipped with Crasher MT-H/43 'Zeus' powered explosive-defensive armor, a C153 shoulder launcher, and a Type 71 with an underslung flamethrower."
-	jobtype = "KZ Squad Leader"
+	jobtype = "GSW Squad Leader"
 	glasses = /obj/item/clothing/glasses/meson
 	w_uniform = /obj/item/clothing/under/vsd/webbing
 	shoes = /obj/item/clothing/shoes/marine/vsd/full
@@ -3323,9 +3323,9 @@
 	H.equip_to_slot_or_del(new /obj/item/binoculars/tactical/range, SLOT_IN_ACCESSORY)
 
 /datum/outfit/quick/vsd/squadlead/recon
-	name = "VAC 'Komandir' KZ Squad Leader"
+	name = "VAC 'Komandir' GSW Squad Leader"
 	desc = "You're in charge and look the part, infiltrate and disrupt. Equipped with the rownin skeleton, supplied with valkyrie beta, an overclocked eshield, a Valerian assault carbine, GL-81 grenade launcher, smoke and EMP grenades."
-	jobtype = "KZ Squad Leader"
+	jobtype = "GSW Squad Leader"
 	glasses = /obj/item/clothing/glasses/meson
 	w_uniform = /obj/item/clothing/under/vsd/webbing
 	shoes = /obj/item/clothing/shoes/marine/vsd/full

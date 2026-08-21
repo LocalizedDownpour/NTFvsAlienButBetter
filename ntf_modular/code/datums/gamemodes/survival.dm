@@ -28,7 +28,6 @@
 		/datum/job/survivor/synth = 1,
 		/datum/job/survivor/bartender = 1,
 		/datum/job/survivor/chemist = 1,
-		/datum/job/survivor/roboticist = 1,
 		/datum/job/clf/traitor = 3,
 		/datum/job/xenomorph = 2,//two so they dont wipe by a mistake or maybe duo.
 	)
@@ -113,7 +112,7 @@
 	var/num_xenos = xeno_job.total_positions
 	if(round_finished)
 		if(num_humans > num_xenos)
-			message_admins("Round finished: NTC Minor Victory.") //there were more humans than xenos left when round ended.
+			message_admins("Round finished: SFMC Minor Victory.") //there were more humans than xenos left when round ended.
 			round_finished = MODE_INFESTATION_M_MINOR
 		else if (num_humans >= 1 && num_humans < num_xenos)
 			message_admins("Round finished: [MODE_INFESTATION_X_MINOR]") //there are survivors but xeno numbers are higher than humans.
@@ -131,7 +130,7 @@
 		round_finished = MODE_INFESTATION_X_MAJOR
 		return TRUE
 	if(!num_xenos)
-		message_admins("Round finished: NTC Major Victory.") //marines win big
+		message_admins("Round finished: SFMC Major Victory.") //marines win big
 		round_finished = MODE_INFESTATION_M_MAJOR
 		return TRUE
 

@@ -80,7 +80,7 @@
 
 /datum/reagent/consumable/ethanol/nt_beer
 	name = "Aspen Beer"
-	description = "Pretty good when you get past the fact that it tastes like piss. Canned by the Ninetails Corporation."
+	description = "Pretty good when you get past the fact that it tastes like piss. Canned by the SFMC."
 	color = "#ffcc66"
 	boozepwr = 5 //Space Europeans hate it
 	taste_description = "dish water"
@@ -670,7 +670,7 @@
 
 /datum/reagent/consumable/ethanol/grog
 	name = "Grog"
-	description = "Watered-down rum, Ninetails approves!"
+	description = "Watered-down rum, SFMC approves!"
 	color = "#e0e058" // rgb: 224,224,88
 	taste_description = "a poor excuse for alcohol"
 	boozepwr = 1
@@ -705,7 +705,7 @@
 
 /datum/reagent/consumable/ethanol/amasec
 	name = "Amasec"
-	description = "Official drink of the Ninetails Gun-Club!"
+	description = "Official drink of the SFMC Gun-Club!"
 	color = "#e0e058" // rgb: 224,224,88
 	taste_description = "dark and metallic"
 	boozepwr = 35

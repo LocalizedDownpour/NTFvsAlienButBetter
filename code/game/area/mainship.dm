@@ -587,27 +587,27 @@
 //combat patrol base
 
 /area/mainship/patrol_base
-	name = "NTC Combat Patrol Base"
+	name = "SFMCC Combat Patrol Base"
 	icon_state = "req"
 	requires_power = FALSE
 
 /area/mainship/patrol_base/hanger //Yes it's misspelled, but it's like that upstream too and fixing it everywhere would cause problems with updates
-	name = "NTC hangar"
+	name = "SFMC hangar"
 	icon_state = "hangar"
 	minimap_color = MINIMAP_AREA_LZ
 
 /area/mainship/patrol_base/command
-	name = "NTC Bridge"
+	name = "SFMC Bridge"
 	icon_state = "bridge"
 	minimap_color = MINIMAP_AREA_COMMAND
 
 /area/mainship/patrol_base/prep
-	name = "NTC Preparations"
+	name = "SFMC Preparations"
 	icon_state = "mainship"
 	minimap_color = MINIMAP_AREA_PREP
 
 /area/mainship/patrol_base/barracks
-	name = "NTC Barracks"
+	name = "SFMC Barracks"
 	icon_state = "cryo"
 	minimap_color = MINIMAP_AREA_LIVING
 
@@ -1181,27 +1181,27 @@
 //combat patrol base
 
 /area/mainship/groundhq/ntf/patrol_base
-	name = "NTC Combat Patrol Base"
+	name = "SFMC Combat Patrol Base"
 	icon_state = "req"
 	requires_power = FALSE
 
 /area/mainship/groundhq/ntf/patrol_base/hangar
-	name = "NTC hangar"
+	name = "SFMC hangar"
 	icon_state = "hangar"
 	minimap_color = MINIMAP_AREA_LZ
 
 /area/mainship/groundhq/ntf/patrol_base/command
-	name = "NTC Bridge"
+	name = "SFMC Bridge"
 	icon_state = "bridge"
 	minimap_color = MINIMAP_AREA_COMMAND
 
 /area/mainship/groundhq/ntf/patrol_base/prep
-	name = "NTC Preparations"
+	name = "SFMC Preparations"
 	icon_state = "mainship"
 	minimap_color = MINIMAP_AREA_PREP
 
 /area/mainship/groundhq/ntf/patrol_base/barracks
-	name = "NTC Barracks"
+	name = "SFMC Barracks"
 	icon_state = "cryo"
 	minimap_color = MINIMAP_AREA_LIVING
 
@@ -1713,27 +1713,27 @@
 //combat patrol base
 
 /area/mainship/groundhq/som/patrol_base
-	name = "NTC Combat Patrol Base"
+	name = "SFMC Combat Patrol Base"
 	icon_state = "req"
 	requires_power = FALSE
 
 /area/mainship/groundhq/som/patrol_base/hangar
-	name = "NTC hangar"
+	name = "SFMC hangar"
 	icon_state = "hangar"
 	minimap_color = MINIMAP_AREA_LZ
 
 /area/mainship/groundhq/som/patrol_base/command
-	name = "NTC Bridge"
+	name = "SFMC Bridge"
 	icon_state = "bridge"
 	minimap_color = MINIMAP_AREA_COMMAND
 
 /area/mainship/groundhq/som/patrol_base/prep
-	name = "NTC Preparations"
+	name = "SFMC Preparations"
 	icon_state = "mainship"
 	minimap_color = MINIMAP_AREA_PREP
 
 /area/mainship/groundhq/som/patrol_base/barracks
-	name = "NTC Barracks"
+	name = "SFMC Barracks"
 	icon_state = "cryo"
 	minimap_color = MINIMAP_AREA_LIVING
 
@@ -2254,27 +2254,27 @@
 //combat patrol base
 
 /area/mainship/groundhq/clf/patrol_base
-	name = "NTC Combat Patrol Base"
+	name = "SFMC Combat Patrol Base"
 	icon_state = "req"
 	requires_power = FALSE
 
 /area/mainship/groundhq/clf/patrol_base/hangar
-	name = "NTC hangar"
+	name = "SFMC hangar"
 	icon_state = "hangar"
 	minimap_color = MINIMAP_AREA_LZ
 
 /area/mainship/groundhq/clf/patrol_base/command
-	name = "NTC Bridge"
+	name = "SFMC Bridge"
 	icon_state = "bridge"
 	minimap_color = MINIMAP_AREA_COMMAND
 
 /area/mainship/groundhq/clf/patrol_base/prep
-	name = "NTC Preparations"
+	name = "SFMC Preparations"
 	icon_state = "mainship"
 	minimap_color = MINIMAP_AREA_PREP
 
 /area/mainship/groundhq/clf/patrol_base/barracks
-	name = "NTC Barracks"
+	name = "SFMC Barracks"
 	icon_state = "cryo"
 	minimap_color = MINIMAP_AREA_LIVING
 

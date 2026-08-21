@@ -1,6 +1,6 @@
 /datum/game_mode/infestation/secret_of_life
-	name = "Secret of Life - Main"
-	config_tag = "Secret of Life - Main"
+	name = "Redfin - Main"
+	config_tag = "Redfin - Main"
 	silo_scaling = 1
 	round_type_flags = MODE_INFESTATION|MODE_PSY_POINTS|MODE_PSY_POINTS_ADVANCED|MODE_HIJACK_POSSIBLE|MODE_SILO_RESPAWN|MODE_ALLOW_XENO_QUICKBUILD|MODE_MUTATIONS_OBTAINABLE|MODE_XENO_GRAB_DEAD_ALLOWED|MODE_ALLOW_MARINE_QUICKBUILD
 	round_type_flags2 = MODE_2_CAMPAIGN_LITE_SUPPORT|MODE_2_NO_GHOSTS|MODE_2_NO_ABDUCT|MODE_2_SINGLE_USE_NUKE_DISK_GENERATOR|MODE_2_CHILL_RULES|MODE_2_MINER_RUSH_PROT
@@ -282,6 +282,9 @@
 	for(var/obj/effect/landmark/spawn_marker/civilian/civneu in GLOB.spawn_civneutral)
 		civneu.trigger_now()
 
+	for(var/obj/effect/landmark/spawn_marker/euseparatists/unionhostile in GLOB.spawn_eusmilitia)
+		unionhostile.trigger_now()
+
 //NTF addition start
 	if(randomize_miners)
 		if(length(GLOB.miner_list) > MINIMUM_MINERS)
@@ -433,8 +436,8 @@ alt gamemodes
 
 */
 /datum/game_mode/infestation/secret_of_life/nosub
-	name = "Secret of Life - No Subfactions"
-	config_tag = "Secret of Life - No Subfactions"
+	name = "Redfin - No Subfactions"
+	config_tag = "Redfin - No Subfactions"
 	factions = list(FACTION_TERRAGOV, FACTION_ICC, FACTION_XENO, FACTION_CLF, FACTION_SOM)
 	human_factions = list(FACTION_TERRAGOV, FACTION_ICC, FACTION_CLF, FACTION_SOM)
 	valid_job_types = list(
@@ -510,8 +513,8 @@ alt gamemodes
 
 //old school mode, no ship, one map with bases in it, no subfactions.
 /datum/game_mode/infestation/secret_of_life/classic
-	name = "Secret of Life - Classic"
-	config_tag = "Secret of Life - Classic"
+	name = "Redfin - Classic"
+	config_tag = "Redfin - Classic"
 	factions = list(FACTION_TERRAGOV, FACTION_SOM,FACTION_XENO, FACTION_CLF)
 	human_factions = list(FACTION_TERRAGOV, FACTION_SOM, FACTION_CLF)
 	whitelist_ship_maps = list(MAP_EAGLE_CLASSIC)
@@ -588,8 +591,8 @@ alt gamemodes
 	)
 
 /datum/game_mode/infestation/secret_of_life/alienonly
-	name = "Secret of Life - NTF vs Alien only"
-	config_tag = "Secret of Life - NTF vs Alien only"
+	name = "Redfin - NTF vs Xenos only"
+	config_tag = "Redfin - NTF vs Xenos only"
 	factions = list(FACTION_TERRAGOV, FACTION_XENO)
 	human_factions = list(FACTION_TERRAGOV)
 	valid_job_types = list(
@@ -631,8 +634,8 @@ alt gamemodes
 	)
 
 /datum/game_mode/infestation/secret_of_life/ntf_vs_clf
-	name = "Secret of Life - NTF vs Cult"
-	config_tag = "Secret of Life - NTF vs Cult"
+	name = "Redfin - NTF vs Cult"
+	config_tag = "Redfin - NTF vs Cult"
 	factions = list(FACTION_TERRAGOV, FACTION_ICC, FACTION_XENO, FACTION_CLF)
 	human_factions = list(FACTION_TERRAGOV, FACTION_ICC, FACTION_CLF)
 	valid_job_types = list(
@@ -709,8 +712,8 @@ alt gamemodes
 	)
 
 /datum/game_mode/infestation/secret_of_life/bloat
-	name = "Secret of Life - Faction Bloat"
-	config_tag = "Secret of Life - Faction Bloat"
+	name = "Redfin - Faction Bloat"
+	config_tag = "Redfin - Faction Bloat"
 	factions = list(FACTION_TERRAGOV, FACTION_SOM, FACTION_XENO, FACTION_CLF, FACTION_ICC, FACTION_VSD, FACTION_NANOTRASEN)
 	human_factions = list(FACTION_TERRAGOV, FACTION_SOM, FACTION_CLF, FACTION_ICC, FACTION_VSD, FACTION_NANOTRASEN)
 	valid_job_types = list(

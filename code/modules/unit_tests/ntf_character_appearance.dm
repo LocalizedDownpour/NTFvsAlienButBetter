@@ -9,7 +9,7 @@
 	ensure_body_marking_references()
 
 	test_species = build_species_sample()
-	TEST_ASSERT(length(test_species), "No species were available for NTF character appearance stress testing.")
+	TEST_ASSERT(length(test_species), "No species were available for SFMC character appearance stress testing.")
 
 	var/datum/preferences/corrupt_preferences = build_base_preferences()
 	var/mob/living/carbon/human/corrupt_human = allocate(/mob/living/carbon/human)
@@ -72,7 +72,7 @@
 	var/datum/preferences/preferences = new
 	preferences.random_name = TRUE
 	preferences.gender = MALE
-	preferences.real_name = "NTF Test"
+	preferences.real_name = "SFMC Test"
 	preferences.species = species_name
 	preferences.body_color = "#FFFFFF"
 	preferences.blood_color = "#A10808"
@@ -212,7 +212,7 @@
 		human.update_hair()
 		human.update_accessories()
 	catch(var/exception/error)
-		Fail("NTF character appearance stress failed during [context]: [error] at [error.file]:[error.line]")
+		Fail("SFMC character appearance stress failed during [context]: [error] at [error.file]:[error.line]")
 		return FALSE
 	return TRUE
 
@@ -227,7 +227,7 @@
 		if(!try_character_rebuild(preferences, human, "legacy save load"))
 			return FALSE
 	catch(var/exception/error)
-		Fail("NTF character appearance stress failed during legacy save load: [error] at [error.file]:[error.line]")
+		Fail("SFMC character appearance stress failed during legacy save load: [error] at [error.file]:[error.line]")
 		return FALSE
 	return TRUE
 
@@ -249,7 +249,7 @@
 			TEST_ASSERT(islist(ui_data), "Character creator ui_data did not return a list for [species_name].")
 			TEST_ASSERT("character_creator_part_row_ids" in ui_data, "Character creator ui_data missed part rows for [species_name].")
 	catch(var/exception/error)
-		Fail("NTF character appearance stress failed during character creator UI smoke: [error] at [error.file]:[error.line]")
+		Fail("SFMC character appearance stress failed during character creator UI smoke: [error] at [error.file]:[error.line]")
 		return FALSE
 	return TRUE
 
@@ -263,6 +263,6 @@
 		TEST_ASSERT(preferences.rebuild_character_appearance_safely(human, 5), "Deferred character appearance rebuild did not return success.")
 		SSticker.current_state = old_state
 	catch(var/exception/error)
-		Fail("NTF character appearance stress failed during deferred rebuild smoke: [error] at [error.file]:[error.line]")
+		Fail("SFMC character appearance stress failed during deferred rebuild smoke: [error] at [error.file]:[error.line]")
 		return FALSE
 	return TRUE

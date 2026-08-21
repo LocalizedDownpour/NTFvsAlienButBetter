@@ -53,9 +53,9 @@ Make your way to the cafeteria for some post-cryosleep chow, and then get equipp
 		<b>You answer to the</b> acting Squad Leader<br /><br />
 		<b>Unlock Requirement</b>: Starting Role<br /><br />
 		<b>Gamemode Availability</b>: Crash, Nuclear War<br /><br /><br />
-		Ninetails' Squad Operatives make up the bread and butter of Ninetails' fighting forces. They are fitted with the standard arsenal that the NTC offers, and they can take up a variety of roles, being a sniper, a pyrotechnician, a machinegunner, rifleman and more. They’re often high in numbers and divided into squads, but they’re the lowest ranking individuals, with a low degree of skill, not adapt to engineering or medical roles. Still, they are not limited to the arsenal they can take on the field to deal whatever threat that lurks against Terra.
+		SFMC' Squad Operatives make up the bread and butter of SFMC' fighting forces. They are fitted with the standard arsenal that the SFMC offers, and they can take up a variety of roles, being a sniper, a pyrotechnician, a machinegunner, rifleman and more. They’re often high in numbers and divided into squads, but they’re the lowest ranking individuals, with a low degree of skill, not adapt to engineering or medical roles. Still, they are not limited to the arsenal they can take on the field to deal whatever threat that lurks against Terra.
 		<br /><br />
-		<b>Duty</b>: Carry out orders made by your acting Squad Leader, deal with any threats that oppose the NTC.
+		<b>Duty</b>: Carry out orders made by your acting Squad Leader, deal with any threats that oppose the SFMC.
 	"}
 	minimap_icon = "private"
 
@@ -77,14 +77,14 @@ Make your way to the cafeteria for some post-cryosleep chow, and then get equipp
 		if(18001 to 60000) // 300 hrs
 			new_human.wear_id.paygrade = "E3E"
 		if(60001 to INFINITY) // 1000 hrs
-			new_human.wear_id.paygrade = "E8" //If you play way too much NTC. 1000 hours.
+			new_human.wear_id.paygrade = "E8" //If you play way too much SFMC. 1000 hours.
 	new_human.wear_id.update_label()
 
 
 /datum/job/terragov/squad/standard/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += "You are a rank-and-file operative of the NTC, and that is your strength. What you lack alone, you gain standing shoulder to shoulder with the men and women of the Nine Tailed Fox PMC. Ooh-rah!"
+	. += "You are a rank-and-file operative of the SFMC, and that is your strength. What you lack alone, you gain standing shoulder to shoulder with the men and women of the Nine Tailed Fox PMC. Ooh-rah!"
 
 /datum/job/terragov/squad/standard/npc
 	multiple_outfits = TRUE
@@ -118,9 +118,9 @@ Make your way to the cafeteria for some post-cryosleep chow, and then get equipp
 		<b>You answer to the</b> acting Squad Leader<br /><br />
 		<b>Unlock Requirement</b>: Starting Role<br /><br />
 		<b>Gamemode Availability</b>: Crash, Nuclear War<br /><br /><br />
-		Ninetails' Squad Operatives make up the bread and butter of Ninetails' fighting forces. They are fitted with the standard arsenal that the NTC offers, and they can take up a variety of roles, being a sniper, a pyrotechnician, a machinegunner, rifleman and more. They’re often high in numbers and divided into squads, but they’re the lowest ranking individuals, with a low degree of skill, not adapt to engineering or medical roles. Still, they are not limited to the arsenal they can take on the field to deal whatever threat that lurks against Terra.
+		SFMC' Squad Operatives make up the bread and butter of SFMC' fighting forces. They are fitted with the standard arsenal that the SFMC offers, and they can take up a variety of roles, being a sniper, a pyrotechnician, a machinegunner, rifleman and more. They’re often high in numbers and divided into squads, but they’re the lowest ranking individuals, with a low degree of skill, not adapt to engineering or medical roles. Still, they are not limited to the arsenal they can take on the field to deal whatever threat that lurks against Terra.
 		<br /><br />
-		<b>Duty</b>: Carry out orders made by your acting Squad Leader, deal with any threats that oppose the NTC.
+		<b>Duty</b>: Carry out orders made by your acting Squad Leader, deal with any threats that oppose the SFMC.
 	"}
 	minimap_icon = "slut"
 
@@ -147,7 +147,7 @@ Make your way to the cafeteria for some post-cryosleep chow, and then get equipp
 /datum/job/terragov/squad/slut/get_spawn_message_information(mob/M)
 	. = ..()
 	. += separator_hr("[span_role_header("<b>[title] Information</b>")]")
-	. += {"\nYou are a rank-and-file marine of the NTC with a twist, your job is to be a marine yet also a 'trench-wive' or well, if you are a male 'trench-husband'?
+	. += {"\nYou are a rank-and-file marine of the SFMC with a twist, your job is to be a marine yet also a 'trench-wive' or well, if you are a male 'trench-husband'?
 You can use some non lethal ammunition to 'tactically' do things to people, Spread those legs! Ooh-rah!"}
 
 //Squad Engineer
@@ -292,7 +292,7 @@ You can use some non lethal ammunition to 'tactically' do things to people, Spre
 		<b>You answer to the</b> acting Squad Leader<br /><br />
 		<b>Unlock Requirement</b>: Starting Role<br /><br />
 		<b>Gamemode Availability</b>: Crash, Nuclear War<br /><br /><br />
-		When it comes to heavy firepower during the early stages of an operation, NTC has provided the squad with Smartgunners. They are those who trained to operate smart weapons, built-in IFF weapons that provides covering and suppressive fire even directly behind the marines. Squad Smartgunners are best when fighting behind marines, as they can act as shields or during a hectic crossfire.
+		When it comes to heavy firepower during the early stages of an operation, SFMC has provided the squad with Smartgunners. They are those who trained to operate smart weapons, built-in IFF weapons that provides covering and suppressive fire even directly behind the marines. Squad Smartgunners are best when fighting behind marines, as they can act as shields or during a hectic crossfire.
 		<br /><br />
 		<b>Duty</b>: Be the backline of your pointmen, provide heavy weapons support with your smart weapon.
 	"}

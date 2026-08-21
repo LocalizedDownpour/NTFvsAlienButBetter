@@ -11,7 +11,7 @@
 
 /datum/loadout_item/belt/ammo_belt
 	name = "Ammo belt"
-	desc = "The M276 is the standard load-bearing equipment of the NTF. It consists of a modular belt with various clips. This version is the standard variant designed for bulk ammunition-carrying operations."
+	desc = "The M276 is the standard load-bearing equipment of the SFMC. It consists of a modular belt with various clips. This version is the standard variant designed for bulk ammunition-carrying operations."
 	item_typepath = /obj/item/storage/belt/marine
 	jobs_supported = list(SQUAD_MARINE, SQUAD_SLUT, VANGUARD, SQUAD_SPECIALIST, SQUAD_ENGINEER, SQUAD_SMARTGUNNER, SQUAD_LEADER, FIELD_COMMANDER)
 	loadout_item_flags = LOADOUT_ITEM_ROUNDSTART_OPTION
@@ -52,7 +52,7 @@
 
 /datum/loadout_item/belt/smg_holster
 	name = "SMG-25 holster"
-	desc = "The M276 is the standard load-bearing equipment of the NTF. It consists of a modular belt with various clips. \
+	desc = "The M276 is the standard load-bearing equipment of the SFMC. It consists of a modular belt with various clips. \
 	This version is designed for the SMG-25, and features a larger frame to support the gun. Due to its unorthodox design, it isn't a very common sight, and is only specially issued."
 	ui_icon = "m25"
 	req_desc = "Requires a SMG-25 secondary."
@@ -120,7 +120,7 @@
 
 /datum/loadout_item/belt/lifesaver
 	name = "Lifesaver bag"
-	desc = "The M276 is the standard load-bearing equipment of the NTF. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies and is common among medics."
+	desc = "The M276 is the standard load-bearing equipment of the SFMC. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies and is common among medics."
 	ui_icon = "medkit"
 	item_typepath = /obj/item/storage/belt/lifesaver/quick
 	jobs_supported = list(SQUAD_CORPSMAN, VANGUARD)

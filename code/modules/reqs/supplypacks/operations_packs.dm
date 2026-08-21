@@ -53,7 +53,7 @@ OPERATIONS
 
 /datum/supply_packs/operations/xeno_iff_tag
 	name = "Xenomorph IFF tag crate" //Intended for corrupted or friendly rounies as rounds sometimes turn out. Avoid abuse or I'll have to admin-only it, which is no fun!
-	notes = "Contains an IFF tag used to mark a xenomorph as friendly to IFF systems. Warning: Ninetails is not responsible for incidents related to attaching this to hostile entities."
+	notes = "Contains an IFF tag used to mark a xenomorph as friendly to IFF systems. Warning: SFMC is not responsible for incidents related to attaching this to hostile entities."
 	contains = list(/obj/item/xeno_iff_tag)
 	access = ACCESS_MARINE_BRIDGE //Better be safe.
 	cost = 130
@@ -178,7 +178,7 @@ OPERATIONS
 
 /datum/supply_packs/operations/xeno_iff_tag
 	name = "Xenomorph IFF tag crate" //Intended for corrupted or friendly rounies as rounds sometimes turn out. Avoid abuse or I'll have to admin-only it, which is no fun!
-	notes = "Contains an IFF tag used to mark a xenomorph as friendly to IFF systems. Warning: Ninetails is not responsible for incidents related to attaching this to hostile entities."
+	notes = "Contains an IFF tag used to mark a xenomorph as friendly to IFF systems. Warning: SFMC is not responsible for incidents related to attaching this to hostile entities."
 	contains = list(
 		/obj/item/xeno_iff_tag,
 		/obj/item/xeno_iff_tag,

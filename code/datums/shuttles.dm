@@ -144,7 +144,7 @@
 
 /datum/map_template/shuttle/minidropship/old
 	suffix = "_big"
-	description = "Tadpole-01, the old model barely in service for NTC, replaced by the newer Tadpole-03. Much like an APC, is pretty armored. Very lacking in firing angle."
+	description = "Tadpole-01, the old model barely in service for SFMC, replaced by the newer Tadpole-03. Much like an APC, is pretty armored. Very lacking in firing angle."
 	display_name = "Tadpole Carrier Model"
 
 /datum/map_template/shuttle/minidropship/food
@@ -240,7 +240,7 @@
 
 /datum/map_template/shuttle/supplykz
 	shuttle_id = "supplykz"
-	name = "KZ Supply Shuttle"
+	name = "GSW Supply Shuttle"
 
 /datum/map_template/shuttle/supplypmc
 	shuttle_id = "supplypmc"

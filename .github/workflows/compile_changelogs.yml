@@ -14,7 +14,6 @@ jobs:
     steps:
       - name: "Check for ACTION_ENABLER secret and pass true to output if it exists to be checked by later steps"
         id: value_holder
-        if: github.repository == 'EaglePhntm/NTFvsAlien'
         env:
           ENABLER_SECRET: ${{ true }}
         run: |

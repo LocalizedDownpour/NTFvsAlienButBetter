@@ -739,7 +739,7 @@ GLOBAL_LIST_INIT(equipment_recipe, list(
 	))
 
 /obj/item/factory_part/drop_pod
-	name = "NTC Zeus orbital drop pod assembly"
+	name = "SFMC Zeus orbital drop pod assembly"
 	desc = "An incomplete Zeus orbital drop pod assembly"
 	result = /obj/structure/droppod
 

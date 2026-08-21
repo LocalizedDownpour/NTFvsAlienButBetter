@@ -73,7 +73,7 @@
 		/obj/structure/largecrate/supply/medicine/medkits = 2,
 		/obj/structure/largecrate/supply/medicine/blood = 2,
 		/obj/structure/largecrate/supply/medicine/iv = 2,
-		/obj/structure/largecrate/supply/medicine/medivend = 2,
+		/obj/structure/largecrate/supply/medicine/novamed = 2,
 		/obj/structure/largecrate/machine/autodoc = 3,
 		/obj/structure/largecrate/machine/bodyscanner = 1,
 		/obj/structure/largecrate/machine/sleeper = 2,
@@ -207,7 +207,7 @@
 
 /obj/structure/largecrate/supply/ammo/standard_ammo
 	name = "large surplus ammuniton crate"
-	desc = "An ammunition case containing one box of each NTC brand ammo type."
+	desc = "An ammunition case containing one box of each SFMC brand ammo type."
 	icon_state = "chest"
 	supplies = list(
 		/obj/item/big_ammo_box/shotgun = 1,
@@ -310,13 +310,13 @@
 	supplies = list(/obj/item/frame/table = 10, /obj/item/frame/rack = 10)
 
 /obj/structure/largecrate/supply/supplies/mre
-	name = "\improper NTC MRE crate (x50)"
-	desc = "A supply crate containing fifty NTC MRE packets."
+	name = "\improper SFMC MRE crate (x50)"
+	desc = "A supply crate containing fifty SFMC MRE packets."
 	supplies = list(/obj/item/storage/box/MRE = 50)
 
 /obj/structure/largecrate/supply/supplies/water
 	name = "\improper NT Bottled Water crate (x50)"
-	desc = "A crate containing fifty Ninetails Bottled Spring Water bottles."
+	desc = "A crate containing fifty SFMC Bottled Spring Water bottles."
 	supplies = list(/obj/item/reagent_containers/food/drinks/cans/waterbottle = 50)
 
 /obj/structure/largecrate/supply/powerloader
@@ -366,11 +366,15 @@
 	desc = "A crate containing an operating table, two tanks of anasthetic, a surgery kit, some anasthetic injectors, and some space cleaner."
 	supplies = list(/obj/machinery/optable = 1, /obj/item/storage/surgical_tray = 1, /obj/item/tank/anesthetic = 2, /obj/item/reagent_containers/spray/cleaner = 1)
 
-/obj/structure/largecrate/supply/medicine/medivend
+/obj/structure/largecrate/supply/medicine/novamed
 	name = "\improper NovaMed Plus crate (x1)"
-	desc = "A crate containing one fully-stocked Novamed Plus medical vendor."
+	desc = "A crate containing one SFMC Plus medical vendor."
 	supplies = list(/obj/machinery/vending/medical = 1)
 
+/obj/structure/largecrate/supply/medicine/marinemed
+	name = "\improper MarineMed crate (x1)"
+	desc = "A crate containing one SFMC Plus medical vendor."
+	supplies = list(/obj/machinery/vending/MarineMed = 1)
 
 /obj/structure/largecrate/machine
 	name = "machine crate"

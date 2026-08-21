@@ -80,9 +80,9 @@
 
 
 #define MODE_INFESTATION_X_MAJOR "Xenomorph Major Victory"
-#define MODE_INFESTATION_M_MAJOR "Ninetails Major Victory"
+#define MODE_INFESTATION_M_MAJOR "SFMC Major Victory"
 #define MODE_INFESTATION_X_MINOR "Xenomorph Minor Victory"
-#define MODE_INFESTATION_M_MINOR "Ninetails Minor Victory"
+#define MODE_INFESTATION_M_MINOR "SFMC Minor Victory"
 
 #define MODE_ZOMBIE_Z_MAJOR "Zombie Major Victory"
 #define MODE_ZOMBIE_Z_MINOR "Zombie Minor Victory"

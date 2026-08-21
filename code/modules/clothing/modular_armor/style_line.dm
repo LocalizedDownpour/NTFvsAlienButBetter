@@ -137,8 +137,8 @@
 
 //marine hats
 /obj/item/clothing/head/modular/style/beret
-	name = "NTC beret"
-	desc = "A hat used by the NTC, typically considered the most iconic military headgear. Often reserved for higher ranking officers, they occasionally they find their way down the ranks into the hands of squad-leaders and decorated grunts."
+	name = "SFMC beret"
+	desc = "A hat used by the SFMC, typically considered the most iconic military headgear. Often reserved for higher ranking officers, they occasionally they find their way down the ranks into the hands of squad-leaders and decorated grunts."
 	icon_state = "beret_inhand"
 	worn_icon_state = "beret"
 	starting_attachments = list(/obj/item/armor_module/storage/helmet, /obj/item/armor_module/armor/stylehat_badge)
@@ -146,38 +146,38 @@
 
 
 /obj/item/clothing/head/modular/style/classic_beret
-	name = "NTC beret (classic)"
-	desc = "A hat used by the NTC, typically considered the most iconic military headgear. Often reserved for higher ranking officers, they occasionally they find their way down the ranks into the hands of squad-leaders and decorated grunts. This one is in a classic style."
+	name = "SFMC beret (classic)"
+	desc = "A hat used by the SFMC, typically considered the most iconic military headgear. Often reserved for higher ranking officers, they occasionally they find their way down the ranks into the hands of squad-leaders and decorated grunts. This one is in a classic style."
 	icon_state = "classic_beret_inhand"
 	worn_icon_state = "classic_beret"
 	starting_attachments = list(/obj/item/armor_module/storage/helmet, /obj/item/armor_module/armor/stylehat_badge/classic)
 	inv_hide_flags = HIDE_EXCESS_HAIR
 
 /obj/item/clothing/head/modular/style/boonie
-	name = "NTC boonie"
-	desc = "A boonie hat used by the NTC, purpose made for operations in enviroments with a lot of sun, or dense vegetation."
+	name = "SFMC boonie"
+	desc = "A boonie hat used by the SFMC, purpose made for operations in enviroments with a lot of sun, or dense vegetation."
 	icon_state = "boonie_inhand"
 	worn_icon_state = "boonie"
 	inv_hide_flags = HIDE_EXCESS_HAIR
 
 /obj/item/clothing/head/modular/style/cap
-	name = "NTC cap"
-	desc = "A common patrol cap used by the NTC, stylish and comes in many colors. Mostly useful to keep the sun and officers away."
+	name = "SFMC cap"
+	desc = "A common patrol cap used by the SFMC, stylish and comes in many colors. Mostly useful to keep the sun and officers away."
 	icon_state = "cap_inhand"
 	worn_icon_state = "cap"
 	inv_hide_flags = HIDE_EXCESS_HAIR
 
 
 /obj/item/clothing/head/modular/style/slouchhat
-	name = "NTC slouch hat"
-	desc = "A slouch hat, makes you feel down under, doesn't it? Has 'PROPERTY OF THE NTC' markings under the hat."
+	name = "SFMC slouch hat"
+	desc = "A slouch hat, makes you feel down under, doesn't it? Has 'PROPERTY OF THE SFMC' markings under the hat."
 	icon_state = "slouch_inhand"
 	worn_icon_state = "slouch"
 	inv_hide_flags = HIDE_EXCESS_HAIR
 
 /obj/item/clothing/head/modular/style/ushanka
-	name = "NTC ushanka"
-	desc = "A comfortable ushanka used by the NTC. Will keep you warm in even the most harshest artic enviroments."
+	name = "SFMC ushanka"
+	desc = "A comfortable ushanka used by the SFMC. Will keep you warm in even the most harshest artic enviroments."
 	icon_state = "ushanka_inhand"
 	worn_icon_state = "ushanka"
 	starting_attachments = list(/obj/item/armor_module/storage/helmet, /obj/item/armor_module/armor/stylehat_badge/ushanka)
@@ -185,7 +185,7 @@
 
 
 /obj/item/clothing/head/modular/style/campaignhat
-	name = "NTC campaign hat"
+	name = "SFMC campaign hat"
 	desc = "A campaign hat, you can feel the menacing aura that this hat erodes just by looking at it."
 	icon_state = "campaign_inhand"
 	worn_icon_state = "campaign"
@@ -193,22 +193,22 @@
 
 
 /obj/item/clothing/head/modular/style/beanie
-	name = "NTC beanie"
+	name = "SFMC beanie"
 	desc = "A beanie, just looking at it makes you feel like an 'Oussama', or in better terms- A modern phenomenon of people suddenly needing to bench once they put on a beanie."
 	icon_state = "beanie_inhand"
 	worn_icon_state = "beanie"
 	inv_hide_flags = HIDE_EXCESS_HAIR
 
 /obj/item/clothing/head/modular/style/headband
-	name = "NTC headband"
+	name = "SFMC headband"
 	desc = "A headband. Will keep the sweat off your eyes and also keep you looking cool."
 	icon_state = "headband_inhand"
 	worn_icon_state = "headband"
 
 
 /obj/item/clothing/head/modular/style/bandana
-	name = "NTC bandana"
-	desc = "A bandana that goes on your head. Has NTC markings on the back tie, and it seems that the knot will never come undone somehow."
+	name = "SFMC bandana"
+	desc = "A bandana that goes on your head. Has SFMC markings on the back tie, and it seems that the knot will never come undone somehow."
 	icon_state = "headbandana_inhand"
 	worn_icon_state = "headbandana"
 	inv_hide_flags = HIDE_EXCESS_HAIR

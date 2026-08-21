@@ -28,16 +28,6 @@
 	contains = list(/obj/item/ammo_magazine/rifle/boltclip/dragoon/pox)
 	cost = 100
 
-/datum/supply_packs/weapons/laserweapons
-	name = "Standard laser weapon bundle" // Since we can buy an xray laser rifle but not regular ones?
-	contains = list(/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_carbine, //300x4 = 1200 + backpack and pouch
-/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_rifle,
-/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_sniper,
-/obj/item/weapon/gun/energy/lasgun/lasrifle/standard_marine_mlaser,
-/obj/item/cell/lasgun/volkite/powerpack/marine,
-/obj/item/cell/lasgun/volkite/powerpack/marine/backpack,)
-	cost = 2000
-
 //factional things down here
 /datum/supply_packs/weapons/unity
 	name = "NT105 Unity Revolver"
@@ -76,7 +66,7 @@
 	cost = 3
 
 /datum/supply_packs/weapons/moonbeam
-	name = "NTC 'Moonbeam' tranq sniper rifle"
+	name = "SFMC 'Moonbeam' tranq sniper rifle"
 	contains = list(/obj/item/weapon/gun/rifle/chambered/nonlethal/fitted)
 	faction_lock = list(FACTION_TERRAGOV)
 	cost = 400

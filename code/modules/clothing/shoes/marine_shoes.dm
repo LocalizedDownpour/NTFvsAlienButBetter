@@ -158,7 +158,7 @@
 
 /obj/item/clothing/shoes/marine/vsd
 	name = "\improper combat boots"
-	desc = "KZ's standard issue combat boots"
+	desc = "GSW's standard issue combat boots"
 	icon_state = "boots"
 	worn_icon_state = "kz_boots"
 
