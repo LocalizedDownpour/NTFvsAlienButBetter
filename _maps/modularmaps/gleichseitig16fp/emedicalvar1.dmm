@@ -17,6 +17,11 @@
 /obj/structure/toilet,
 /turf/open/floor/urban/tile/tilewhite,
 /area/gleichseitig16/indoors/east/sinitsynhospital)
+"bc" = (
+/turf/open/urban/street/sidewalk{
+	dir = 8
+	},
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "bu" = (
 /obj/machinery/autodoc,
 /turf/open/floor/prison/whitegreen{
@@ -65,7 +70,7 @@
 /turf/open/urban/street/sidewalk{
 	dir = 8
 	},
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "cT" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/pouch/surgery,
@@ -115,6 +120,7 @@
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
 "eq" = (
+/obj/machinery/bodyscanner,
 /turf/open/floor/prison/whitegreen{
 	dir = 10
 	},
@@ -396,6 +402,13 @@
 	dir = 1
 	},
 /area/gleichseitig16/indoors/east/sinitsynhospital)
+"pI" = (
+/obj/machinery/streetlight/street{
+	level = 7;
+	pixel_y = 12
+	},
+/turf/open/urban/street/sidewalkfull,
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "pW" = (
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/east/sinitsynhospital/warehouses)
@@ -498,6 +511,12 @@
 	},
 /turf/open/floor/prison/sterilewhite,
 /area/gleichseitig16/indoors/east/sinitsynhospital)
+"tn" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/prison/whitegreen{
+	dir = 10
+	},
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "to" = (
 /obj/machinery/light{
 	dir = 8
@@ -529,7 +548,7 @@
 	dir = 4
 	},
 /turf/open/urban/street/sidewalkfull,
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "ud" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
@@ -548,7 +567,7 @@
 	dir = 8
 	},
 /turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "uR" = (
 /turf/open/urban/street/sidewalk,
 /area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
@@ -574,6 +593,13 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+"vv" = (
+/obj/effect/spawner/random/misc/structure/large/car{
+	pixel_y = -6;
+	spawn_loot_chance = 75
+	},
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "vC" = (
 /obj/machinery/streetlight/street{
 	level = 7;
@@ -774,6 +800,12 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/indoors/east/sinitsynhospital/warehouses)
+"AW" = (
+/obj/machinery/computer/body_scanconsole,
+/turf/open/floor/prison/whitegreen{
+	dir = 5
+	},
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "Bd" = (
 /obj/machinery/light/small,
 /turf/open/floor/prison/whitegreen,
@@ -792,6 +824,10 @@
 /obj/structure/cable,
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/east/streets)
+"Bx" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison/whitegreen,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "BA" = (
 /obj/effect/urban/decal/road/lines2,
 /obj/effect/urban/decal/road/road_edge/four,
@@ -833,7 +869,7 @@
 	dir = 8
 	},
 /turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "CR" = (
 /obj/machinery/door_control{
 	id = "hospitalstorage3";
@@ -897,7 +933,7 @@
 "En" = (
 /obj/effect/urban/decal/dirt,
 /turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "Ez" = (
 /obj/machinery/door/airlock/mainship/generic/corporate{
 	name = "Restroom";
@@ -981,11 +1017,17 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/east/streets)
+"Gy" = (
+/obj/effect/urban/decal/road/lines5,
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "GE" = (
-/obj/machinery/light,
-/obj/machinery/bodyscanner,
-/turf/open/floor/prison/whitegreen,
-/area/gleichseitig16/indoors/east/sinitsynhospital)
+/obj/effect/urban/decal/road/lines5,
+/obj/effect/ai_node{
+	pixel_x = 1
+	},
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "GL" = (
 /obj/effect/urban/decal/dirt,
 /obj/machinery/light{
@@ -1043,6 +1085,10 @@
 	dir = 8
 	},
 /area/gleichseitig16/outdoors/east/streets)
+"Ig" = (
+/obj/effect/landmark/spawn_marker/euseparatists/militantidle,
+/turf/open/floor/prison/whitegreen,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "Io" = (
 /obj/structure/cable,
 /turf/open/urban/street/sidewalk,
@@ -1057,6 +1103,16 @@
 /obj/effect/ai_node{
 	pixel_x = 1
 	},
+/turf/open/floor/prison/sterilewhite,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
+"Jv" = (
+/obj/machinery/bodyscanner,
+/turf/open/floor/prison/whitegreen{
+	dir = 1
+	},
+/area/gleichseitig16/indoors/east/sinitsynhospital)
+"JK" = (
+/obj/effect/landmark/spawn_marker/euseparatists/medic,
 /turf/open/floor/prison/sterilewhite,
 /area/gleichseitig16/indoors/east/sinitsynhospital)
 "JR" = (
@@ -1087,6 +1143,10 @@
 	dir = 8
 	},
 /area/gleichseitig16/indoors/east/sinitsynhospital)
+"Kk" = (
+/obj/machinery/computer/body_scanconsole,
+/turf/open/floor/prison/whitegreen,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "Kv" = (
 /obj/machinery/door/airlock/mainship/generic{
 	dir = 8
@@ -1115,6 +1175,10 @@
 /obj/structure/cable,
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/east/streets)
+"Lu" = (
+/obj/effect/landmark/spawn_marker/euseparatists/sapperidle,
+/turf/open/floor/plating,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "LB" = (
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
@@ -1138,7 +1202,7 @@
 	spawn_loot_chance = 75
 	},
 /turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "Mp" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -1167,7 +1231,7 @@
 	pixel_x = 4
 	},
 /turf/open/urban/street/asphalt,
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "Nf" = (
 /turf/open/floor/plating,
 /area/gleichseitig16/indoors/east/sinitsynhospital)
@@ -1238,7 +1302,7 @@
 /turf/open/urban/street/sidewalk{
 	dir = 10
 	},
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "Pv" = (
 /obj/structure/dropship_equipment/shuttle/operatingtable,
 /obj/item/tank/anesthetic,
@@ -1462,6 +1526,14 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/gleichseitig16/outdoors/east/streets)
+"Wz" = (
+/obj/effect/spawner/random/misc/structure/large/car{
+	dir = 8;
+	pixel_y = -6;
+	spawn_loot_chance = 75
+	},
+/turf/open/urban/street/asphalt,
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "WQ" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/pouch/surgery,
@@ -1487,7 +1559,7 @@
 /turf/open/urban/street/sidewalk{
 	dir = 8
 	},
-/area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+/area/gleichseitig16/outdoors/east/sinitsynhospital/alleys)
 "Xu" = (
 /obj/structure/transmitter/colony_net/auto_id{
 	pixel_y = 32
@@ -1526,11 +1598,19 @@
 	},
 /turf/open/urban/street/sidewalkfull,
 /area/gleichseitig16/outdoors/east/sinitsynhospital/parking)
+"YD" = (
+/obj/effect/landmark/spawn_marker/euseparatists/deserteridle,
+/turf/open/floor/prison/sterilewhite,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
 "YV" = (
 /obj/machinery/door/airlock/mainship/medical/glass/free_access{
 	dir = 1;
 	name = "\improper Sinitsyn Hospitality"
 	},
+/turf/open/floor/prison/sterilewhite,
+/area/gleichseitig16/indoors/east/sinitsynhospital)
+"YW" = (
+/obj/effect/landmark/spawn_marker/euseparatists/medicidle,
 /turf/open/floor/prison/sterilewhite,
 /area/gleichseitig16/indoors/east/sinitsynhospital)
 "Zc" = (
@@ -1628,26 +1708,26 @@ Kc
 fe
 fe
 fe
-vl
+bc
 cR
 Ps
-LB
-LB
+sQ
+sQ
 MW
-LB
-LB
-LB
-LB
-LB
-LB
-LB
-LB
-LB
-LB
-LB
-Un
-LB
-LB
+sQ
+sQ
+sQ
+sQ
+sQ
+sQ
+sQ
+sQ
+sQ
+sQ
+sQ
+OO
+sQ
+sQ
 Rv
 Ia
 Ia
@@ -1667,26 +1747,26 @@ jy
 fe
 fe
 fe
-nI
-nI
-EB
-Dj
-Gf
+gC
+gC
+uR
+vv
+Gy
 En
-Gf
+Gy
 CN
-Gf
-Dj
-Gf
+Gy
+vv
+Gy
 LR
-Gf
+Gy
 uK
-Gf
-Dj
-Gf
+Gy
+vv
+Gy
 LR
-Gf
-Bf
+Gy
+Wz
 HS
 jy
 uW
@@ -1706,26 +1786,26 @@ ZI
 PF
 fe
 fe
-nI
-nI
-EB
-LB
-Hl
+gC
+gC
+uR
+sQ
+GE
 En
-Gf
-LB
-Gf
-LB
-Hl
+Gy
+sQ
+Gy
+sQ
+GE
 En
-Gf
-LB
-Gf
-LB
-Gf
+Gy
+sQ
+Gy
+sQ
+Gy
 En
-Gf
-LB
+Gy
+sQ
 NH
 ZI
 VL
@@ -1745,26 +1825,26 @@ lq
 fe
 fe
 fe
-nI
-Gk
-nI
-vl
-vl
-vl
+gC
+pI
+gC
+bc
+bc
+bc
 Xp
-vl
-vl
-vl
-vl
+bc
+bc
+bc
+bc
 Xp
-vl
-vl
+bc
+bc
 cR
-vl
+bc
 Xp
-vl
-vl
-vl
+bc
+bc
+bc
 jy
 ZI
 VL
@@ -1784,26 +1864,26 @@ ZI
 fe
 fe
 fe
-Yi
-nI
-nI
-nI
-nI
-nI
-nI
-nI
-Yi
-nI
-nI
-nI
-nI
+NN
+gC
+gC
+gC
+gC
+gC
+gC
+gC
+NN
+gC
+gC
+gC
+gC
 tX
-nI
-nI
-nI
-nI
-nI
-nI
+gC
+gC
+gC
+gC
+gC
+gC
 jy
 nL
 VL
@@ -1880,7 +1960,7 @@ xD
 OT
 OT
 OT
-eq
+tn
 ai
 fp
 ZI
@@ -1913,7 +1993,7 @@ fx
 ai
 QL
 cH
-fx
+Kk
 ai
 la
 ka
@@ -1944,7 +2024,7 @@ gC
 ai
 oM
 Pv
-cH
+YD
 Bd
 ai
 Tl
@@ -2148,7 +2228,7 @@ cH
 fg
 cH
 Jc
-fx
+Ig
 Wa
 Tl
 ud
@@ -2181,9 +2261,9 @@ ai
 ai
 vH
 cH
-cH
+JK
 Jc
-GE
+TI
 ai
 ai
 Xu
@@ -2372,7 +2452,7 @@ sQ
 gC
 ai
 Xu
-cH
+YW
 cH
 fx
 ai
@@ -2457,7 +2537,7 @@ tf
 Jc
 fx
 ai
-QL
+Jv
 cH
 cH
 ai
@@ -2496,7 +2576,7 @@ ai
 Tl
 TI
 ai
-fY
+AW
 wQ
 XM
 ai
@@ -2577,7 +2657,7 @@ Qt
 LF
 Nf
 iO
-Nf
+Lu
 Ud
 LF
 ai
@@ -2842,10 +2922,10 @@ ai
 Xu
 cH
 cH
-fx
+Bx
 ai
 Qv
-fx
+Ig
 ai
 Fq
 AR
