@@ -44,6 +44,7 @@
 
 	actions = list(
 		/datum/action/ability/xeno_action/watch_xeno/hivemind,
+		/datum/action/ability/activable/xeno/devour
 		/datum/action/ability/xeno_action/change_form,
 		/datum/action/ability/xeno_action/return_to_core,
 		/datum/action/ability/xeno_action/teleport,
