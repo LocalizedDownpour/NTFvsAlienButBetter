@@ -206,6 +206,7 @@ GLOBAL_LIST_INIT(commander_gear_listed_products, list(
 GLOBAL_LIST_INIT(smartgunner_gear_listed_products, list(
 	/obj/effect/vendor_bundle/smartgunner_pistol = list(CAT_ESS, "SP-13 Smart Machinepistol", 0, "white"),
 	/obj/effect/vendor_bundle/smartgunner_autopistol = list(CAT_ESS, "SP-28 Smart Autopistol", 0, "white"),
+	/obj/effect/vendor_bundle/smartgunner_appistol = list(CAT_ESS, "SP-57 Smart Pistol", 0, "white"),
 	/obj/item/ammo_magazine/pistol/standard_pistol/smart_pistol = list(CAT_SGSUP, "SP-13 Smart Pistol Ammo", 1, "black"),
 	/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol = list(CAT_SGSUP, "SP-28 Smart Pistol Ammo", 1, "black"),
 	/obj/item/weapon/gun/rifle/standard_smartmachinegun = list(CAT_SGSUP, "SG-29 Smart Machine Gun", 21, "orange"), //If a smartgunner buys a SG-29, then they will have points to purchase 6 SG-29 drums

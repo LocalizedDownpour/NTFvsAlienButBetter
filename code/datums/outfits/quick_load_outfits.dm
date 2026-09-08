@@ -1675,13 +1675,17 @@
 	head_contents = list(
 		/obj/item/reagent_containers/hypospray/autoinjector/russian_red = 1,
 		/obj/item/reagent_containers/hypospray/autoinjector/combat_advanced = 1,
+		/obj/item/reagent_containers/hypospray/autoinjector/synaptizine = 1,
+		/obj/item/reagent_containers/hypospray/autoinjector/synaptizine = 1,
 	)
 
 
 /datum/outfit/quick/som/veteran/standard_assaultrifle
 	name = "V-31 Veteran Infantryman"
-	desc = "Heavily armed and armored SOM elite. Equipped with a V-31 assault rifle with integrated 'micro grenade' rail launcher, heavy armor, a large variety of grenades as well as AP ammunition. Excellent performance against heavily armored targets, while the plentiful grenade provide greater tactical flexibility."
+	desc = "Heavily armed and armored SOM elite. Equipped with a V-31 assault rifle with integrated 'micro grenade' rail launcher, heavy armor upgraded with 'Lorica' armor reinforcements, night vision and a large variety of grenades as well as AP ammunition. Excellent performance against heavily armored targets, while the plentiful grenade provide greater tactical flexibility."
 
+	wear_suit = /obj/item/clothing/suit/modular/som/heavy/lorica
+	glasses = /obj/item/clothing/glasses/night_vision
 	back = /obj/item/storage/backpack/som
 	suit_store = /obj/item/weapon/gun/rifle/som/veteran
 	belt = /obj/item/storage/belt/marine/som/som_rifle_ap
@@ -1689,8 +1693,8 @@
 
 	backpack_contents = list(
 		/obj/item/explosive/plastique = 1,
-		/obj/item/ammo_magazine/pistol/som = 1,
-		/obj/item/weapon/gun/pistol/som/standard = 1,
+		/obj/item/weapon/gun/pistol/huf_pp98/pp99r = 1,
+		/obj/item/ammo_magazine/pistol/standard_pistol/huf_pp98/extended = 2,
 		/obj/item/ammo_magazine/rifle/som/ap = 2,
 		/obj/item/explosive/grenade/som = 2,
 		/obj/item/storage/box/MRE/som = 1,
@@ -1706,16 +1710,18 @@
 
 /datum/outfit/quick/som/veteran/standard_smg
 	name = "V-21 Veteran Infantryman"
-	desc = "Close range high damage, high speed. Equipped with a V-21 submachine gun with variable firerate allowing for extreme rates of fire when properly wielded, heavy armor, a good variety of grenades and AP ammunition. Allows for excellent close to medium range firepower, especially against heavily armored targets, and is surprisingly mobile."
+	desc = "Close range high damage, high speed. Equipped with a V-21 submachine gun with variable firerate allowing for extreme rates of fire when properly wielded, lightfooted skill soft, light armor equipped with an overclocked shield, a good variety of grenades and AP ammunition. Allows for excellent close to medium range firepower, especially against heavily armored targets, perfect for hit and runs."
 
+	wear_suit = /obj/item/clothing/suit/modular/som/light/shield_overclocked
 	suit_store = /obj/item/weapon/gun/smg/som/veteran
 	belt = /obj/item/storage/belt/marine/som/som_smg_ap
+	l_hand = /obj/item/skillsoft/lightfooted
 	r_hand = /obj/item/pamphlet/smg
 
 	backpack_contents = list(
 		/obj/item/explosive/plastique = 1,
-		/obj/item/ammo_magazine/pistol/som = 1,
-		/obj/item/weapon/gun/pistol/som/standard = 1,
+		/obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45 = 1,
+		/obj/item/weapon/gun/pistol/huf_mf45/modded = 1,
 		/obj/item/ammo_magazine/smg/som/ap = 3,
 	)
 
@@ -1825,7 +1831,7 @@
 
 /datum/outfit/quick/som/veteran/mpi
 	name = "MPI_KM Veteran Infantryman"
-	desc = "Heavily armed and armored SOM elite, with a taste for nostalgia. Equipped with an MPI_KM assault rifle, with under barrel grenade launcher and a large supply of grenades. An old weapon that was a common sight during the original Martian rebellion, the MPI's good stopping power, reliability and a healthy dose of nostalgia means it is still seen in use by some among the SOM despite its age."
+	desc = "Heavily armed and armored SOM elite, with a taste for nostalgia. Equipped with an MPI_KM assault rifle, with under barrel grenade launcher, a large supply of grenades and a constitution 1 skillsoft. The MPI_KM was a common sight during the original Martian rebellion, the MPI's good stopping power, reliability and a healthy dose of nostalgia means it is still seen in use by some among the SOM despite its age."
 
 	suit_store = /obj/item/weapon/gun/rifle/mpi_km/grenadier
 	belt = /obj/item/storage/belt/marine/som/mpi_plum
@@ -1833,10 +1839,11 @@
 
 	backpack_contents = list(
 		/obj/item/storage/box/MRE/som = 1,
-		/obj/item/ammo_magazine/pistol/som = 1,
-		/obj/item/weapon/gun/pistol/som/standard = 1,
+		/obj/item/weapon/gun/pistol/apsmart_pistol/onehanded = 1,
+		/obj/item/ammo_magazine/pistol/standard_pistol/apsmart_pistol = 1,
 		/obj/item/ammo_magazine/rifle/mpi_km/extended = 1,
 		/obj/item/tool/extinguisher = 1,
+		/obj/item/skillsoft/constitution_one = 1,
 	)
 
 	webbing_contents = list(
@@ -1846,18 +1853,22 @@
 
 /datum/outfit/quick/som/veteran/carbine
 	name = "V-34 Veteran Infantryman"
-	desc = "Heavily armed and armored SOM elite, with a taste for nostalgia. Equipped with an heirloom V-34 carbine, and a large supply of grenades. An old weapon that saw extensive use during the original Martian rebellion, this one has been preserved and passed down the generations. The V-34 is largely surpassed by the VX-32, however with its high calibre rounds and good rate of fire, it cannot be underestimated."
+	desc = "Armed and light SOM elite, with a taste for nostalgia. Equipped with an heirloom V-34 carbine, a large supply of grenades, an Apollo medical module, a small assortment of special medicine and a light footed skillsoft. The V-34 was an old carbine that saw extensive use during the original Martian rebellion, this one has been preserved and passed down the generations. The V-34 is largely surpassed by the VX-32, however with its high calibre rounds and good rate of fire, it cannot be underestimated."
 
+	wear_suit = /obj/item/clothing/suit/modular/som/light/autodoc
 	suit_store = /obj/item/weapon/gun/rifle/som_carbine/mag_harness
 	belt = /obj/item/storage/belt/marine/som/carbine
 	r_hand = /obj/item/pamphlet/rifleman
 
 	backpack_contents = list(
 		/obj/item/storage/box/MRE/som = 1,
-		/obj/item/ammo_magazine/pistol/som = 2,
-		/obj/item/weapon/gun/pistol/som/standard = 1,
-		/obj/item/ammo_magazine/rifle/mpi_km/carbine = 1,
+		/obj/item/weapon/gun/pistol/huf_pp98/modded = 1,
+		/obj/item/ammo_magazine/pistol/standard_pistol/huf_pp98 = 1,
+		/obj/item/storage/pill_bottle/zoom = 1,
+		/obj/item/reagent_containers/hypospray/autoinjector/quickclotplus = 1,
+		/obj/item/reagent_containers/hypospray/autoinjector/peridaxon_plus = 1,
 		/obj/item/tool/extinguisher = 1,
+		/obj/item/skillsoft/lightfooted = 1,
 	)
 
 	webbing_contents = list(
@@ -1875,7 +1886,7 @@
 	back = /obj/item/cell/lasgun/volkite/powerpack
 
 	webbing_contents = list(
-		/obj/item/pamphlet/shotgun = 1,
+		/obj/item/pamphlet/heavyweapons = 1,
 		/obj/item/ammo_magazine/handful/buckshot = 2,
 		/obj/item/tool/extinguisher/mini = 1,
 		/obj/item/storage/box/MRE/som = 1,
@@ -1934,6 +1945,166 @@
 		/obj/item/ammo_magazine/pistol/som/extended = 6,
 	)
 
+/datum/outfit/quick/som/veteran/v35breacher
+	name = "V-35 Veteran Breacher"
+	desc = "Heavy armored breaching configuration. Equipped with a V-35 Battle Rifle and a lorica module for increased protection."
+
+	head = /obj/item/clothing/head/modular/som/lorica
+	glasses = /obj/item/clothing/glasses/welding
+	wear_suit = /obj/item/clothing/suit/modular/som/heavy/lorica
+	suit_store = /obj/item/weapon/gun/rifle/som_big
+	belt = /obj/item/storage/belt/marine/som/big
+	r_hand = /obj/item/pamphlet/rifleman
+
+/datum/outfit/quick/som/veteran/v35breacher/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	. = ..()
+	H.equip_to_slot_or_del(new /obj/item/tool/weldingtool/largetank, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/explosive/plastique, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/explosive/plastique, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/cell/lasgun/volkite, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/som_big, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/som_big, SLOT_IN_BACKPACK)
+
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/storage/box/MRE/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/incendiary/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/tool/extinguisher/mini, SLOT_IN_ACCESSORY)
+
+/datum/outfit/quick/som/veteran/nachtreiher
+	name = "Nachtreiher Veteran"
+	desc = "A lightly-armored agile class. Equipped with a volkite shotgun, plenty of volkite shells and autodoc. The nachtreiher is a pump-action shotgun that only loads volkite-discharging bolts, it's a force to be reckoned with up close. Also comes with a shotgun instruction pamphlet to advise on reliable handling!"
+
+	wear_suit = /obj/item/clothing/suit/modular/som/light/autodoc
+	belt = /obj/item/storage/belt/shotgun/som
+	suit_store = /obj/item/weapon/gun/shotgun/pump/nachtreiher/somvet
+	glasses = /obj/item/clothing/glasses/night_vision
+	r_hand = /obj/item/pamphlet/shotgun
+
+/datum/outfit/quick/som/veteran/nachtreiher/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	. = ..()
+
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/volkite, SLOT_IN_BELT)
+
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/bullet/volkite, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/bullet/volkite, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/bullet/volkite, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/bullet/volkite, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/weapon/gun/pistol/huf_mf45/modded, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45, SLOT_IN_BACKPACK)
+
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/storage/box/MRE/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/incendiary/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/tool/extinguisher/mini, SLOT_IN_ACCESSORY)
+
+/datum/outfit/quick/som/veteran/dragoon
+	name = "Dragoon Veteran"
+	desc = "A lightly-armored agile class. Equipped with a Dragoon Mk1 Rapid Engagement rifle, plentiful ammo and autodoc. The rifle allows the soldier to harrass enemy units before tactically retreating, either picking off high-value targets or applying a constant pressure on the enemy. Also comes with a rifle instruction pamphlet to make up for your lack of training!"
+
+	wear_suit = /obj/item/clothing/suit/modular/som/light/autodoc
+	belt = /obj/item/storage/belt/marine/som
+	suit_store = /obj/item/weapon/gun/rifle/dragoon
+	glasses = /obj/item/clothing/glasses/night_vision
+	r_hand = /obj/item/pamphlet/rifleman
+
+/datum/outfit/quick/som/veteran/dragoon/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	. = ..()
+
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon/pox, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon/pox, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BELT)
+
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/weapon/gun/pistol/apsmart_pistol/modded, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/standard_pistol/apsmart_pistol, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/standard_pistol/apsmart_pistol, SLOT_IN_BACKPACK)
+
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/storage/box/MRE/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/incendiary/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/tool/extinguisher/mini, SLOT_IN_ACCESSORY)
+
+/datum/outfit/quick/som/veteran/sagr11
+	name = "SAGR-11 Autorifle Veteran"
+	desc = "A robust autorifleman class. Equipped with the SAYAIR Grim Reaper 11, munitions and overclocked aegis light battle armor. The SAGR-11 allows the veteran to reliably suppress enemies from afar with increased survivability in the field. Also comes with a rifle instruction pamphlet to instruct the veteran on better shot placement and grouping."
+
+	wear_suit = /obj/item/clothing/suit/modular/som/shield_overclocked
+	belt = /obj/item/storage/belt/marine/som
+	suit_store = /obj/item/weapon/gun/rifle/sagr11/somvet
+	glasses = /obj/item/clothing/glasses/hud/health
+	r_hand = /obj/item/pamphlet/rifleman
+
+/datum/outfit/quick/som/veteran/sagr11/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	. = ..()
+
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/sagr11, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/sagr11, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/sagr11, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/sagr11, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/sagr11, SLOT_IN_BELT)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/sagr11, SLOT_IN_BELT)
+
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/sagr11, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/sagr11, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/weapon/gun/pistol/huf_mf45/modded, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45, SLOT_IN_BACKPACK)
+
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/storage/box/MRE/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/incendiary/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/tool/extinguisher/mini, SLOT_IN_ACCESSORY)
+
+/datum/outfit/quick/som/veteran/mfexpresssmg
+	name = "MF-Express SMG Veteran"
+	desc = "A heavily-armored breaching class. Equipped with the MF-Express SMG, extended ammo, heavy lorica and a breaching shield. The SMG allows the soldier to push first into a building, suppress the enemy and soak up hits at close quarters. Also comes with an SMG instruction pamphlet to instruct the veteran on effective recoil dampening techniques."
+
+	wear_suit = /obj/item/clothing/suit/modular/som/heavy/lorica
+	belt = /obj/item/belt_harness
+	suit_store = /obj/item/weapon/gun/smg/huf_mfsmg/somvet
+	glasses = /obj/item/clothing/glasses/night_vision
+	l_hand = /obj/item/weapon/shield/riot/marine/som
+	r_hand = /obj/item/pamphlet/smg
+
+/datum/outfit/quick/som/veteran/mfexpresssmg/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	. = ..()
+
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/smg/mfsmg/extended, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/smg/mfsmg/extended, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/smg/mfsmg/extended, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/smg/mfsmg/extended, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/smg/mfsmg/extended, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/smg/mfsmg/extended, SLOT_IN_BACKPACK)
+	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/smg/mfsmg/extended, SLOT_IN_BACKPACK)
+
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/bullet/volkite, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/bullet/volkite, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/bullet/volkite, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/storage/box/MRE/som, SLOT_IN_ACCESSORY)
+	H.equip_to_slot_or_del(new /obj/item/tool/extinguisher/mini, SLOT_IN_ACCESSORY)
 
 //Base SOM leader outfit
 /datum/outfit/quick/som/squad_leader
@@ -1963,6 +2134,8 @@
 	head_contents = list(
 		/obj/item/reagent_containers/hypospray/autoinjector/russian_red = 1,
 		/obj/item/reagent_containers/hypospray/autoinjector/combat_advanced = 1,
+		/obj/item/reagent_containers/hypospray/autoinjector/synaptizine = 1,
+		/obj/item/pinpointer = 1,
 	)
 
 
@@ -2082,59 +2255,6 @@
 	)
 
 //someone must update these below
-
-/datum/outfit/quick/som/veteran/v35breacher
-	name = "V-35 Veteran Breacher"
-	desc = "Heavy armored breaching configuration. Equipped with a V-35 Battle Rifle."
-
-	head = /obj/item/clothing/head/modular/som/lorica
-	glasses = /obj/item/clothing/glasses/welding
-	wear_suit = /obj/item/clothing/suit/modular/som/heavy/lorica
-	suit_store = /obj/item/weapon/gun/rifle/som_big
-	belt = /obj/item/storage/belt/marine/som/big
-	r_hand = /obj/item/pamphlet/rifleman
-
-/datum/outfit/quick/som/veteran/v35breacher/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	. = ..()
-	H.equip_to_slot_or_del(new /obj/item/tool/weldingtool/largetank, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/explosive/plastique, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/explosive/plastique, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/cell/lasgun/volkite, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/som_big, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/som_big, SLOT_IN_BACKPACK)
-
-	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
-	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/som, SLOT_IN_ACCESSORY)
-	H.equip_to_slot_or_del(new /obj/item/storage/box/MRE/som, SLOT_IN_ACCESSORY)
-	H.equip_to_slot_or_del(new /obj/item/explosive/grenade/incendiary/som, SLOT_IN_ACCESSORY)
-	H.equip_to_slot_or_del(new /obj/item/tool/extinguisher/mini, SLOT_IN_ACCESSORY)
-
-/datum/outfit/quick/som/veteran/dragoon
-	name = "Dragoon Veteran"
-	desc = "A lightly-armored agile class. Equipped with a Dragoon Mk1 Rapid Engagement rifle, plentiful ammo and autodoc. The rifle allows the soldier to harrass enemy units before tactically retreating, either picking off high-value targets or applying a constant pressure on the enemy. Also comes with a rifle instruction pamphlet to make up for your lack of training!"
-
-	wear_suit = /obj/item/clothing/suit/modular/som/light/autodoc
-	belt = /obj/item/storage/belt/marine/som
-	suit_store = /obj/item/weapon/gun/rifle/dragoon
-	glasses = /obj/item/clothing/glasses/night_vision
-	r_hand = /obj/item/pamphlet/rifleman
-
-/datum/outfit/quick/som/veteran/dragoon/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	. = ..()
-
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon/pox, SLOT_IN_BELT)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon/pox, SLOT_IN_BELT)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BELT)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BELT)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BELT)
-
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
-	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltclip/dragoon, SLOT_IN_BACKPACK)
 
 // VSD
 

@@ -28,6 +28,26 @@
 	contains = list(/obj/item/ammo_magazine/rifle/boltclip/dragoon/pox)
 	cost = 100
 
+/datum/supply_packs/weapons/smart_ap_pistol
+	name = "TX57 smart pistol"
+	contains = list(/obj/item/weapon/gun/pistol/smart_ap_pistol)
+	cost = 100
+
+/datum/supply_packs/weapons/smart_ap_pistol_mag
+	name = "TX57 smart pistol ammo"
+	contains = list(/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol)
+	cost = 5
+
+/datum/supply_packs/weapons/smart_autopistol
+	name = "TX28 smart autopistol"
+	contains = list(/obj/item/weapon/gun/pistol/smart_fastpistol)
+	cost = 175
+
+/datum/supply_packs/weapons/smart_autopistol_ammo
+	name = "TX28 smart autopistol ammo"
+	contains = list(/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol)
+	cost = 5
+
 //factional things down here
 /datum/supply_packs/weapons/unity
 	name = "NT105 Unity Revolver"

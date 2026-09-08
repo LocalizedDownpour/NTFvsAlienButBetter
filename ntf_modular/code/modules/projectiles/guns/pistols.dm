@@ -215,6 +215,7 @@
 		/obj/item/attachable/flashlight,
 		/obj/item/attachable/flashlight/under,
 		/obj/item/attachable/lasersight,
+		/obj/item/attachable/gyro,
 	)
 
 	gun_features_flags = GUN_AMMO_COUNTER|GUN_IFF|GUN_SMOKE_PARTICLES
@@ -232,6 +233,12 @@
 	scatter = 1
 	scatter_unwielded = 8
 	recoil_unwielded = 1
+
+/obj/item/weapon/gun/pistol/apsmart_pistol/modded
+	starting_attachment_types = list(/obj/item/attachable/reddot,/obj/item/attachable/lasersight)
+
+/obj/item/weapon/gun/pistol/apsmart_pistol/onehanded
+	starting_attachment_types = list(/obj/item/attachable/reddot,/obj/item/attachable/gyro)
 
 // Full auto smart pistol, based on the G18
 /obj/item/weapon/gun/pistol/smart_fastpistol
@@ -278,6 +285,9 @@
 	recoil_unwielded = 1
 	damage_mult = 0.75
 
+/obj/item/weapon/gun/pistol/smart_fastpistol/modded
+	starting_attachment_types = list(/obj/item/attachable/reddot,/obj/item/attachable/gyro)
+
 /obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol
 	name = "\improper SP-28 magazine (9mm AP)"
 	icon = 'ntf_modular/icons/obj/items/ammo/pistol.dmi'
@@ -287,3 +297,250 @@
 	max_rounds = 33
 	w_class = WEIGHT_CLASS_SMALL
 	default_ammo = /datum/ammo/bullet/pistol/ap
+
+//SP-57 PISTOL
+
+/obj/item/weapon/gun/pistol/smart_ap_pistol
+	name = "\improper SP-57 handgun"
+	desc = "The SP-57, was produced by FN as a response to requests for a semi-automatic smartpistol that could reliably pierce enemy armor in close quarters. This reliable smartpistol loads 5.7x28mm munitions. Capable of mounting a limited amount of attachments, and firing as fast as you can pull the trigger. Takes 20-round 5.7mm smart magazines."
+	icon = 'ntf_modular/icons/obj/items/guns/pistols.dmi'
+	icon_state = "sp57"
+	worn_icon_state = "sp57"
+	worn_icon_list = list(
+		slot_l_hand_str = 'ntf_modular/icons/mob/inhands/guns/pistols_left_1.dmi',
+		slot_r_hand_str = 'ntf_modular/icons/mob/inhands/guns/pistols_right_1.dmi',
+	)
+	holstered_underlay_icon = 'ntf_modular/icons/obj/items/storage/holster.dmi'
+	caliber = CALIBER_57X28 //codex
+	max_shells = 20 //codex
+	fire_sound = 'sound/weapons/guns/fire/57.ogg'
+	reload_sound = 'sound/weapons/guns/interact/tp14_reload.ogg'
+	default_ammo_type = /obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol
+	allowed_ammo_types = list(/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol)
+	attachable_allowed = list(
+		/obj/item/attachable/reddot,
+		/obj/item/attachable/flashlight,
+		/obj/item/attachable/flashlight/under,
+		/obj/item/attachable/gyro,
+		/obj/item/attachable/lasersight,
+		/obj/item/attachable/motiondetector/advanced/pocket,
+	)
+
+	attachable_offset = list("muzzle_x" = 30, "muzzle_y" = 20,"rail_x" = 10, "rail_y" = 24, "under_x" = 25, "under_y" = 16, "stock_x" = 21, "stock_y" = 17)
+
+	gun_features_flags = GUN_AMMO_COUNTER|GUN_IFF|GUN_SMOKE_PARTICLES
+	actions_types = list() // Inherits aimmode, but has IFF so..
+	gun_firemode_list = list(GUN_FIREMODE_AUTOMATIC, GUN_FIREMODE_SEMIAUTO)
+
+	fire_delay = 0.25 SECONDS
+	accuracy_mult = 1.1
+	accuracy_mult_unwielded = 0.9
+	scatter_unwielded = 4
+	recoil = -1
+	recoil_unwielded = -1
+	akimbo_scatter_mod = 12
+
+/obj/item/weapon/gun/pistol/smart_ap_pistol/modded
+	starting_attachment_types = list(/obj/item/attachable/reddot,/obj/item/attachable/lasersight)
+
+/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol
+	name = "\improper SP-57 magazine (5.7mm AP)"
+	icon = 'ntf_modular/icons/obj/items/ammo/pistol.dmi'
+	caliber = CALIBER_57X28
+	icon_state = "sp57"
+	icon_state_mini = "mag_pistol_normal"
+	max_rounds = 20
+	w_class = WEIGHT_CLASS_SMALL
+	default_ammo = /datum/ammo/bullet/pistol/altap
+
+/datum/ammo/bullet/pistol/altap
+	name = "armor-piercing pistol bullet"
+	hud_state = "pistol_ap"
+	damage = 25
+	penetration = 15
+	shrapnel_chance = 10
+	sundering = 2
+
+//MF-45 PISTOL
+
+/obj/item/weapon/gun/pistol/huf_pp98
+	name = "\improper PP-98 handgun"
+	desc = "The PP-98, was produced by Navy Sun armaments as a reliable sidearm. The PP-98 fires nine millimeter hollow point bullets and fires almost as fast as you can pull the trigger. Takes its own magazines with 15 9mm hollow point bullets per magazine."
+	icon = 'ntf_modular/icons/obj/items/guns/pistols.dmi'
+	icon_state = "pp98"
+	worn_icon_state = "pp98"
+	worn_icon_list = list(
+		slot_l_hand_str = 'ntf_modular/icons/mob/inhands/guns/pistols_left_1.dmi',
+		slot_r_hand_str = 'ntf_modular/icons/mob/inhands/guns/pistols_right_1.dmi',
+	)
+	holstered_underlay_icon = 'ntf_modular/icons/obj/items/storage/holster.dmi'
+	caliber = CALIBER_9X19 //codex
+	max_shells = 15 //codex
+	fire_sound = 'sound/weapons/guns/fire/pp98.ogg'
+	reload_sound = 'sound/weapons/guns/interact/tp14_reload.ogg'
+	default_ammo_type = /obj/item/ammo_magazine/pistol/standard_pistol/huf_pp98
+	allowed_ammo_types = list(/obj/item/ammo_magazine/pistol/standard_pistol/huf_pp98,/obj/item/ammo_magazine/pistol/standard_pistol/huf_pp98/extended)
+	attachable_allowed = list(
+		/obj/item/attachable/suppressor,
+		/obj/item/attachable/reddot,
+		/obj/item/attachable/flashlight,
+		/obj/item/attachable/compensator,
+		/obj/item/attachable/lasersight,
+		/obj/item/attachable/extended_barrel,
+		/obj/item/attachable/heavy_barrel,
+		/obj/item/attachable/flashlight/under,
+		/obj/item/attachable/burstfire_assembly,
+		/obj/item/attachable/lace,
+		/obj/item/attachable/gyro,
+		/obj/item/attachable/quickfire,
+		/obj/item/attachable/motiondetector/advanced/pocket,
+	)
+
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 22,"rail_x" = 10, "rail_y" = 24, "under_x" = 25, "under_y" = 16, "stock_x" = 21, "stock_y" = 17)
+
+	gun_features_flags = GUN_AMMO_COUNTER|GUN_SMOKE_PARTICLES
+	gun_firemode_list = list(GUN_FIREMODE_AUTOMATIC, GUN_FIREMODE_SEMIAUTO)
+
+	fire_delay = 0.2 SECONDS
+	accuracy_mult = 1.1
+	accuracy_mult_unwielded = 0.95
+	scatter_unwielded = 5
+	recoil = -1
+	recoil_unwielded = -1
+	akimbo_scatter_mod = 12
+
+/obj/item/weapon/gun/pistol/huf_pp98/modded
+	starting_attachment_types = list(/obj/item/attachable/reddot,/obj/item/attachable/compensator,/obj/item/attachable/lasersight)
+
+/obj/item/weapon/gun/pistol/huf_pp98/hostilityuf
+	starting_attachment_types = list(/obj/item/attachable/suppressor,/obj/item/attachable/lasersight)
+
+/obj/item/weapon/gun/pistol/huf_pp98/pp99r
+	default_ammo_type = /obj/item/ammo_magazine/pistol/standard_pistol/huf_pp98/extended
+	starting_attachment_types = list(/obj/item/attachable/reddot,/obj/item/attachable/compensator,/obj/item/attachable/burstfire_assembly)
+
+/obj/item/ammo_magazine/pistol/standard_pistol/huf_pp98
+	name = "\improper PP-98 magazine (9mm HP)"
+	icon = 'ntf_modular/icons/obj/items/ammo/pistol.dmi'
+	caliber = CALIBER_9X19
+	icon_state = "pp98"
+	icon_state_mini = "mag_pistol_normal"
+	bonus_overlay = "pp98_mag"
+	max_rounds = 15
+	w_class = WEIGHT_CLASS_SMALL
+	default_ammo = /datum/ammo/bullet/pistol/pp98
+
+/obj/item/ammo_magazine/pistol/standard_pistol/huf_pp98/extended
+	name = "\improper PP-98 extended magazine (9mm HP)"
+	icon = 'ntf_modular/icons/obj/items/ammo/pistol.dmi'
+	caliber = CALIBER_9X19
+	icon_state = "pp98_ext"
+	icon_state_mini = "mag_pistol_normal"
+	bonus_overlay = "pp98_magext"
+	max_rounds = 32
+	w_class = WEIGHT_CLASS_SMALL
+	default_ammo = /datum/ammo/bullet/pistol/pp98
+
+/datum/ammo/bullet/pistol/pp98
+	name = "hollow point pistol bullet"
+	hud_state = "pistol_squash"
+	damage = 22.5
+	penetration = 0.5
+	shrapnel_chance = 20
+	sundering = 2
+
+//MF-45 PISTOL
+
+/obj/item/weapon/gun/pistol/huf_mf45
+	name = "\improper MF-45 handgun"
+	desc = "The MF-45, was produced by Navy Sun armaments as a high capacity handgun with a decent pistol caliber. This reliable blowblack fires specialized high power .45 ACP. The MF-45 fires almost as fast as you can pull the trigger. Takes 17-rounds per magazine that are inserted into the sliding internal magazine well from behind after the empty magazine is released through the front."
+	icon = 'ntf_modular/icons/obj/items/guns/pistols.dmi'
+	icon_state = "mf45"
+	worn_icon_state = "mf45"
+	worn_icon_list = list(
+		slot_l_hand_str = 'ntf_modular/icons/mob/inhands/guns/pistols_left_1.dmi',
+		slot_r_hand_str = 'ntf_modular/icons/mob/inhands/guns/pistols_right_1.dmi',
+	)
+	holstered_underlay_icon = 'ntf_modular/icons/obj/items/storage/holster.dmi'
+	caliber = CALIBER_45ACP //codex
+	max_shells = 17 //codex
+	fire_sound = 'sound/weapons/guns/fire/mf45.ogg'
+	reload_sound = 'sound/weapons/guns/interact/tp14_reload.ogg'
+	default_ammo_type = /obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45
+	allowed_ammo_types = list(/obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45)
+	attachable_allowed = list(
+		/obj/item/attachable/reddot,
+		/obj/item/attachable/compensator,
+		/obj/item/attachable/extended_barrel,
+		/obj/item/attachable/suppressor,
+		/obj/item/attachable/quickfire,
+		/obj/item/attachable/motiondetector/advanced/pocket,
+	)
+
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 30,"rail_x" = 10, "rail_y" = 32, "under_x" = 25, "under_y" = 16, "stock_x" = 21, "stock_y" = 17)
+
+	gun_features_flags = GUN_AMMO_COUNTER|GUN_SMOKE_PARTICLES
+	gun_firemode_list = list(GUN_FIREMODE_AUTOMATIC, GUN_FIREMODE_SEMIAUTO)
+
+	fire_delay = 0.25 SECONDS
+	accuracy_mult = 1.1
+	accuracy_mult_unwielded = 0.95
+	scatter_unwielded = 5
+	recoil = -1
+	recoil_unwielded = -1
+	akimbo_scatter_mod = 12
+
+/obj/item/weapon/gun/pistol/huf_mf45/modded
+	starting_attachment_types = list(/obj/item/attachable/reddot,/obj/item/attachable/compensator)
+
+/obj/item/weapon/gun/pistol/huf_mf45/stealth
+	starting_attachment_types = list(/obj/item/attachable/motiondetector/advanced/pocket,/obj/item/attachable/suppressor)
+
+/obj/item/ammo_magazine/pistol/standard_pistol/huf_mf45
+	name = "\improper MF-45 magazine (.45 ACP)"
+	icon = 'ntf_modular/icons/obj/items/ammo/pistol.dmi'
+	caliber = CALIBER_45ACP
+	icon_state = "mf45"
+	icon_state_mini = "mag_pistol_normal"
+	max_rounds = 17
+	w_class = WEIGHT_CLASS_SMALL
+	default_ammo = /datum/ammo/bullet/pistol/mf45
+
+/datum/ammo/bullet/pistol/mf45
+	name = "armor-piercing pistol bullet"
+	hud_state = "pistol_ap"
+	damage = 31.5
+	penetration = 10
+	shrapnel_chance = 5
+	sundering = 1
+
+/obj/item/weapon/gun/grenade_launcher/single_shot/breech
+	name = "Breech-Loaded SP40"
+	desc = "A gun that fires breech loaded rounds. Simple! Either load with flares shot into the air or firestreak ordnance! Equipped with long range irons."
+	icon = 'ntf_modular/icons/obj/items/guns/pistols.dmi'
+	icon_state = "blsp40"
+	worn_icon_state = "blsp40"
+	fire_sound = 'sound/weapons/guns/fire/flare.ogg'
+	w_class = WEIGHT_CLASS_SMALL
+	gun_features_flags = NONE
+	gun_skill_category = SKILL_PISTOLS
+	fire_delay = 0.5 SECONDS
+	default_ammo_type = /obj/item/mortal_shell/flare/breech
+	allowed_ammo_types = list(/obj/item/mortal_shell/flare/breech)
+	attachable_allowed = list(/obj/item/attachable/scope/unremovable/flaregun)
+	starting_attachment_types = list(/obj/item/attachable/scope/unremovable/flaregun)
+
+/obj/item/weapon/gun/grenade_launcher/single_shot/breech/marine
+	name = "Breech-Loaded SP40"
+	desc = "A very tiny flaregun that fires flares equipped with long range irons, the mass amounts of markings on the back and barrel denote it as owned by the SFMC."
+	icon_state = "marine_flaregun"
+
+/obj/item/mortal_shell/flare/breech
+	name = "\improper 40mm flare breech shell"
+	desc = "An 40mm breech shell, loaded with an illumination flare, far slimmer than your typical 40mm shell. Can be fired out of a 40mm breech loaded pistol."
+	icon_state = "mortar_flr"
+	ammo_type = /datum/ammo/mortar/flare/breech
+
+/datum/ammo/mortar/flare/breech/drop_nade(turf/target_turf, atom/movable/projectile/proj)
+	new /obj/effect/temp_visual/above_flare(target_turf)
+	playsound(target_turf, 'sound/weapons/guns/fire/flare.ogg', 50, 1, 4)

@@ -1325,6 +1325,28 @@
 		/obj/item/ammo_magazine/pistol/standard_pistol/smart_fastpistol,
 	)
 
+/obj/effect/vendor_bundle/smartgunner_appistol
+	gear_to_spawn = list(
+		/obj/item/storage/holster/belt/pistol/smart_pistol,
+		/obj/item/weapon/gun/pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+		/obj/item/ammo_magazine/pistol/standard_pistol/smart_ap_pistol,
+	)
+
 /obj/effect/vendor_bundle/leader
 	gear_to_spawn = list(
 		/obj/item/explosive/plastique,
