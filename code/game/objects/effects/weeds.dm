@@ -5,9 +5,9 @@
 
 //Stat defines
 #define RESTING_BUFF 1.2
-#define SLOWDOWN_NORMAL 0
-#define SLOWDOWN_RESTING 0
-#define SLOWDOWN_STICKY 2
+#define SLOWDOWN_NORMAL 1
+#define SLOWDOWN_RESTING 1
+#define SLOWDOWN_STICKY 2.5
 
 // base weed type
 /obj/alien/weeds
