@@ -1851,7 +1851,7 @@
 /obj/structure/sink{
 	pixel_x = 0;
 	pixel_y = 24;
-	layer = 4.2
+	layer = 3.1
 	},
 /turf/open/floor/whitecyanthree{
 	dir = 1
@@ -2232,6 +2232,9 @@
 /turf/open/floor/wood,
 /area/antag_ship/som/office/commander)
 "cLc" = (
+/obj/structure/sink/bathroom{
+	dir = 8
+	},
 /turf/open/floor/mainship/sterile/corner{
 	dir = 1
 	},
@@ -2573,10 +2576,7 @@
 /turf/open/urban/street/asphalt,
 /area/antag_ship/clf_base/facade/parklot)
 "djG" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
+/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 6
 	},
@@ -3176,6 +3176,7 @@
 /obj/machinery/optable,
 /obj/item/tank/anesthetic,
 /obj/item/clothing/mask/breath/medical,
+/obj/item/reagent_containers/blood/OMinus,
 /turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "ehz" = (
@@ -3435,22 +3436,13 @@
 /turf/open/floor/mainship/sterile/plain,
 /area/antag_ship/pmc_ntf/aft/engiroom/starboard)
 "ety" = (
-/obj/machinery/shower{
-	pixel_y = 16
+/obj/structure/bed/chair/stasis/explo{
+	anchored = 1
 	},
-/obj/structure/window/reinforced/tinted/frosted{
-	dir = 4;
-	pixel_x = 2;
-	pixel_y = 0
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 1
 	},
-/obj/effect/turf_decal/siding/wideplating/light/end,
-/obj/structure/curtain/shower,
-/obj/item/reagent_containers/glass/rag{
-	pixel_x = 2;
-	pixel_y = 9
-	},
-/turf/open/floor/plating,
-/area/antag_ship/clf_base/real/bathroom)
+/area/antag_ship/clf_base/real/dorms)
 "etB" = (
 /obj/effect/turf_decal/siding/wideplating_new/light{
 	dir = 6
@@ -4623,15 +4615,6 @@
 	dir = 5
 	},
 /obj/structure/closet/secure_closet/freezer/meat,
-/obj/item/reagent_containers/food/snacks/meat/monkey,
-/obj/item/reagent_containers/food/snacks/meat/monkey,
-/obj/item/reagent_containers/food/snacks/meat/monkey,
-/obj/item/reagent_containers/food/snacks/rawmeatball,
-/obj/item/reagent_containers/food/snacks/rawmeatball,
-/obj/item/reagent_containers/food/snacks/rawcutlet,
-/obj/item/reagent_containers/food/snacks/rawcutlet,
-/obj/item/reagent_containers/food/snacks/raw_lizard_sausage,
-/obj/item/reagent_containers/food/snacks/raw_lizard_sausage,
 /turf/open/floor/freezer,
 /area/antag_ship/clf_base/facade/kitchen)
 "gai" = (
@@ -5366,6 +5349,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/sink/bathroom{
+	dir = 8
+	},
 /turf/open/floor/mainship/sterile/side{
 	dir = 8
 	},
@@ -5699,11 +5685,13 @@
 /obj/machinery/door/airlock/urban/medical_solid{
 	dir = 1
 	},
+/obj/machinery/holosign/surgery{
+	id = CoE;
+	pixel_x = 0;
+	pixel_y = 1
+	},
 /obj/effect/mapping_helpers/airlock_autoname,
 /obj/effect/mapping_helpers/airlock/free_access,
-/obj/machinery/holosign/surgery{
-	id = CoE
-	},
 /turf/open/floor/mainship/sterile,
 /area/antag_ship/clf_base/real/medbay)
 "hDG" = (
@@ -6351,16 +6339,6 @@
 	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
-"iyY" = (
-/obj/structure/cable,
-/obj/item/tool/crowbar/red{
-	pixel_x = 0;
-	pixel_y = 14
-	},
-/turf/open/urban/street/sidewalk{
-	dir = 8
-	},
-/area/antag_ship/clf_base/facade/parklot)
 "iAf" = (
 /obj/machinery/light/mainship{
 	dir = 8
@@ -6610,7 +6588,7 @@
 /obj/item/tool/wrench,
 /obj/item/paper{
 	name = "Factory Notice";
-	desc = Anoticedetailingthatduetoroomlayouts,theChurchisprovidedwithanexportpointforit'sfactory,shoulditneedit.;
+	desc = "A notice detailing that due to room layouts, the Church is provided with an export point for it's factory, should it need it.";
 	info = "You'll notice that due to the 'big move' to the new location and the dimensions of the requisitions room that making a factory will be difficult. To remedy this, please utilize this bunkroom, the allocated space to make a factory, and this complementary export point."
 	},
 /obj/structure/rack,
@@ -6863,13 +6841,14 @@
 	dir = 9
 	},
 /obj/machinery/vending/marineFood{
-	pixel_x = 16;
+	pixel_x = 18;
 	pixel_y = 16;
 	density = 0
 	},
-/obj/structure/prop/urban/misc/trash/blue{
+/obj/machinery/vending/cigarette/colony{
 	pixel_x = -5;
-	pixel_y = 15
+	pixel_y = 16;
+	density = 0
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -8314,7 +8293,9 @@
 /obj/machinery/light/mainship{
 	dir = 1
 	},
-/obj/structure/sink/bathroom,
+/obj/structure/sink/bathroom{
+	dir = 8
+	},
 /obj/effect/turf_decal/stripes/red/line,
 /turf/open/floor/iron/dark,
 /area/antag_ship/vsd/hall)
@@ -8793,7 +8774,9 @@
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/medical2,
-/obj/structure/window/reinforced/tinted,
+/obj/structure/window/reinforced/tinted{
+	layer = 2.9
+	},
 /turf/open/floor/whitecyanfour{
 	dir = 4
 	},
@@ -8859,10 +8842,7 @@
 /turf/open/floor/wood,
 /area/antag_ship/som/security/chief)
 "lMG" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
+/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 10
 	},
@@ -9259,6 +9239,16 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/food/snacks/raw_lizard_sausage,
+/obj/item/reagent_containers/food/snacks/raw_lizard_sausage,
+/obj/item/reagent_containers/food/snacks/rawcutlet,
+/obj/item/reagent_containers/food/snacks/rawcutlet,
+/obj/item/reagent_containers/food/snacks/rawmeatball,
+/obj/item/reagent_containers/food/snacks/rawmeatball,
+/obj/item/reagent_containers/food/snacks/meat/monkey,
+/obj/item/reagent_containers/food/snacks/meat/monkey,
+/obj/item/reagent_containers/food/snacks/meat/monkey,
 /turf/open/floor/freezer,
 /area/antag_ship/clf_base/facade/kitchen)
 "mke" = (
@@ -10361,10 +10351,7 @@
 /turf/open/floor/kutjevo/colors/yellow,
 /area/antag_ship/clf_base/real/engi)
 "nLq" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
+/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 9
 	},
@@ -10873,10 +10860,7 @@
 	},
 /area/shuttle/transport)
 "ove" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
+/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 5
 	},
@@ -11136,7 +11120,9 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/barracks)
 "oOk" = (
-/obj/structure/sink/bathroom,
+/obj/structure/sink/bathroom{
+	dir = 8
+	},
 /obj/effect/turf_decal/stripes/red/line,
 /turf/open/floor/iron/dark,
 /area/antag_ship/vsd/hall)
@@ -12762,10 +12748,7 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/engi)
 "qPv" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
+/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 9
 	},
@@ -13191,7 +13174,8 @@
 /obj/structure/bed/chair{
 	dir = 1;
 	pixel_y = 12;
-	layer = 2.81
+	layer = 2.81;
+	pixel_x = -1
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
@@ -13204,7 +13188,7 @@
 	id = CoE;
 	pixel_x = 9;
 	pixel_y = 23;
-	layer = 4.2
+	layer = 3.1
 	},
 /turf/open/floor/whitecyanthree{
 	dir = 1
@@ -13598,12 +13582,7 @@
 /obj/machinery/vending/marineFood/som{
 	pixel_y = 16;
 	density = 0;
-	pixel_x = 7
-	},
-/obj/item/coin/platinum{
-	pixel_x = 11;
-	layer = 2.89;
-	pixel_y = 6
+	pixel_x = 9
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -13645,8 +13624,8 @@
 /area/antag_ship/clf_base/real/dorms)
 "rXo" = (
 /obj/structure/bed/urban/bunkbed4{
-	pixel_x = -2;
-	pixel_y = 0
+	dir = 4;
+	pixel_x = -2
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -13731,15 +13710,14 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
-/obj/machinery/vending/cigarette/colony{
-	pixel_x = -5;
-	pixel_y = 16;
-	density = 0
-	},
 /obj/machinery/vending/snack{
 	pixel_x = 18;
 	pixel_y = 16;
 	density = 0
+	},
+/obj/structure/prop/urban/misc/trash/blue{
+	pixel_x = -3;
+	pixel_y = 15
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -15000,15 +14978,6 @@
 /obj/structure/largecrate/supply/explosives/disposable,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/warehouse)
-"tQI" = (
-/obj/item/paper/crumpled{
-	info = "Locked out? No you're not. There's a crowbar next to the garden shed. Use it.";
-	name = "crumpled note"
-	},
-/turf/open/urban/street/sidewalk{
-	dir = 8
-	},
-/area/antag_ship/clf_base/facade/parklot)
 "tRw" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1{
 	on = 1
@@ -15206,7 +15175,8 @@
 /obj/structure/bed/chair{
 	dir = 1;
 	pixel_y = 12;
-	layer = 2.81
+	layer = 2.81;
+	pixel_x = -1
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
@@ -15592,7 +15562,9 @@
 /turf/closed/wall/mainship/gray,
 /area/antag_ship/icc/bathroom)
 "uBK" = (
-/obj/structure/window/reinforced/tinted,
+/obj/structure/window/reinforced/tinted{
+	layer = 2.9
+	},
 /turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "uBZ" = (
@@ -16162,10 +16134,7 @@
 /turf/open/floor/plating/ground/dirt,
 /area/antag_ship/icc/hangar/east)
 "vsb" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
+/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 10
 	},
@@ -17252,10 +17221,7 @@
 /turf/open/floor/freezer,
 /area/antag_ship/som/mess)
 "wUV" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
+/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 5
 	},
@@ -17378,7 +17344,8 @@
 /obj/structure/bed/chair{
 	dir = 1;
 	pixel_y = 12;
-	layer = 2.81
+	layer = 2.81;
+	pixel_x = -1
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
@@ -17534,11 +17501,21 @@
 /turf/open/floor/mainship/sterile/white,
 /area/antag_ship/som/bathroom/lower)
 "xke" = (
-/obj/effect/turf_decal/siding/white,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/machinery/iv_drip,
-/turf/open/floor/whitecyanthree,
-/area/antag_ship/clf_base/real/medbay)
+/obj/structure/closet/secure_closet/walllocker/medical{
+	dir = 4;
+	desc = "It's a secure wall-mounted storage unit for emergency entry supplies.";
+	name = "emergency entry cabinet"
+	},
+/obj/item/tool/crowbar/red,
+/obj/item/explosive/grenade/flare/civilian,
+/obj/item/explosive/grenade/flare/civilian,
+/obj/item/paper{
+	name = "Emergency Notice";
+	desc = "A printed notice for entry in the event of power failure.";
+	info = "So, by impossible means, the power to the church has run dry. This is extremely unlikely but still completely possible in the event that the APC units fail. Within this cabinet are a pair of flares and a crowbar to light the way to the south wing of the Church, where the backup generators will be located. They will most likely need repairs, but a toolbox should be close by. If you are reading this and the lights in the entryway are on, please close this cabinet with all emergency supplies still inside, thank you."
+	},
+/turf/open/floor/grass,
+/area/antag_ship/clf_base/facade/parklot)
 "xkI" = (
 /turf/open/urban/street/asphalt,
 /area/lv624/ground/caves/rock)
@@ -17770,10 +17747,7 @@
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "xyI" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
+/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 6
 	},
@@ -29070,7 +29044,7 @@ mLL
 tsj
 cQY
 eYL
-ety
+puD
 auk
 lBf
 lBf
@@ -41852,7 +41826,7 @@ mdB
 taT
 uBK
 cjr
-xke
+weU
 sAm
 kjt
 oRF
@@ -41935,7 +41909,7 @@ sxl
 bcL
 oOM
 qkg
-uIB
+ety
 kIe
 kIe
 obm
@@ -44131,9 +44105,9 @@ rfA
 pWk
 fbt
 fbt
-fbt
+xke
 qma
-tQI
+dUp
 gcW
 fbt
 fbt
@@ -44415,7 +44389,7 @@ hxu
 rWr
 rWr
 rWr
-iyY
+rWr
 rWr
 rWr
 rWr
