@@ -86,11 +86,11 @@
 		/datum/job/xenomorph = 0,
 		/datum/job/xenomorph/queen = 0, //im scared of bugs :(
 		/datum/job/som/command/fieldcommander = 1, // human roles start here
-		/datum/job/terragov/command/fieldcommander = 1,
+		/datum/job/terragov/command/captain = 1,
 		/datum/job/som/squad/leader = 1,
 		/datum/job/terragov/squad/leader = 1,
-		/datum/job/som/squad/standard = 6,
-		/datum/job/terragov/squad/standard = 6,
+		/datum/job/som/squad/standard = 4,
+		/datum/job/terragov/squad/standard = 4,
 		/datum/job/som/squad/engineer = 2,
 		/datum/job/terragov/squad/engineer = 2,
 		/datum/job/som/squad/medic = 2,
@@ -99,7 +99,6 @@
 		/datum/job/terragov/squad/smartgunner = 2,
 		/datum/job/som/silicon/synthetic/som = 1,
 		/datum/job/terragov/silicon/synthetic = 1,
-		/datum/job/som/medical/medicalofficer = 1,
 		/datum/job/terragov/medical/medicalofficer = 1,
 		/datum/job/terragov/requisitions/officer = 1,
 	)
