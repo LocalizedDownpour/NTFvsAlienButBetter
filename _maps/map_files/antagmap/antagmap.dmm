@@ -441,11 +441,9 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/obj/structure/table/urban/shiny_black,
-/obj/item/storage/surgical_tray{
-	pixel_x = 1;
-	pixel_y = 7
-	},
+/obj/machinery/optable,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/tank/anesthetic,
 /turf/open/floor/whitecyanfour,
 /area/antag_ship/clf_base/real/medbay)
 "azH" = (
@@ -1861,7 +1859,6 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/security/cell)
 "cjr" = (
-/obj/structure/sink,
 /turf/open/floor/whitecyanthree{
 	dir = 1
 	},
@@ -3198,10 +3195,9 @@
 /area/antag_ship/som/security/cell)
 "eht" = (
 /obj/effect/turf_decal/siding/white,
-/obj/machinery/optable,
-/obj/item/tank/anesthetic,
-/obj/item/clothing/mask/breath/medical,
-/obj/item/reagent_containers/blood/OMinus,
+/obj/structure/sink{
+	dir = 1
+	},
 /turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "ehz" = (
@@ -11984,8 +11980,11 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 10
 	},
-/obj/machinery/bioprinter,
-/obj/item/reagent_containers/glass/beaker/biomass,
+/obj/structure/table/urban/shiny_black,
+/obj/item/storage/surgical_tray{
+	pixel_x = 1;
+	pixel_y = 7
+	},
 /turf/open/floor/whitecyanfour{
 	dir = 4
 	},
@@ -16858,6 +16857,12 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/prisoner_holding)
+"wiJ" = (
+/obj/effect/turf_decal/siding/white,
+/obj/machinery/bioprinter,
+/obj/item/reagent_containers/glass/beaker/biomass,
+/turf/open/floor/whitecyanthree,
+/area/antag_ship/clf_base/real/medbay)
 "wiV" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -41872,7 +41877,7 @@ cwe
 taT
 taT
 uBK
-rvB
+cjr
 eht
 sAm
 kjt
@@ -41968,8 +41973,8 @@ qEN
 mdB
 taT
 uBK
-cjr
-vwN
+rvB
+wiJ
 sAm
 kjt
 oRF
@@ -42161,7 +42166,7 @@ taT
 sJK
 pmZ
 taT
-weU
+vwN
 sAm
 kjt
 oRF
