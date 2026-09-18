@@ -1861,15 +1861,17 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/security/cell)
 "cjr" = (
-/obj/structure/sink{
-	pixel_x = 0;
-	pixel_y = 24;
-	layer = 3.1
-	},
+/obj/structure/sink,
 /turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
+"cjw" = (
+/obj/structure/cable,
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 8
+	},
+/area/antag_ship/clf_base/real/dorms)
 "cjR" = (
 /turf/closed/wall/mainship/outer,
 /area/antag_ship)
@@ -3645,6 +3647,8 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/item/storage/box/handcuffs,
+/obj/item/storage/box/zipcuffs,
 /turf/open/floor/kutjevo/colors/red/edge{
 	dir = 8
 	},
@@ -3989,6 +3993,7 @@
 /turf/open/floor/mainship/sterile,
 /area/antag_ship/som/medbay)
 "fjm" = (
+/obj/structure/cable,
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 9
 	},
@@ -5740,6 +5745,7 @@
 	},
 /obj/effect/mapping_helpers/airlock_autoname,
 /obj/effect/mapping_helpers/airlock/free_access,
+/obj/structure/cable,
 /turf/open/floor/mainship/sterile,
 /area/antag_ship/clf_base/real/medbay)
 "hDG" = (
@@ -8841,9 +8847,7 @@
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/medical2,
-/obj/structure/window/reinforced/tinted{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/tinted,
 /turf/open/floor/whitecyanfour{
 	dir = 4
 	},
@@ -9071,6 +9075,10 @@
 "lWK" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/power/apc/hyper{
+	dir = 8
 	},
 /turf/open/floor/whitecyanthree{
 	dir = 4
@@ -12912,6 +12920,7 @@
 /obj/structure/extinguisher_cabinet{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/whitecyanfour{
 	dir = 1
 	},
@@ -13282,7 +13291,7 @@
 	id = CoE;
 	pixel_x = 9;
 	pixel_y = 23;
-	layer = 3.1
+	layer = 4.11
 	},
 /turf/open/floor/whitecyanthree{
 	dir = 1
@@ -15671,9 +15680,7 @@
 /turf/closed/wall/mainship/gray,
 /area/antag_ship/icc/bathroom)
 "uBK" = (
-/obj/structure/window/reinforced/tinted{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/tinted,
 /turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "uBZ" = (
@@ -16325,6 +16332,11 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/som/engi)
+"vwN" = (
+/obj/effect/turf_decal/siding/white,
+/obj/machinery/iv_drip,
+/turf/open/floor/whitecyanthree,
+/area/antag_ship/clf_base/real/medbay)
 "vwO" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
 	dir = 9
@@ -17070,9 +17082,6 @@
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "wzT" = (
-/obj/structure/window/framed/mainship/spaceworthy{
-	desc = "A very tough looking gddlass window with a special rod matrice, made to be space worthy."
-	},
 /obj/structure/window/framed/mainship/hull,
 /turf/open/floor/grass,
 /area/antag_ship/clf_base/facade/parklot)
@@ -18311,9 +18320,6 @@
 /turf/closed/wall/mainship/gray,
 /area/antag_ship/icc/requisition)
 "yjE" = (
-/obj/structure/window/framed/mainship/spaceworthy{
-	desc = "A very tough looking gddlass window with a special rod matrice, made to be space worthy."
-	},
 /obj/structure/window/framed/mainship/hull,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/clf_base/facade/parklot)
@@ -41963,7 +41969,7 @@ mdB
 taT
 uBK
 cjr
-weU
+vwN
 sAm
 kjt
 oRF
@@ -42338,9 +42344,9 @@ uIB
 kIe
 kIe
 fEb
-skj
+cjw
 fjm
-bPu
+obm
 hCG
 qUO
 lWK
