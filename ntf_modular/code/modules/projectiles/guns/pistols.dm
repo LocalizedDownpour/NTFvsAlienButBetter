@@ -235,7 +235,7 @@
 
 // Full auto smart pistol, based on the G18
 /obj/item/weapon/gun/pistol/smart_fastpistol
-	name = "\improper SP-28 smart machinepistol"
+	name = "\improper SP-28 smart autopistol"
 	desc = "The SP-28 is a IFF-capable sidearm used by various private security companies and militaries, including the SFMC. Similar to the SP-13, the SP-28 can be used by anyone even without smartgun training or the necessity of KTLD optics. The primary differences between the SP-13 and SP-28 is that the SP-28 trades stopping power, accuracy and spread for rate of fire."
 	icon = 'ntf_modular/icons/obj/items/guns/pistols.dmi'
 	icon_state = "sp28"
@@ -257,6 +257,7 @@
 		/obj/item/attachable/flashlight/under,
 		/obj/item/attachable/gyro,
 		/obj/item/attachable/lasersight,
+		/obj/item/attachable/motiondetector,
 		/obj/item/attachable/motiondetector/advanced/pocket,
 	)
 

@@ -3106,6 +3106,11 @@
 /obj/structure/bed/chair/sofa/right{
 	dir = 4
 	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/entryway)
+"dhn" = (
 /obj/machinery/light/mainship{
 	dir = 8
 	},
@@ -4735,12 +4740,51 @@
 /area/antag_ship/icc/medical_room)
 "oV" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
-/turf/open/floor/wood,
-/area/antag_ship/som/office/commander/field)
-"oW" = (
-/obj/structure/window/framed/mainship/gray/toughened,
-/obj/machinery/door/poddoor/shutters/mainship/open{
+/turf/open/floor/urban/wood/darkerwood,
+/area/antag_ship/clf_base/facade/parklot)
+"fvM" = (
+/obj/item/trash/plate{
+	pixel_x = -17;
+	pixel_y = 13;
+	layer = 3.1
+	},
+/obj/item/trash/plate{
+	pixel_x = -17;
+	pixel_y = 11
+	},
+/obj/item/trash/plate{
+	pixel_x = -17;
+	pixel_y = 15;
+	layer = 3.2
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = -6;
+	pixel_y = 14;
+	layer = 3.1
+	},
+/obj/structure/table/wood{
+	density = 0;
+	alpha = 0;
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor"
+	},
+/obj/item/reagent_containers/cup/glass/bottle/wine{
+	name = "Evolutionist's special vintage";
+	desc = "A vintage bottle of wine containing trace amounts of Aphrotoxin due to the grapes being grown in a Hivelord-tended vineyard. Sip carefully, lest you succumb to the yearning of a bigger sip.";
+	list_reagents = list(/datum/reagent/consumable/ethanol/wine = 90, /datum/reagent/toxin/xeno_aphrotoxin = 10);
+	pixel_x = 1;
+	pixel_y = 23
+	},
+/turf/open/floor/urban/tile/cuppajoesfloor{
+	barefootstep = "carpet";
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on."
+	},
+/area/antag_ship/clf_base/facade/parklot)
+"fxk" = (
+/obj/machinery/door/airlock/mainship/generic{
 	dir = 2;
 	id = "cmdorm9";
 	name = "\improper Quarters Privacy Shutters"
@@ -4913,7 +4957,15 @@
 /obj/machinery/faxmachine/clf{
 	pixel_y = 10
 	},
-/turf/open/floor/plating/ground/desertdam/asphalt/threeside{
+/obj/structure/closet/crate/construction,
+/obj/item/stack/sheet/metal/large_stack,
+/obj/item/stack/sheet/metal/large_stack,
+/obj/item/stack/sheet/plasteel/large_stack,
+/obj/item/stack/sheet/metal/large_stack,
+/obj/item/stack/sheet/mineral/plastic/large_stack,
+/obj/item/stack/sheet/cloth/large_stack,
+/obj/item/stack/sheet/glass/glass/large_stack,
+/turf/open/floor/kutjevo/colors/yellow/edge{
 	dir = 8
 	},
 /area/antag_ship/clf_base/hallways/inside)
@@ -10144,14 +10196,18 @@
 /obj/machinery/light/mainship{
 	dir = 1
 	},
-/obj/structure/table/black,
-/turf/open/floor/iron/dark/textured_edge{
-	dir = 1
-	},
-/area/antag_ship/vsd/med)
-"FT" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+/obj/structure/toilet,
+/obj/structure/window/reinforced/east,
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/iron/dark,
+/area/antag_ship/vsd/hall)
+"mNR" = (
+/obj/structure/rack,
+/obj/item/storage/belt/utility/full,
+/obj/item/storage/belt/utility/full,
+/obj/item/tool/weldpack,
+/obj/item/lightreplacer,
+/turf/open/floor/kutjevo/colors/orange/edge{
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment/corner,
@@ -14988,12 +15044,9 @@
 /obj/effect/turf_decal/trimline/dark_blue/filled/shrink_cw{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/shrink_ccw,
-/turf/open/floor/plating/asteroidfloor,
-/area/antag_ship/clf_base/sleeproom)
-"UZ" = (
-/obj/effect/landmark/start/job/usl_leader,
-/obj/structure/bed/chair/dropship/passenger{
+/area/antag_ship/clf_base/caves/underground)
+"wpQ" = (
+/obj/machinery/light/mainship{
 	dir = 4
 	},
 /turf/open/floor/prison/blackfloor,
@@ -15667,18 +15720,12 @@
 	},
 /turf/open/floor/wood,
 /area/antag_ship/som/office/commander/field)
-"WZ" = (
-/obj/machinery/sleeper,
-/obj/machinery/light/mainship{
-	dir = 8
-	},
-/turf/open/floor/mainship/mono,
-/area/antag_ship/icc/medical_room)
-"Xa" = (
-/obj/structure/cable,
-/obj/machinery/door/airlock/mainship/security/glass{
-	name = "\improper Chief MP's Office";
-	req_access = list(211)
+"wVz" = (
+/obj/structure/table/urban/shiny_black,
+/obj/structure/paper_bin{
+	pixel_x = -15;
+	pixel_y = 13;
+	layer = 2.9
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
@@ -42286,100 +42333,100 @@ CN
 CN
 "}
 (124,1,2) = {"
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
-CN
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+vDr
+oRF
+kjt
+fbt
+fbt
+fbt
+fbt
+fbt
+fbt
+fbt
+fbt
+fkr
+dhc
+fDr
+baC
+fkr
+fbt
+wzT
+hUx
+oAk
+yjE
+fbt
+fbt
+fbt
+fbt
+tbJ
+dNR
+tbJ
+tbJ
+tbJ
+tbJ
+tbJ
+tbJ
+tbJ
+tbJ
+tbJ
+tbJ
+tbJ
+kjt
+oRF
 "}
 (125,1,2) = {"
 CN
