@@ -2381,10 +2381,6 @@
 	},
 /obj/structure/closet/cabinet,
 /obj/item/storage/pill_bottle/aphrotoxin,
-/obj/item/weapon/twohanded/glaive{
-	name = "ornamental halberd";
-	desc = "A huge, gleaming blade honed to a razor-sharp edge fitted on a well kept handle engraved with multiple Xenomorph motifs. The poleaxe is exceptionally heavy, with only the trained and sufficiently strong being able to wield it with awe-inspring grace."
-	},
 /turf/open/floor/wood/fancy,
 /area/antag_ship/clf_base/real/reedroom)
 "cSM" = (
@@ -6322,6 +6318,16 @@
 	},
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
+	},
+/obj/structure/closet/secure_closet/walllocker{
+	dir = 8;
+	desc = "A hidden compartment carved into the wall.";
+	color = "#88574b";
+	name = "hidden compartment"
+	},
+/obj/item/weapon/twohanded/glaive{
+	name = "ornamental halberd";
+	desc = "A huge, gleaming blade honed to a razor-sharp edge fitted on a well kept handle engraved with multiple Xenomorph motifs. The poleaxe is exceptionally heavy, with only the trained and sufficiently strong being able to wield it with awe-inspring grace."
 	},
 /turf/open/floor/wood/fancy,
 /area/antag_ship/clf_base/real/reedroom)
