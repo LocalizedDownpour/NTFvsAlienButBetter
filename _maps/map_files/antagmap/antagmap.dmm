@@ -2599,7 +2599,6 @@
 /turf/open/urban/street/asphalt,
 /area/antag_ship/clf_base/facade/parklot)
 "djG" = (
-/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 6
 	},
@@ -8909,7 +8908,6 @@
 /turf/open/floor/wood,
 /area/antag_ship/som/security/chief)
 "lMG" = (
-/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 10
 	},
@@ -10424,7 +10422,6 @@
 /turf/open/floor/kutjevo/colors/yellow,
 /area/antag_ship/clf_base/real/engi)
 "nLq" = (
-/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 9
 	},
@@ -10947,7 +10944,6 @@
 	},
 /area/shuttle/transport)
 "ove" = (
-/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 5
 	},
@@ -12848,7 +12844,6 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/engi)
 "qPv" = (
-/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 9
 	},
@@ -16259,7 +16254,6 @@
 /turf/open/floor/plating/ground/dirt,
 /area/antag_ship/icc/hangar/east)
 "vsb" = (
-/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 10
 	},
@@ -17372,7 +17366,6 @@
 /turf/open/floor/freezer,
 /area/antag_ship/som/mess)
 "wUV" = (
-/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 5
 	},
@@ -17894,7 +17887,6 @@
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "xyI" = (
-/obj/item/lightstick/red/anchored,
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 6
 	},
