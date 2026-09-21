@@ -65,6 +65,10 @@
 /obj/item/tool/soap/nanotrasen{
 	desc = "A bar of soap handmade by the Church of Evolution. Features a stylized depiction of a Xenomorph Larva and smells of Lavender."
 	},
+/obj/machinery/reagentgrinder{
+	pixel_x = 0;
+	pixel_y = 9
+	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "adK" = (
@@ -437,11 +441,9 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/obj/structure/table/urban/shiny_black,
-/obj/item/storage/surgical_tray{
-	pixel_x = 1;
-	pixel_y = 7
-	},
+/obj/machinery/optable,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/tank/anesthetic,
 /turf/open/floor/whitecyanfour,
 /area/antag_ship/clf_base/real/medbay)
 "azH" = (
@@ -454,6 +456,15 @@
 /obj/machinery/vending/som/armor_supply,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/preparation)
+"aAi" = (
+/obj/structure/cable,
+/obj/structure/extinguisher_cabinet{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 4
+	},
+/area/antag_ship/clf_base/real/dorms)
 "aAk" = (
 /obj/effect/landmark/start/job/pmc_gunner,
 /obj/structure/cable,
@@ -471,7 +482,7 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/medical_room)
 "aBV" = (
-/turf/closed/wall,
+/turf/closed/wall/mainship/outer/reinforced,
 /area/antag_ship/clf_base/facade/parklot)
 "aBZ" = (
 /obj/structure/cable,
@@ -1848,15 +1859,16 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/security/cell)
 "cjr" = (
-/obj/structure/sink{
-	pixel_x = 0;
-	pixel_y = 24;
-	layer = 4.2
-	},
 /turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
+"cjw" = (
+/obj/structure/cable,
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 8
+	},
+/area/antag_ship/clf_base/real/dorms)
 "cjR" = (
 /turf/closed/wall/mainship/outer,
 /area/antag_ship)
@@ -1979,8 +1991,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/structure/bed/chair/sofa,
 /obj/effect/landmark/start/job/clf/standard,
+/obj/structure/bed/chair/sofa/right,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
 "cvg" = (
@@ -2166,7 +2178,17 @@
 /turf/open/floor/mainship/empty,
 /area/antag_ship/clf_base/real/requisition)
 "cGG" = (
-/obj/machinery/telecomms/hub/preset/clf,
+/obj/machinery/telecomms/hub/preset/clf{
+	pixel_y = 7;
+	pixel_x = 3
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/end{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden/layer3{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1,
 /turf/open/floor/mainship/tcomms,
 /area/antag_ship/clf_base/real/reedroom)
 "cHj" = (
@@ -2232,6 +2254,9 @@
 /turf/open/floor/wood,
 /area/antag_ship/som/office/commander)
 "cLc" = (
+/obj/structure/sink/bathroom{
+	dir = 8
+	},
 /turf/open/floor/mainship/sterile/corner{
 	dir = 1
 	},
@@ -2528,6 +2553,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/extinguisher_cabinet,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "dhn" = (
@@ -2573,10 +2599,6 @@
 /turf/open/urban/street/asphalt,
 /area/antag_ship/clf_base/facade/parklot)
 "djG" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 6
 	},
@@ -3132,10 +3154,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/machinery/vending/coffee{
-	pixel_x = 0;
-	pixel_y = 16;
-	density = 0
+/obj/structure/prop/urban/misc/trash/blue{
+	pixel_x = 1;
+	pixel_y = 15
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -3173,9 +3194,9 @@
 /area/antag_ship/som/security/cell)
 "eht" = (
 /obj/effect/turf_decal/siding/white,
-/obj/machinery/optable,
-/obj/item/tank/anesthetic,
-/obj/item/clothing/mask/breath/medical,
+/obj/structure/sink{
+	dir = 1
+	},
 /turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "ehz" = (
@@ -3424,6 +3445,9 @@
 /area/antag_ship/clf_base/real/reedroom)
 "etn" = (
 /obj/structure/cable,
+/obj/structure/extinguisher_cabinet{
+	dir = 8
+	},
 /turf/open/floor/kutjevo/colors/yellow/inner_corner{
 	dir = 1
 	},
@@ -3435,22 +3459,13 @@
 /turf/open/floor/mainship/sterile/plain,
 /area/antag_ship/pmc_ntf/aft/engiroom/starboard)
 "ety" = (
-/obj/machinery/shower{
-	pixel_y = 16
+/obj/structure/bed/chair/stasis/explo{
+	anchored = 1
 	},
-/obj/structure/window/reinforced/tinted/frosted{
-	dir = 4;
-	pixel_x = 2;
-	pixel_y = 0
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 1
 	},
-/obj/effect/turf_decal/siding/wideplating/light/end,
-/obj/structure/curtain/shower,
-/obj/item/reagent_containers/glass/rag{
-	pixel_x = 2;
-	pixel_y = 9
-	},
-/turf/open/floor/plating,
-/area/antag_ship/clf_base/real/bathroom)
+/area/antag_ship/clf_base/real/dorms)
 "etB" = (
 /obj/effect/turf_decal/siding/wideplating_new/light{
 	dir = 6
@@ -3627,6 +3642,8 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/item/storage/box/handcuffs,
+/obj/item/storage/box/zipcuffs,
 /turf/open/floor/kutjevo/colors/red/edge{
 	dir = 8
 	},
@@ -3876,6 +3893,10 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/preparation)
+"fbd" = (
+/obj/structure/inflatable/wall,
+/turf/open/floor/plating/ground/drought/cave,
+/area/antag_ship/clf_base/caves/surface)
 "fbt" = (
 /turf/open/floor/grass,
 /area/antag_ship/clf_base/facade/parklot)
@@ -3967,6 +3988,7 @@
 /turf/open/floor/mainship/sterile,
 /area/antag_ship/som/medbay)
 "fjm" = (
+/obj/structure/cable,
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 9
 	},
@@ -4254,9 +4276,6 @@
 	},
 /area/antag_ship/som/requisition)
 "fDe" = (
-/obj/effect/turf_decal/siding/dark{
-	dir = 3
-	},
 /obj/structure/cable,
 /turf/open/floor/freezer,
 /area/antag_ship/clf_base/facade/kitchen)
@@ -4293,6 +4312,9 @@
 	color = "#848484"
 	},
 /obj/effect/teleporter_linker/indestructible,
+/obj/structure/extinguisher_cabinet{
+	dir = 4
+	},
 /turf/open/floor/kutjevo/colors/orange/inner_corner,
 /area/antag_ship/clf_base/real/dorms)
 "fEP" = (
@@ -4397,7 +4419,19 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/living_area)
 "fLU" = (
-/obj/machinery/telecomms/bus/preset_four/clf,
+/obj/effect/turf_decal/siding/wideplating/dark/end{
+	dir = 8
+	},
+/obj/machinery/telecomms/broadcaster/preset_left/clf{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 10
+	},
 /turf/open/floor/mainship/tcomms,
 /area/antag_ship/clf_base/real/reedroom)
 "fMg" = (
@@ -4623,13 +4657,6 @@
 	dir = 5
 	},
 /obj/structure/closet/secure_closet/freezer/meat,
-/obj/item/reagent_containers/food/snacks/meat/monkey,
-/obj/item/reagent_containers/food/snacks/meat/monkey,
-/obj/item/reagent_containers/food/snacks/meat/monkey,
-/obj/item/reagent_containers/food/snacks/rawmeatball,
-/obj/item/reagent_containers/food/snacks/rawmeatball,
-/obj/item/reagent_containers/food/snacks/rawcutlet,
-/obj/item/reagent_containers/food/snacks/rawcutlet,
 /obj/item/reagent_containers/food/snacks/raw_lizard_sausage,
 /obj/item/reagent_containers/food/snacks/raw_lizard_sausage,
 /turf/open/floor/freezer,
@@ -4831,7 +4858,17 @@
 /turf/open/floor/mainship/black/full,
 /area/antag_ship/pmc_ntf/fore/bridge)
 "gpt" = (
-/turf/open/floor/mainship/tcomms,
+/obj/machinery/atmospherics/pipe/simple/dark/visible/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/manifold/orange/visible/layer1{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/visible/layer3{
+	dir = 6
+	},
+/obj/structure/catwalk,
+/turf/open/floor/dark2,
 /area/antag_ship/clf_base/real/reedroom)
 "grJ" = (
 /obj/structure/disposalpipe/trunk{
@@ -5366,6 +5403,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/sink/bathroom{
+	dir = 8
+	},
 /turf/open/floor/mainship/sterile/side{
 	dir = 8
 	},
@@ -5481,12 +5521,6 @@
 	},
 /turf/open/floor/urban/carpet/carpetblack,
 /area/antag_ship/icc/living_area)
-"hlV" = (
-/obj/effect/turf_decal/siding/dark{
-	dir = 3
-	},
-/turf/open/floor/spiralplate,
-/area/antag_ship/clf_base/facade/fakechapel)
 "hmi" = (
 /obj/machinery/door/airlock/mainship/generic{
 	name = "\improper PMC Airlock";
@@ -5699,11 +5733,14 @@
 /obj/machinery/door/airlock/urban/medical_solid{
 	dir = 1
 	},
+/obj/machinery/holosign/surgery{
+	id = CoE;
+	pixel_x = 0;
+	pixel_y = 1
+	},
 /obj/effect/mapping_helpers/airlock_autoname,
 /obj/effect/mapping_helpers/airlock/free_access,
-/obj/machinery/holosign/surgery{
-	id = CoE
-	},
+/obj/structure/cable,
 /turf/open/floor/mainship/sterile,
 /area/antag_ship/clf_base/real/medbay)
 "hDG" = (
@@ -5923,6 +5960,11 @@
 	},
 /turf/open/floor/urban/carpet/carpetblack,
 /area/antag_ship/icc/generator_room)
+"hVl" = (
+/obj/effect/step_trigger/teleporter/random,
+/obj/structure/barricade/handrail/strata,
+/turf/open/space/basic,
+/area/space)
 "hVn" = (
 /obj/structure/cable,
 /obj/structure/catwalk,
@@ -6277,6 +6319,16 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/walllocker{
+	dir = 8;
+	desc = "A hidden compartment carved into the wall.";
+	color = "#88574b";
+	name = "hidden compartment"
+	},
+/obj/item/weapon/twohanded/glaive{
+	name = "ornamental halberd";
+	desc = "A huge, gleaming blade honed to a razor-sharp edge fitted on a well kept handle engraved with multiple Xenomorph motifs. The poleaxe is exceptionally heavy, with only the trained and sufficiently strong being able to wield it with awe-inspring grace."
+	},
 /turf/open/floor/wood/fancy,
 /area/antag_ship/clf_base/real/reedroom)
 "itp" = (
@@ -6351,16 +6403,6 @@
 	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
-"iyY" = (
-/obj/structure/cable,
-/obj/item/tool/crowbar/red{
-	pixel_x = 0;
-	pixel_y = 14
-	},
-/turf/open/urban/street/sidewalk{
-	dir = 8
-	},
-/area/antag_ship/clf_base/facade/parklot)
 "iAf" = (
 /obj/machinery/light/mainship{
 	dir = 8
@@ -6610,7 +6652,7 @@
 /obj/item/tool/wrench,
 /obj/item/paper{
 	name = "Factory Notice";
-	desc = Anoticedetailingthatduetoroomlayouts,theChurchisprovidedwithanexportpointforit'sfactory,shoulditneedit.;
+	desc = "A notice detailing that due to room layouts, the Church is provided with an export point for it's factory, should it need it.";
 	info = "You'll notice that due to the 'big move' to the new location and the dimensions of the requisitions room that making a factory will be difficult. To remedy this, please utilize this bunkroom, the allocated space to make a factory, and this complementary export point."
 	},
 /obj/structure/rack,
@@ -6863,13 +6905,9 @@
 	dir = 9
 	},
 /obj/machinery/vending/marineFood{
-	pixel_x = 16;
 	pixel_y = 16;
-	density = 0
-	},
-/obj/structure/prop/urban/misc/trash/blue{
-	pixel_x = -5;
-	pixel_y = 15
+	density = 0;
+	pixel_x = -3
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -7144,7 +7182,17 @@
 /obj/machinery/light/blue{
 	dir = 4
 	},
-/turf/open/floor/mainship/tcomms,
+/obj/machinery/atmospherics/pipe/simple/dark/visible/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/yellow/visible/layer3{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer1{
+	dir = 10
+	},
+/obj/structure/catwalk,
+/turf/open/floor/dark2,
 /area/antag_ship/clf_base/real/reedroom)
 "jAt" = (
 /obj/item/reagent_containers/food/snacks/grown/tomato,
@@ -8314,7 +8362,9 @@
 /obj/machinery/light/mainship{
 	dir = 1
 	},
-/obj/structure/sink/bathroom,
+/obj/structure/sink/bathroom{
+	dir = 8
+	},
 /obj/effect/turf_decal/stripes/red/line,
 /turf/open/floor/iron/dark,
 /area/antag_ship/vsd/hall)
@@ -8363,6 +8413,9 @@
 	},
 /obj/structure/table/reinforced,
 /obj/item/tool/kitchen/rollingpin,
+/obj/machinery/chem_dispenser/soda{
+	pixel_y = 22
+	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "lio" = (
@@ -8372,6 +8425,12 @@
 "liq" = (
 /turf/open/floor/floortwo,
 /area/antag_ship/clf_base/real/reedroom)
+"liv" = (
+/obj/structure/extinguisher_cabinet,
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 1
+	},
+/area/antag_ship/clf_base/real/dorms)
 "liD" = (
 /obj/effect/landmark/weapon_spawn/tier1_weapon_spawn,
 /obj/effect/landmark/weapon_spawn/tier2_weapon_spawn,
@@ -8786,7 +8845,7 @@
 "lGU" = (
 /obj/effect/mapping_helpers/airlock/free_access,
 /obj/machinery/door/airlock/vault,
-/turf/open/floor/mainship/tcomms,
+/turf/open/floor/redone,
 /area/antag_ship/clf_base/real/reedroom)
 "lGZ" = (
 /obj/effect/turf_decal/siding/white{
@@ -8859,10 +8918,6 @@
 /turf/open/floor/wood,
 /area/antag_ship/som/security/chief)
 "lMG" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 10
 	},
@@ -9024,6 +9079,10 @@
 "lWK" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/power/apc/hyper{
+	dir = 8
 	},
 /turf/open/floor/whitecyanthree{
 	dir = 4
@@ -9252,9 +9311,6 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/bridge/hall)
 "mjE" = (
-/obj/effect/turf_decal/siding/dark{
-	dir = 3
-	},
 /obj/machinery/power/apc/hyper{
 	dir = 1
 	},
@@ -9513,7 +9569,12 @@
 	dir = 1
 	},
 /obj/machinery/vending/cola{
-	pixel_x = 9;
+	pixel_y = 16;
+	density = 0;
+	pixel_x = -12
+	},
+/obj/machinery/vending/coffee{
+	pixel_x = 11;
 	pixel_y = 16;
 	density = 0
 	},
@@ -10217,6 +10278,16 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/som/mess)
+"nBQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/prop/urban/misc/trash/blue{
+	pixel_x = 0;
+	pixel_y = 16
+	},
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/breakroom)
 "nBS" = (
 /obj/structure/ladder,
 /turf/open/floor/plating/icefloor,
@@ -10361,10 +10432,6 @@
 /turf/open/floor/kutjevo/colors/yellow,
 /area/antag_ship/clf_base/real/engi)
 "nLq" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 9
 	},
@@ -10401,11 +10468,16 @@
 	dir = 5
 	},
 /obj/structure/table/reinforced,
-/obj/structure/transmitter/clf_net/desk{
-	phone_category = "Church Base";
-	pixel_x = 4;
-	pixel_y = 7;
-	phone_id = "Kitchen"
+/obj/machinery/chem_dispenser/beer{
+	pixel_y = 22;
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/food/drinks/shaker{
+	pixel_x = 9;
+	pixel_y = 18
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 8
 	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
@@ -10431,7 +10503,16 @@
 /turf/open/floor/plating,
 /area/antag_ship/icc/warehouse)
 "nRY" = (
-/obj/machinery/telecomms/receiver/preset_right/clf,
+/obj/effect/turf_decal/siding/wideplating/dark/end{
+	dir = 4
+	},
+/obj/machinery/telecomms/receiver/preset_right/clf{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/mainship/tcomms,
 /area/antag_ship/clf_base/real/reedroom)
 "nSa" = (
@@ -10873,10 +10954,6 @@
 	},
 /area/shuttle/transport)
 "ove" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 5
 	},
@@ -11019,14 +11096,12 @@
 /turf/open/floor/mainship_hull,
 /area/space)
 "oGd" = (
-/obj/structure/cable,
-/obj/structure/bed/chair{
-	dir = 8;
-	pixel_x = -6;
-	pixel_y = 0
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/extinguisher_cabinet{
+	dir = 1
 	},
 /turf/open/floor/wood,
-/area/antag_ship/clf_base/facade/canteen)
+/area/antag_ship/clf_base/facade/fakechapel)
 "oGk" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -11136,7 +11211,9 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/barracks)
 "oOk" = (
-/obj/structure/sink/bathroom,
+/obj/structure/sink/bathroom{
+	dir = 8
+	},
 /obj/effect/turf_decal/stripes/red/line,
 /turf/open/floor/iron/dark,
 /area/antag_ship/vsd/hall)
@@ -11212,9 +11289,6 @@
 /area/antag_ship/clf_base/facade/fakechapel)
 "oWY" = (
 /obj/machinery/light/red,
-/obj/effect/turf_decal/siding/dark{
-	dir = 3
-	},
 /obj/structure/closet/coffin{
 	pixel_y = 6
 	},
@@ -11645,6 +11719,12 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/staff)
+"pDL" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 5
+	},
+/turf/closed/mineral/smooth,
+/area/antag_ship/clf_base/caves/underground)
 "pDO" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/mainship/mono,
@@ -11699,6 +11779,15 @@
 	},
 /turf/open/floor/prison/blackfloor,
 /area/antag_ship/vsd/hall)
+"pGG" = (
+/obj/machinery/atmospherics/pipe/manifold/dark/visible/layer2,
+/obj/machinery/atmospherics/pipe/manifold/yellow/visible/layer3,
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer1{
+	dir = 8
+	},
+/obj/structure/catwalk,
+/turf/open/floor/dark2,
+/area/antag_ship/clf_base/real/reedroom)
 "pGI" = (
 /obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
@@ -11897,8 +11986,11 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 10
 	},
-/obj/machinery/bioprinter,
-/obj/item/reagent_containers/glass/beaker/biomass,
+/obj/structure/table/urban/shiny_black,
+/obj/item/storage/surgical_tray{
+	pixel_x = 1;
+	pixel_y = 7
+	},
 /turf/open/floor/whitecyanfour{
 	dir = 4
 	},
@@ -12762,10 +12854,6 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/engi)
 "qPv" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 9
 	},
@@ -12833,6 +12921,10 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 5
 	},
+/obj/structure/extinguisher_cabinet{
+	dir = 8
+	},
+/obj/structure/cable,
 /turf/open/floor/whitecyanfour{
 	dir = 1
 	},
@@ -12901,8 +12993,8 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/warehouse)
 "qXx" = (
-/obj/structure/bed/chair,
 /obj/effect/landmark/start/job/clf/standard,
+/obj/structure/bed/chair/alt,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "qXP" = (
@@ -13126,6 +13218,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
+/obj/structure/extinguisher_cabinet,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "rre" = (
@@ -13168,9 +13261,6 @@
 /turf/open/floor/bcircuit/off,
 /area/antag_ship/som/telecomms)
 "rtu" = (
-/obj/effect/turf_decal/siding/dark{
-	dir = 3
-	},
 /obj/structure/closet/coffin{
 	pixel_y = 6
 	},
@@ -13188,9 +13278,10 @@
 /turf/open/floor/iron/dark/small,
 /area/antag_ship/vsd/hall)
 "ruJ" = (
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/alt{
 	dir = 1;
 	pixel_y = 12;
+	pixel_x = -1;
 	layer = 2.81
 	},
 /turf/open/floor/wood,
@@ -13204,7 +13295,7 @@
 	id = CoE;
 	pixel_x = 9;
 	pixel_y = 23;
-	layer = 4.2
+	layer = 4.11
 	},
 /turf/open/floor/whitecyanthree{
 	dir = 1
@@ -13236,10 +13327,9 @@
 "ryc" = (
 /obj/structure/cable,
 /obj/effect/landmark/start/job/clf/standard,
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/alt{
 	dir = 8;
-	pixel_x = -6;
-	pixel_y = 0
+	pixel_x = -6
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
@@ -13269,6 +13359,10 @@
 	dir = 1
 	},
 /area/shuttle/transport)
+"rzH" = (
+/obj/structure/inflatable/door,
+/turf/open/floor/plating/ground/drought/cave,
+/area/antag_ship/clf_base/caves/surface)
 "rAq" = (
 /turf/closed/shuttle/ert{
 	icon_state = "leftengine_1";
@@ -13308,12 +13402,11 @@
 	},
 /area/antag_ship/pmc_ntf/center/armory)
 "rBJ" = (
-/obj/structure/bed/chair{
-	dir = 8;
-	pixel_x = -6;
-	pixel_y = 0
-	},
 /obj/structure/cable,
+/obj/structure/bed/chair/alt{
+	dir = 8;
+	pixel_x = -6
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "rCf" = (
@@ -13514,6 +13607,7 @@
 "rPI" = (
 /obj/structure/ladder,
 /obj/structure/cable/multilayer/multiz,
+/obj/structure/extinguisher_cabinet,
 /turf/open/floor/orange_edge{
 	dir = 1
 	},
@@ -13598,12 +13692,13 @@
 /obj/machinery/vending/marineFood/som{
 	pixel_y = 16;
 	density = 0;
-	pixel_x = 7
+	pixel_x = -12
 	},
-/obj/item/coin/platinum{
+/obj/machinery/vending/cigarette/colony{
+	pixel_y = 16;
+	density = 0;
 	pixel_x = 11;
-	layer = 2.89;
-	pixel_y = 6
+	layer = 3.11
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -13631,9 +13726,6 @@
 	},
 /area/antag_ship/clf_base/facade/parklot)
 "rWL" = (
-/obj/effect/turf_decal/siding/dark{
-	dir = 3
-	},
 /obj/structure/kitchenspike,
 /turf/open/floor/freezer,
 /area/antag_ship/clf_base/facade/kitchen)
@@ -13645,8 +13737,8 @@
 /area/antag_ship/clf_base/real/dorms)
 "rXo" = (
 /obj/structure/bed/urban/bunkbed4{
-	pixel_x = -2;
-	pixel_y = 0
+	dir = 4;
+	pixel_x = -2
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -13731,15 +13823,10 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
-/obj/machinery/vending/cigarette/colony{
-	pixel_x = -5;
-	pixel_y = 16;
-	density = 0
-	},
 /obj/machinery/vending/snack{
-	pixel_x = 18;
 	pixel_y = 16;
-	density = 0
+	density = 0;
+	pixel_x = -3
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -13844,7 +13931,7 @@
 	},
 /area/antag_ship/clf_base/real/dorms)
 "skw" = (
-/obj/structure/bed/chair,
+/obj/structure/bed/chair/alt,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "skH" = (
@@ -14154,7 +14241,22 @@
 /turf/open/urban/street/asphalt,
 /area/antag_ship/clf_base/facade/parklot)
 "sIu" = (
-/obj/machinery/telecomms/server/presets/common/clf,
+/obj/machinery/telecomms/server/presets/common/clf{
+	pixel_y = 7;
+	pixel_x = -6
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/end{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden/layer3{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 5
+	},
 /turf/open/floor/mainship/tcomms,
 /area/antag_ship/clf_base/real/reedroom)
 "sJl" = (
@@ -14549,9 +14651,11 @@
 	dir = 1
 	},
 /obj/structure/table/reinforced,
-/obj/machinery/reagentgrinder{
-	pixel_x = 0;
-	pixel_y = 9
+/obj/structure/transmitter/clf_net/desk{
+	phone_category = "Church Base";
+	pixel_x = 4;
+	pixel_y = 7;
+	phone_id = "Kitchen"
 	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
@@ -14721,7 +14825,7 @@
 	dir = 8
 	},
 /obj/effect/landmark/start/job/clf/standard,
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/alt{
 	dir = 4;
 	pixel_x = 6
 	},
@@ -14929,6 +15033,10 @@
 /area/antag_ship/icc/generator_room)
 "tLm" = (
 /obj/effect/turf_decal/siding/wood,
+/obj/structure/bed/chair/alt{
+	dir = 8;
+	pixel_x = -6
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
 "tLC" = (
@@ -15000,15 +15108,6 @@
 /obj/structure/largecrate/supply/explosives/disposable,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/warehouse)
-"tQI" = (
-/obj/item/paper/crumpled{
-	info = "Locked out? No you're not. There's a crowbar next to the garden shed. Use it.";
-	name = "crumpled note"
-	},
-/turf/open/urban/street/sidewalk{
-	dir = 8
-	},
-/area/antag_ship/clf_base/facade/parklot)
 "tRw" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer1{
 	on = 1
@@ -15203,9 +15302,10 @@
 "ufb" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/landmark/start/job/clf/standard,
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/alt{
 	dir = 1;
 	pixel_y = 12;
+	pixel_x = -1;
 	layer = 2.81
 	},
 /turf/open/floor/wood,
@@ -15238,7 +15338,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/alt{
 	dir = 4;
 	pixel_x = 6
 	},
@@ -15337,14 +15437,6 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/mess/officers)
-"uob" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/structure/bed/chair,
-/obj/structure/cable,
-/turf/open/floor/wood,
-/area/antag_ship/clf_base/facade/canteen)
 "uon" = (
 /obj/structure/rack,
 /obj/item/storage/belt/utility/full,
@@ -15538,7 +15630,7 @@
 	},
 /obj/machinery/power/apc/hyper,
 /obj/structure/cable,
-/obj/structure/bed/chair,
+/obj/structure/bed/chair/alt,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "uyK" = (
@@ -15642,7 +15734,17 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/security/cell)
 "uFS" = (
-/obj/machinery/telecomms/broadcaster/preset_left/clf,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/dark,
+/obj/machinery/telecomms/bus/preset_four/clf{
+	pixel_y = 7
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden/layer3,
 /turf/open/floor/mainship/tcomms,
 /area/antag_ship/clf_base/real/reedroom)
 "uGb" = (
@@ -16162,10 +16264,6 @@
 /turf/open/floor/plating/ground/dirt,
 /area/antag_ship/icc/hangar/east)
 "vsb" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 10
 	},
@@ -16237,6 +16335,11 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/som/engi)
+"vwN" = (
+/obj/effect/turf_decal/siding/white,
+/obj/machinery/iv_drip,
+/turf/open/floor/whitecyanthree,
+/area/antag_ship/clf_base/real/medbay)
 "vwO" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
 	dir = 9
@@ -16290,6 +16393,14 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/commcenter)
+"vAl" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/structure/bed/chair/alt,
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/canteen)
 "vAJ" = (
 /obj/structure/table/black,
 /obj/item/clothing/mask/muzzle,
@@ -16402,7 +16513,14 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/prisoner_holding)
 "vJq" = (
-/obj/machinery/telecomms/processor/preset_four/clf,
+/obj/machinery/telecomms/processor/preset_four/clf{
+	pixel_y = 7;
+	pixel_x = -3
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/mainship/tcomms,
 /area/antag_ship/clf_base/real/reedroom)
 "vJK" = (
@@ -16743,6 +16861,12 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/prisoner_holding)
+"wiJ" = (
+/obj/effect/turf_decal/siding/white,
+/obj/machinery/bioprinter,
+/obj/item/reagent_containers/glass/beaker/biomass,
+/turf/open/floor/whitecyanthree,
+/area/antag_ship/clf_base/real/medbay)
 "wiV" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -16967,7 +17091,7 @@
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "wzT" = (
-/obj/structure/window/framed/colony,
+/obj/structure/window/framed/mainship/hull,
 /turf/open/floor/grass,
 /area/antag_ship/clf_base/facade/parklot)
 "wAR" = (
@@ -17252,10 +17376,6 @@
 /turf/open/floor/freezer,
 /area/antag_ship/som/mess)
 "wUV" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 5
 	},
@@ -17375,9 +17495,10 @@
 /area/antag_ship/som/hangar)
 "wZE" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/structure/bed/chair{
+/obj/structure/bed/chair/alt{
 	dir = 1;
 	pixel_y = 12;
+	pixel_x = -1;
 	layer = 2.81
 	},
 /turf/open/floor/wood,
@@ -17428,10 +17549,6 @@
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "xbz" = (
-/obj/effect/turf_decal/siding/dark{
-	dir = 1;
-	pixel_y = 1
-	},
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/white{
 	pixel_y = -1
@@ -17534,11 +17651,21 @@
 /turf/open/floor/mainship/sterile/white,
 /area/antag_ship/som/bathroom/lower)
 "xke" = (
-/obj/effect/turf_decal/siding/white,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/machinery/iv_drip,
-/turf/open/floor/whitecyanthree,
-/area/antag_ship/clf_base/real/medbay)
+/obj/structure/closet/secure_closet/walllocker/medical{
+	dir = 4;
+	desc = "It's a secure wall-mounted storage unit for emergency entry supplies.";
+	name = "emergency entry cabinet"
+	},
+/obj/item/tool/crowbar/red,
+/obj/item/explosive/grenade/flare/civilian,
+/obj/item/explosive/grenade/flare/civilian,
+/obj/item/paper{
+	name = "Emergency Notice";
+	desc = "A printed notice for entry in the event of power failure.";
+	info = "So, by impossible means, the power to the church has run dry. This is extremely unlikely but still completely possible in the event that the APC units fail. Within this cabinet are a pair of flares and a crowbar to light the way to the south wing of the Church, where the backup generators will be located. They will most likely need repairs, but a toolbox should be close by. If you are reading this and the lights in the entryway are on, please close this cabinet with all emergency supplies still inside, thank you."
+	},
+/turf/open/floor/grass,
+/area/antag_ship/clf_base/facade/parklot)
 "xkI" = (
 /turf/open/urban/street/asphalt,
 /area/lv624/ground/caves/rock)
@@ -17770,10 +17897,6 @@
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "xyI" = (
-/obj/structure/prop/mainship/gelida/lightstick{
-	pixel_x = -1;
-	pixel_y = 13
-	},
 /turf/open/floor/plating/icefloor/warnplate{
 	dir = 6
 	},
@@ -17881,6 +18004,7 @@
 	dir = 10
 	},
 /obj/machinery/light,
+/obj/structure/table/urban/shiny_brown,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
 "xJG" = (
@@ -18203,7 +18327,7 @@
 /turf/closed/wall/mainship/gray,
 /area/antag_ship/icc/requisition)
 "yjE" = (
-/obj/structure/window/framed/colony,
+/obj/structure/window/framed/mainship/hull,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/clf_base/facade/parklot)
 "ykU" = (
@@ -29070,7 +29194,7 @@ mLL
 tsj
 cQY
 eYL
-ety
+puD
 auk
 lBf
 lBf
@@ -30309,7 +30433,7 @@ djZ
 aGX
 eYL
 uFS
-gpt
+pGG
 vJq
 eYL
 axD
@@ -30597,8 +30721,8 @@ djZ
 aGX
 aGX
 aGX
-aGX
-aGX
+pDL
+pDL
 aGX
 aGX
 aGX
@@ -41353,7 +41477,7 @@ oRF
 oRF
 oRF
 oRF
-oRF
+hVl
 oRF
 oRF
 oRF
@@ -41755,7 +41879,7 @@ cwe
 taT
 taT
 uBK
-rvB
+cjr
 eht
 sAm
 kjt
@@ -41851,8 +41975,8 @@ qEN
 mdB
 taT
 uBK
-cjr
-xke
+rvB
+wiJ
 sAm
 kjt
 oRF
@@ -41918,7 +42042,7 @@ kjt
 bGB
 bMo
 eUy
-hlV
+eUy
 bGB
 oIT
 bIB
@@ -41935,7 +42059,7 @@ sxl
 bcL
 oOM
 qkg
-uIB
+ety
 kIe
 kIe
 obm
@@ -42031,7 +42155,7 @@ tJs
 bcL
 oOM
 qkg
-uIB
+liv
 kIe
 kIe
 obm
@@ -42044,7 +42168,7 @@ taT
 sJK
 pmZ
 taT
-weU
+vwN
 sAm
 kjt
 oRF
@@ -42227,9 +42351,9 @@ uIB
 kIe
 kIe
 fEb
-skj
+cjw
 fjm
-bPu
+obm
 hCG
 qUO
 lWK
@@ -42602,9 +42726,9 @@ rDo
 mNs
 uHV
 rBJ
-oGd
+rBJ
 ryc
-oGd
+rBJ
 iho
 cJU
 rXo
@@ -42788,11 +42912,11 @@ gie
 dlT
 yik
 qkg
-lsZ
+nBQ
 bcL
 xMf
 qkg
-uob
+vAl
 xyA
 ruJ
 skw
@@ -42888,7 +43012,7 @@ cuN
 bcL
 bhD
 qkg
-uob
+vAl
 xyA
 ruJ
 skw
@@ -43080,7 +43204,7 @@ qkg
 qkg
 qkg
 qkg
-uob
+vAl
 xyA
 ruJ
 qXx
@@ -43186,7 +43310,7 @@ cJU
 frS
 qCT
 nzu
-qCT
+aAi
 qCT
 qCT
 mke
@@ -43362,7 +43486,7 @@ jFj
 jFj
 jFj
 jFj
-tAv
+oGd
 fkr
 fOZ
 iMO
@@ -44131,9 +44255,9 @@ rfA
 pWk
 fbt
 fbt
-fbt
+xke
 qma
-tQI
+dUp
 gcW
 fbt
 fbt
@@ -44337,7 +44461,7 @@ fbt
 fbt
 fbt
 fbt
-tbJ
+fbd
 ucZ
 ucZ
 ucZ
@@ -44415,7 +44539,7 @@ hxu
 rWr
 rWr
 rWr
-iyY
+rWr
 rWr
 rWr
 rWr
@@ -44433,7 +44557,7 @@ dUp
 dUp
 dUp
 gcW
-ucZ
+rzH
 ucZ
 ucZ
 ucZ
@@ -44529,7 +44653,7 @@ yhw
 yhw
 yhw
 pnA
-ucZ
+rzH
 ucZ
 ucZ
 ucZ
@@ -44625,7 +44749,7 @@ cbB
 cbB
 cbB
 pUV
-tbJ
+fbd
 ucZ
 ucZ
 ucZ
