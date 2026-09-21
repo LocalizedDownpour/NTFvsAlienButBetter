@@ -1661,3 +1661,102 @@
 
 /datum/ammo/bullet/shotgun/flak/sg/do_at_max_range(turf/target_turf, atom/movable/projectile/proj)
 	airburst(target_turf, proj, burst_damage)
+
+/obj/item/weapon/gun/rifle/sagr11
+	name = "\improper SAGR-11 SAYAIR autorifle"
+	desc = "The SAGR-11 is an abbreviation for the SAYAIR Grim Reaper, a high capacity autorifle repurposed off of stolen K&H schematics. On Qilin-24, SAGR-11 rifles are often found in the hands of SAYAIR assault and kill teams, on rarer occasions they are found in the possession of SOM Veterans and Ground Down agents. The major comparison between the SAGR-11 and AR-11 is that the SAGR-11 can fit a muzzle attachment, provide rapid automatic suppressive fire at the expense of being heavier and bulkier than its K&H counterpart. Instead of using 4.92×34mm caseless HV ammunition like its counterpart, the rifle is chambered in 5.8×42mm caseless MV ammunition."
+	icon = 'ntf_modular/icons/obj/items/guns/rifles64.dmi'
+	icon_state = "sagr11"
+	worn_icon_state = "sagr11"
+	worn_icon_list = list(
+		slot_l_hand_str = 'ntf_modular/icons/mob/inhands/guns/rifles_left_1.dmi',
+		slot_r_hand_str = 'ntf_modular/icons/mob/inhands/guns/rifles_right_1.dmi',
+		slot_s_store_str = 'ntf_modular/icons/mob/suit_slot.dmi',
+		slot_back_str = 'ntf_modular/icons/mob/clothing/back.dmi',
+	)
+	caliber = CALIBER_58X42_CASELESS //codex
+	max_shells = 80 //codex
+	wield_delay = 1 SECONDS
+	fire_sound = 'sound/weapons/guns/fire/sagr11.ogg'
+	dry_fire_sound = 'sound/weapons/guns/fire/m41a_empty.ogg'
+	unload_sound = 'sound/weapons/guns/interact/T42_unload.ogg'
+	reload_sound = 'sound/weapons/guns/interact/T42_reload.ogg'
+	default_ammo_type = /obj/item/ammo_magazine/rifle/sagr11
+	allowed_ammo_types = list(/obj/item/ammo_magazine/rifle/sagr11, /obj/item/ammo_magazine/rifle/sagr11/rubber)
+	attachable_allowed = list(
+		/obj/item/attachable/scope/mini,
+		/obj/item/attachable/scope/marine,
+		/obj/item/attachable/scope/nightvision,
+		/obj/item/attachable/scope/tac,
+		/obj/item/attachable/scope/optical,
+		/obj/item/attachable/motiondetector,
+		/obj/item/attachable/extended_barrel,
+		/obj/item/attachable/heavy_barrel,
+		/obj/item/attachable/suppressor,
+		/obj/item/attachable/bayonet,
+		/obj/item/attachable/bayonet/som,
+		/obj/item/attachable/compensator,
+		/obj/item/attachable/bayonet/converted,
+		/obj/item/attachable/reddot,
+		/obj/item/attachable/flashlight,
+		/obj/item/attachable/magnetic_harness,
+		/obj/item/attachable/flashlight/under,
+		/obj/item/attachable/lasersight,
+	)
+
+	gun_features_flags = GUN_AMMO_COUNTER|GUN_SMOKE_PARTICLES|GUN_WIELDED_FIRING_ONLY
+	gun_firemode_list = list(GUN_FIREMODE_AUTOMATIC, GUN_FIREMODE_BURSTFIRE, GUN_FIREMODE_AUTOBURST)
+	attachable_offset = list("muzzle_x" = 46, "muzzle_y" = 17,"rail_x" = 18, "rail_y" = 24, "under_x" = 40, "under_y" = 14, "stock_x" = 17, "stock_y" = 14)
+	actions_types = list(/datum/action/item_action/aim_mode)
+	aim_fire_delay = 0.25 SECONDS
+
+	fire_delay = 0.15 SECONDS
+	burst_amount = 5
+	burst_delay = 0.1 SECONDS
+	extra_delay = 0.2 SECONDS
+	accuracy_mult_unwielded = 0.5
+	accuracy_mult = 1.1
+	scatter = 1
+	scatter_unwielded = 2
+	aim_slowdown = 0.5
+	movement_acc_penalty_mult = 8
+
+/obj/item/weapon/gun/rifle/sagr11/somvet
+	starting_attachment_types = list(
+		/obj/item/attachable/scope/tac,
+		/obj/item/attachable/lasersight,
+		/obj/item/attachable/heavy_barrel,
+	)
+
+/obj/item/ammo_magazine/rifle/sagr11
+	name = "\improper SAGR-11 autorifle magazine"
+	desc = "A magazine filled with 5.8x42mm caseless rifle rounds for the SAGR-11."
+	caliber = CALIBER_58X42_CASELESS
+	icon = 'ntf_modular/icons/obj/items/ammo/rifle.dmi'
+	icon_state = "sagr11"
+	icon_state_mini = "mag_tx11"
+	default_ammo = /datum/ammo/bullet/rifle/sahv
+	max_rounds = 80
+
+/obj/item/ammo_magazine/rifle/sagr11/rubber
+	name = "\improper SAGR-11 autorifle rubber magazine"
+	icon = 'ntf_modular/icons/obj/ammo/ammo.dmi'
+	icon_state = "sagr11"
+	default_ammo = /datum/ammo/bullet/rifle/sahv/rubber
+
+/datum/ammo/bullet/rifle/sahv
+	name = "medium-velocity autorifle bullet"
+	hud_state = "hivelo"
+	accurate_range = 18
+	shell_speed = 3
+	max_range = 30
+	damage = 27.5
+	penetration = 5
+	sundering = 1.5
+
+/datum/ammo/bullet/rifle/sahv/rubber
+	name = "medium-velocity autorifle rubber bullet"
+	shell_speed = 3
+	damage = 22.5
+	damage_type = STAMINA
+	shrapnel_chance = 0

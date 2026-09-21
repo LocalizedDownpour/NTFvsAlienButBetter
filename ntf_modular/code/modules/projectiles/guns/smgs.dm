@@ -282,3 +282,83 @@
 	if(prob(emp_chance))
 		do_sparks(3, TRUE, target_turf)
 		empulse(target_turf, 0, 0, 0, 1)
+
+//MF-SMG 4.6MM //UF2 Hostility MF Express SMG
+
+/obj/item/weapon/gun/smg/huf_mfsmg
+	name = "\improper MF-Express SMG"
+	desc = "A rapid-fire submachinegun developed by Navy Sun armaments sold to private security and field operatives. The MF-SMG fires specialized 4.6 munitions designed for high impact, the vented compensator integrated into the muzzle is effective at dampening recoil but makes the weapon unable to accept muzzle attachments."
+	icon = 'ntf_modular/icons/obj/items/guns/submachineguns64.dmi'
+	worn_icon_state = "mf_smg"
+	worn_icon_list = list(
+		slot_l_hand_str = 'ntf_modular/icons/mob/inhands/guns/submachineguns_left_1.dmi',
+		slot_r_hand_str = 'ntf_modular/icons/mob/inhands/guns/submachineguns_right_1.dmi',
+		slot_s_store_str = 'ntf_modular/icons/mob/suit_slot.dmi',
+		slot_back_str = 'ntf_modular/icons/mob/clothing/back.dmi',
+	)
+	icon_state = "mf_smg"
+	caliber = CALIBER_46X30 //codex
+	max_shells = 27 //codex
+	equip_slot_flags = ITEM_SLOT_BACK
+	w_class = WEIGHT_CLASS_BULKY
+	fire_sound = 'sound/weapons/guns/fire/mfsmg.ogg'
+	unload_sound = 'sound/weapons/guns/interact/uzi_unload.ogg'
+	reload_sound = 'sound/weapons/guns/interact/uzi_reload.ogg'
+	cocked_sound = 'sound/weapons/guns/interact/uzi_cocked.ogg'
+	default_ammo_type = /obj/item/ammo_magazine/smg/mfsmg
+	allowed_ammo_types = list(/obj/item/ammo_magazine/smg/mfsmg, /obj/item/ammo_magazine/smg/mfsmg/extended)
+	attachable_allowed = list(
+		/obj/item/attachable/reddot,
+		/obj/item/attachable/lasersight,
+		/obj/item/attachable/gyro,
+		/obj/item/attachable/flashlight,
+		/obj/item/attachable/flashlight/under,
+		/obj/item/attachable/scope,
+		/obj/item/attachable/scope/mini,
+		/obj/item/attachable/magnetic_harness,
+	)
+	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 23,"rail_x" = 26, "rail_y" = 22, "under_x" = 35, "under_y" = 23, "stock_x" = 22, "stock_y" = 16)
+	actions_types = list(/datum/action/item_action/aim_mode)
+	aim_fire_delay = 0.15 SECONDS
+	aim_speed_modifier = 0.75
+	fire_delay = 0.15 SECONDS
+	burst_delay =  0.1 SECONDS
+	burst_amount = 5
+	accuracy_mult = 1
+	accuracy_mult_unwielded = 0.75
+	scatter = 0
+	scatter_unwielded = 10
+	aim_slowdown = 0.25
+	wield_delay = 0.5 SECONDS
+	damage_mult = 1
+
+/obj/item/weapon/gun/smg/huf_mfsmg/somvet
+	default_ammo_type = /obj/item/ammo_magazine/smg/mfsmg/extended
+	starting_attachment_types = list(/obj/item/attachable/reddot, /obj/item/attachable/lasersight,)
+
+/obj/item/ammo_magazine/smg/mfsmg
+	name = "\improper MF-SMG magazine (4.6x30mm HP)"
+	desc = "A magazine for the MF-SMG."
+	caliber = CALIBER_46X30
+	icon = 'ntf_modular/icons/obj/items/ammo/submachinegun.dmi'
+	icon_state = "mf_smg"
+	bonus_overlay = "mf_smg_reg"
+	icon_state_mini = "mag_smg_dark"
+	max_rounds = 27
+	default_ammo = /datum/ammo/bullet/smg/mfsmg
+
+/obj/item/ammo_magazine/smg/mfsmg/extended
+	name = "\improper MF-SMG extended magazine (4.6x30mm HP)"
+	desc = "An extended magazine for the MF-SMG."
+	icon_state = "mf_smg_ext"
+	max_rounds = 45
+	w_class = WEIGHT_CLASS_SMALL
+	bonus_overlay = "mf_smg_ext"
+	icon_state_mini = "mag_smg_dark"
+
+/datum/ammo/bullet/smg/mfsmg
+	name = "specialized hollowpoint smg bullet"
+	hud_state = "pistol_squash"
+	damage = 25
+	penetration = 2.5
+	sundering = 3

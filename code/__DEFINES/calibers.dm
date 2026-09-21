@@ -10,6 +10,7 @@
 #define CALIBER_45L ".45 Long"
 #define CALIBER_22LR ".22 LR"
 #define CALIBER_380ACP ".380 ACP"
+#define CALIBER_57X28 "5.7×28mm"
 #define CALIBER_PLASMA "Ionized Plasma Bolt" //PP-7 Plasma Pistol
 #define CALIBER_50AE ".50 AE"
 #define CALIBER_41RIM ".41 Rimfire" //Derringer
@@ -38,6 +39,8 @@
 #define CALIBER_10x27_CASELESS "10x27mm caseless"
 #define CALIBER_10x265_CASELESS "10x26.5mm caseless"
 #define CALIBER_762X39 "7.62x39mm"
+#define CALIBER_58X42_CASELESS "5.8x42mm caseless"
+#define CALIBER_58X42 "5.8x42mm"
 #define CALIBER_556X45 "5.56x45mm"
 #define CALIBER_300 ".300 AAC"
 #define CALIBER_68X43 "6.8x43mm SPC"
