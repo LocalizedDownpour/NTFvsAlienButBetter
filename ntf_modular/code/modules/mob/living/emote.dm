@@ -89,11 +89,96 @@
 
 /datum/emote/living/carbon/human/sexmoanlight
 	key = "sexmoanlight"
+	key_third_person = "moans softly"
+	message = "moans softly."
 	emote_type = EMOTE_TYPE_AUDIBLE
+
+/datum/emote/living/carbon/human/sexmoanlight/get_sound(mob/living/carbon/human/user)
+	if(!ishuman(user))
+		return null
+	if(user.gender == FEMALE)
+		return pick(
+			'modular_lewd_items/sounds/under_moan_f1.ogg',
+			'modular_lewd_items/sounds/under_moan_f2.ogg',
+			'modular_lewd_items/sounds/under_moan_f3.ogg',
+			'modular_lewd_items/sounds/under_moan_f4.ogg',
+			'ntf_modular/sound/vo/female/gen/se/sexlight (1).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sexlight (2).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sexlight (3).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sexlight (4).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sexlight (5).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sexlight (6).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sexlight (7).ogg',
+			'sound/voice/sexymoan_female1.ogg',
+			'sound/voice/sexymoan_female2.ogg',
+			'sound/voice/sexymoan_female3.ogg'
+		)
+	return pick(
+		'sound/voice/sexymoan_male1.ogg',
+		'sound/voice/sexymoan_male2.ogg',
+		'sound/voice/sexymoan_male3.ogg'
+	)
 
 /datum/emote/living/carbon/human/sexmoanhvy
 	key = "sexmoanhvy"
+	key_third_person = "moans loudly"
+	message = "moans loudly!"
 	emote_type = EMOTE_TYPE_AUDIBLE
+
+/datum/emote/living/carbon/human/sexmoanhvy/get_sound(mob/living/carbon/human/user)
+	if(!ishuman(user))
+		return null
+	if(user.gender == FEMALE)
+		return pick(
+			'modular_lewd_items/sounds/final_f1.ogg',
+			'modular_lewd_items/sounds/final_f2.ogg',
+			'modular_lewd_items/sounds/final_f3.ogg',
+			'ntf_modular/sound/vo/female/gen/se/sex (1).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sex (2).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sex (3).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sex (4).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sex (5).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sex (6).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sex (7).ogg',
+			'ntf_modular/sound/vo/female/gen/se/sex (8).ogg',
+			'sound/voice/sexymoan_female4.ogg',
+			'sound/voice/sexymoan_female5.ogg',
+			'sound/voice/sexymoan_female6.ogg',
+			'sound/voice/sexymoan_female7.ogg'
+		)
+	return pick(
+		'modular_lewd_items/sounds/final_m1.ogg',
+		'modular_lewd_items/sounds/final_m2.ogg',
+		'modular_lewd_items/sounds/final_m3.ogg',
+		'sound/voice/sexymoan_male1.ogg',
+		'sound/voice/sexymoan_male2.ogg',
+		'sound/voice/sexymoan_male3.ogg',
+		'sound/voice/sexymoan_male4.ogg',
+		'sound/voice/sexymoan_male5.ogg'
+	)
+
+/datum/emote/living/carbon/human/moan/get_sound(mob/living/carbon/human/user)
+	if(!ishuman(user))
+		return null
+	if(user.gender == FEMALE)
+		return pick(
+			'modular_lewd_items/sounds/under_moan_f1.ogg',
+			'modular_lewd_items/sounds/under_moan_f2.ogg',
+			'modular_lewd_items/sounds/under_moan_f3.ogg',
+			'modular_lewd_items/sounds/under_moan_f4.ogg',
+			'sound/voice/sexymoan_female1.ogg',
+			'sound/voice/sexymoan_female2.ogg',
+			'sound/voice/sexymoan_female3.ogg',
+			'sound/voice/sexymoan_female4.ogg',
+			'sound/voice/sexymoan_female5.ogg'
+		)
+	return pick(
+		'modular_lewd_items/sounds/final_m1.ogg',
+		'sound/voice/sexymoan_male1.ogg',
+		'sound/voice/sexymoan_male2.ogg',
+		'sound/voice/sexymoan_male3.ogg',
+		'sound/voice/sexymoan_male4.ogg'
+	)
 
 /datum/emote/living/groan
 	key = "groan"
@@ -175,6 +260,27 @@
 	user.ExtinguishMob()
 	user.status_flags &= ~GODMODE
 	REMOVE_TRAIT(user, TRAIT_SURRENDERING, "surrender")
+
+/datum/emote/living/carbon/xenomorph/sexmoanlight
+	key = "sexmoanlight"
+	key_third_person = "hisses softly"
+	message = "hisses softly and shivers."
+	emote_type = EMOTE_TYPE_AUDIBLE
+	sound = 'sound/voice/alien/hiss1.ogg'
+
+/datum/emote/living/carbon/xenomorph/sexmoanhvy
+	key = "sexmoanhvy"
+	key_third_person = "hisses loudly"
+	message = "hisses loudly in ecstasy!"
+	emote_type = EMOTE_TYPE_AUDIBLE
+	sound = 'sound/voice/alien/hiss2.ogg'
+
+/datum/emote/living/carbon/xenomorph/moan
+	key = "moan"
+	key_third_person = "moans with a guttural hiss"
+	message = "moans with a guttural hiss."
+	emote_type = EMOTE_TYPE_AUDIBLE
+	sound = 'sound/voice/alien/hiss3.ogg'
 
 /datum/emote/living/carbon/human/surrender
     key = "surrender"

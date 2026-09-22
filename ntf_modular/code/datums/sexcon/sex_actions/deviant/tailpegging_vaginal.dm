@@ -3,15 +3,14 @@
 	check_incapacitated = FALSE
 
 /datum/sex_action/tailpegging_vaginal/shows_on_menu(mob/living/carbon/user, mob/living/carbon/target)
-
 	if(!user.sexcon.can_use_tail())
-		return TRUE
-	return FALSE
+		return FALSE
+	return TRUE
 
 /datum/sex_action/tailpegging_vaginal/can_perform(mob/living/carbon/human/user, mob/living/carbon/human/target)
 	if(!user.sexcon.can_use_tail())
-		return TRUE
-	return FALSE
+		return FALSE
+	return TRUE
 
 /datum/sex_action/tailpegging_vaginal/on_start(mob/living/carbon/user, mob/living/carbon/target)
 	..()
@@ -21,7 +20,7 @@
 /datum/sex_action/tailpegging_vaginal/on_perform(mob/living/carbon/user, mob/living/carbon/target)
 	if(user.sexcon.do_message_signature("[type]"))
 		user.visible_message(user.sexcon.spanify_force("[user] [user.sexcon.get_generic_force_adjective()] fucks [target]'s cunt with [user.p_their()] tail."))
-	playsound(target, 'ntf_modular/sound/misc/mat/segso.ogg', 50, TRUE, 5, ignore_walls = FALSE)
+	playsound(target, pick('modular_lewd_items/sounds/bang1.ogg', 'modular_lewd_items/sounds/bang2.ogg', 'modular_lewd_items/sounds/bang3.ogg', 'modular_lewd_items/sounds/bang4.ogg', 'ntf_modular/sound/misc/mat/segso.ogg'), 45, TRUE, 5, ignore_walls = FALSE)
 	do_thrust_animate(user, target)
 
 	if(user.sexcon.considered_limp())

@@ -2604,4 +2604,5 @@
 #include "modular_RUtgmc\include.dm"
 #include "modular_skyrat\include.dm"
 #include "ntf_modular\include.dm"
+#include "modular_lewd_items\include.dm"
 // END_INCLUDE

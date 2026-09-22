@@ -1287,6 +1287,8 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 
 ///Generates worn icon for sprites on-mob.
 /obj/item/proc/make_worn_icon(species_type, slot_name, inhands, default_icon, default_layer, icon_file_override)
+	if(!inhands && (isxeno(loc) || species_type == "Xenomorph"))
+		return null
 	//Get the required information about the base icon
 	var/iconfile2use = get_worn_icon_file(species_type = species_type, slot_name = slot_name, default_icon = default_icon, inhands = inhands, icon_file_override = icon_file_override)
 	var/state2use = get_worn_icon_state(slot_name = slot_name, inhands = inhands)

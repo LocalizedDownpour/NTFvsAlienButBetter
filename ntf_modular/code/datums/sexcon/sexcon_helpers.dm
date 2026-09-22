@@ -101,6 +101,78 @@
 	else
 		playsound(src, pick('ntf_modular/sound/misc/mat/guymouth (1).ogg','ntf_modular/sound/misc/mat/guymouth (2).ogg','ntf_modular/sound/misc/mat/guymouth (3).ogg','ntf_modular/sound/misc/mat/guymouth (4).ogg','ntf_modular/sound/misc/mat/guymouth (5).ogg'), 35, TRUE, 7, ignore_walls = FALSE)
 
+/mob/living/proc/play_sexcon_moan(heavy = FALSE, volume = 35)
+	if(stat == DEAD)
+		return
+	if(isxeno(src))
+		var/xeno_sound = heavy ? pick('sound/voice/alien/hiss2.ogg', 'sound/voice/alien/hiss3.ogg') : pick('sound/voice/alien/hiss1.ogg', 'sound/voice/alien/hiss2.ogg')
+		playsound(src, xeno_sound, volume, FALSE, 7, ignore_walls = FALSE)
+		return
+	if(!istype(src, /mob/living/carbon/human))
+		return
+	var/sound_to_play
+	if(gender == FEMALE)
+		if(heavy)
+			sound_to_play = pick(
+				'modular_lewd_items/sounds/final_f1.ogg',
+				'modular_lewd_items/sounds/final_f2.ogg',
+				'modular_lewd_items/sounds/final_f3.ogg',
+				'ntf_modular/sound/vo/female/gen/se/sex (1).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sex (2).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sex (3).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sex (4).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sex (5).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sex (6).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sex (7).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sex (8).ogg',
+				'sound/voice/sexymoan_female1.ogg',
+				'sound/voice/sexymoan_female2.ogg',
+				'sound/voice/sexymoan_female3.ogg',
+				'sound/voice/sexymoan_female4.ogg',
+				'sound/voice/sexymoan_female5.ogg',
+				'sound/voice/sexymoan_female6.ogg',
+				'sound/voice/sexymoan_female7.ogg'
+			)
+		else
+			sound_to_play = pick(
+				'modular_lewd_items/sounds/under_moan_f1.ogg',
+				'modular_lewd_items/sounds/under_moan_f2.ogg',
+				'modular_lewd_items/sounds/under_moan_f3.ogg',
+				'modular_lewd_items/sounds/under_moan_f4.ogg',
+				'ntf_modular/sound/vo/female/gen/se/sexlight (1).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sexlight (2).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sexlight (3).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sexlight (4).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sexlight (5).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sexlight (6).ogg',
+				'ntf_modular/sound/vo/female/gen/se/sexlight (7).ogg',
+				'sound/voice/sexymoan_female1.ogg',
+				'sound/voice/sexymoan_female2.ogg',
+				'sound/voice/sexymoan_female3.ogg'
+			)
+	else
+		if(heavy)
+			sound_to_play = pick(
+				'modular_lewd_items/sounds/final_m1.ogg',
+				'modular_lewd_items/sounds/final_m2.ogg',
+				'modular_lewd_items/sounds/final_m3.ogg',
+				'sound/voice/sexymoan_male1.ogg',
+				'sound/voice/sexymoan_male2.ogg',
+				'sound/voice/sexymoan_male3.ogg',
+				'sound/voice/sexymoan_male4.ogg',
+				'sound/voice/sexymoan_male5.ogg'
+			)
+		else
+			sound_to_play = pick(
+				'sound/voice/sexymoan_male1.ogg',
+				'sound/voice/sexymoan_male2.ogg',
+				'sound/voice/sexymoan_male3.ogg',
+				'sound/voice/sexymoan_male4.ogg',
+				'sound/voice/sexymoan_male5.ogg'
+			)
+	if(sound_to_play)
+		playsound(src, sound_to_play, volume, TRUE, 7, ignore_walls = FALSE)
+
 /mob/living/proc/get_highest_grab_state_on(mob/living/victim)
 	if(victim.pulledby == src)
 		return TRUE
@@ -114,6 +186,14 @@
 //adds larva to a host.
 /mob/living/carbon/xenomorph/proc/impregify(mob/living/carbon/victim, hole_target = HOLE_VAGINA, maxlarvas = MAX_LARVA_PREGNANCIES, damaging = TRUE, damagemult = 1, damageloc = BODY_ZONE_PRECISE_GROIN)
 	if(!istype(victim))
+		return
+	if(is_wearing_condom())
+		var/obj/item/clothing/sextoy/condom/condom = lewd_penis
+		if(istype(condom))
+			condom.condom_use()
+		to_chat(src, span_purple("Your condom catches the ejaculation! No embryo was implanted."))
+		if(victim && victim != src)
+			to_chat(victim, span_purple("[src]'s condom prevents any embryo implantation."))
 		return
 	victim.reagents.add_reagent(/datum/reagent/consumable/nutriment/cum/xeno/strong, 10)
 	if(damaging)
@@ -145,6 +225,13 @@
 	claim_hive_target_reward(victim)
 
 /mob/living/carbon/xenomorph/proc/xenoimpregify(mob/living/carbon/father)
+	if(father && father.is_wearing_condom())
+		var/obj/item/clothing/sextoy/condom/condom = father.lewd_penis
+		if(istype(condom))
+			condom.condom_use()
+		to_chat(father, span_purple("Your condom catches the ejaculation!"))
+		to_chat(src, span_purple("[father]'s condom caught the ejaculation!"))
+		return FALSE
 	if(isxeno(father) && !(SSticker.mode.round_type_flags2 & MODE_2_CHILL_RULES))
 		return FALSE
 	if(ishuman(father) && !(SSticker.mode.round_type_flags2 & MODE_2_CHILL_RULES))

@@ -220,13 +220,36 @@
 		playsound(target, pick(list('ntf_modular/sound/misc/mat/mouthend (1).ogg','ntf_modular/sound/misc/mat/mouthend (2).ogg')), 100, FALSE, 7, ignore_walls = FALSE)
 	else
 		playsound(target, 'ntf_modular/sound/misc/mat/endin.ogg', 50, TRUE, 7, ignore_walls = FALSE)
-	if(user.sexcon.can_use_testicles())
-		filled?.reagents?.add_reagent(/datum/reagent/consumable/nutriment/cum, 10)
-	else
-		filled?.reagents?.add_reagent(/datum/reagent/consumable/nutriment/cum/girl, 10)
+
+	var/wearing_condom = FALSE
+	if(iscarbon(user))
+		var/mob/living/carbon/carbon_user = user
+		if(carbon_user.is_wearing_condom())
+			var/obj/item/clothing/sextoy/condom/condom = carbon_user.lewd_penis
+			var/condom_intact = TRUE
+			if(istype(condom))
+				condom_intact = condom.condom_use()
+			if(condom_intact)
+				wearing_condom = TRUE
+				to_chat(user, span_purple("Your condom catches the ejaculation!"))
+				if(filled && filled != user)
+					to_chat(filled, span_purple("[user]'s condom catches the ejaculation."))
+			else
+				wearing_condom = FALSE
+				playsound(user, 'modular_lewd_items/sounds/rubber1.ogg', 40, TRUE)
+				user.visible_message(span_danger("[user]'s condom snaps and breaks!"), span_danger("Your condom snaps and breaks! The ejaculation leaks through!"))
+				if(filled && filled != user)
+					to_chat(filled, span_danger("[user]'s condom snapped and broke! The ejaculation leaks into you!"))
+
+	if(!wearing_condom)
+		if(user.sexcon.can_use_testicles())
+			filled?.reagents?.add_reagent(/datum/reagent/consumable/nutriment/cum, 10)
+		else
+			filled?.reagents?.add_reagent(/datum/reagent/consumable/nutriment/cum/girl, 10)
+		if(!oral)
+			after_intimate_climax()
+
 	handle_ejaculation_drain(filled)
-	if(!oral)
-		after_intimate_climax()
 	after_ejaculation()
 
 /datum/sex_controller/proc/ejaculate(mob/blame_mob)

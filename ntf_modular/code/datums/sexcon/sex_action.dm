@@ -99,7 +99,9 @@
 		return !require_exposed || human.sexcon_part_exposed("cock")
 	if(isxeno(src))
 		var/mob/living/carbon/xenomorph/xeno = src
-		return xeno.client?.prefs?.xenogender >= 3
+		if(xeno.client?.prefs?.xenogender)
+			return xeno.client.prefs.xenogender >= 3
+		return xeno.gender == MALE
 	return gender == MALE
 
 /mob/living/proc/sexcon_has_vagina(require_exposed = FALSE)
@@ -110,7 +112,9 @@
 		return !require_exposed || human.sexcon_part_exposed("vagina")
 	if(isxeno(src))
 		var/mob/living/carbon/xenomorph/xeno = src
-		return xeno.client?.prefs?.xenogender == 2 || xeno.client?.prefs?.xenogender == 4
+		if(xeno.client?.prefs?.xenogender)
+			return xeno.client.prefs.xenogender == 2 || xeno.client.prefs.xenogender == 4
+		return xeno.gender == FEMALE
 	return gender == FEMALE
 
 /mob/living/proc/sexcon_has_breasts(require_exposed = FALSE)
@@ -121,7 +125,9 @@
 		return !require_exposed || human.sexcon_part_exposed("boobs")
 	if(isxeno(src))
 		var/mob/living/carbon/xenomorph/xeno = src
-		return xeno.client?.prefs?.xenogender == 2 || xeno.client?.prefs?.xenogender == 4
+		if(xeno.client?.prefs?.xenogender)
+			return xeno.client.prefs.xenogender == 2 || xeno.client.prefs.xenogender == 4
+		return xeno.gender == FEMALE
 	return gender == FEMALE
 
 /mob/living/proc/sexcon_has_testicles(require_exposed = FALSE)
@@ -132,7 +138,9 @@
 		return !require_exposed || human.sexcon_part_exposed("testicles")
 	if(isxeno(src))
 		var/mob/living/carbon/xenomorph/xeno = src
-		return xeno.client?.prefs?.xenogender >= 3
+		if(xeno.client?.prefs?.xenogender)
+			return xeno.client.prefs.xenogender >= 3
+		return xeno.gender == MALE
 	return gender == MALE
 
 /mob/living/proc/sexcon_has_tail()
