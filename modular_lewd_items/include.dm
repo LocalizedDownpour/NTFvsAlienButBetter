@@ -1,3 +1,4 @@
+#include "modular_lewd_items\code\_defines.dm"
 #include "modular_lewd_items\code\lewd_helpers\human.dm"
 #include "modular_lewd_items\code\lewd_helpers\misc.dm"
 #include "modular_lewd_items\code\lewd_helpers\pref_checking.dm"

@@ -8,7 +8,7 @@
 	icon = 'modular_lewd_items/icons/obj/lewd_clothing/lewd_ears.dmi'
 	icon_override = 'modular_lewd_items/icons/mob/lewd_clothing/lewd_ears.dmi'
 	equip_slot_flags = ITEM_SLOT_EARS
-	armor_protection_flags = EARS
+	armor_protection_flags = NONE
 	/// If the headphones are on or off
 	var/kinky_headphones_on = FALSE
 	/// Current color of the headphones, can affect sprite and can change

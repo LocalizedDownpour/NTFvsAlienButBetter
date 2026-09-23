@@ -30,3 +30,10 @@
 	var/atom/stain = new selected_type(the_turf)
 
 	stain.add_mob_blood(src)
+
+/mob/living/proc/can_perform_action(atom/target, flags = 0)
+	if(stat || incapacitated())
+		return FALSE
+	if(target && !Adjacent(target))
+		return FALSE
+	return TRUE

@@ -62,7 +62,7 @@
 	return (!head)
 
 /mob/living/carbon/human/is_mouth_covered()
-	return (wear_mask && (wear_mask.flags_cover & MASKCOVERSMOUTH)) || (head && (head.flags_cover & HEADCOVERSMOUTH))
+	return (wear_mask && (wear_mask.inventory_flags & COVERMOUTH)) || (head && (head.inventory_flags & COVERMOUTH))
 
 /mob/living/carbon/proc/update_inv_vagina()
 	return

@@ -68,8 +68,6 @@
 	. = ..()
 	icon_state = "[base_icon_state]_[current_color]_[condom_state]"
 
-#define TRAIT_CONDOM_BROKEN "broken"
-
 /// Updates the condom's sprite and durability state, called after use. Returns TRUE if intact, FALSE if broken.
 /obj/item/clothing/sextoy/condom/proc/condom_use()
 	switch(condom_state)
