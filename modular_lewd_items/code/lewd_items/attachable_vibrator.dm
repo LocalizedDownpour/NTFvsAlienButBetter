@@ -17,7 +17,6 @@
 	lefthand_file = 'modular_lewd_items/icons/mob/lewd_inhands/lewd_inhand_left.dmi'
 	righthand_file = 'modular_lewd_items/icons/mob/lewd_inhands/lewd_inhand_right.dmi'
 	lewd_slot_flags = LEWD_SLOT_PENIS | LEWD_SLOT_VAGINA | LEWD_SLOT_NIPPLES | LEWD_SLOT_ANUS
-	clothing_flags = INEDIBLE_CLOTHING
 	/// Is the toy currently on
 	var/toy_on = FALSE
 	/// The current color of the toy, affects sprite
@@ -153,7 +152,7 @@
 	if(!iscarbon(target))
 		return ..()
 	var/mob/living/carbon/carbon_target = target
-	if(!carbon_target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!carbon_target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[target] doesn't want you to do that."))
 		return
 

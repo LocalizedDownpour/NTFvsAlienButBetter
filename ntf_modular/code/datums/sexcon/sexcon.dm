@@ -229,6 +229,9 @@
 			var/condom_intact = TRUE
 			if(istype(condom))
 				condom_intact = condom.condom_use()
+			if(condom_intact && istype(condom))
+				// A condom only holds so much: once it is full it bursts and nothing is caught.
+				condom_intact = condom.fill_with_cum(carbon_user)
 			if(condom_intact)
 				wearing_condom = TRUE
 				to_chat(user, span_purple("Your condom catches the ejaculation!"))
@@ -1114,21 +1117,6 @@
 		if("toggle_finished")
 			do_until_finished = !do_until_finished
 	show_ui()
-
-/mob/living/Topic(href, href_list)
-	. = ..()
-	if(.)
-		return
-	if(!client)
-		return
-	if(href_list["sex_prefs_toggle_on"])
-		ENABLE_BITFIELD(client.prefs.sex_pref_flags, text2num(href_list["sex_prefs_toggle_on"]))
-		. = TRUE
-	if(href_list["sex_prefs_toggle_off"])
-		DISABLE_BITFIELD(client.prefs.sex_pref_flags, text2num(href_list["sex_prefs_toggle_off"]))
-		. = TRUE
-	if(. && usr?.client)
-		sex_prefs()
 
 /datum/sex_controller/proc/try_stop_current_action()
 	if(!current_action)

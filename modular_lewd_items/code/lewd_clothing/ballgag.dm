@@ -110,7 +110,7 @@
 
 // Start processing choking on equip
 /obj/item/clothing/mask/ballgag/choking/equipped(mob/living/carbon/user, slot)
-	if(!(src == user.wear_mask && user.client?.prefs?.read_preference(/datum/preference/toggle/erp/sex_toy)))
+	if(!(src == user.wear_mask && user.check_erp_prefs(LEWD_PREF_SEX_TOY)))
 		return ..()
 	if(!chokes_wearer)
 		return ..()
@@ -129,7 +129,7 @@
 	var/mob/living/carbon/wearer = loc
 	if(!iscarbon(wearer))
 		return
-	if(!(wearer.client?.prefs?.read_preference(/datum/preference/toggle/erp/sex_toy)))
+	if(!(wearer.check_erp_prefs(LEWD_PREF_SEX_TOY)))
 		return
 	if(!chokes_wearer)
 		return

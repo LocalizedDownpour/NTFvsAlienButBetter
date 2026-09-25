@@ -189,12 +189,15 @@
 		return
 	if(is_wearing_condom())
 		var/obj/item/clothing/sextoy/condom/condom = lewd_penis
+		if(istype(condom) && condom.condom_use() && condom.fill_with_cum(src, /datum/reagent/consumable/nutriment/cum/xeno/strong, CONDOM_XENO_FILL_AMOUNT))
+			to_chat(src, span_purple("Your condom catches the ejaculation! No embryo was implanted."))
+			if(victim && victim != src)
+				to_chat(victim, span_purple("[src]'s condom prevents any embryo implantation."))
+			return
 		if(istype(condom))
-			condom.condom_use()
-		to_chat(src, span_purple("Your condom catches the ejaculation! No embryo was implanted."))
-		if(victim && victim != src)
-			to_chat(victim, span_purple("[src]'s condom prevents any embryo implantation."))
-		return
+			to_chat(src, span_danger("Your condom gives out! Nothing was caught."))
+			if(victim && victim != src)
+				to_chat(victim, span_danger("[src]'s condom gives out!"))
 	victim.reagents.add_reagent(/datum/reagent/consumable/nutriment/cum/xeno/strong, 10)
 	if(damaging)
 		new /obj/effect/decal/cleanable/blood/splatter/xenocum(loc)
@@ -227,11 +230,13 @@
 /mob/living/carbon/xenomorph/proc/xenoimpregify(mob/living/carbon/father)
 	if(father && father.is_wearing_condom())
 		var/obj/item/clothing/sextoy/condom/condom = father.lewd_penis
+		if(istype(condom) && condom.condom_use() && condom.fill_with_cum(father))
+			to_chat(father, span_purple("Your condom catches the ejaculation!"))
+			to_chat(src, span_purple("[father]'s condom caught the ejaculation!"))
+			return FALSE
 		if(istype(condom))
-			condom.condom_use()
-		to_chat(father, span_purple("Your condom catches the ejaculation!"))
-		to_chat(src, span_purple("[father]'s condom caught the ejaculation!"))
-		return FALSE
+			to_chat(father, span_danger("Your condom gives out! The load leaks through!"))
+			to_chat(src, span_danger("[father]'s condom gives out!"))
 	if(isxeno(father) && !(SSticker.mode.round_type_flags2 & MODE_2_CHILL_RULES))
 		return FALSE
 	if(ishuman(father) && !(SSticker.mode.round_type_flags2 & MODE_2_CHILL_RULES))

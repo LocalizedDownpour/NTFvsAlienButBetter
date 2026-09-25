@@ -33,10 +33,8 @@
 		/obj/item/clothing/mask/ballgag,
 		/obj/item/clothing/mask/ballgag/choking,
 		/obj/item/clothing/head/domina_cap,
-		/obj/item/clothing/glasses/blindfold/kinky,
 		/obj/item/clothing/glasses/sunglasses/blindfold/kinky,
 		/obj/item/clothing/ears/earmuffs/kinky_headphones,
-		/obj/item/clothing/ears/kinky_headphones,
 		/obj/item/clothing/suit/straight_jacket/latex_straight_jacket,
 		/obj/item/clothing/mask/gas/bdsm_mask,
 		/obj/item/clothing/head/deprivation_helmet,
@@ -45,7 +43,7 @@
 		/obj/item/clothing/neck/kink_collar,
 		/obj/item/clothing/neck/kink_collar/locked,
 		/obj/item/clothing/neck/mind_collar,
-		/obj/item/clothing/neck/shockcollar,
+		/obj/item/electropack/shockcollar,
 		/obj/item/clothing/erp_leash,
 
 		//hands

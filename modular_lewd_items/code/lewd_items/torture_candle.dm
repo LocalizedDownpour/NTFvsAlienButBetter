@@ -105,7 +105,6 @@
 /obj/item/bdsm_candle/process(seconds_per_tick)
 	if(!lit)
 		return PROCESS_KILL
-	open_flame()
 	update_brightness()
 
 /obj/item/bdsm_candle/examine(mob/user)
@@ -147,7 +146,7 @@
 	var/mob/living/carbon/carbon_attacked = attacked
 
 	var/message = ""
-	if(!carbon_attacked.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!carbon_attacked.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("It looks like [carbon_attacked] don't want you to do that."))
 		return
 	if(!lit)

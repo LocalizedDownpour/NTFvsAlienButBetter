@@ -38,9 +38,17 @@
 		hooman.remove_status_effect(/datum/status_effect/ropebunny)
 	return ..()
 
+//stuff to apply processing on equip and add mood event for perverts
 /obj/item/clothing/under/shibari/equipped(mob/user, slot)
 	. = ..()
 	RegisterSignal(src, COMSIG_ATOM_ATTACK_HAND, PROC_REF(handle_take_off), user)
+	if(!ishuman(user))
+		return
+	var/mob/living/carbon/human/hooman = user
+	if(src == hooman.w_uniform)
+		START_PROCESSING(SSobj, src)
+	if(HAS_TRAIT(hooman, TRAIT_ROPEBUNNY))
+		hooman.apply_status_effect(/datum/status_effect/ropebunny)
 
 
 /obj/item/clothing/under/shibari/proc/handle_take_off(datum/source, mob/user)
@@ -79,7 +87,7 @@
 		return PROCESS_KILL
 	var/mob/living/carbon/human/hooman = loc
 	//If our client decides to disable their pref mid "roleplaying" for some reason
-	if(!hooman?.client?.prefs?.read_preference(/datum/preference/toggle/erp/sex_toy))
+	if(!hooman?.check_erp_prefs(LEWD_PREF_SEX_TOY))
 		src.forceMove(get_turf(src))
 		src.dropped(hooman)
 		return PROCESS_KILL
@@ -89,17 +97,6 @@
 		hooman.adjust_arousal(0.6 * seconds_per_tick)
 	if(tightness == SHIBARI_TIGHTNESS_HIGH && hooman.arousal < 30)
 		hooman.adjust_arousal(0.6 * seconds_per_tick)
-
-//stuff to apply processing on equip and add mood event for perverts
-/obj/item/clothing/under/shibari/equipped(mob/user, slot)
-	. = ..()
-	if(!ishuman(user))
-		return
-	var/mob/living/carbon/human/hooman = user
-	if(src == hooman.w_uniform)
-		START_PROCESSING(SSobj, src)
-	if(HAS_TRAIT(hooman, TRAIT_ROPEBUNNY))
-		hooman.apply_status_effect(/datum/status_effect/ropebunny)
 
 //same stuff as above but for dropping item
 /obj/item/clothing/under/shibari/dropped(mob/user, slot)

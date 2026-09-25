@@ -29,7 +29,6 @@
 	var/change_sprite = TRUE
 	w_class = WEIGHT_CLASS_TINY
 	lewd_slot_flags = LEWD_SLOT_ANUS | LEWD_SLOT_VAGINA
-	clothing_flags = INEDIBLE_CLOTHING
 
 /// Create an assoc list of designs for the radial color/design menu
 /obj/item/clothing/sextoy/dildo/proc/populate_dildo_designs()
@@ -133,7 +132,7 @@
 
 	var/mob/living/carbon/carbon_target = target
 
-	if(!carbon_target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!carbon_target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[carbon_target] doesn't want you to do that."))
 		return
 

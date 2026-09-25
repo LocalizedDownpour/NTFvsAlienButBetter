@@ -19,7 +19,7 @@
 	if(!istype(attacking_item, /obj/item/clothing/suit/straight_jacket))
 		return ..()
 	var/obj/item/clothing/suit/straight_jacket/latex_straight_jacket/reinforced/reinforced_jacket = new(get_turf(user))
-	user.drop_inv_item_to_loc(attacking_item, user)
+	user.dropItemToGround(attacking_item, TRUE)
 	user.put_in_hands(reinforced_jacket)
 	to_chat(user, span_notice("You reinforce the belts on [src] with [attacking_item]."))
 	qdel(attacking_item)

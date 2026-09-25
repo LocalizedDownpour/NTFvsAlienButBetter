@@ -47,12 +47,18 @@
 	if(!isinhands)
 		. += whip_overlay
 
-/obj/item/clothing/mask/leatherwhip/equipped(mob/equipper, slot)
+/obj/item/clothing/mask/leatherwhip/equipped(mob/user, slot)
 	. = ..()
-	if ((slot & ITEM_SLOT_MASK) && modifies_speech)
-		RegisterSignal(equipper, COMSIG_MOB_SAY, PROC_REF(handle_speech))
+	if((slot & ITEM_SLOT_MASK) && modifies_speech)
+		RegisterSignal(user, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	else
-		UnregisterSignal(equipper, COMSIG_MOB_SAY)
+		UnregisterSignal(user, COMSIG_MOB_SAY)
+
+	//two arguments. Yes, all mob layer. Fuck person who was working on genitals, they're working wrong.ABOVE_NORMAL_TURF_LAYER
+	whip_overlay = mutable_appearance('modular_lewd_items/icons/mob/lewd_clothing/lewd_masks.dmi', "[base_icon_state]_[current_whip_form]", ABOVE_MOB_LAYER + 0.1)
+	update_icon_state()
+	update_icon()
+	update_appearance()
 
 /obj/item/clothing/mask/leatherwhip/dropped(mob/dropper)
 	. = ..()
@@ -84,17 +90,6 @@
 	whip_types = list(
 		"weak" = image(icon = src.icon, icon_state = "leather_whip_pink_weak"),
 		"hard" = image(icon = src.icon, icon_state = "leather_crotch_pink_hard"))
-
-/obj/item/clothing/mask/leatherwhip/equipped(mob/target, slot)
-	. = ..()
-
-	update_icon_state()
-
-	whip_overlay = mutable_appearance('modular_lewd_items/icons/mob/lewd_clothing/lewd_masks.dmi', "[base_icon_state]_[current_whip_form]", ABOVE_MOB_LAYER + 0.1) //two arguments. Yes, all mob layer. Fuck person who was working on genitals, they're working wrong.ABOVE_NORMAL_TURF_LAYER
-
-	update_icon()
-	update_appearance()
-	update_overlays()
 
 /obj/item/clothing/mask/leatherwhip/examine(mob/user)
 	. = ..()
@@ -174,7 +169,7 @@
 
 	var/message = ""
 	//and there is code for successful check, so we are whipping someone
-	if(!target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[target] doesn't want you to do that."))
 		return
 

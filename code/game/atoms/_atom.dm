@@ -5,6 +5,8 @@
 	var/level = 2
 
 	var/atom_flags = NONE
+	/// Icon state applied after the atom's icon/greyscale init. Used by content whose icon_state is a placeholder.
+	var/post_init_icon_state = null
 	var/datum/reagents/reagents = null
 
 	var/list/fingerprints
@@ -498,6 +500,10 @@ directive is properly returned.
 	SET_PLANE_IMPLICIT(src, plane)
 
 	update_greyscale()
+
+	// Ported TG/Skyrat API: placeholder icon_state is replaced once the atom's icon/greyscale init is done.
+	if(post_init_icon_state)
+		icon_state = post_init_icon_state
 
 	if(light_system != MOVABLE_LIGHT && light_power && light_range)
 		update_light()

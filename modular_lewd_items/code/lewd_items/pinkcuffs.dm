@@ -13,7 +13,7 @@
 /obj/item/restraints/handcuffs/lewd/place_handcuffs(mob/living/carbon/target, mob/user)
 	if(iscarbon(target))
 		var/mob/living/carbon/C = target
-		if(!C.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+		if(!C.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 			to_chat(user, span_danger("[target] doesn't want you to do that."))
 			return FALSE
 	return ..()

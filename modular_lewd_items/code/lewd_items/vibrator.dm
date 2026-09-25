@@ -34,7 +34,6 @@
 	/// Static list of designs of the toy, used for the color selection radial menu
 	var/static/list/vibrator_designs
 	w_class = WEIGHT_CLASS_TINY
-	clothing_flags = INEDIBLE_CLOTHING
 
 //create radial menu
 /obj/item/clothing/sextoy/vibrator/proc/populate_vibrator_designs()
@@ -157,7 +156,7 @@
 	if(!toy_on)
 		to_chat(user, span_notice("[src] must be on to use it!"))
 		return
-	if(!carbon_target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!carbon_target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("Looks like [carbon_target] doesn't want you to do that."))
 		return
 

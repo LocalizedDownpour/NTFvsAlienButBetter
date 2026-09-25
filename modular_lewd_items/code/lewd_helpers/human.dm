@@ -146,7 +146,7 @@
 	if(vars[slot])
 		return FALSE
 	if(user && (toy in user.get_held_items()))
-		user.drop_inv_item_to_loc(toy, src)
+		user.transferItemToLoc(toy, src)
 	else
 		toy.forceMove(src)
 	vars[slot] = toy
@@ -222,7 +222,7 @@
 	if(!iscarbon(usr))
 		return
 
-	if(stat == CONSCIOUS && !check_erp_prefs(/datum/preference/toggle/erp/sex_toy, usr))
+	if(stat == CONSCIOUS && !check_erp_prefs(LEWD_PREF_SEX_TOY, usr))
 		to_chat(usr, span_danger("[src] does not want you to do that."))
 		return
 

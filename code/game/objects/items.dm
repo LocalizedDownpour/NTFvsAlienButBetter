@@ -26,6 +26,25 @@
 	var/worn_icon_state_teshari = null
 	/// Optional Teshari-specific greyscale config for worn sprites.
 	var/greyscale_config_worn_teshari
+
+	// Ported TG/Skyrat item sprite API, used by modular_lewd_items GAGS clothing and other downstream content.
+	/// Icon state used for inhand sprites; falls back to worn_icon_state when unset.
+	var/inhand_icon_state = null
+	/// Optional inhand icon files, used while the item is held in the matching hand.
+	var/icon/lefthand_file
+	var/icon/righthand_file
+	/// Optional worn icon file, takes priority over icon_override for the on-mob sprite.
+	var/icon/worn_icon
+	/// Optional digitigrade worn icon file.
+	var/icon/worn_icon_digi
+	/// Greyscale configs used to build worn and inhand sprites out of greyscale_colors.
+	var/datum/greyscale_config/greyscale_config_worn
+	var/datum/greyscale_config/greyscale_config_worn_digi
+	var/datum/greyscale_config/greyscale_config_worn_taur_snake
+	var/datum/greyscale_config/greyscale_config_worn_taur_paw
+	var/datum/greyscale_config/greyscale_config_worn_taur_hoof
+	var/datum/greyscale_config/greyscale_config_inhand_left
+	var/datum/greyscale_config/greyscale_config_inhand_right
 	/// the file containing the mini icon for icon_state_mini. Used in /obj/item/storage/box/visual to display tiny items in the box.
 	var/icon_mini = 'icons/obj/items/items_mini.dmi'
 	///The icon state used to represent this image in icon_mini. Used in /obj/item/storage/box/visual to display tiny items in the box.
@@ -836,7 +855,24 @@
 
 /obj/item/update_greyscale()
 	. = ..()
-	if(greyscale_config_worn_teshari && greyscale_colors)
+	if(!greyscale_colors)
+		return
+	// Ported TG/Skyrat API: build the worn and inhand sprites out of the greyscale configs.
+	if(greyscale_config_worn)
+		worn_icon = SSgreyscale.GetColoredIconByType(greyscale_config_worn, greyscale_colors)
+	if(greyscale_config_worn_digi)
+		worn_icon_digi = SSgreyscale.GetColoredIconByType(greyscale_config_worn_digi, greyscale_colors)
+	if(greyscale_config_worn_taur_snake)
+		worn_icon_taur_snake = SSgreyscale.GetColoredIconByType(greyscale_config_worn_taur_snake, greyscale_colors)
+	if(greyscale_config_worn_taur_paw)
+		worn_icon_taur_paw = SSgreyscale.GetColoredIconByType(greyscale_config_worn_taur_paw, greyscale_colors)
+	if(greyscale_config_worn_taur_hoof)
+		worn_icon_taur_hoof = SSgreyscale.GetColoredIconByType(greyscale_config_worn_taur_hoof, greyscale_colors)
+	if(greyscale_config_inhand_left)
+		lefthand_file = SSgreyscale.GetColoredIconByType(greyscale_config_inhand_left, greyscale_colors)
+	if(greyscale_config_inhand_right)
+		righthand_file = SSgreyscale.GetColoredIconByType(greyscale_config_inhand_right, greyscale_colors)
+	if(greyscale_config_worn_teshari)
 		worn_icon_teshari = SSgreyscale.GetColoredIconByType(greyscale_config_worn_teshari, greyscale_colors)
 
 
@@ -1330,6 +1366,15 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 
 ///gets what icon dmi file shall be used for the on-mob sprite
 /obj/item/proc/get_worn_icon_file(species_type,slot_name,default_icon,inhands, icon_file_override)
+
+	//0: ported TG/Skyrat sprite overrides
+	if(inhands)
+		if(slot_name == slot_l_hand_str && lefthand_file)
+			return lefthand_file
+		if(slot_name == slot_r_hand_str && righthand_file)
+			return righthand_file
+	else if(worn_icon)
+		return worn_icon
 
 	//1: icon_override var
 	if(icon_override)
@@ -2487,6 +2532,10 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 	. = LAZYACCESS(worn_item_state_slots, slot_name)
 	if(.)
 		return
+
+	//1b: ported TG/Skyrat inhand state
+	if(inhands && inhand_icon_state)
+		return inhand_icon_state
 
 	//2: worn_icon_state variable, some items use it for worn sprite, others for inhands.
 	if(inhands || item_state_worn)

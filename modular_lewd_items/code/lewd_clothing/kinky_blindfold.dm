@@ -16,10 +16,6 @@
 	/// List of blindfold designs, used when picking one in the radial menu
 	var/static/list/kinkfold_designs
 
-// create backward-compatibility type alias
-/obj/item/clothing/glasses/blindfold/kinky
-	parent_type = /obj/item/clothing/glasses/sunglasses/blindfold/kinky
-
 //create radial menu
 /obj/item/clothing/glasses/sunglasses/blindfold/kinky/proc/populate_kinkfold_designs()
 	kinkfold_designs = list(

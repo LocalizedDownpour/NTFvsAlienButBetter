@@ -27,7 +27,7 @@
 	return CLICK_ACTION_SUCCESS
 
 /obj/item/clothing/erp_leash/attack(mob/living/to_be_leashed, mob/living/user, params)
-	var/datum/component/leash/erp/the_leash_component = our_leash_component?.resolve()
+	var/datum/component/erp_leash/the_leash_component = our_leash_component?.resolve()
 	if(the_leash_component)
 		if(the_leash_component.parent == to_be_leashed)
 			remove_leash(to_be_leashed)
@@ -42,7 +42,7 @@
 	if(!iscarbon(user) && !iscyborg(user))
 		return
 
-	if(!to_be_leashed.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!to_be_leashed.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[to_be_leashed] doesn't want you to do that."))
 		return
 
@@ -59,7 +59,7 @@
 	if(!istype(ouppy))
 		return
 
-	ouppy.AddComponent(/datum/component/leash/erp, src, 2)
+	ouppy.AddComponent(/datum/component/erp_leash, src, 2)
 	if(our_leash_component?.resolve())
 		to_chat(user, span_notice("You attach the leash to [ouppy]."))
 		create_leash_line(ouppy)
@@ -70,7 +70,7 @@
 /obj/item/clothing/erp_leash/proc/remove_leash(mob/free_bird)
 	to_chat(free_bird, span_notice("You are unhooked from the leash."))
 	clear_line()
-	var/datum/component/leash/erp/C = our_leash_component?.resolve()
+	var/datum/component/erp_leash/C = our_leash_component?.resolve()
 	if(C)
 		qdel(C)
 	our_leash_component = null
@@ -93,7 +93,7 @@
 
 /obj/item/clothing/erp_leash/Destroy()
 	clear_line()
-	var/datum/component/leash/erp/C = our_leash_component?.resolve()
+	var/datum/component/erp_leash/C = our_leash_component?.resolve()
 	if(C)
 		qdel(C)
 	our_leash_component = null
@@ -103,10 +103,10 @@
 *	Leash Component
 */
 
-/datum/component/leash/erp
+/datum/component/erp_leash
 	dupe_mode = COMPONENT_DUPE_UNIQUE
 
-/datum/component/leash/erp/RegisterWithParent()
+/datum/component/erp_leash/RegisterWithParent()
 	. = ..()
 	RegisterSignal(owner, COMSIG_ITEM_ATTACK_SELF, PROC_REF(on_item_attack_self))
 	RegisterSignal(owner, COMSIG_ITEM_DROPPED, PROC_REF(on_item_dropped))
@@ -116,13 +116,13 @@
 		var/obj/item/clothing/erp_leash/our_leash = owner
 		our_leash.our_leash_component = WEAKREF(src)
 
-/datum/component/leash/erp/UnregisterFromParent()
+/datum/component/erp_leash/UnregisterFromParent()
 	if(owner)
 		UnregisterSignal(owner, list(COMSIG_ITEM_ATTACK_SELF, COMSIG_ITEM_DROPPED, COMSIG_ITEM_EQUIPPED))
 		UnregisterSignal(parent, COMSIG_LIVING_RESIST)
 	return ..()
 
-/datum/component/leash/erp/Destroy()
+/datum/component/erp_leash/Destroy()
 	if(owner)
 		UnregisterSignal(owner, list(COMSIG_ITEM_ATTACK_SELF, COMSIG_ITEM_DROPPED, COMSIG_ITEM_EQUIPPED))
 	if(parent)
@@ -132,7 +132,7 @@
 		our_leash.our_leash_component = null
 	return ..()
 
-/datum/component/leash/erp/proc/on_item_attack_self(datum/source, mob/user)
+/datum/component/erp_leash/proc/on_item_attack_self(datum/source, mob/user)
 	SIGNAL_HANDLER
 
 	if(istype(source, /obj/item/clothing/erp_leash))
@@ -150,17 +150,17 @@
 			)
 			leash_hookin.last_tug = world.time
 
-/datum/component/leash/erp/proc/on_item_dropped(datum/source, mob/user)
+/datum/component/erp_leash/proc/on_item_dropped(datum/source, mob/user)
 	SIGNAL_HANDLER
 	if(istype(parent, /mob))
 		to_chat(parent, span_notice("The leash comes unhooked."))
 	qdel(src)
 
-/datum/component/leash/erp/proc/on_parent_resist(datum/source, mob/user)
+/datum/component/erp_leash/proc/on_parent_resist(datum/source, mob/user)
 	SIGNAL_HANDLER
 	INVOKE_ASYNC(src, PROC_REF(do_resist))
 
-/datum/component/leash/erp/proc/do_resist(datum/source, mob/user)
+/datum/component/erp_leash/proc/do_resist(datum/source, mob/user)
 	if(istype(parent, /mob) && istype(owner, /obj/item))
 		var/mob/our_parent = parent
 		var/obj/item/our_owner = owner

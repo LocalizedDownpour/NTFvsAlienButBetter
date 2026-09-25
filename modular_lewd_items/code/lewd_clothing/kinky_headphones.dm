@@ -21,9 +21,6 @@
 	lefthand_file = 'modular_lewd_items/icons/mob/lewd_inhands/lewd_inhand_left.dmi'
 	righthand_file = 'modular_lewd_items/icons/mob/lewd_inhands/lewd_inhand_right.dmi'
 
-/obj/item/clothing/ears/kinky_headphones
-	parent_type = /obj/item/clothing/ears/earmuffs/kinky_headphones
-
 //create radial menu
 /obj/item/clothing/ears/earmuffs/kinky_headphones/proc/populate_kinkphones_designs()
 	kinkphones_designs = list(

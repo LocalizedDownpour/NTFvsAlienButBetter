@@ -57,7 +57,7 @@
 		if(powercell.maxcharge < cell_hit_cost)
 			to_chat(user, span_notice("[src] requires a higher capacity cell."))
 			return
-		if(!user.drop_inv_item_to_loc(powercell, src))
+		if(!user.transferItemToLoc(powercell, src))
 			return
 		cell = powercell
 		to_chat(user, span_notice("You install a cell in [src]."))
@@ -118,7 +118,7 @@
 		to_chat(user, span_danger("[src] must be enabled before use!"))
 		return
 
-	if(!target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[target] doesn't want you to do that."))
 		return
 
