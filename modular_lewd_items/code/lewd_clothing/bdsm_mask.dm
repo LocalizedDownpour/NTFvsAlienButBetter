@@ -13,7 +13,6 @@
 	equip_slot_flags = ITEM_SLOT_MASK
 	armor_protection_flags = FACE|EYES
 	w_class = WEIGHT_CLASS_SMALL
-	starting_filter_type = null
 	var/mask_on = FALSE
 	var/current_mask_color = "pink"
 	var/breath_status = TRUE
@@ -62,16 +61,31 @@
 			button.button_icon = 'modular_lewd_items/icons/obj/lewd_items/lewd_icons.dmi'
 	update_icon()
 
-/obj/item/clothing/mask/gas/bdsm_mask/equipped(mob/equipper, slot)
+/obj/item/clothing/mask/gas/bdsm_mask/equipped(mob/user, slot)
 	. = ..()
-	if ((slot & ITEM_SLOT_MASK) && modifies_speech)
-		RegisterSignal(equipper, COMSIG_MOB_SAY, PROC_REF(handle_speech))
+	if((slot & ITEM_SLOT_MASK) && modifies_speech)
+		RegisterSignal(user, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	else
-		UnregisterSignal(equipper, COMSIG_MOB_SAY)
+		UnregisterSignal(user, COMSIG_MOB_SAY)
 
-/obj/item/clothing/mask/gas/bdsm_mask/dropped(mob/dropper)
+	// Adding breath_manually on equip
+	var/mob/living/carbon/human/affected_human = user
+	if(!istype(affected_human))
+		return
+	if(affected_human.wear_mask == src && mask_on && breath_status == FALSE)
+		breath_status = TRUE
+		affected_human.try_lewd_autoemote("inhale")
+		to_chat(affected_human, span_purple("You suddenly find it much harder to breathe!"))
+		START_PROCESSING(SSobj, src)
+		time_to_choke_left = time_to_choke
+
+/obj/item/clothing/mask/gas/bdsm_mask/dropped(mob/user)
 	. = ..()
-	UnregisterSignal(dropper, COMSIG_MOB_SAY)
+	UnregisterSignal(user, COMSIG_MOB_SAY)
+	// We unequipped mask, now we can breath without buttons
+	if(mask_on == TRUE)
+		STOP_PROCESSING(SSobj, src)
+		temp_check = TRUE
 
 /obj/item/clothing/mask/gas/bdsm_mask/proc/handle_speech(datum/source, list/speech_args)
 	SIGNAL_HANDLER
@@ -97,7 +111,6 @@
 		var/choice = show_radial_menu(user, src, mask_designs, custom_check = CALLBACK(src, PROC_REF(check_menu), user), radius = 36, require_near = TRUE)
 		if(!choice)
 			return CLICK_ACTION_BLOCKING
-		atom_storage.click_alt_open = TRUE
 		current_mask_color = choice
 		update_icon_state()
 		update_icon()
@@ -152,7 +165,7 @@
 	var/atom/movable/screen/inventory/hand/hand = over_object
 	if(!istype(hand))
 		return
-	if(!try_unequip(user) || !user.putItemFromInventoryInHandIfPossible(src, hand.held_index))
+	if(!try_unequip(user) || !user.put_in_hand(src, hand.held_index))
 		return
 	to_chat(user, span_notice("You remove the gas mask."))
 	add_fingerprint(user)
@@ -231,29 +244,6 @@
 /datum/action/item_action/mask_inhale/Trigger(trigger_flags)
 	return action_activate()
 
-// Adding breath_manually on equip
-/obj/item/clothing/mask/gas/bdsm_mask/equipped(mob/user, slot)
-	. = ..()
-	var/mob/living/carbon/human/affected_human = loc
-	if(!istype(affected_human))
-		return
-	if(affected_human.wear_mask == src)
-		if(mask_on)
-			if(breath_status == FALSE)
-				time_to_choke_left = time_to_choke
-				breath_status = TRUE
-				affected_human.try_lewd_autoemote("inhale")
-			to_chat(affected_human, span_purple("You suddenly find it much harder to breathe!."))
-			START_PROCESSING(SSobj, src)
-			time_to_choke_left = time_to_choke
-
-// We unequipped mask, now we can breath without buttons
-/obj/item/clothing/mask/gas/bdsm_mask/dropped(mob/user)
-	. = ..()
-	if(mask_on == TRUE)
-		STOP_PROCESSING(SSobj, src)
-		temp_check = TRUE
-
 // To check if player already have this mask on and trying to change mode
 /obj/item/clothing/mask/gas/bdsm_mask/proc/check(mob/living/carbon/user)
 	if(!istype(user) || src == user.wear_mask)
@@ -270,7 +260,7 @@
 	update_mob_action_buttonss()
 	update_icon()
 	if(mask_on)
-		if(src == user.wear_mask && user.client?.prefs?.read_preference(/datum/preference/toggle/erp/sex_toy))
+		if(src == user.wear_mask && user.check_erp_prefs(LEWD_PREF_SEX_TOY))
 			START_PROCESSING(SSobj, src)
 			time_to_choke_left = time_to_choke
 	else
@@ -313,7 +303,7 @@
 	if(time_to_choke_left <= 0)
 		if(tt <= 0)
 			if(affected_carbon.stat == CONSCIOUS)
-				affected_carbon.adjust_oxy_loss(rand(4, 8)) // Oxy dmg
+				affected_carbon.adjustOxyLoss(rand(4, 8)) // Oxy dmg
 				affected_carbon.try_lewd_autoemote(pick("gasp", "choke", "moan"))
 				tt = time
 			else
@@ -335,31 +325,16 @@
 	icon = 'modular_lewd_items/icons/obj/lewd_items/lewd_items.dmi'
 	icon_state = "filter_pink"
 	w_class = WEIGHT_CLASS_SMALL
-	custom_materials = list(
-		/datum/material/glass = SHEET_MATERIAL_AMOUNT,
-		/datum/material/plastic = SHEET_MATERIAL_AMOUNT,
-	)
 	volume = 50
 	possible_transfer_amounts = list(1, 2, 3, 4, 5, 10, 25, 50)
 	list_reagents = list(/datum/reagent/toxin/xeno_aphrotoxin = 50)
 	amount_per_transfer_from_this = 1
-	interaction_flags_click = NEED_DEXTERITY
 
 // Standard initialize code for filter
 /obj/item/reagent_containers/cup/lewd_filter/Initialize(mapload)
 	. = ..()
 	update_icon()
 
-/datum/atom_skin/lewd_filter
-	abstract_type = /datum/atom_skin/lewd_filter
-
-/datum/atom_skin/lewd_filter/pink
-	preview_name = "pink"
-	new_icon_state = "filter_pink"
-
-/datum/atom_skin/lewd_filter/teal
-	preview_name = "teal"
-	new_icon_state = "filter_teal"
 
 // Legacy code from reagent_containers class. Most likely not really needed and can be cleared
 /obj/item/reagent_containers/cup/lewd_filter/get_part_rating()

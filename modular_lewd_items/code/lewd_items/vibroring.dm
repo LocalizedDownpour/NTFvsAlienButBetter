@@ -16,7 +16,6 @@
 	var/datum/looping_sound/lewd/vibrator/medium/soundloop
 	w_class = WEIGHT_CLASS_TINY
 	lewd_slot_flags = LEWD_SLOT_PENIS
-	clothing_flags = INEDIBLE_CLOTHING
 
 /obj/item/clothing/sextoy/vibroring/attack_self(mob/user)
 	toy_on = !toy_on
@@ -99,7 +98,7 @@
 	if(!iscarbon(target))
 		return ..()
 	var/mob/living/carbon/carbon_target = target
-	if(!carbon_target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!carbon_target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[target] doesn't want you to do that."))
 		return
 

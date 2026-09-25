@@ -8,7 +8,6 @@
 	layer = 4
 	// item_chair
 	build_stack_type = null
-	flags_1 = parent_type::flags_1 | NO_NEW_GAGS_PREVIEW_1
 	///Overlays for ropes
 	var/static/mutable_appearance/shibari_rope_overlay
 	var/static/mutable_appearance/shibari_rope_overlay_behind
@@ -36,14 +35,16 @@
 	if(current_mob)
 		if(current_mob.handcuffed)
 			current_mob.handcuffed.dropped(current_mob)
-		current_mob.set_handcuffed(null)
+		current_mob.update_handcuffed(null)
 		current_mob.update_abstract_handcuffed()
 	unbuckle_all_mobs(TRUE)
 
 //Examine changes for this structure
 /obj/structure/bed/chair/shibari_stand/examine(mob/user)
 	. = ..()
-	if(!has_buckled_mobs() && can_buckle)
+	. += span_purple("[src] can be disassembled by using <b>Ctrl+Shift+Click<b>")
+	. += span_purple("[src]'s color can be customized with <b>Ctrl+Click</b>.")
+	if(!LAZYLEN(buckled_mobs) && can_buckle)
 		. += span_notice("They need to be wearing <b>full-body shibari</b>, and you need to be <b>holding ropes</b>!")
 
 // previously NO_DECONSTRUCT
@@ -75,11 +76,11 @@
 
 /obj/structure/bed/chair/shibari_stand/user_buckle_mob(mob/living/buckled, mob/user, check_loc = TRUE)
 
-	if(!buckled.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!buckled.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("Looks like [buckled] doesn't want you to do that."))
 		return FALSE
 
-	if(!is_user_buckle_possible(buckled, user, check_loc))
+	if(!user.user_can_buckle(buckled))
 		return FALSE
 	add_fingerprint(user)
 
@@ -101,7 +102,7 @@
 		if(!do_after(user, HAS_TRAIT(user, TRAIT_RIGGER) ? 5 SECONDS : 10 SECONDS, buckled))
 			return FALSE
 
-		if(!is_user_buckle_possible(buckled, user, check_loc))
+		if(!user.user_can_buckle(buckled))
 			return FALSE
 
 		if(!(istype(hooman.w_uniform, /obj/item/clothing/under/shibari/full)))
@@ -152,11 +153,10 @@
 		if(current_mob.handcuffed)
 			current_mob.handcuffed.forceMove(loc)
 			current_mob.handcuffed.dropped(current_mob)
-			current_mob.set_handcuffed(null)
-			current_mob.update_handcuffed()
+			current_mob.update_handcuffed(null)
 
 		var/obj/item/restraints/handcuffs/milker/shibari/cuffs = new (current_mob)
-		current_mob.set_handcuffed(cuffs)
+		current_mob.update_handcuffed(cuffs)
 		cuffs.parent_chair = WEAKREF(src)
 		if(HAS_TRAIT(current_mob, TRAIT_ROPEBUNNY))
 			current_mob.handcuffed.breakouttime = 4 MINUTES
@@ -174,7 +174,7 @@
 	if(current_mob)
 		if(current_mob.handcuffed)
 			current_mob.handcuffed.dropped(current_mob)
-		current_mob.set_handcuffed(null)
+		current_mob.update_handcuffed(null)
 		current_mob.update_abstract_handcuffed()
 
 	if(ropee)
@@ -212,11 +212,6 @@
 	menu.ui_interact(usr)
 	to_chat(user, span_notice("You switch the frame's plastic fittings color."))
 	return CLICK_ACTION_SUCCESS
-
-/obj/structure/bed/chair/shibari_stand/examine(mob/user)
-	. = ..()
-	. += span_purple("[src] can be disassembled by using <b>Ctrl+Shift+Click<b>")
-	. += span_purple("[src]'s color can be customized with <b>Ctrl+Click</b>.")
 
 /obj/item/construction_kit/bdsm/shibari
 	icon = 'modular_lewd_items/icons/obj/lewd_structures/shibari_stand.dmi'

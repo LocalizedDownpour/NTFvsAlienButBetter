@@ -47,9 +47,15 @@
 	. = ..()
 	AddElement(/datum/element/update_icon_updates_onmob)
 
+//stuff to apply mood event for perverts
 /obj/item/clothing/shoes/shibari_legs/equipped(mob/user, slot)
 	. = ..()
 	RegisterSignal(src, COMSIG_ATOM_ATTACK_HAND, PROC_REF(handle_take_off), user)
+	if(!ishuman(user))
+		return
+	var/mob/living/carbon/human/hooman = user
+	if(HAS_TRAIT(hooman, TRAIT_ROPEBUNNY))
+		hooman.apply_status_effect(/datum/status_effect/ropebunny)
 
 
 /obj/item/clothing/shoes/shibari_legs/proc/handle_take_off(datum/source, mob/user)
@@ -63,15 +69,6 @@
 	var/mob/living/carbon/human/hooman = user
 	if(do_after(hooman, HAS_TRAIT(hooman, TRAIT_RIGGER) ? 2 SECONDS : 10 SECONDS, target = src))
 		dropped(user)
-
-//stuff to apply mood event for perverts
-/obj/item/clothing/shoes/shibari_legs/equipped(mob/user, slot)
-	. = ..()
-	if(!ishuman(user))
-		return
-	var/mob/living/carbon/human/hooman = user
-	if(HAS_TRAIT(hooman, TRAIT_ROPEBUNNY))
-		hooman.apply_status_effect(/datum/status_effect/ropebunny)
 
 //same stuff as above but for dropping item
 /obj/item/clothing/shoes/shibari_legs/dropped(mob/user, slot)

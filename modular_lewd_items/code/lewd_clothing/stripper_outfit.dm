@@ -39,7 +39,7 @@
 	update_icon()
 	if(ishuman(loc))
 		var/mob/living/carbon/human/H = loc
-		H.update_clothing()
+		H.update_inv_w_uniform()
 	return CLICK_ACTION_SUCCESS
 
 /obj/item/clothing/under/stripper_outfit/proc/check_menu(mob/living/user)

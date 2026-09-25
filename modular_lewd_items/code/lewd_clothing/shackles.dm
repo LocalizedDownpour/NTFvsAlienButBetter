@@ -83,7 +83,7 @@
 /obj/item/clothing/suit/straight_jacket/shackles/attackby(obj/item/used_item, mob/user, params) //That part allows reinforcing this item with normal straightjacket
 	if(istype(used_item, /obj/item/restraints/handcuffs))
 		var/obj/item/clothing/suit/straight_jacket/shackles/reinforced/shackles = new(get_turf(user))
-		user.drop_inv_item_to_loc(used_item, user)
+		user.dropItemToGround(used_item, TRUE)
 		user.put_in_hands(shackles)
 		to_chat(user, span_notice("You reinforced the locks on [src] with [used_item]."))
 		qdel(used_item)

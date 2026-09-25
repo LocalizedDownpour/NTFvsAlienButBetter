@@ -10,7 +10,6 @@
 	end_sound = 'modular_lewd_items/sounds/bzzz-loop-1.ogg'
 	range = 3
 	falloff = 5
-	ignore_walls = FALSE
 
 /datum/looping_sound/lewd/vibrator/low
 	volume = 30

@@ -120,7 +120,7 @@
 	if(!iscarbon(target))
 		return ..()
 	var/mob/living/carbon/carbon_target = target
-	if(!carbon_target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!carbon_target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[target] doesn't want you to do that."))
 		return
 

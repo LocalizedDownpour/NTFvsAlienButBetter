@@ -8,9 +8,6 @@
 	worn_icon_state = "ballmittens"
 	equip_slot_flags = ITEM_SLOT_GLOVES
 	strip_delay = 8 SECONDS
-	equip_sound = 'modular_lewd_items/sounds/rubber1.ogg'
-	drop_sound = 'modular_lewd_items/sounds/rubber2.ogg'
-	pickup_sound = 'modular_lewd_items/sounds/rubber3.ogg'
 
 /obj/item/clothing/gloves/ball_mittens/equipped(mob/user, slot)
 	. = ..()

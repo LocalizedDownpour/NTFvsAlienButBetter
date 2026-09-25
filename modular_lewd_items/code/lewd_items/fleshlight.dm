@@ -14,8 +14,7 @@
 	var/color_changed = FALSE
 	/// A list of toy designs for use in the radial color choice menu
 	var/static/list/fleshlight_designs
-	slot_flags = NONE
-	clothing_flags = INEDIBLE_CLOTHING
+	equip_slot_flags = NONE
 
 /// Generates a list of toy colors (or designs) for use in the radial color choice menu
 /obj/item/clothing/sextoy/fleshlight/proc/populate_fleshlight_designs()
@@ -65,7 +64,7 @@
 
 	var/mob/living/carbon/carbon_target = target
 
-	if(!carbon_target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!carbon_target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[carbon_target] doesn't want you to do that!"))
 		return
 

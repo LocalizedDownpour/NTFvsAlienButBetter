@@ -1,4 +1,4 @@
-/obj/item/clothing/under/costume/lewdmaid
+/obj/item/clothing/under/lewdmaid
 	name = "latex maid costume"
 	desc = "A maid costume made of a thick latex."
 	icon_state = "lewdmaid"
@@ -12,7 +12,7 @@
 	shows_bottom_genital = FALSE
 	shows_butt = TRUE
 
-/obj/item/clothing/under/costume/bunnylewd
+/obj/item/clothing/under/bunnylewd
 	name = "bunny suit"
 	desc = "Makes the wearer more attractive, even men."
 	icon_state = "bunnysuit"
@@ -23,7 +23,7 @@
 	armor_protection_flags = CHEST|GROIN
 	shows_butt = TRUE
 
-/obj/item/clothing/under/costume/bunnylewd/white
+/obj/item/clothing/under/bunnylewd/white
 	name = "white bunny suit"
 	icon_state = "whitebunnysuit"
 	worn_icon_state = "whitebunnysuit"

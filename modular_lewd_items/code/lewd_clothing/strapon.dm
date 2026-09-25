@@ -176,7 +176,7 @@
 	var/mob/living/carbon/carbon_hit = hit_mob
 
 	var/message = ""
-	if(carbon_hit.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(carbon_hit.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		switch(user.zone_selected)
 			if(BODY_ZONE_PRECISE_GROIN)
 				if(carbon_hit.sexcon_has_vagina())

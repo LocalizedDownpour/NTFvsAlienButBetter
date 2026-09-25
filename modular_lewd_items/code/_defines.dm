@@ -82,6 +82,18 @@
 #define TRAIT_CONDOM_BROKEN "condom_broken"
 #endif
 
+// Condom sprite/durability states (see lewd_items/condom.dm)
+#define CONDOM_STATE_UNUSED "unused"
+#define CONDOM_STATE_USED "used"
+#define CONDOM_STATE_DIRTY "dirty"
+#define CONDOM_STATE_BROKEN "broken"
+// How many units of cum a condom can hold before it bursts
+#define CONDOM_MAX_VOLUME 50
+// How many units of cum one human ejaculation puts into the condom
+#define CONDOM_FILL_AMOUNT 10
+// How many units of cum one xenomorph ejaculation puts into the condom
+#define CONDOM_XENO_FILL_AMOUNT 25
+
 // Visual / Layer compatibility
 #ifndef BODY_FRONT_UNDER_CLOTHES
 #define BODY_FRONT_UNDER_CLOTHES UNDERWEAR_LAYER
@@ -95,3 +107,11 @@
 #ifndef SHEET_MATERIAL_AMOUNT
 #define SHEET_MATERIAL_AMOUNT MINERAL_MATERIAL_AMOUNT
 #endif
+
+// ERP preference placeholders.
+// This fork stores ERP opt-ins as bitflags in client.prefs.sex_pref_flags (SEXPREF_*)
+// instead of Skyrat's /datum/preference/toggle/erp/* tree. The ported lewd module
+// passes these placeholders through /mob/living/proc/check_erp_prefs(), which is the
+// single place to wire real preference checks later (see lewd_helpers/pref_checking.dm).
+#define LEWD_PREF_SEX_TOY null
+#define LEWD_PREF_SEX_TOY_SOUNDS null

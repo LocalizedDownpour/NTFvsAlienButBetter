@@ -72,7 +72,7 @@
 	else if(!iscyborg(target))
 		return
 
-	if(!target.check_erp_prefs(/datum/preference/toggle/erp/sex_toy, user, src))
+	if(!target.check_erp_prefs(LEWD_PREF_SEX_TOY, user, src))
 		to_chat(user, span_danger("[target] doesn't want you to do that."))
 		return
 

@@ -143,7 +143,7 @@
 		if(src == affected_human.wear_suit)
 			REMOVE_TRAIT(user, TRAIT_FLOORED, CLOTHING_TRAIT)
 			to_chat(user, span_purple("You are finally free! The bag is no longer constricting your movements."))
-			affected_human.update_clothing()
+			affected_human.update_inv_wear_suit()
 	STOP_PROCESSING(SSobj, src)
 	. = ..()
 

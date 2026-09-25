@@ -13,7 +13,7 @@
 	icon_state = "pillow_pink_round"
 	base_icon_state = "pillow"
 	inhand_icon_state = "pillow_pink_round"
-	var/datum/effect_system/basic/feathers/pillow_feathers
+	var/datum/effect_system/feathers/pillow_feathers
 	var/current_color = "pink"
 	var/current_form = "round"
 	var/color_changed = FALSE
@@ -96,8 +96,15 @@
 	icon = 'modular_lewd_items/icons/obj/lewd_decals/lewd_decals.dmi'
 	duration = 14
 
-/datum/effect_system/basic/feathers
-	effect_type = /obj/effect/temp_visual/feathers
+/datum/effect_system/feathers
+	/// Visual spawned by each step of the effect.
+	var/effect_type = /obj/effect/temp_visual/feathers
+
+/datum/effect_system/feathers/spawn_particle()
+	var/turf/effect_turf = get_turf(holder?.resolve())
+	if(!effect_turf)
+		return
+	new effect_type(effect_turf)
 
 /obj/item/fancy_pillow/attack(mob/living/carbon/human/affected_mob, mob/living/carbon/human/user)
 	. = ..()
@@ -392,7 +399,7 @@
 
 /obj/structure/bed/pillow_large/update_overlays()
 	. = ..()
-	if(!has_buckled_mobs())
+	if(!LAZYLEN(buckled_mobs))
 		return
 	. += mutable_appearance(icon, "[icon_state]_armrest", ABOVE_MOB_LAYER, src, appearance_flags = KEEP_APART)
 
