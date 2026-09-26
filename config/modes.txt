@@ -86,12 +86,12 @@ endmode
 
 mode Redfin - Faction Bloat
 	requiredplayers 20
-	default
+	votable 0
 endmode
 
 mode Redfin - SFMC vs Xenos only
 	requiredplayers 0
-	votable 1
+	votable 0
 endmode
 
 mode Redfin - No Subfactions
@@ -106,7 +106,7 @@ endmode
 
 mode Redfin - SFMC vs Cult
 	requiredplayers 0
-	votable 1
+	votable 0
 endmode
 
 mode Encounter
