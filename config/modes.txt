@@ -46,7 +46,7 @@ endmode
 
 mode Colony Fall
 	requiredplayers 8
-	votable 1
+	votable 0
 endmode
 
 mode Prison Fall
@@ -56,12 +56,12 @@ endmode
 
 mode Extended - Survivor-Heavy
 	requiredplayers 0
-	votable 1
+	votable 0
 endmode
 
 mode Zombie Crash
 	requiredplayers 1
-	votable 1
+	votable 0
 endmode
 
 mode Combat Patrol
