@@ -993,12 +993,12 @@
 
 /obj/item/weapon/gun/shotgun/som/burst
 	name = "\improper V-51B assault shotgun"
-	desc = "V-51B custom. An upgraded version of the standard SOM shotgun with a burst fire mode and a snazzy paintjob. Rare as it is deadly."
+	desc = "A custom retrofit of the V-51 with a rapid-cycling blowback action. The loss of pressure from this change results in a notably lower muzzle energy."
 	icon_state = "v51b"
 	burst_amount = 2
 	burst_delay = 0.5 SECONDS
 	extra_delay = -0.2 SECONDS
-	damage_mult = 1
+	damage_mult = 0.7
 	default_ammo_type = /datum/ammo/bullet/shotgun/flechette
 
 /obj/item/weapon/gun/shotgun/som/burst/pointman
