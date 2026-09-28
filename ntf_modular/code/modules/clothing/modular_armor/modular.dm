@@ -114,7 +114,7 @@
 	blood_overlay_type = "armor"
 	soft_armor = list(MELEE = 35, BULLET = 55, LASER = 35, ENERGY = 30, BOMB = 45, BIO = 45, FIRE = 45, ACID = 45)
 	hard_armor = list(MELEE = 0, BULLET = 20, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 5)
-	slowdown = 0
+	slowdown = SLOWDOWN_ARMOR_LIGHT
 
 	greyscale_config = /datum/greyscale_config/xenonaut/bulletproof
 
@@ -135,7 +135,7 @@
 	blood_overlay_type = "armor"
 	soft_armor = list(MELEE = 35, BULLET = 35, LASER = 55, ENERGY = 50, BOMB = 45, BIO = 45, FIRE = 45, ACID = 45)
 	hard_armor = list(MELEE = 0, BULLET = 0, LASER = 15, ENERGY = 10, BOMB = 0, BIO = 0, FIRE = 0, ACID = 5)
-	slowdown = 0
+	slowdown = SLOWDOWN_ARMOR_LIGHT
 
 	greyscale_config = /datum/greyscale_config/xenonaut/ablative
 
