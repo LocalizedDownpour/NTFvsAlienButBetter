@@ -143,3 +143,102 @@
 	force = 0
 	throwforce = 0
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/tool/surgery/retractor/coe
+	name = "durasteel retractor"
+	desc = "For fine manipulation during surgery. Functionally identical to a retractor."
+	icon_state = "predator_retractor"
+	atom_flags = CONDUCT
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/tool/surgery/hemostat/coe
+	name = "durasteel hemostat"
+	desc = "For removing foreign objects during surgery. Functionally identical to a hemostat."
+	icon_state = "predator_hemostat"
+	atom_flags = CONDUCT
+	w_class = WEIGHT_CLASS_SMALL
+	attack_verb = list("attacks", "pinches")
+
+/obj/item/tool/surgery/cautery/coe
+	name = "plasma jet cautery"
+	desc = "For closing incisions to finish a surgery. Functionally identical to a cautery."
+	icon_state = "predator_cautery"
+	atom_flags = CONDUCT
+	w_class = WEIGHT_CLASS_TINY
+	attack_verb = list("burns")
+
+/obj/item/tool/surgery/surgicaldrill/coe
+	name = "durasteel surgical drill"
+	desc = "You can drill using this item. You dig? Functionally identical to a surgical drill."
+	icon_state = "predator_drill"
+	hitsound = 'sound/weapons/circsawhit.ogg'
+	atom_flags = CONDUCT
+	force = 15
+	w_class = WEIGHT_CLASS_SMALL
+	attack_verb = list("drills")
+
+/obj/item/tool/surgery/scalpel/manager/coe
+	name = "advanced scalpel"
+	desc = "A true extension of the surgeon's body, this marvel instantly and completely prepares an incision allowing for the immediate commencement of therapeutic steps. Functionally identical to a scalpel."
+	icon_state = "predator_scalpel"
+	force = 7.5
+
+/obj/item/tool/surgery/circular_saw/coe
+	name = "hardlight bonesaw"
+	desc = "For opening someone's ribcage, surgically. Functionally identical to a circular saw."
+	icon_state = "predator_bonesaw"
+	hitsound = 'sound/weapons/circsawhit.ogg'
+	atom_flags = CONDUCT
+	force = 30
+	w_class = WEIGHT_CLASS_SMALL
+	throwforce = 9
+	throw_speed = 3
+	throw_range = 5
+	attack_verb = list("attacks", "slashes", "saws", "cuts")
+	sharp = IS_SHARP_ITEM_BIG
+	edge = 1
+
+/obj/item/tool/surgery/bonegel/coe
+	name = "bone repair spray"
+	desc = "For repairing fractures and closing ribcages. Functionally identical to bone gel."
+	icon_state = "predator_bone-gel"
+	force = 0
+	w_class = WEIGHT_CLASS_SMALL
+	throwforce = 1
+
+/obj/item/tool/surgery/FixOVein/coe
+	name = "arterial salve"
+	desc = "For fixing internal bleeding and heavy brain damage. Functionally identical to a FixOVein"
+	icon_state = "predator_fixovein"
+	force = 0
+	throwforce = 1
+	w_class = WEIGHT_CLASS_SMALL
+	var/usage_amount = 10
+
+/obj/item/tool/surgery/bonesetter/coe
+	name = "durasteel bone setter"
+	icon_state = "predator_bonesetter"
+	desc = "For setting fractured bone after bone gel is applied. Functionally identical to a bone setter."
+	force = 8
+	throwforce = 9
+	throw_speed = 3
+	throw_range = 5
+	w_class = WEIGHT_CLASS_SMALL
+	attack_verb = list("attacks", "hits", "bludgeons")
+
+/obj/item/tool/surgery/suture/coe
+	name = "monofilament suture"
+	icon_state = "predator_suture"
+	desc = "For healing brute and burn damage during surgery. Functionally identical to a surgical suture."
+	force = 3
+	throwforce = 0
+	w_class = WEIGHT_CLASS_SMALL
+	attack_verb = list("needles", "sews", "stabs")
+
+/obj/item/tool/surgery/surgical_membrane/coe
+	name = "nanite-infused surgical mesh"
+	icon_state = "predator_surgical_membrane"
+	desc = "For repairing damaged organs and necrotized tissue during surgery. Functionally identical to a surgical membrane."
+	force = 0
+	throwforce = 0
+	w_class = WEIGHT_CLASS_SMALL

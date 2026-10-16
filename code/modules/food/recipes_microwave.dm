@@ -323,6 +323,7 @@
 	result = /obj/item/reagent_containers/food/snacks/pastries/cherrypie
 
 /datum/recipe/berryclafoutis
+	reagents = list(/datum/reagent/consumable/cream = 10)
 	items = list(
 		/obj/item/reagent_containers/food/snacks/sliceable/flatdough,
 		/obj/item/reagent_containers/food/snacks/grown/berries,
@@ -837,6 +838,7 @@
 	result = /obj/item/reagent_containers/food/snacks/candiedapple
 
 /datum/recipe/applepie
+	reagents = list(/datum/reagent/consumable/sugar = 5)
 	items = list(
 		/obj/item/reagent_containers/food/snacks/sliceable/flatdough,
 		/obj/item/reagent_containers/food/snacks/grown/apple,
@@ -878,56 +880,73 @@
 	result = /obj/item/reagent_containers/food/snacks/sandwiches/jellysandwich/cherry
 
 /datum/recipe/orangecake
-	reagents = list(/datum/reagent/consumable/milk = 5)
+	reagents = list(/datum/reagent/consumable/milk = 5, /datum/reagent/consumable/sugar = 5)
 	items = list(
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/egg,
-		/obj/item/reagent_containers/food/snacks/egg,
-		/obj/item/reagent_containers/food/snacks/egg,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
 		/obj/item/reagent_containers/food/snacks/grown/orange,
 		/obj/item/reagent_containers/food/snacks/grown/orange,
 	)
 	result = /obj/item/reagent_containers/food/snacks/sliceable/pastries/orangecake
 
-/datum/recipe/limecake
-	reagents = list(/datum/reagent/consumable/milk = 5)
+/datum/recipe/poundcake
+	reagents = list(/datum/reagent/consumable/milk = 5, /datum/reagent/consumable/sugar = 5, /datum/reagent/consumable/sodiumchloride = 2)
 	items = list(
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+	)
+	result = /obj/item/reagent_containers/food/snacks/sliceable/pastries/poundcake
+
+/datum/recipe/pavlova
+	reagents = list(/datum/reagent/consumable/sugar = 10, /datum/reagent/consumable/sodiumchloride = 2)
+	items = list(
 		/obj/item/reagent_containers/food/snacks/egg,
 		/obj/item/reagent_containers/food/snacks/egg,
 		/obj/item/reagent_containers/food/snacks/egg,
+		/obj/item/reagent_containers/food/snacks/grown/berries,
+		/obj/item/reagent_containers/food/snacks/grown/berries,
+	)
+	result = /obj/item/reagent_containers/food/snacks/sliceable/pastries/pavlova
+
+/datum/recipe/holycake
+	reagents = list(/datum/reagent/consumable/milk = 5, /datum/reagent/consumable/sugar = 10, /datum/reagent/water/holywater = 5)
+	items = list(
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+	)
+	result = /obj/item/reagent_containers/food/snacks/sliceable/pastries/holy_cake
+
+/datum/recipe/limecake
+	reagents = list(/datum/reagent/consumable/milk = 5, /datum/reagent/consumable/sugar = 5)
+	items = list(
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
 		/obj/item/reagent_containers/food/snacks/grown/lime,
 		/obj/item/reagent_containers/food/snacks/grown/lime,
 	)
 	result = /obj/item/reagent_containers/food/snacks/sliceable/pastries/limecake
 
 /datum/recipe/lemoncake
-	reagents = list(/datum/reagent/consumable/milk = 5)
+	reagents = list(/datum/reagent/consumable/milk = 5, /datum/reagent/consumable/sugar = 5)
 	items = list(
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/egg,
-		/obj/item/reagent_containers/food/snacks/egg,
-		/obj/item/reagent_containers/food/snacks/egg,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
 		/obj/item/reagent_containers/food/snacks/grown/lemon,
 		/obj/item/reagent_containers/food/snacks/grown/lemon,
 	)
 	result = /obj/item/reagent_containers/food/snacks/sliceable/pastries/lemoncake
 
 /datum/recipe/chocolatecake
-	reagents = list(/datum/reagent/consumable/milk = 5)
+	reagents = list(/datum/reagent/consumable/milk = 5, /datum/reagent/consumable/sugar = 5)
 	items = list(
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/egg,
-		/obj/item/reagent_containers/food/snacks/egg,
-		/obj/item/reagent_containers/food/snacks/egg,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
 		/obj/item/reagent_containers/food/snacks/chocolatebar,
 		/obj/item/reagent_containers/food/snacks/chocolatebar,
 	)
@@ -944,12 +963,9 @@
 /datum/recipe/braincake
 	reagents = list(/datum/reagent/consumable/milk = 5)
 	items = list(
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/flour,
-		/obj/item/reagent_containers/food/snacks/egg,
-		/obj/item/reagent_containers/food/snacks/egg,
-		/obj/item/reagent_containers/food/snacks/egg,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
+		/obj/item/reagent_containers/food/snacks/dough,
 		/obj/item/organ/brain,
 	)
 	result = /obj/item/reagent_containers/food/snacks/sliceable/pastries/braincake
@@ -990,9 +1006,8 @@
 /datum/recipe/pumpkinpie
 	reagents = list(/datum/reagent/consumable/milk = 5, /datum/reagent/consumable/sugar = 5)
 	items = list(
-		/obj/item/reagent_containers/food/snacks/flour,
+		/obj/item/reagent_containers/food/snacks/sliceable/flatdough,
 		/obj/item/reagent_containers/food/snacks/grown/pumpkin,
-		/obj/item/reagent_containers/food/snacks/egg,
 	)
 	result = /obj/item/reagent_containers/food/snacks/sliceable/pastries/pumpkinpie
 

@@ -481,16 +481,26 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
 	tastes = list("pie" = 1, "smooth chocolate" = 1, "whipped cream" = 1)
 
-/obj/item/reagent_containers/food/snacks/pastries/applepie
+/obj/item/reagent_containers/food/snacks/sliceable/pastries/applepie
 	name = "Apple Pie"
 	desc = "A pie containing sweet sweet love... or apple."
 	icon_state = "applepie"
+	slice_path = /obj/item/reagent_containers/food/snacks/pastries/applepieslice
 	filling_color = "#E0EDC5"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4)
 	bitesize = 3
 	tastes = list("pie" = 1, "apple" = 1)
 
-/obj/item/reagent_containers/food/snacks/pastries/frostypie
+/obj/item/reagent_containers/food/snacks/pastries/applepieslice
+	name = "apple pie slice"
+	desc = "A slice of apple pie, filled with sweet apple filling and topped with a layer of flaky crust. Serve with one to two scoops of ice cream for best results." // VSC please can you not autocomplete my damn item descriptions with your AI bullshit I want to do it myself, damn clanker
+	icon_state = "applepie_slice"
+	filling_color = "#E0EDC5"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2) // Big Bar/Diner RP wants this value to be smaller so they can serve more pie.
+	bitesize = 2
+	tastes = list("pie" = 1, "apple" = 1)
+
+/obj/item/reagent_containers/food/snacks/sliceable/pastries/frostypie
 	name = "frosty pie"
 	desc = "Tastes like blue and cold."
 	icon_state = "frostypie"
@@ -498,13 +508,32 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 14, /datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("mint" = 1, "pie" = 1)
 
-/obj/item/reagent_containers/food/snacks/pastries/cherrypie
+/obj/item/reagent_containers/food/snacks/pastries/frostypieslice
+	name = "frosty pie slice"
+	desc = "Tastes like blue and cold."
+	icon_state = "frostypie_slice"
+	filling_color = "#0b8c91"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
+	tastes = list("mint" = 1, "pie" = 1)
+	bitesize = 2
+
+/obj/item/reagent_containers/food/snacks/sliceable/pastries/cherrypie
 	name = "Cherry Pie"
 	desc = "Taste so good, make a grown man cry."
 	icon_state = "cherrypie"
+	slice_path = /obj/item/reagent_containers/food/snacks/pastries/cherrypieslice
 	filling_color = "#FF525A"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/cherryjelly = 4)
 	bitesize = 3
+	tastes = list("pie" = 7, "Nicole Paige Brooks" = 2)
+
+/obj/item/reagent_containers/food/snacks/pastries/cherrypieslice
+	name = "cherry pie slice"
+	desc = "A slice of cherry pie, filled with sweet cherry filling and topped with a crosshatched layer of crust."
+	icon_state = "cherrypie_slice"
+	filling_color = "#FF525A"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/cherryjelly = 2)
+	bitesize = 2
 	tastes = list("pie" = 7, "Nicole Paige Brooks" = 2)
 
 /obj/item/reagent_containers/food/snacks/pastries/appletart
@@ -559,9 +588,19 @@
 	name = "Meat-pie"
 	icon_state = "meatpie"
 	desc = "An old barber recipe, very delicious!"
+	slice_path = /obj/item/reagent_containers/food/snacks/pastries/meatpieslice
 	trash = /obj/item/trash/plate
 	filling_color = "#948051"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 10)
+	tastes = list("pie" = 1, "meat" = 1)
+	bitesize = 3
+
+/obj/item/reagent_containers/food/snacks/sliceable/pastries/meatpieslice
+	name = "meat pie slice"
+	desc = "An old barber recipe, very delicious!"
+	icon_state = "meatpie_slice"
+	filling_color = "#948051"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
 	tastes = list("pie" = 1, "meat" = 1)
 	bitesize = 2
 
@@ -602,13 +641,23 @@
 		desc = "Microwave is taken by a fey mood! It has cooked an exceptional plump pie!"
 		reagents.add_reagent(/datum/reagent/medicine/tricordrazine, 5)
 
-/obj/item/reagent_containers/food/snacks/pastries/xemeatpie
+/obj/item/reagent_containers/food/snacks/sliceable/pastries/xemeatpie
 	name = "Xeno-pie"
 	icon_state = "xenomeatpie"
 	desc = "A delicious meatpie. Probably heretical."
+	slice_path = /obj/item/reagent_containers/food/snacks/pastries/xemeatpieslice
 	trash = /obj/item/trash/plate
 	filling_color = "#43DE18"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 10)
+	tastes = list("pie" = 1, "meat" = 1, "acid" = 1)
+	bitesize = 4
+
+/obj/item/reagent_containers/food/snacks/pastries/xemeatpieslice
+	name = "xeno pie slice"
+	desc = "A slice of arguably delicious xeno pie. Possibly heretical."
+	icon_state = "xenopie_slice"
+	filling_color = "#43DE18"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
 	tastes = list("pie" = 1, "meat" = 1, "acid" = 1)
 	bitesize = 2
 

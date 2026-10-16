@@ -863,6 +863,63 @@
 			"}
 
 
+/obj/item/book/manual/chef_recipesplus
+	name = "To Reach One's Heart: A Guide to Advanced Cooking"
+	icon_state = "cooked_bookplus"
+	desc = "A cookbook filled with recipes meant to pay homage to the saying 'The way to a man's heart is through his stomach.' The back of this dataslate is embossed with the design of a Xenomorph Larva, making it's origins quite obvious."
+	author = "Hivelord Seraph, Matron to the Church of Evolution"
+	title = "To Reach One's Heart: A Guide to Advanced Cooking"
+
+	dat = {"<html>
+				<head>
+				<style>
+				h1 {font-size: 18px; margin: 15px 0px 5px;}
+				h2 {font-size: 15px; margin: 15px 0px 5px;}
+				h3 {font-size: 13px; margin: 15px 0px 5px;}
+				li {margin: 2px 0px 2px 15px;}
+				ul {margin: 5px; padding: 0px;}
+				ol {margin: 5px; padding: 0px 15px;}
+				body {font-size: 13px; font-family: Verdana;}
+				</style>
+				</head>
+				<body>
+
+				<h1>Foreward:</h1>
+				Long have we gleaned through a myriad of Psydrains through many decades of service to The Hive tales of broken hearts and harrowing tales of forbidden love. Of note in many such memories we have bore witness to the prevalence of food unlocking the path to a lover's heart. We hope this cookbook finds you in troublesome times to act as a lifeline to fraying relationships, as a genuinely cooked meal made with the most endearing of love has a high chance of warming even the coldest of hearts.
+
+				<h2>Dense and Filling, the Poundcake:</h2>
+				Within a microwave, mix three pieces of dough alongside 5u of milk, 5u of sugar and 2u of salt.
+
+				<h2>Soft and Dreamy, Berry Pavlova:</h2>
+				Within a microwave, mix three eggs and two bunches of berries alongside 10u of sugar and 2u of salt.
+
+				<h2>Bursting with Flavor, Berry Clafoutis</h2>
+				Within a microwave, mix one flattened piece of dough and one bunch of berries alongside 10u of cream.
+
+				<h2>Creamy and Flavorful, Rice Pudding:</h2>
+				Within a reagent grinder, load with two bushels of rice. Load the resultant 10u of rice into a microwave alongside 5u of milk.
+
+				<h2>Perfect for a Date, Spaghetti and Meatballs:</h2>
+				Load one sack of flour and two pieces of meat into a Processor. Cook the meatballs (INDIVIDUALLY!) and load the uncooked spaghetti, cooked meatballs and 5u of water into a microwave. Cook and serve alongside a fine vintage and candles sourced from the nearest chapel. (For ravenous carnivores, add two more meatballs for a variation called 'spesslaw'!)
+
+				<h2>Contender for 'Fall Pie', Pumpkin Pie:</h2>
+				Within a microwave, mix one flattened piece of dough and a pumpkin alongside 5u of milk and 5u of sugar. Cut and top with whipped cream.
+
+				<h2>Contender for 'Fall Pie', Apple Pie:</h2>
+				Within a microwave, mix one flattened piece of dough and an apple alongside 5u of sugar. Cut and serve warm with a side of vanilla bean icecream.
+
+				<h2>A Hivelord's Special, the Angel Food Cake:</h2>
+				A personal favorite of compatriots and hostiles alike. Within a microwave, mix three pieces of dough alongside 5u of milk, 10u of sugar, and 5u of holy water.
+
+				<h2>Baked Perfection, the Golden Apple Tart:</h2>
+				Begin with growing and harvesting only the finest Golden Apples. Obtained through Mutagenic or Metaphysical means. Once you have your apples (only the fairest will suffice!), place one within the microwave alongside three sacks of flour, one egg, 5u of Milk and 5u of Sugar. Let cool and enjoy.
+
+
+				</body>
+			</html>
+			"}
+
+
 /obj/item/book/manual/barman_recipes
 	name = "Barman Recipes"
 	icon_state = "barbook"

@@ -62,9 +62,6 @@
 /area/antag_ship/clf_base/facade/fakechapel)
 "acP" = (
 /obj/structure/table/reinforced,
-/obj/item/tool/soap/nanotrasen{
-	desc = "A bar of soap handmade by the Church of Evolution. Features a stylized depiction of a Xenomorph Larva and smells of Lavender."
-	},
 /obj/machinery/reagentgrinder{
 	pixel_x = 0;
 	pixel_y = 9
@@ -387,6 +384,7 @@
 /area/antag_ship/clf_base/real/dorms)
 "avU" = (
 /obj/machinery/bioprinter/stocked,
+/obj/item/reagent_containers/glass/beaker/biomass,
 /turf/open/floor/mainship/sterile,
 /area/antag_ship/som/medbay)
 "avV" = (
@@ -1138,14 +1136,6 @@
 	},
 /turf/open/floor/mainship/sterile/white,
 /area/antag_ship/som/bathroom/lower)
-"bsR" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/structure/table/urban/shiny_brown,
-/obj/item/storage/fancy/candle_box,
-/turf/open/floor/wood,
-/area/antag_ship/clf_base/facade/fakechapel)
 "btT" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -1574,6 +1564,9 @@
 /obj/structure/flora/ausbushes{
 	pixel_x = 1;
 	pixel_y = -7
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
 	},
 /turf/open/floor/plating/ground/dirt_alt,
 /area/antag_ship/clf_base/facade/parklot)
@@ -2381,6 +2374,8 @@
 	},
 /obj/structure/closet/cabinet,
 /obj/item/storage/pill_bottle/aphrotoxin,
+/obj/item/seeds/goldappleseed,
+/obj/item/book/manual/chef_recipesplus,
 /turf/open/floor/wood/fancy,
 /area/antag_ship/clf_base/real/reedroom)
 "cSM" = (
@@ -3839,6 +3834,15 @@
 "eVy" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/snacks/syndicake{
+	name = "Evo-Cakes"
+	},
+/obj/item/reagent_containers/food/snacks/syndicake{
+	name = "Evo-Cakes"
+	},
+/obj/item/reagent_containers/food/snacks/syndicake{
+	name = "Evo-Cakes"
+	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "eWa" = (
@@ -4069,6 +4073,7 @@
 	pixel_x = -3;
 	pixel_y = 2
 	},
+/obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/urban/wood/darkerwood,
 /area/antag_ship/clf_base/facade/parklot)
 "frg" = (
@@ -4168,20 +4173,42 @@
 	pixel_y = 14;
 	layer = 3.1
 	},
-/obj/structure/table/wood{
-	density = 0;
-	alpha = 0;
-	name = "picnic blanket";
-	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "cuppafloor"
-	},
 /obj/item/reagent_containers/cup/glass/bottle/wine{
 	name = "Evolutionist's special vintage";
 	desc = "A vintage bottle of wine containing trace amounts of Aphrotoxin due to the grapes being grown in a Hivelord-tended vineyard. Sip carefully, lest you succumb to the yearning of a bigger sip.";
 	list_reagents = list(/datum/reagent/consumable/ethanol/wine = 90, /datum/reagent/toxin/xeno_aphrotoxin = 10);
 	pixel_x = 1;
 	pixel_y = 23
+	},
+/obj/structure/table/wood{
+	density = 0;
+	alpha = 0;
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor";
+	pixel_x = -16;
+	pixel_y = 16
+	},
+/obj/structure/table/wood{
+	density = 0;
+	alpha = 0;
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/table/wood{
+	density = 0;
+	alpha = 0;
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor";
+	pixel_x = -16;
+	pixel_y = -16
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor{
 	barefootstep = "carpet";
@@ -4277,6 +4304,7 @@
 /area/antag_ship/som/requisition)
 "fDe" = (
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/dark,
 /turf/open/floor/freezer,
 /area/antag_ship/clf_base/facade/kitchen)
 "fDr" = (
@@ -4704,8 +4732,6 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced,
-/obj/item/tool/kitchen/utensil/knife,
-/obj/item/tool/kitchen/utensil/knife,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "geK" = (
@@ -4867,8 +4893,7 @@
 /obj/machinery/atmospherics/pipe/simple/yellow/visible/layer3{
 	dir = 6
 	},
-/obj/structure/catwalk,
-/turf/open/floor/dark2,
+/turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/clf_base/real/reedroom)
 "grJ" = (
 /obj/structure/disposalpipe/trunk{
@@ -5960,11 +5985,6 @@
 	},
 /turf/open/floor/urban/carpet/carpetblack,
 /area/antag_ship/icc/generator_room)
-"hVl" = (
-/obj/effect/step_trigger/teleporter/random,
-/obj/structure/barricade/handrail/strata,
-/turf/open/space/basic,
-/area/space)
 "hVn" = (
 /obj/structure/cable,
 /obj/structure/catwalk,
@@ -6302,6 +6322,10 @@
 	dir = 10
 	},
 /obj/structure/table/urban/shiny_brown,
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 0;
+	pixel_y = 7
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/fakechapel)
 "isY" = (
@@ -6319,15 +6343,15 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
-/obj/structure/closet/secure_closet/walllocker{
-	dir = 8;
-	desc = "A hidden compartment carved into the wall.";
-	color = "#88574b";
-	name = "hidden compartment"
-	},
 /obj/item/weapon/twohanded/glaive{
 	name = "ornamental halberd";
 	desc = "A huge, gleaming blade honed to a razor-sharp edge fitted on a well kept handle engraved with multiple Xenomorph motifs. The poleaxe is exceptionally heavy, with only the trained and sufficiently strong being able to wield it with awe-inspring grace."
+	},
+/obj/structure/closet/walllocker{
+	dir = 8;
+	color = "#88574b";
+	desc = "A hidden compartment carved into the wall.";
+	name = "hidden compartment"
 	},
 /turf/open/floor/wood/fancy,
 /area/antag_ship/clf_base/real/reedroom)
@@ -6648,7 +6672,6 @@
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/vsd/hall)
 "iTG" = (
-/obj/machinery/light,
 /obj/item/tool/wrench,
 /obj/item/paper{
 	name = "Factory Notice";
@@ -7055,7 +7078,19 @@
 	name = "picnic blanket";
 	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "cuppafloor"
+	icon_state = "cuppafloor";
+	pixel_x = -16;
+	pixel_y = 16
+	},
+/obj/structure/table/wood{
+	density = 0;
+	alpha = 0;
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor";
+	pixel_x = -16;
+	pixel_y = -16
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor{
 	barefootstep = "carpet";
@@ -7191,8 +7226,7 @@
 /obj/machinery/atmospherics/pipe/simple/orange/visible/layer1{
 	dir = 10
 	},
-/obj/structure/catwalk,
-/turf/open/floor/dark2,
+/turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/clf_base/real/reedroom)
 "jAt" = (
 /obj/item/reagent_containers/food/snacks/grown/tomato,
@@ -8305,7 +8339,9 @@
 /area/antag_ship/vsd/hall)
 "lci" = (
 /obj/structure/window/reinforced/tinted/frosted{
-	dir = 8
+	dir = 8;
+	pixel_x = -1;
+	pixel_y = 0
 	},
 /obj/structure/closet/swimsuit,
 /turf/open/floor/mainship/sterile/side,
@@ -8464,7 +8500,9 @@
 	name = "picnic blanket";
 	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "cuppafloor"
+	icon_state = "cuppafloor";
+	pixel_x = -16;
+	pixel_y = -16
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor{
 	barefootstep = "carpet";
@@ -9315,6 +9353,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/dark,
 /turf/open/floor/freezer,
 /area/antag_ship/clf_base/facade/kitchen)
 "mke" = (
@@ -10472,12 +10511,15 @@
 	pixel_y = 22;
 	pixel_x = -5
 	},
+/obj/structure/extinguisher_cabinet{
+	dir = 8
+	},
 /obj/item/reagent_containers/food/drinks/shaker{
 	pixel_x = 9;
 	pixel_y = 18
 	},
-/obj/structure/extinguisher_cabinet{
-	dir = 8
+/obj/item/tool/soap/nanotrasen{
+	desc = "A bar of soap handmade by the Church of Evolution. Features a stylized depiction of a Xenomorph Larva and smells of Lavender."
 	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
@@ -10554,16 +10596,10 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/transport)
 "nTY" = (
+/obj/effect/turf_decal/siding/white,
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/snacks/syndicake{
-	name = "Evo-Cakes"
-	},
-/obj/item/reagent_containers/food/snacks/syndicake{
-	name = "Evo-Cakes"
-	},
-/obj/item/reagent_containers/food/snacks/syndicake{
-	name = "Evo-Cakes"
-	},
+/obj/item/reagent_containers/food/condiment/peppermill,
+/obj/item/reagent_containers/food/condiment/saltshaker,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "nUp" = (
@@ -10945,7 +10981,6 @@
 /area/antag_ship/som/medbay/morgue)
 "otN" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/chef_recipes,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "otO" = (
@@ -11042,6 +11077,7 @@
 	dir = 8
 	},
 /obj/structure/table/urban/shiny_brown,
+/obj/item/reagent_containers/cup/glass/bottle/holywater,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/fakechapel)
 "oyy" = (
@@ -11551,8 +11587,6 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced,
-/obj/item/tool/kitchen/utensil/fork,
-/obj/item/tool/kitchen/utensil/fork,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "psV" = (
@@ -11593,7 +11627,7 @@
 	pixel_y = 0
 	},
 /obj/effect/turf_decal/siding/wideplating/light/end,
-/obj/structure/curtain/shower,
+/obj/structure/curtain/open/shower,
 /turf/open/floor/plating,
 /area/antag_ship/clf_base/real/bathroom)
 "pwR" = (
@@ -11785,8 +11819,7 @@
 /obj/machinery/atmospherics/pipe/simple/orange/visible/layer1{
 	dir = 8
 	},
-/obj/structure/catwalk,
-/turf/open/floor/dark2,
+/turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/clf_base/real/reedroom)
 "pGI" = (
 /obj/structure/drop_pod_launcher,
@@ -11987,9 +12020,9 @@
 	dir = 10
 	},
 /obj/structure/table/urban/shiny_black,
-/obj/item/storage/surgical_tray{
-	pixel_x = 1;
-	pixel_y = 7
+/obj/item/storage/surgical_tray/coe{
+	pixel_x = 2;
+	pixel_y = 9
 	},
 /turf/open/floor/whitecyanfour{
 	dir = 4
@@ -12423,8 +12456,6 @@
 	dir = 10
 	},
 /obj/structure/table/reinforced,
-/obj/item/tool/kitchen/utensil/spoon,
-/obj/item/tool/kitchen/utensil/spoon,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "qrN" = (
@@ -13584,7 +13615,7 @@
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/processor{
-	pixel_x = 0;
+	pixel_x = 2;
 	pixel_y = 11
 	},
 /turf/open/floor/tile/white/hall/full,
@@ -13727,6 +13758,7 @@
 /area/antag_ship/clf_base/facade/parklot)
 "rWL" = (
 /obj/structure/kitchenspike,
+/obj/effect/turf_decal/siding/dark,
 /turf/open/floor/freezer,
 /area/antag_ship/clf_base/facade/kitchen)
 "rXm" = (
@@ -13944,6 +13976,7 @@
 	dir = 6
 	},
 /obj/structure/table/reinforced,
+/obj/item/book/manual/chef_recipes,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "slF" = (
@@ -13990,7 +14023,29 @@
 	name = "picnic blanket";
 	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "cuppafloor"
+	icon_state = "cuppafloor";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/table/wood{
+	density = 0;
+	alpha = 0;
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor";
+	pixel_x = 16;
+	pixel_y = -16
+	},
+/obj/structure/table/wood{
+	density = 0;
+	alpha = 0;
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor";
+	pixel_x = -16;
+	pixel_y = -16
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor{
 	barefootstep = "carpet";
@@ -16360,6 +16415,9 @@
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/ywflowers,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
 /turf/open/floor/plating/ground/dirt_alt,
 /area/antag_ship/clf_base/facade/parklot)
 "vxL" = (
@@ -16651,7 +16709,9 @@
 /area/antag_ship/som/upperladders)
 "vPq" = (
 /obj/structure/window/reinforced/tinted/frosted{
-	dir = 8
+	dir = 8;
+	pixel_x = -1;
+	pixel_y = 0
 	},
 /turf/open/floor/mainship/sterile/dark,
 /area/antag_ship/clf_base/real/bathroom)
@@ -17557,6 +17617,9 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/airlock_autoname,
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "xbR" = (
@@ -41477,7 +41540,7 @@ oRF
 oRF
 oRF
 oRF
-hVl
+oRF
 oRF
 oRF
 oRF
@@ -41954,7 +42017,7 @@ fDe
 xbz
 gTT
 iIt
-nTY
+otN
 nuU
 eVy
 hTm
@@ -42148,7 +42211,7 @@ tnW
 iIt
 acP
 nuU
-eVy
+nTY
 hTm
 neZ
 tJs
@@ -43581,7 +43644,7 @@ yhP
 rJF
 yhP
 rJF
-bsR
+yhP
 yiO
 fkr
 iXe
